@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "name": "all-star",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Chen",
+    "email": "airkro@qq.com"
+  },
+  "scripts": {
+    "lint": "nice-move lint",
+    "prepare": "git config core.hooksPath .hooks"
+  },
+  "workspaces": [
+    "packages/*",
+    "tools/*"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@nice-move/commitlint-config": "^0.1.3",
+    "commitlint": "^12.1.4",
+    "eslint": "^7.28.0",
+    "garou": "^0.1.28",
+    "prettier": "^2.3.1",
+    "stylelint": "^13.13.1"
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
+  },
+  "engines": {
+    "node": "^12.15.0 || ^14.15.3"
+  },
+  "commitlint": {
+    "extends": "@nice-move/commitlint-config"
+  },
+  "eslintConfig": {
+    "extends": "@nice-move/eslint-config-base"
+  },
+  "prettier": "@nice-move/prettier-config",
+  "stylelint": {
+    "extends": "@nice-move/stylelint-config"
+  }
+}

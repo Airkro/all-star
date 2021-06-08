@@ -1,0 +1,53 @@
+{
+  "name": "@all-star/vue",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Chen",
+    "email": "airkro@qq.com"
+  },
+  "keywords": [
+    "all-star",
+    "best-shot",
+    "nice-move"
+  ],
+  "homepage": "https://github.com/airkro/all-star/tree/master/packages/vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airkro/all-star.git",
+    "directory": "packages/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/airkro/all-star/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@best-shot/cli": "^0.10.3",
+    "@best-shot/core": "^0.4.5",
+    "@best-shot/dev-server": "^0.10.1",
+    "@best-shot/preset-asset": "^0.6.1",
+    "@best-shot/preset-babel": "^0.9.0",
+    "@best-shot/preset-style": "^0.8.3",
+    "@best-shot/preset-vue": "^0.5.1",
+    "@best-shot/preset-web": "^0.7.1",
+    "@nice-move/cli": "^0.5.23",
+    "@nice-move/eslint-config-vue": "^0.5.39",
+    "@nice-move/prettier-config": "^0.4.4",
+    "@nice-move/stylelint-config": "^0.5.8",
+    "webpack": "^5.38.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.28.0",
+    "garou": "^0.1.28",
+    "prettier": "^2.3.1",
+    "stylelint": "^13.13.1",
+    "vue": "^2.6.13"
+  },
+  "engines": {
+    "node": "^12.15.0 || ^14.15.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
