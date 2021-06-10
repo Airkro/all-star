@@ -21,7 +21,6 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@nice-move/commitlint-config": "^0.1.3",
     "commitlint": "^12.1.4",
     "eslint": "^7.28.0",
     "garou": "^0.1.28",
