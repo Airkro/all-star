@@ -29,11 +29,12 @@
     "@best-shot/preset-babel": "^0.9.0",
     "@best-shot/preset-style": "^0.8.3",
     "@best-shot/preset-web": "^0.7.1",
-    "@nice-move/cli": "^0.5.23",
+    "@nice-move/cli": "^0.5.25",
     "@nice-move/commitlint-config": "^0.1.3",
-    "@nice-move/eslint-config-base": "^0.5.39",
-    "@nice-move/prettier-config": "^0.4.4",
+    "@nice-move/eslint-config-base": "^0.5.40",
+    "@nice-move/prettier-config": "^0.4.6",
     "@nice-move/stylelint-config": "^0.5.8",
+    "core-js": "^3.14.0",
     "webpack": "^5.38.1"
   },
   "peerDependencies": {

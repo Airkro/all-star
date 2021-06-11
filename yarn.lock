@@ -1273,13 +1273,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nice-move/cli@^0.5.23":
-  version "0.5.23"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fcli/-/cli-0.5.23.tgz#61784599f1c45617fab27694c53cb126c3ca06ae"
-  integrity sha512-SxPw25E8zDLaLZIuU9wyJlCgtDdk5WviRzh1+VxjkXDNYTk7BbZLguyWQPzEKcYztIo4oSHw2dJxdJule9maMA==
+"@nice-move/cli@^0.5.25":
+  version "0.5.25"
+  resolved "https://registry.yarnpkg.com/@nice-move/cli/-/cli-0.5.25.tgz#c69371fe081969dff369a20fc4c211869e67b22e"
+  integrity sha512-QWTR7Gn4H4uqCl10Fa+cpmGKb9b6X2IgaO0R6cyh0jXsj4SDcgDIOKl43wTJVE/DvgRhWm9ERiAqEVwfbGClwA==
   dependencies:
-    "@nice-move/init" "^0.2.3"
-    "@nice-move/lint" "^0.2.2"
+    "@nice-move/init" "^0.2.5"
+    "@nice-move/lint" "^0.2.4"
     cheetor "^0.9.1"
     execa "^5.1.1"
 
@@ -1290,10 +1290,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@^0.5.39":
-  version "0.5.39"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-base/-/eslint-config-base-0.5.39.tgz#ec28f2d30787fc2926efb3ab0ee8f339dccda241"
-  integrity sha512-JwRE6gBN6c7Kec43ztscId1p/MjAFqGYq+BVDw7Bs2DkUzpae9NU6DvumYp8MW9mfaI2vZViIR/fY8tVHwowTg==
+"@nice-move/eslint-config-base@^0.5.40":
+  version "0.5.40"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.40.tgz#21a49fb8c76c6d36b773581a42545f07f8cafe6b"
+  integrity sha512-f4ypWh2VuRcZ1oEWi5m4I4t88vFQ93b0vVcRkDVFfAzCNejt8QHJx6JggDTI5m9no88fzd0sq9WJvdbO+scN/A==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^8.3.0"
@@ -1305,30 +1305,30 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^33.0.1"
 
-"@nice-move/eslint-config-react@^0.5.39":
-  version "0.5.39"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-react/-/eslint-config-react-0.5.39.tgz#3d13e7ed1f891457816bc8e1811cafafd46d218c"
-  integrity sha512-MilOMJtzMxcvDWk7pmZfuGQl7TU1oIdqZSgPlsOQOiMNcyR9eAFGYy/qw2mOMuFRsQKMQVkBQpIQFpY6GSetZg==
+"@nice-move/eslint-config-react@^0.5.40":
+  version "0.5.40"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.40.tgz#39889a2cd7d56374c9bf7b5260523f2fa8bd1839"
+  integrity sha512-bk+nyqxGc3AE6Ky9FN2kihIS/KelBP/20CIExu7qqXfneLgWb6SK7fpCxZoKMQXpnCj2rYohd71it7+xyzDnpw==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.39"
+    "@nice-move/eslint-config-base" "^0.5.40"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@nice-move/eslint-config-vue@^0.5.39":
-  version "0.5.39"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2feslint-config-vue/-/eslint-config-vue-0.5.39.tgz#f06666399339e08547f102c7f27d33897f0686a7"
-  integrity sha512-vKb/0G4xH17thUbpVNDnzzj4SX0wLzZGkE7+NHHylisO+jb4ihM8tsxMjvR3WTboOS9TSfgNAFmGuzjDyRyrQQ==
+"@nice-move/eslint-config-vue@^0.5.40":
+  version "0.5.40"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.40.tgz#3d5711058782700300958a923627f674e974a35f"
+  integrity sha512-Nt8x4zBVqHFilDPT2+XKChn8+YzWnG1w5NNqWbozllU4I63BtLuLBT7kQLQE20yS1kiP2YaL96Zu4NoWSWKCXw==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.39"
+    "@nice-move/eslint-config-base" "^0.5.40"
     eslint-plugin-vue "^7.10.0"
 
-"@nice-move/init@^0.2.3":
-  version "0.2.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2finit/-/init-0.2.3.tgz#02e85b0b70d37e5256ffbe21229d1fbe7dd18232"
-  integrity sha512-kx2mt3+YSMd9bxKwR1P1ZG/k6j+50+tQlJrWfCw9YArXOYXXBRgp48TbsIqaHZfJ74y3DlkunmFSEOUcTgv5LQ==
+"@nice-move/init@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@nice-move/init/-/init-0.2.5.tgz#6c6c7f9198b8660c375f4ae67c6d258239bf48d3"
+  integrity sha512-SkqQBqG/r+rnMKWyPHlvZd78vj+fOrABF6nd0OB1uUiTvjmSN4fKPWhPV9Jh910whCr09bkqxsqk0CXQRJf9QQ==
   dependencies:
     centra "^2.4.2"
     chalk "^4.1.1"
@@ -1337,42 +1337,43 @@
     fs-chain "8.0.1"
     is-git-dirty "^2.0.1"
     is-git-repository "^2.0.0"
-    ora "^5.4.0"
+    ora "^5.4.1"
     os-locale "^5.0.0"
     parse-author "^2.0.0"
     prompts "^2.4.1"
-    semver-regex "3.1.2"
+    semver-regex "^3.1.2"
     stringify-author "^0.1.3"
     user-meta "^1.0.0"
     validate-npm-package-name "^3.0.0"
     yarn-install "^1.0.0"
 
-"@nice-move/lint@^0.2.2":
-  version "0.2.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2flint/-/lint-0.2.2.tgz#6ca73cdd828ad8938f90b1c02f9ac886a114a32a"
-  integrity sha512-VUvxJWYmUr80K1YIgINHfQiWk1a0hWVyD8q9j11tGomM9sLXN1XwO1q8SIw929Bl6g7iKMkt8SWC+J820UiWLw==
+"@nice-move/lint@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@nice-move/lint/-/lint-0.2.4.tgz#62c33a9b360e143f2b5644aea53edcc32f2fd3e0"
+  integrity sha512-RWNuJJ3DZz55qVqXk0ZKN4shu9vPtx7j5f/50suzReE0iXwBIEpa3NVfSfFFfRSTVG/uPU9WLxEXyviQ5KGVxQ==
   dependencies:
     eslint-formatter-pretty "^4.1.0"
     fs-chain "^8.0.1"
     lint-staged "^11.0.0"
     replace-in-file "^6.2.0"
     stylelint-formatter-pretty "^2.1.1"
+    tiny-version-compare "^3.0.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.4":
-  version "0.4.4"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fprettier-config/-/prettier-config-0.4.4.tgz#4d60a34553af2f6c89c1c4a9367499d35d791789"
-  integrity sha512-uxUvydjHHwOnuyw2hqj9GSAFh5pGf83I7vTcsiEqA358Gr05vlST7IZND8CIdA9155QTpnm1o+t5Daj+TlyRgQ==
+"@nice-move/prettier-config@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.6.tgz#ef72d642927e24b5f55fa8758cacf7b71145d6c2"
+  integrity sha512-rUplPKRExBkjmoeBfhhdgxGBzBmihfZQGSQ0h8DyU/UPimRNkIVE7XbGzobpwk9/Z8inkY0YrpdNnOtunRtbWA==
   dependencies:
-    "@nice-move/prettier-plugin-package-json" "^0.4.3"
+    "@nice-move/prettier-plugin-package-json" "^0.4.4"
     "@prettier/plugin-xml" "^0.13.1"
     prettier-plugin-ini "^0.3.1"
     prettier-plugin-toml "^0.3.1"
 
-"@nice-move/prettier-plugin-package-json@^0.4.3":
-  version "0.4.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/@nice-move%2fprettier-plugin-package-json/-/prettier-plugin-package-json-0.4.3.tgz#6e75cce2ec86c66bddf42b9405f56d4675f1c72c"
-  integrity sha512-umluDTR9HTjKHIMievwublIJnhwoJ9GGOKhWgDonYm7ZTVy2OZiLRCUq4GKAPITmNLpEVi9x5aizYM7OAS6RQg==
+"@nice-move/prettier-plugin-package-json@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.4.tgz#241eef0e6d61128797cf687ef15ebd8f4940954a"
+  integrity sha512-xGXLQmj0xl3vosslD9owyv7+908EY9AeX97TatPDcUdw3tK7/qS3T49Me72Mx9sI4HBWxvZKKaQxgrMRtU4uHg==
   dependencies:
     normalize-package-data "^3.0.2"
     npm-normalize-package-bin "^1.0.1"
@@ -3068,7 +3069,7 @@ core-js-pure@^3.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/core-js-pure/-/core-js-pure-3.14.0.tgz#72bcfacba74a65ffce04bf94ae91d966e80ee553"
   integrity sha512-YVh+LN2FgNU0odThzm61BsdkwrbrchumFq3oztnE9vTKC4KS2fvnPmcx8t6jnqAyOTCTF4ZSiuK8Qhh7SNcL4g==
 
-core-js@^3.11.1:
+core-js@^3.11.1, core-js@^3.14.0:
   version "3.14.0"
   resolved "http://mirrors.cloud.tencent.com/npm/core-js/-/core-js-3.14.0.tgz#62322b98c71cc2018b027971a69419e2425c2a6c"
   integrity sha512-3s+ed8er9ahK+zJpp9ZtuVcDoFzHNiZsPbNAAE4KXgrRHbjSqqNN6xGSXq6bq7TZIbKj4NLrLb6bJ5i+vSVjHA==
@@ -7315,10 +7316,10 @@ optipng-bin@^7.0.0:
     bin-wrapper "^4.0.0"
     logalot "^2.0.0"
 
-ora@^5.4.0:
-  version "5.4.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/ora/-/ora-5.4.0.tgz#42eda4855835b9cd14d33864c97a3c95a3f56bf4"
-  integrity sha512-1StwyXQGoU6gdjYkyVcqOLnVlbKj+6yPNNOxJVgpt9t4eksKjiriiHuxktLYkgllwk+D6MbC4ihH84L1udRXPg==
+ora@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-5.4.1.tgz#1b2678426af4ac4a509008e5e4ac9e9959db9e18"
+  integrity sha512-5b6Y85tPxZZ7QytO+BQzysW31HJku27cRIlkbAXaNx+BdcVi+LlRFmVXzeF6a7JCwJpyw5c4b+YSVImQIrBpuQ==
   dependencies:
     bl "^4.1.0"
     chalk "^4.1.0"
@@ -8994,15 +8995,15 @@ semver-compare@^1.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
 
-semver-regex@3.1.2:
-  version "3.1.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/semver-regex/-/semver-regex-3.1.2.tgz#34b4c0d361eef262e07199dbef316d0f2ab11807"
-  integrity sha512-bXWyL6EAKOJa81XG1OZ/Yyuq+oT0b2YLlxx7c+mrdYPaPbnj6WgVULXhinMIeZGufuUBu/eVRqXEhiv4imfwxA==
-
 semver-regex@^2.0.0:
   version "2.0.0"
   resolved "https://mirrors.cloud.tencent.com/npm/semver-regex/-/semver-regex-2.0.0.tgz#a93c2c5844539a770233379107b38c7b4ac9d338"
   integrity sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==
+
+semver-regex@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-3.1.2.tgz#34b4c0d361eef262e07199dbef316d0f2ab11807"
+  integrity sha512-bXWyL6EAKOJa81XG1OZ/Yyuq+oT0b2YLlxx7c+mrdYPaPbnj6WgVULXhinMIeZGufuUBu/eVRqXEhiv4imfwxA==
 
 semver-truncate@^1.1.2:
   version "1.1.2"
@@ -9932,6 +9933,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://mirrors.cloud.tencent.com/npm/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-version-compare@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/tiny-version-compare/-/tiny-version-compare-3.0.1.tgz#b1d2da60595d905ac86eeedaab52f2157e5d91a0"
+  integrity sha512-xatSPA/CQtM2fPxuhhookcVlxoLPpb3q4VXYkI85owwvAnTGvD3ItKZp4wn4o5Apc8YxM1GjQ0QqjAXqE4ZJoQ==
 
 to-buffer@^1.1.1:
   version "1.1.1"
