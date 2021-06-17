@@ -1290,7 +1290,7 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@0.5.42":
+"@nice-move/eslint-config-base@0.5.42", "@nice-move/eslint-config-base@^0.5.42":
   version "0.5.42"
   resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.42.tgz#69c86592f3b51f0f23b286c127173eabd0f965ad"
   integrity sha512-607GIjDy9n+brx0Pe9hUYnL2whL+CTeYsyJByrEHt6xGoByk3aQX4wb9sYrT5qK2RPgFcNrmpiM/G6yzRCGafg==
@@ -1320,12 +1320,12 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^33.0.1"
 
-"@nice-move/eslint-config-react@^0.5.41":
-  version "0.5.41"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.41.tgz#579ff649653576f5ead288db8b24e94b9a9833fc"
-  integrity sha512-iLdKuPdtkt/eWQs0Tss9L5i/fWY1KqEUPQcYgtfncHsaUEHzVDfiINzlqqpYv/nzdZjr+rv4c4vvHczBhvauhA==
+"@nice-move/eslint-config-react@0.5.42":
+  version "0.5.42"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.42.tgz#a3a2735e5ec1f68ccfebf387fa336c0cf5691964"
+  integrity sha512-yBHvaNCkbAkOPue1UKZF49CTXZqqepdoc9eqX4MZP4OvICk8j9bg6orbrFiX5K4PQ49PNgA4SQNNTrCkByCzwA==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.41"
+    "@nice-move/eslint-config-base" "^0.5.42"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
