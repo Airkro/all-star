@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "author": {
     "name": "Eric Chen",
@@ -26,7 +26,7 @@
     "@best-shot/core": "^0.4.8",
     "@best-shot/dev-server": "^0.10.1",
     "@best-shot/preset-asset": "^0.6.1",
-    "@best-shot/preset-babel": "^0.9.0",
+    "@best-shot/preset-babel": "^0.9.1",
     "@best-shot/preset-style": "^0.8.3",
     "@best-shot/preset-vue": "^0.5.2",
     "@best-shot/preset-web": "^0.7.1",
@@ -35,16 +35,24 @@
     "@nice-move/eslint-config-vue": "0.5.42",
     "@nice-move/prettier-config": "^0.4.6",
     "@nice-move/stylelint-config": "^0.5.8",
-    "core-js": "^3.14.0",
-    "webpack": "^5.38.1"
+    "core-js": "^3.15.0",
+    "webpack": "^5.40.0"
   },
   "peerDependencies": {
     "commitlint": "^12.1.4",
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "garou": "^0.1.29",
     "prettier": "^2.3.1",
     "stylelint": "^13.13.1",
     "vue": "^2.6.14"
+  },
+  "peerDependenciesMeta": {
+    "commitlint": {
+      "optional": true
+    },
+    "garou": {
+      "optional": true
+    }
   },
   "engines": {
     "node": "^14.15.3"
