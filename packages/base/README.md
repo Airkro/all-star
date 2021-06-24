@@ -1,5 +1,7 @@
 # @all-star/base
 
+Bring `best-shot` and `nice-move` together.
+
 [![npm][npm-badge]][npm-url]
 [![github][github-badge]][github-url]
 ![node][node-badge]

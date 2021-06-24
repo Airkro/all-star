@@ -1004,24 +1004,32 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@best-shot/cli@^0.10.3":
-  version "0.10.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fcli/-/cli-0.10.3.tgz#4095457bf1d1d63d227e873c1f279f224ceeea5c"
-  integrity sha512-EM/9qPS2xqrT5t83gOODjMl5IZv8/6X+piu4jrWFjLuEKkNyzljM56/DGmTTd9dMhGQLycxsMKJdfcv2KweNfg==
+"@best-shot/cli@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@best-shot/cli/-/cli-0.11.0.tgz#9de1d0f3264ec643a795557193ada3f66e7ee507"
+  integrity sha512-EFJJyN2S9WA4ET4Vsg0gISwzmKQ3A2i3imDrNTko+KuKPz9A4HLHRDzq8ZNEnoZFnt09DRz1885sTIvTdXppLw==
   dependencies:
+    "@best-shot/config" "0.0.0"
     chalk "^4.1.1"
-    cheetor "^0.9.0"
-    configstore "^5.0.1"
+    cheetor "^0.10.2"
     is-installed-globally "^0.4.0"
-    prompts "^2.4.1"
-    slash "^3.0.0"
     v8-compile-cache "^2.3.0"
     webpackbar "^5.0.0-3"
 
-"@best-shot/core@^0.4.8":
-  version "0.4.8"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fcore/-/core-0.4.8.tgz#d9c4fc704e1869273433ccf2841a4e53255327da"
-  integrity sha512-aAuoruwNVvP6f2QZGjIIkICbFifSySDVjC3XvRWy/zDOL9mBvSrDixBYdiBSSU6ilOwhd7+I3XmMoPbvJb5ptw==
+"@best-shot/config@0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@best-shot/config/-/config-0.0.0.tgz#eea65ff11c1917d827b39919022bb71c30831b60"
+  integrity sha512-2cRNsRTTXITLF1q3HD+3jn8xc+IMc9KSgIn4PAnpGUQTSDmj2e5ya6r8yIyIVpWxlDM1uFTg1vUCBeX1G2pQpw==
+  dependencies:
+    "@best-shot/validator" "0.1.0"
+    chalk "^4.1.1"
+    configstore "^6.0.0"
+    prompts "^2.4.1"
+
+"@best-shot/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@best-shot/core/-/core-0.5.0.tgz#ff5930a51ec075a6f7dd2797e15f7575e59c7e52"
+  integrity sha512-HH1PKZKcWrG4PDQ5HiLoiOlipftO5VYK9Ym2Ya+2zY+asD82lvWETagppS3GKTloBAG4/epYBQqx3IxcjAW4lQ==
   dependencies:
     "@best-shot/validator" "^0.1.0"
     browserslist "^4.16.6"
@@ -1030,16 +1038,16 @@
     copy-webpack "^2.0.2"
     deepmerge "^4.2.2"
     lodash "^4.17.21"
-    slash "^3.0.0"
     terser-webpack-plugin "^5.1.3"
     webpack-chain "^6.5.1"
 
-"@best-shot/dev-server@^0.10.1":
-  version "0.10.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fdev-server/-/dev-server-0.10.1.tgz#68d35ff44cb6b9162af45f4f5bb31db70cbaef86"
-  integrity sha512-i+qvaAte0ZdRv8NdATM24HzGLWPEr5p7OPYrJr8ZFGKmeNQFXi0bNw4o4y0lues7EJvcqUwC5+CtiXTRrgdftA==
+"@best-shot/dev-server@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.11.0.tgz#9bd55139950eb59304d3481317657d4c5eb116be"
+  integrity sha512-/Cswk02AbMAp+WNWe9zntOh5wscIWpsuPtct7zV+uvllXOPS++Yp57N19hjUrus5bWspN0QGdmPmjj9K3vnE4g==
   dependencies:
-    "@best-shot/preset-serve" "^0.6.1"
+    "@best-shot/config" "0.0.0"
+    "@best-shot/preset-serve" "^0.6.2"
     chalk "^4.1.1"
     ejs "^3.1.6"
     express "^4.17.1"
@@ -1050,12 +1058,12 @@
     webpack-dev-server-waitpage "^2.1.1"
     webpack-log "^2.0.0"
 
-"@best-shot/preset-asset@^0.6.1":
-  version "0.6.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fpreset-asset/-/preset-asset-0.6.1.tgz#e47b16e0f3abbebbe4d0b3b23feca6121de746ad"
-  integrity sha512-2dtayhAsG7HZ4Ugb4Rb4dg0jwFDMlLXVPfqRP+Zb9swlbPQllipAfMMwaoPbyWp2mDTTU2LsohV33huMuAot7g==
+"@best-shot/preset-asset@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-asset/-/preset-asset-0.6.2.tgz#d07175cafde1ada7ebe90916d7e111c6d1503609"
+  integrity sha512-VWZtERjM1lVpGPUSZ8PzhT2gjtI3G9eRJNQYVngbA7xJd+kU78oLn1OV3nMiIDpaVSe7NNRFsWq5I+WwX9bdLA==
   dependencies:
-    ext-to-regexp "^0.0.8"
+    ext-to-regexp "^0.1.0"
     image-minimizer-webpack-plugin "^2.2.0"
     imagemin-gifsicle "^7.0.0"
     imagemin-jpegtran "^7.0.0"
@@ -1065,10 +1073,10 @@
     svgo-config "^0.2.3"
     yaml-loader "^0.6.0"
 
-"@best-shot/preset-babel@^0.9.1":
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-babel/-/preset-babel-0.9.1.tgz#5d48380b41fcea22850297b1013f79dec6832b15"
-  integrity sha512-r76ZUv4gJUAK42MTgAWFohQ6dQuIZLT0bD9Art1HRB4IUR4rQYZaZxM+P5WBIiYF/USRVFBJyAGvnPw9jnd/Gw==
+"@best-shot/preset-babel@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-babel/-/preset-babel-0.9.2.tgz#38124aa8d9b0c68a19f732a2f0860371f3fc19d9"
+  integrity sha512-YvhwPBtrYHR3ZURyBiWQPEpITkrXnmEam1MP3zmnaZoWgmX5M8v8ohkg3TkbPapqJ3/cfLwcJ9PjhtgnLR2VtQ==
   dependencies:
     "@babel/preset-typescript" "^7.14.5"
     babel-loader "^8.2.2"
@@ -1077,10 +1085,10 @@
     ext-to-regexp "^0.1.0"
     slash-to-regexp "^0.0.4"
 
-"@best-shot/preset-react@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-react/-/preset-react-0.9.2.tgz#e51107d555f5e7161fe8bb21c52a93dc6f9ef44d"
-  integrity sha512-vVBRxkikQrPRiJE37GGzuYwZQNxsI3ZPHv04r12PMgwizhDjERNKU4lzmnf/wSBCCAO+LVittI3u/T4Gnp4WiA==
+"@best-shot/preset-react@^0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-react/-/preset-react-0.9.3.tgz#297cbe8b447beeac1e699355ed196e53f1e493b6"
+  integrity sha512-0jKvF5iTBHTfPBPD3xHXYb1bHVDLS5fo922pZwUciW+qEnNNFTFeUnWahom6JwKRK1QVmnKslMAA0bG+SopjRA==
   dependencies:
     "@babel/plugin-transform-react-constant-elements" "^7.14.5"
     "@babel/plugin-transform-react-inline-elements" "^7.14.5"
@@ -1089,56 +1097,56 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     react-refresh "^0.9.0"
 
-"@best-shot/preset-serve@^0.6.1":
-  version "0.6.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fpreset-serve/-/preset-serve-0.6.1.tgz#21f0c1baa9027a4309041df3c81239d930173c90"
-  integrity sha512-GxFvSnnQMJkWGuYQ3rpq3CrSu4RmCrSQGGPDP0zPCjIjsfI7/mjU5dTcIVLWVXtYEVBOlHxG1aX2cY4dSH4t/A==
+"@best-shot/preset-serve@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-serve/-/preset-serve-0.6.2.tgz#fd9de8673d821fc9783a11b1494017705459b5a9"
+  integrity sha512-pMIeaj8e2+zejEJ4uD6Niny5JWRStIHKOqNNtdQkemXwpfVFP+CG6a0pcSPDxpd0cd8+2L0BCQj58K+N+GoBZw==
 
-"@best-shot/preset-style@^0.8.3":
-  version "0.8.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fpreset-style/-/preset-style-0.8.3.tgz#105b71b7b5a88e9746cf08facd97e1a294cc0069"
-  integrity sha512-KpamUE2/O/K80uu4taEu8VdYeLbBO/zm+Jtf7FC5QiTF+rzRpWUwRLsN23PAvtqeGBpfA3i6aOW6f5IURDeSkw==
+"@best-shot/preset-style@^0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-style/-/preset-style-0.8.4.tgz#65369273bdab35ebbfc0e750d31157278be53b2c"
+  integrity sha512-vpwq4DmxyGXpHZQywgXMB+TZ46obciaZG/M94dfJ+4z2bja8JITPcSSnEksmkOdfc1lvyAVq3ZTuBVpBcfUhwQ==
   dependencies:
     css-loader "^5.2.6"
     css-minimizer-webpack-plugin "^3.0.1"
-    cssnano "^5.0.5"
-    ext-to-regexp "^0.0.8"
+    cssnano "^5.0.6"
+    ext-to-regexp "^0.1.0"
     less "^4.1.1"
-    less-loader "9.0.0"
+    less-loader "^10.0.0"
     mini-css-extract-plugin "^1.6.0"
-    postcss "^8.3.0"
-    postcss-loader "^5.3.0"
+    postcss "^8.3.5"
+    postcss-loader "^6.1.0"
     postcss-preset-evergreen "^0.2.1"
-    resolve-url-loader "^3.1.3"
-    sass "^1.34.0"
-    sass-loader "^12.0.0"
+    resolve-url-loader "^3.1.4"
+    sass "^1.35.1"
+    sass-loader "^12.1.0"
     slash-to-regexp "^0.0.4"
     style-loader "^2.0.0"
 
-"@best-shot/preset-vue@^0.5.2":
-  version "0.5.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fpreset-vue/-/preset-vue-0.5.2.tgz#cf88311534cc1d1b381cb50ffa7df3155b220a76"
-  integrity sha512-F3S9NxKMAT5dEPymxc+32z89xDn1YcvwCondmdQk/iPRmVCyyE2m+PK3kr9P8lzuB5ndpedsVoCidl3Rl4LtQQ==
+"@best-shot/preset-vue@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-vue/-/preset-vue-0.5.3.tgz#a9d42119829a840eb2cee4b742d9ca44fff949a4"
+  integrity sha512-7MYjapj1Ijai/Lfn+3DYxty+pbQX0CoqVHxVbQz2xWo4dcVRxbED78HYJMJdl7ssk4li/0njirNs4ik98Ue9lA==
   dependencies:
     css-loader "^5.2.6"
-    ext-to-regexp "^0.0.8"
+    ext-to-regexp "^0.1.0"
     vue-loader "^15.9.7"
     vue-template-compiler "^2.6.14"
 
-"@best-shot/preset-web@^0.7.1":
-  version "0.7.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fpreset-web/-/preset-web-0.7.1.tgz#a8be77556c30e7a58d5cef8835d5928e5cd67ab4"
-  integrity sha512-WecaCMk5G/kKeltpejtEC4y7679VJgaca8l0MlIr6TdlqepHV1HT4FQH8Qfckv7SAfFQc2nYhPdPCMoSpZRauQ==
+"@best-shot/preset-web@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-web/-/preset-web-0.7.2.tgz#5cb0de2497ec293a7a0cd9892c00c9c592b5fd80"
+  integrity sha512-IcbDJClUAlX3WXxX9t2PI+Uy2mT/f1KcZ7WDs8Y39s5bNBcwQ3ZV5MfV0MFBhTnRxOx9Nc4QNjilMSH0268dkg==
   dependencies:
     deepmerge "^4.2.2"
-    ext-to-regexp "^0.0.8"
-    html-webpack-plugin "^5.3.1"
+    ext-to-regexp "^0.1.0"
+    html-webpack-plugin "^5.3.2"
     micro-tpl-loader "^0.0.1"
     slash-to-regexp "^0.0.4"
     suffix "^1.0.0"
     webpack-subresource-integrity "5.0.0-alpha.5"
 
-"@best-shot/validator@^0.1.0":
+"@best-shot/validator@0.1.0", "@best-shot/validator@^0.1.0":
   version "0.1.0"
   resolved "https://mirrors.cloud.tencent.com/npm/@best-shot%2fvalidator/-/validator-0.1.0.tgz#1ad9069f9609e84fb804b80b9c104768122ebb8c"
   integrity sha512-OKLngZ/Dgu9rqfwG3khWQhM90yCLxc7w/cBZGcLYdbeJG0BRSDZ0RAGfD4uD5wwcGd1xbZIZIeyc9GDk4NRjfA==
@@ -1299,14 +1307,14 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nice-move/cli@^0.5.25":
-  version "0.5.25"
-  resolved "https://registry.yarnpkg.com/@nice-move/cli/-/cli-0.5.25.tgz#c69371fe081969dff369a20fc4c211869e67b22e"
-  integrity sha512-QWTR7Gn4H4uqCl10Fa+cpmGKb9b6X2IgaO0R6cyh0jXsj4SDcgDIOKl43wTJVE/DvgRhWm9ERiAqEVwfbGClwA==
+"@nice-move/cli@^0.5.26":
+  version "0.5.26"
+  resolved "https://registry.yarnpkg.com/@nice-move/cli/-/cli-0.5.26.tgz#6f04bb41272127fdbfd6d1b9a4de6711c085fea7"
+  integrity sha512-CNLmD9kOnpEwVlbYRTq+KTRlxzUWIXHrHWpqCCuzGC7NAZpBR22I9dHaGJ2eEJXyKJFhJhM/w93LGbZxeilnjw==
   dependencies:
-    "@nice-move/init" "^0.2.5"
-    "@nice-move/lint" "^0.2.4"
-    cheetor "^0.9.1"
+    "@nice-move/init" "^0.3.0"
+    "@nice-move/lint" "^0.3.0"
+    cheetor "^0.10.2"
     execa "^5.1.1"
 
 "@nice-move/commitlint-config@^0.1.3":
@@ -1316,10 +1324,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@0.5.42", "@nice-move/eslint-config-base@^0.5.42":
-  version "0.5.42"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.42.tgz#69c86592f3b51f0f23b286c127173eabd0f965ad"
-  integrity sha512-607GIjDy9n+brx0Pe9hUYnL2whL+CTeYsyJByrEHt6xGoByk3aQX4wb9sYrT5qK2RPgFcNrmpiM/G6yzRCGafg==
+"@nice-move/eslint-config-base@^0.5.43":
+  version "0.5.43"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.43.tgz#a05b4428151626b3deecfc51211d139c619d0756"
+  integrity sha512-cxB7KBvYUAfxkHuoHxGZJbWkJBloJ74ebXYCwxggNRrzmDb7UXErt0D6u1A4McfbQUhbvZUCdhdZSwZoq8jgtA==
   dependencies:
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^8.3.0"
@@ -1331,30 +1339,30 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^33.0.1"
 
-"@nice-move/eslint-config-react@0.5.42":
-  version "0.5.42"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.42.tgz#a3a2735e5ec1f68ccfebf387fa336c0cf5691964"
-  integrity sha512-yBHvaNCkbAkOPue1UKZF49CTXZqqepdoc9eqX4MZP4OvICk8j9bg6orbrFiX5K4PQ49PNgA4SQNNTrCkByCzwA==
+"@nice-move/eslint-config-react@^0.5.43":
+  version "0.5.43"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.43.tgz#ed26e46ae14be892eaa20a339021f0b2576aecd4"
+  integrity sha512-aUgHTuayuNX4z1QZpg0TGNGk1cYQIQiVdFJsDP2ofc22H0wCQ8rJEwdR524l+FB1VkatKglaMNi4jmAu1gvaIg==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.42"
+    "@nice-move/eslint-config-base" "^0.5.43"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@nice-move/eslint-config-vue@0.5.42":
-  version "0.5.42"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.42.tgz#0a0109f79f454d9ef6fc2b6bcad89858c4908c2d"
-  integrity sha512-I5b5eyJezgf9sGZdUsswu1I9lMX8EZhiisNvMqdvsLXP3kYXun4DfIChfVzCHD5VeloT67fGbv3i+TsXMBDEsA==
+"@nice-move/eslint-config-vue@^0.5.43":
+  version "0.5.43"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.43.tgz#a505e64619de6bc2812ca45835c342ce1841136d"
+  integrity sha512-La/8jLEkEoUGsgSZXPbQbBYR5HFmZlw2NPP26BRJlHQUsvueZiUb0VCPwhtJmWtvySY+TqbCHhFWIzeeRarE7g==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.42"
-    eslint-plugin-vue "^7.10.0"
+    "@nice-move/eslint-config-base" "^0.5.43"
+    eslint-plugin-vue "^7.11.1"
 
-"@nice-move/init@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@nice-move/init/-/init-0.2.5.tgz#6c6c7f9198b8660c375f4ae67c6d258239bf48d3"
-  integrity sha512-SkqQBqG/r+rnMKWyPHlvZd78vj+fOrABF6nd0OB1uUiTvjmSN4fKPWhPV9Jh910whCr09bkqxsqk0CXQRJf9QQ==
+"@nice-move/init@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@nice-move/init/-/init-0.3.0.tgz#1af2a337f356d74c7cd5f4589e5cd87ae32bf3bd"
+  integrity sha512-8WfsuCgv0rQAR3atlTBJtrQlCQzsqk1ojjbdyekB7QA2mom8IXlLxQdW4KxWj8qICrvVWRTllf+lpozQ5UU2Uw==
   dependencies:
     centra "^2.4.2"
     chalk "^4.1.1"
@@ -1367,39 +1375,38 @@
     os-locale "^5.0.0"
     parse-author "^2.0.0"
     prompts "^2.4.1"
-    semver-regex "^3.1.2"
+    semver-regex "^4.0.0"
     stringify-author "^0.1.3"
     user-meta "^1.0.0"
     validate-npm-package-name "^3.0.0"
     yarn-install "^1.0.0"
 
-"@nice-move/lint@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@nice-move/lint/-/lint-0.2.4.tgz#62c33a9b360e143f2b5644aea53edcc32f2fd3e0"
-  integrity sha512-RWNuJJ3DZz55qVqXk0ZKN4shu9vPtx7j5f/50suzReE0iXwBIEpa3NVfSfFFfRSTVG/uPU9WLxEXyviQ5KGVxQ==
+"@nice-move/lint@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@nice-move/lint/-/lint-0.3.0.tgz#b2ee9fc24b132af41daea70718467c24242c1cfa"
+  integrity sha512-cMXkOrIM5vXF1CRZH6QIhX6MP/4bg1NX7M0fqklMTx+IEcdeL2qxJaXiVxyXvaHFDtxM5MlmySdLdSXAocb1QQ==
   dependencies:
     eslint-formatter-pretty "^4.1.0"
     fs-chain "^8.0.1"
     lint-staged "^11.0.0"
     replace-in-file "^6.2.0"
     stylelint-formatter-pretty "^2.1.1"
-    tiny-version-compare "^3.0.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.6.tgz#ef72d642927e24b5f55fa8758cacf7b71145d6c2"
-  integrity sha512-rUplPKRExBkjmoeBfhhdgxGBzBmihfZQGSQ0h8DyU/UPimRNkIVE7XbGzobpwk9/Z8inkY0YrpdNnOtunRtbWA==
+"@nice-move/prettier-config@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.7.tgz#8b8ea3c9eec722011cd0a2e5ad27f937df1c7981"
+  integrity sha512-f9U45hZP3btlR+dSCY5g8paKiIMZ0jWY1TchGd2kOccMNxEwy7wM5bdm2iGHi8EYzBNfHPAEIlUAd+TKuyU2EA==
   dependencies:
-    "@nice-move/prettier-plugin-package-json" "^0.4.4"
+    "@nice-move/prettier-plugin-package-json" "^0.4.5"
     "@prettier/plugin-xml" "^0.13.1"
     prettier-plugin-ini "^0.3.1"
     prettier-plugin-toml "^0.3.1"
 
-"@nice-move/prettier-plugin-package-json@^0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.4.tgz#241eef0e6d61128797cf687ef15ebd8f4940954a"
-  integrity sha512-xGXLQmj0xl3vosslD9owyv7+908EY9AeX97TatPDcUdw3tK7/qS3T49Me72Mx9sI4HBWxvZKKaQxgrMRtU4uHg==
+"@nice-move/prettier-plugin-package-json@^0.4.5":
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.5.tgz#fc2be36902de9d44d2f835e9c7f3232b3396a774"
+  integrity sha512-Pq7M+EXd/G21HsCCCSu+MZfx/I5PnD2E4MguvCSo0oCJUk1nEPEDe22hVQWiayioFfndB0FrEs73ab7wCTE0Ag==
   dependencies:
     normalize-package-data "^3.0.2"
     npm-normalize-package-bin "^1.0.1"
@@ -2354,7 +2361,7 @@ bonjour@^3.5.0:
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
 
-boolbase@^1.0.0, boolbase@~1.0.0:
+boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://mirrors.cloud.tencent.com/npm/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
@@ -2652,7 +2659,15 @@ character-reference-invalid@^1.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/character-reference-invalid/-/character-reference-invalid-1.1.4.tgz#083329cda0eae272ab3dbbf37e9a382c13af1560"
   integrity sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==
 
-cheetor@^0.9.0, cheetor@^0.9.1:
+cheetor@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/cheetor/-/cheetor-0.10.2.tgz#fac54f3d1be56f9cdba1dd01adde4df59a8ccd66"
+  integrity sha512-JdjGTBSOzqU8w6yMyuWml0/gI34iTO2Uy7ioua5SlEvW0MiV0XFj+HblbEYM2aI1kqk2D4A8F6FHqtY/ymFnCA==
+  dependencies:
+    chalk "^4.1.1"
+    yargs "^17.0.1"
+
+cheetor@^0.9.1:
   version "0.9.1"
   resolved "https://mirrors.cloud.tencent.com/npm/cheetor/-/cheetor-0.9.1.tgz#4485fcb64471f82653cbf50b7f13fa64b503bd80"
   integrity sha512-WY03QTU9RsaI44i+M6DQw7aLezzifmrgcG9O+gRZTVi7dRKKaagmS2epjyYqiBpVyTT/mZiTy9jSi6oRR8kljg==
@@ -2937,17 +2952,16 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
-configstore@^5.0.1:
-  version "5.0.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/configstore/-/configstore-5.0.1.tgz#d365021b5df4b98cdd187d6a3b0e3f6a7cc5ed96"
-  integrity sha512-aMKprgk5YhBNyH25hj8wGt2+D52Sw1DRRIzqBwLp2Ya9mFmY8KPvvtvmna8SxVR9JMZ4kzMD68N22vlaRpkeFA==
+configstore@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/configstore/-/configstore-6.0.0.tgz#49eca2ebc80983f77e09394a1a56e0aca8235566"
+  integrity sha512-cD31W1v3GqUlQvbBCGcXmd2Nj9SvLDOP1oQ0YFuLETufzSPaKp11rYBsSOm7rCsW3OnIRAFM3OxRhceaXNYHkA==
   dependencies:
-    dot-prop "^5.2.0"
-    graceful-fs "^4.1.2"
-    make-dir "^3.0.0"
-    unique-string "^2.0.0"
-    write-file-atomic "^3.0.0"
-    xdg-basedir "^4.0.0"
+    dot-prop "^6.0.1"
+    graceful-fs "^4.2.6"
+    unique-string "^3.0.0"
+    write-file-atomic "^3.0.3"
+    xdg-basedir "^5.0.1"
 
 confusing-browser-globals@^1.0.10:
   version "1.0.10"
@@ -3087,10 +3101,10 @@ core-js-pure@^3.15.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.15.0.tgz#c19349ae0be197b8bcf304acf4d91c5e29ae2091"
   integrity sha512-RO+LFAso8DB6OeBX9BAcEGvyth36QtxYon1OyVsITNVtSKr/Hos0BXZwnsOJ7o+O6KHtK+O+cJIEj9NGg6VwFA==
 
-core-js@^3.14.0, core-js@^3.15.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.15.0.tgz#db9554ebce0b6fd90dc9b1f2465c841d2d055044"
-  integrity sha512-GUbtPllXMYRzIgHNZ4dTYTcUemls2cni83Q4Q/TrFONHfhcg9oEGOtaGHfb0cpzec60P96UKPvMkjX1jET8rUw==
+core-js@^3.14.0, core-js@^3.15.1:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.15.1.tgz#6c08ab88abdf56545045ccf5fd81f47f407e7f1a"
+  integrity sha512-h8VbZYnc9pDzueiS2610IULDkpFFPunHwIpl8yRwFahAEEdSpHlTy3h3z3rKq5h11CaUdBEeRViu9AYvbxiMeg==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -3145,10 +3159,12 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-random-string@^2.0.0:
-  version "2.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
-  integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
+crypto-random-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-4.0.0.tgz#5a3cc53d7dd86183df5da0312816ceeeb5bb1fc2"
+  integrity sha512-x8dy3RnvYdlUcPOjkEHqozhiwzKNSq7GcPuXFbnyMOCHxX8V3OgIg/pYuabl2sbUPfIJaeAQB7PMOK8DFIdoRA==
+  dependencies:
+    type-fest "^1.0.1"
 
 css-color-names@^0.0.4:
   version "0.0.4"
@@ -3196,16 +3212,6 @@ css-minimizer-webpack-plugin@^3.0.1:
     serialize-javascript "^5.0.1"
     source-map "^0.6.1"
 
-css-select@^2.0.2:
-  version "2.1.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/css-select/-/css-select-2.1.0.tgz#6a34653356635934a81baca68d0255432105dbef"
-  integrity sha512-Dqk7LQKpwLoH3VovzZnkzegqNSuAziQyNZUcrdDM401iY+R5NkGBXGmtO05/yaXQziALuPogeG0b7UAgjnTJTQ==
-  dependencies:
-    boolbase "^1.0.0"
-    css-what "^3.2.1"
-    domutils "^1.7.0"
-    nth-check "^1.0.2"
-
 css-select@^3.1.2:
   version "3.1.2"
   resolved "http://mirrors.cloud.tencent.com/npm/css-select/-/css-select-3.1.2.tgz#d52cbdc6fee379fba97fb0d3925abbd18af2d9d8"
@@ -3217,6 +3223,17 @@ css-select@^3.1.2:
     domutils "^2.4.3"
     nth-check "^2.0.0"
 
+css-select@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/css-select/-/css-select-4.1.3.tgz#a70440f70317f2669118ad74ff105e65849c7067"
+  integrity sha512-gT3wBNd9Nj49rAbmtFHj1cljIAOLYSX1nZ8CB7TBO3INYckygm5B7LISU/szY//YmdiSLbJvDLOx9VnMVpMBxA==
+  dependencies:
+    boolbase "^1.0.0"
+    css-what "^5.0.0"
+    domhandler "^4.2.0"
+    domutils "^2.6.0"
+    nth-check "^2.0.0"
+
 css-tree@^1.1.2:
   version "1.1.3"
   resolved "https://mirrors.cloud.tencent.com/npm/css-tree/-/css-tree-1.1.3.tgz#eb4870fb6fd7707327ec95c2ff2ab09b5e8db91d"
@@ -3225,15 +3242,15 @@ css-tree@^1.1.2:
     mdn-data "2.0.14"
     source-map "^0.6.1"
 
-css-what@^3.2.1:
-  version "3.4.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
-  integrity sha512-ACUm3L0/jiZTqfzRM3Hi9Q8eZqd6IK37mMWPLz9PJxkLWllYeRf+EHUSHYEtFop2Eqytaq1FizFVh7XfBnXCDQ==
-
 css-what@^4.0.0:
   version "4.0.0"
   resolved "https://mirrors.cloud.tencent.com/npm/css-what/-/css-what-4.0.0.tgz#35e73761cab2eeb3d3661126b23d7aa0e8432233"
   integrity sha512-teijzG7kwYfNVsUh2H/YN62xW3KK9YhXEgSlbxMlcyjPNvdKJqFx5lrwlJgoFP1ZHlB89iGDlo/JyshKeRhv5A==
+
+css-what@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.0.1.tgz#3efa820131f4669a8ac2408f9c32e7c7de9f4cad"
+  integrity sha512-FYDTSHb/7KXsWICVsxdmiExPjCfRC4qRFBdVwv7Ax9hMnvMmEjP9RfxTEZ3qPZGmADDn2vAKSo9UcN1jKVYscg==
 
 css@^2.0.0:
   version "2.2.4"
@@ -3250,10 +3267,10 @@ cssesc@^3.0.0:
   resolved "http://mirrors.cloud.tencent.com/npm/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-cssnano-preset-default@^5.1.2:
-  version "5.1.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/cssnano-preset-default/-/cssnano-preset-default-5.1.2.tgz#5d4877a91769823c5da6bcebd54996ecdf8aca12"
-  integrity sha512-spilp8LRw0sacuxiN9A/dyyPr6G/WISKMBKcBD4NMoPV0ENx4DeuWvIIrSx9PII2nJIDCO3kywkqTPreECBVOg==
+cssnano-preset-default@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.1.3.tgz#caa54183a8c8df03124a9e23f374ab89df5a9a99"
+  integrity sha512-qo9tX+t4yAAZ/yagVV3b+QBKeLklQbmgR3wI7mccrDcR+bEk9iHgZN1E7doX68y9ThznLya3RDmR+nc7l6/2WQ==
   dependencies:
     css-declaration-sorter "^6.0.3"
     cssnano-utils "^2.0.1"
@@ -3277,9 +3294,9 @@ cssnano-preset-default@^5.1.2:
     postcss-normalize-string "^5.0.1"
     postcss-normalize-timing-functions "^5.0.1"
     postcss-normalize-unicode "^5.0.1"
-    postcss-normalize-url "^5.0.1"
+    postcss-normalize-url "^5.0.2"
     postcss-normalize-whitespace "^5.0.1"
-    postcss-ordered-values "^5.0.1"
+    postcss-ordered-values "^5.0.2"
     postcss-reduce-initial "^5.0.1"
     postcss-reduce-transforms "^5.0.1"
     postcss-svgo "^5.0.2"
@@ -3290,13 +3307,13 @@ cssnano-utils@^2.0.1:
   resolved "http://mirrors.cloud.tencent.com/npm/cssnano-utils/-/cssnano-utils-2.0.1.tgz#8660aa2b37ed869d2e2f22918196a9a8b6498ce2"
   integrity sha512-i8vLRZTnEH9ubIyfdZCAdIdgnHAUeQeByEeQ2I7oTilvP9oHO6RScpeq3GsFUVqeB8uZgOQ9pw8utofNn32hhQ==
 
-cssnano@^5.0.0, cssnano@^5.0.5:
-  version "5.0.5"
-  resolved "https://mirrors.cloud.tencent.com/npm/cssnano/-/cssnano-5.0.5.tgz#6b8787123bf4cd5a220a2fa6cb5bc036b0854b48"
-  integrity sha512-L2VtPXnq6rmcMC9vkBOP131sZu3ccRQI27ejKZdmQiPDpUlFkUbpXHgKN+cibeO1U4PItxVZp1zTIn5dHsXoyg==
+cssnano@^5.0.0, cssnano@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.0.6.tgz#2a91ad34c6521ae31eab3da9c90108ea3093535d"
+  integrity sha512-NiaLH/7yqGksFGsFNvSRe2IV/qmEBAeDE64dYeD8OBrgp6lE8YoMeQJMtsv5ijo6MPyhuoOvFhI94reahBRDkw==
   dependencies:
     cosmiconfig "^7.0.0"
-    cssnano-preset-default "^5.1.2"
+    cssnano-preset-default "^5.1.3"
     is-resolvable "^1.1.0"
 
 csso@^4.2.0:
@@ -3585,7 +3602,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dom-converter@^0.2:
+dom-converter@^0.2.0:
   version "0.2.0"
   resolved "http://mirrors.cloud.tencent.com/npm/dom-converter/-/dom-converter-0.2.0.tgz#6721a9daee2e293682955b6afe416771627bb768"
   integrity sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==
@@ -3633,7 +3650,7 @@ domhandler@^4.0.0, domhandler@^4.2.0:
   dependencies:
     domelementtype "^2.2.0"
 
-domutils@^1.5.1, domutils@^1.7.0:
+domutils@^1.5.1:
   version "1.7.0"
   resolved "http://mirrors.cloud.tencent.com/npm/domutils/-/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
   integrity sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
@@ -3641,7 +3658,7 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-domutils@^2.4.3, domutils@^2.5.2:
+domutils@^2.4.3, domutils@^2.5.2, domutils@^2.6.0:
   version "2.7.0"
   resolved "http://mirrors.cloud.tencent.com/npm/domutils/-/domutils-2.7.0.tgz#8ebaf0c41ebafcf55b0b72ec31c56323712c5442"
   integrity sha512-8eaHa17IwJUPAiB+SoTYBo5mCdeMgdcAoXJ59m6DT1vw+5iLS3gNoqYaRowaBKtGVrOF1Jz4yDTgYKLK2kvfJg==
@@ -3658,10 +3675,17 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dot-prop@^5.1.0, dot-prop@^5.2.0:
+dot-prop@^5.1.0:
   version "5.3.0"
   resolved "https://mirrors.cloud.tencent.com/npm/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
+  dependencies:
+    is-obj "^2.0.0"
+
+dot-prop@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-6.0.1.tgz#fc26b3cf142b9e59b74dbd39ed66ce620c681083"
+  integrity sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==
   dependencies:
     is-obj "^2.0.0"
 
@@ -4077,10 +4101,10 @@ eslint-plugin-unicorn@^33.0.1:
     safe-regex "^2.1.1"
     semver "^7.3.5"
 
-eslint-plugin-vue@^7.10.0, eslint-plugin-vue@^7.11.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.11.0.tgz#c19b098899b7e3cd692beffbbe73611064ef1ea6"
-  integrity sha512-Qwo8wilqnOXnG9B5auEiTstyaHefyhHd5lEhhxemwXoWsAxIW2yppzuVudowC5n+qn1nMLNV9TANkTthBK7Waw==
+eslint-plugin-vue@^7.11.0, eslint-plugin-vue@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.11.1.tgz#77eb4b44032d5cca79f9af21d06991d8694a314a"
+  integrity sha512-lbw3vkEAGqYjqd1HpPFWHXtYaS8mILTJ5KOpJfRxO3Fo7o0wCf1zD7vSOasbm6nTA9xIgvZQ4VcyGIzQXxznHw==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
@@ -4398,11 +4422,6 @@ ext-name@^5.0.0:
   dependencies:
     ext-list "^2.0.0"
     sort-keys-length "^1.0.0"
-
-ext-to-regexp@^0.0.8:
-  version "0.0.8"
-  resolved "https://mirrors.cloud.tencent.com/npm/ext-to-regexp/-/ext-to-regexp-0.0.8.tgz#1602bfd112daef8a77f641365ddda83393e5699a"
-  integrity sha512-RNAwJeF6FrYsnLYXoUd7dZKeFci2wF0fZIsEeCux1CVoOLvIZDV0teej8p4/3YdW3NCR8Uo8bGtAjMBtTTDwlg==
 
 ext-to-regexp@^0.1.0:
   version "0.1.0"
@@ -5087,7 +5106,7 @@ got@^8.3.1:
     url-parse-lax "^3.0.0"
     url-to-options "^1.0.1"
 
-graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.4:
+graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.4, graceful-fs@^4.2.6:
   version "4.2.6"
   resolved "http://mirrors.cloud.tencent.com/npm/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
@@ -5308,18 +5327,18 @@ html-void-elements@^1.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
   integrity sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w==
 
-html-webpack-plugin@^5.3.1:
-  version "5.3.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/html-webpack-plugin/-/html-webpack-plugin-5.3.1.tgz#8797327548e3de438e3494e0c6d06f181a7f20d1"
-  integrity sha512-rZsVvPXUYFyME0cuGkyOHfx9hmkFa4pWfxY/mdY38PsBEaVNsRoA+Id+8z6DBDgyv3zaw6XQszdF8HLwfQvcdQ==
+html-webpack-plugin@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.3.2.tgz#7b04bf80b1f6fe84a6d3f66c8b79d64739321b08"
+  integrity sha512-HvB33boVNCz2lTyBsSiMffsJ+m0YLIQ+pskblXgN9fnjS1BgEcuAfdInfXfGrkdXV406k9FiDi86eVCDBgJOyQ==
   dependencies:
     "@types/html-minifier-terser" "^5.0.0"
     html-minifier-terser "^5.0.1"
-    lodash "^4.17.20"
-    pretty-error "^2.1.1"
+    lodash "^4.17.21"
+    pretty-error "^3.0.4"
     tapable "^2.0.0"
 
-htmlparser2@^3.10.0, htmlparser2@^3.10.1:
+htmlparser2@^3.10.0:
   version "3.10.1"
   resolved "https://mirrors.cloud.tencent.com/npm/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
   integrity sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
@@ -5331,7 +5350,7 @@ htmlparser2@^3.10.0, htmlparser2@^3.10.1:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
-htmlparser2@^6.0.1:
+htmlparser2@^6.0.1, htmlparser2@^6.1.0:
   version "6.1.0"
   resolved "https://mirrors.cloud.tencent.com/npm/htmlparser2/-/htmlparser2-6.1.0.tgz#c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
   integrity sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==
@@ -6330,10 +6349,10 @@ lcid@^3.0.0:
   dependencies:
     invert-kv "^3.0.0"
 
-less-loader@9.0.0:
-  version "9.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/less-loader/-/less-loader-9.0.0.tgz#71a0b530174bddf89bb11a5019dd725f54df4791"
-  integrity sha512-bPen1xeGTZuYFFobcdz9kMUVgSSSDZQJtyhawtCtcz1QboQOwhkI7uCwp5UO+IZpO+LJS1W73YwxsufbBT6SBQ==
+less-loader@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/less-loader/-/less-loader-10.0.0.tgz#2c21a204a29a46cba7de4e7d3659efa1e303c7d1"
+  integrity sha512-JjioAkw9qyavL0BzMPUOHJa0a20fh+ipq/MNZH4OkU8qERsCMeZIWRE0FDBIx2O+cFguvY01vHh/lmBA9LyWDg==
   dependencies:
     klona "^2.0.4"
 
@@ -7117,10 +7136,10 @@ normalize-url@2.0.1:
     query-string "^5.0.1"
     sort-keys "^2.0.0"
 
-normalize-url@^4.5.0:
-  version "4.5.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
-  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
+normalize-url@^6.0.1:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
+  integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
 npm-conf@^1.1.0:
   version "1.1.3"
@@ -7148,13 +7167,6 @@ npm-run-path@^4.0.0, npm-run-path@^4.0.1:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
-
-nth-check@^1.0.2:
-  version "1.0.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/nth-check/-/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
-  integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
-  dependencies:
-    boolbase "~1.0.0"
 
 nth-check@^2.0.0:
   version "2.0.0"
@@ -7836,14 +7848,14 @@ postcss-less@^3.1.4:
   dependencies:
     postcss "^7.0.14"
 
-postcss-loader@^5.3.0:
-  version "5.3.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/postcss-loader/-/postcss-loader-5.3.0.tgz#1657f869e48d4fdb018a40771c235e499ee26244"
-  integrity sha512-/+Z1RAmssdiSLgIZwnJHwBMnlABPgF7giYzTN2NOfr9D21IJZ4mQC1R2miwp80zno9M4zMD/umGI8cR+2EL5zw==
+postcss-loader@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-6.1.0.tgz#13c800a00b3c7d434a1319a73d85e2df0714cdde"
+  integrity sha512-yA/cXBfACkthZNA2hQxOnaReVfQ6uLmvbEDQzNafpbK40URZJvP/28dL1DG174Gvz3ptkkHbbwDBCh+gXR94CA==
   dependencies:
     cosmiconfig "^7.0.0"
     klona "^2.0.4"
-    semver "^7.3.4"
+    semver "^7.3.5"
 
 postcss-media-minmax@^5.0.0:
   version "5.0.0"
@@ -7989,13 +8001,13 @@ postcss-normalize-unicode@^5.0.1:
     browserslist "^4.16.0"
     postcss-value-parser "^4.1.0"
 
-postcss-normalize-url@^5.0.1:
-  version "5.0.1"
-  resolved "http://mirrors.cloud.tencent.com/npm/postcss-normalize-url/-/postcss-normalize-url-5.0.1.tgz#ffa9fe545935d8b57becbbb7934dd5e245513183"
-  integrity sha512-hkbG0j58Z1M830/CJ73VsP7gvlG1yF+4y7Fd1w4tD2c7CaA2Psll+pQ6eQhth9y9EaqZSLzamff/D0MZBMbYSg==
+postcss-normalize-url@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-5.0.2.tgz#ddcdfb7cede1270740cf3e4dfc6008bd96abc763"
+  integrity sha512-k4jLTPUxREQ5bpajFQZpx8bCF2UrlqOTzP9kEqcEnOfwsRshWs2+oAFIHfDQB8GO2PaUaSE0NlTAYtbluZTlHQ==
   dependencies:
     is-absolute-url "^3.0.3"
-    normalize-url "^4.5.0"
+    normalize-url "^6.0.1"
     postcss-value-parser "^4.1.0"
 
 postcss-normalize-whitespace@^5.0.1:
@@ -8005,10 +8017,10 @@ postcss-normalize-whitespace@^5.0.1:
   dependencies:
     postcss-value-parser "^4.1.0"
 
-postcss-ordered-values@^5.0.1:
-  version "5.0.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/postcss-ordered-values/-/postcss-ordered-values-5.0.1.tgz#79ef6e2bd267ccad3fc0c4f4a586dfd01c131f64"
-  integrity sha512-6mkCF5BQ25HvEcDfrMHCLLFHlraBSlOXFnQMHYhSpDO/5jSR1k8LdEXOkv+7+uzW6o6tBYea1Km0wQSRkPJkwA==
+postcss-ordered-values@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-5.0.2.tgz#1f351426977be00e0f765b3164ad753dac8ed044"
+  integrity sha512-8AFYDSOYWebJYLyJi3fyjl6CqMEG/UVworjiyK1r573I56kb3e879sCJLGvR3merj+fAdPpVplXKQZv+ey6CgQ==
   dependencies:
     cssnano-utils "^2.0.1"
     postcss-value-parser "^4.1.0"
@@ -8136,28 +8148,19 @@ postcss-will-change@^4.0.1:
   resolved "https://mirrors.cloud.tencent.com/npm/postcss-will-change/-/postcss-will-change-4.0.1.tgz#7604320aa8ba147e4d00732a37d32658aeb436d4"
   integrity sha512-nJIHJ+mwWviIPVs/vuUfa/w8XAOXUjfYSIfNgdnZdo9uHC96x4nrY2ByEkdwYLvnxKto09JYDSWH8sWYLoUhUA==
 
-postcss@7.0.21:
-  version "7.0.21"
-  resolved "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-7.0.21.tgz#06bb07824c19c2021c5d056d5b10c35b989f7e17"
-  integrity sha512-uIFtJElxJo29QC753JzhidoAhvp/e/Exezkdhfmt8AymWT6/5B7W1WmponYWkHk2eg6sONyTch0A3nkMPun3SQ==
+postcss@7.0.36, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.31, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.6:
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.31, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.6:
-  version "7.0.35"
-  resolved "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
-  integrity sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg==
-  dependencies:
-    chalk "^2.4.2"
-    source-map "^0.6.1"
-    supports-color "^6.1.0"
-
-postcss@^8.2.15, postcss@^8.2.9, postcss@^8.3.0:
-  version "8.3.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-8.3.0.tgz#b1a713f6172ca427e3f05ef1303de8b65683325f"
-  integrity sha512-+ogXpdAjWGa+fdYY5BQ96V/6tAo+TdSSIMP5huJBIygdWwKtVoB5JWZ7yUd4xZ8r+8Kvvx4nyg/PQ071H4UtcQ==
+postcss@^8.2.15, postcss@^8.2.9, postcss@^8.3.5:
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
+  integrity sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
@@ -8217,13 +8220,13 @@ prettier@^1.16.0, prettier@^1.18.2:
   resolved "http://mirrors.cloud.tencent.com/npm/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
-pretty-error@^2.1.1:
-  version "2.1.2"
-  resolved "https://mirrors.cloud.tencent.com/npm/pretty-error/-/pretty-error-2.1.2.tgz#be89f82d81b1c86ec8fdfbc385045882727f93b6"
-  integrity sha512-EY5oDzmsX5wvuynAByrmY0P0hcp+QpnAKbJng2A2MPjVKXCxrDSUkzghVJ4ZGPIv+JC4gX8fPUWscC0RtjsWGw==
+pretty-error@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/pretty-error/-/pretty-error-3.0.4.tgz#94b1d54f76c1ed95b9c604b9de2194838e5b574e"
+  integrity sha512-ytLFLfv1So4AO1UkoBF6GXQgJRaKbiSiGFICaOPNwQ3CMvBvXpLRubeQWyPGnsbV/t9ml9qto6IeCsho0aEvwQ==
   dependencies:
     lodash "^4.17.20"
-    renderkid "^2.0.4"
+    renderkid "^2.0.6"
 
 pretty-time@^1.1.0:
   version "1.1.0"
@@ -8668,16 +8671,16 @@ remove-trailing-separator@^1.0.1:
   resolved "http://mirrors.cloud.tencent.com/npm/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renderkid@^2.0.4:
-  version "2.0.5"
-  resolved "http://mirrors.cloud.tencent.com/npm/renderkid/-/renderkid-2.0.5.tgz#483b1ac59c6601ab30a7a596a5965cabccfdd0a5"
-  integrity sha512-ccqoLg+HLOHq1vdfYNm4TBeaCDIi1FLt3wGojTDSvdewUv65oTmI3cnT2E4hRjl1gzKZIPK+KZrXzlUYKnR+vQ==
+renderkid@^2.0.6:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/renderkid/-/renderkid-2.0.7.tgz#464f276a6bdcee606f4a15993f9b29fc74ca8609"
+  integrity sha512-oCcFyxaMrKsKcTY59qnCAtmDVSLfPbrv6A3tVbPdFMMrv5jaK10V6m40cKsoPNhAqN6rmHW9sswW4o3ruSrwUQ==
   dependencies:
-    css-select "^2.0.2"
-    dom-converter "^0.2"
-    htmlparser2 "^3.10.1"
-    lodash "^4.17.20"
-    strip-ansi "^3.0.0"
+    css-select "^4.1.3"
+    dom-converter "^0.2.0"
+    htmlparser2 "^6.1.0"
+    lodash "^4.17.21"
+    strip-ansi "^3.0.1"
 
 repeat-element@^1.1.2:
   version "1.1.4"
@@ -8764,10 +8767,10 @@ resolve-global@1.0.0, resolve-global@^1.0.0:
   dependencies:
     global-dirs "^0.1.1"
 
-resolve-url-loader@^3.1.3:
-  version "3.1.3"
-  resolved "https://mirrors.cloud.tencent.com/npm/resolve-url-loader/-/resolve-url-loader-3.1.3.tgz#49ec68340f67d8d2ab6b401948d5def3ab2d0367"
-  integrity sha512-WbDSNFiKPPLem1ln+EVTE+bFUBdTTytfQZWbmghroaFNFaAVmGq0Saqw6F/306CwgPXsGwXVxbODE+3xAo/YbA==
+resolve-url-loader@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.4.tgz#3c16caebe0b9faea9c7cc252fa49d2353c412320"
+  integrity sha512-D3sQ04o0eeQEySLrcz4DsX3saHfsr8/N6tfhblxgZKXxMT2Louargg12oGNfoTRLV09GXhVUe5/qgA5vdgNigg==
   dependencies:
     adjust-sourcemap-loader "3.0.0"
     camelcase "5.3.1"
@@ -8775,7 +8778,7 @@ resolve-url-loader@^3.1.3:
     convert-source-map "1.7.0"
     es6-iterator "2.0.3"
     loader-utils "1.2.3"
-    postcss "7.0.21"
+    postcss "7.0.36"
     rework "1.0.1"
     rework-visit "1.0.0"
     source-map "0.6.1"
@@ -8911,18 +8914,18 @@ safe-regex@^2.1.1:
   resolved "http://mirrors.cloud.tencent.com/npm/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@^12.0.0:
-  version "12.0.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/sass-loader/-/sass-loader-12.0.0.tgz#ba91df5725cb9676c8e0937002a647ab011eb94a"
-  integrity sha512-LJQMyDdNdhcvoO2gJFw7KpTaioVFDeRJOuatRDUNgCIqyu4s4kgDsNofdGzAZB1zFOgo/p3fy+aR/uGXamcJBg==
+sass-loader@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.1.0.tgz#b73324622231009da6fba61ab76013256380d201"
+  integrity sha512-FVJZ9kxVRYNZTIe2xhw93n3xJNYZADr+q69/s98l9nTCrWASo+DR2Ot0s5xTKQDDEosUkatsGeHxcH4QBp5bSg==
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.34.0:
-  version "1.34.1"
-  resolved "http://mirrors.cloud.tencent.com/npm/sass/-/sass-1.34.1.tgz#30f45c606c483d47b634f1e7371e13ff773c96ef"
-  integrity sha512-scLA7EIZM+MmYlej6sdVr0HRbZX5caX5ofDT9asWnUJj21oqgsC+1LuNfm0eg+vM0fCTZHhwImTiCU0sx9h9CQ==
+sass@^1.35.1:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.35.1.tgz#90ecf774dfe68f07b6193077e3b42fb154b9e1cd"
+  integrity sha512-oCisuQJstxMcacOPmxLNiLlj4cUyN2+8xJnG7VanRoh2GOLr9RqkvI4AxA4a6LHVg/rsu+PmxXeGhrdSF9jCiQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
@@ -8995,10 +8998,10 @@ semver-regex@^2.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/semver-regex/-/semver-regex-2.0.0.tgz#a93c2c5844539a770233379107b38c7b4ac9d338"
   integrity sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==
 
-semver-regex@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-3.1.2.tgz#34b4c0d361eef262e07199dbef316d0f2ab11807"
-  integrity sha512-bXWyL6EAKOJa81XG1OZ/Yyuq+oT0b2YLlxx7c+mrdYPaPbnj6WgVULXhinMIeZGufuUBu/eVRqXEhiv4imfwxA==
+semver-regex@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-4.0.0.tgz#f5a00e086faaa91c5f8939467e60d55ad2fc881e"
+  integrity sha512-uUIOEmC31bz533c+q28XJKT1+19z3ZNKVooO+jbjp2ToW5dma3g6A/X+Fe2DLhs6Rz6IGpbKfVULwtaZKTnGaA==
 
 semver-truncate@^1.1.2:
   version "1.1.2"
@@ -9929,11 +9932,6 @@ timsort@^0.3.0:
   resolved "https://mirrors.cloud.tencent.com/npm/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tiny-version-compare@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/tiny-version-compare/-/tiny-version-compare-3.0.1.tgz#b1d2da60595d905ac86eeedaab52f2157e5d91a0"
-  integrity sha512-xatSPA/CQtM2fPxuhhookcVlxoLPpb3q4VXYkI85owwvAnTGvD3ItKZp4wn4o5Apc8YxM1GjQ0QqjAXqE4ZJoQ==
-
 to-buffer@^1.1.1:
   version "1.1.1"
   resolved "https://mirrors.cloud.tencent.com/npm/to-buffer/-/to-buffer-1.1.1.tgz#493bd48f62d7c43fcded313a03dcadb2e1213a80"
@@ -10067,6 +10065,11 @@ type-fest@^0.8.1:
   resolved "https://mirrors.cloud.tencent.com/npm/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
+type-fest@^1.0.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.2.1.tgz#232990aa513f3f5223abf54363975dfe3a121a2e"
+  integrity sha512-SbmIRuXhJs8KTneu77Ecylt9zuqL683tuiLYpTRil4H++eIhqCmx6ko6KAFem9dty8sOdnEiX7j4K1nRE628fQ==
+
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
   resolved "http://mirrors.cloud.tencent.com/npm/type-is/-/type-is-1.6.18.tgz#4e552cd05df09467dcbc4ef739de89f2cf37c131"
@@ -10170,12 +10173,12 @@ uniqs@^2.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
   integrity sha1-/+3ks2slKQaW5uFl1KWe25mOawI=
 
-unique-string@^2.0.0:
-  version "2.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/unique-string/-/unique-string-2.0.0.tgz#39c6451f81afb2749de2b233e3f7c5e8843bd89d"
-  integrity sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==
+unique-string@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unique-string/-/unique-string-3.0.0.tgz#84a1c377aff5fd7a8bc6b55d8244b2bd90d75b9a"
+  integrity sha512-VGXBUVwxKMBUznyffQweQABPRRW1vHZAbadFZud4pLFAqRGvv/96vafgjWFqzourzr8YonlQiPgH0YCJfawoGQ==
   dependencies:
-    crypto-random-string "^2.0.0"
+    crypto-random-string "^4.0.0"
 
 unist-util-find-all-after@^3.0.2:
   version "3.0.2"
@@ -10669,7 +10672,7 @@ wrappy@1:
   resolved "http://mirrors.cloud.tencent.com/npm/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-write-file-atomic@^3.0.0, write-file-atomic@^3.0.3:
+write-file-atomic@^3.0.3:
   version "3.0.3"
   resolved "https://mirrors.cloud.tencent.com/npm/write-file-atomic/-/write-file-atomic-3.0.3.tgz#56bd5c5a5c70481cd19c571bd39ab965a5de56e8"
   integrity sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q==
@@ -10686,10 +10689,10 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-xdg-basedir@^4.0.0:
-  version "4.0.0"
-  resolved "https://mirrors.cloud.tencent.com/npm/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
-  integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
+xdg-basedir@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-5.0.1.tgz#b8900938336874b2efacaf8a2d5ad3d65fe0ca7d"
+  integrity sha512-YgJsKtT0Jerlp42eqk9illJhG2ScfLSYEvp7qzYDdVCjHN625BkiK+defqXyv5gYjtif7rOIYi65vKA0JC3qaQ==
 
 xtend@^4.0.0:
   version "4.0.2"
