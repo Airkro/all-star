@@ -37,7 +37,7 @@
     "@nice-move/eslint-config-vue": "^0.5.45",
     "@nice-move/prettier-config": "^0.4.7",
     "@nice-move/stylelint-config": "^0.5.8",
-    "core-js": "^3.15.1",
+    "core-js": "3.15.2",
     "webpack": "^5.40.0"
   },
   "peerDependencies": {
