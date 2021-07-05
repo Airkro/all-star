@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "commitlint": "^12.1.4",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "garou": "^0.1.31",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
