@@ -1373,12 +1373,12 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^34.0.1"
 
-"@nice-move/eslint-config-react@^0.5.48":
-  version "0.5.48"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.48.tgz#d2cc4446f9b77c466a58b0278285ccee724934e6"
-  integrity sha512-ZFGzZ1mtb1E61SI6fixmzhw5J3Oew/AceQN7KWkJHkwjsEx9TVtulg9UWYTaO8ZuWNT/WpvV+RyJtatNjDb4bw==
+"@nice-move/eslint-config-react@^0.5.50":
+  version "0.5.50"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.50.tgz#05e7493f7e7e8114a6825279d634cc5f45768108"
+  integrity sha512-q1JLDlidLsHVFzF7CUkDPa1ioR+vIHNVrltBQkEd0026HWSUst3kQKHWUMfj8kk4VLTzTuMvB8YUCocu5vzZXA==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.48"
+    "@nice-move/eslint-config-base" "^0.5.50"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
