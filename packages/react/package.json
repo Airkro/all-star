@@ -43,7 +43,7 @@
   "peerDependencies": {
     "commitlint": "^12.1.4",
     "eslint": "^7.30.0",
-    "garou": "^0.1.33",
+    "garou": "^0.1.35",
     "prettier": "^2.3.2",
     "react": "^16.14.0 || ^17.0.2",
     "react-dom": "^16.14.0 || ^17.0.2",
