@@ -1410,14 +1410,15 @@
     stylelint-formatter-pretty "^2.1.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.8":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.8.tgz#57451d7a1e1c791e53ffdf6adabaf1b8b3c76cb5"
-  integrity sha512-CcwTkhupICcgZmhfuNw+0q8eO9ZoE9sieCl76lr1nwEFzPnd15AfQjHGvhsPuLLK+hDhS+mFfJs9MAjR4B0/zg==
+"@nice-move/prettier-config@^0.4.10":
+  version "0.4.10"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.10.tgz#d639eef74c504e59900311caa341c6f9bdb8b8c3"
+  integrity sha512-1We9H68uDEZJJgeUoZq2fRb1Qhtz9dH/H849tqqB7ZPrlCNl9e9MVkAAXweASpIk0Fzwz4qaokXhOAhvdYFBug==
   dependencies:
     "@nice-move/prettier-plugin-package-json" "^0.4.6"
-    "@prettier/plugin-xml" "^0.13.1"
+    "@prettier/plugin-xml" "^1.0.2"
     prettier-plugin-ini "^0.3.1"
+    prettier-plugin-ssh-config "^0.0.0"
     prettier-plugin-toml "^0.3.1"
 
 "@nice-move/prettier-plugin-package-json@^0.4.6":
@@ -1473,13 +1474,13 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@prettier/plugin-xml@^0.13.1":
-  version "0.13.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/@prettier%2fplugin-xml/-/plugin-xml-0.13.1.tgz#fb1c265fb8256c509da187b5a530c3eb2bf80091"
-  integrity sha512-jJbjvFEsxOT2Jhv2yydOvJbnSREJy+OECwHyZaYr05jLXlJeBrzy5YY1fDYpwTfKk1B2YqNExXI+x3Zm5yGfeA==
+"@prettier/plugin-xml@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-xml/-/plugin-xml-1.0.2.tgz#d1c4dc5f13398cd17d1de313c2f49338b07e0c90"
+  integrity sha512-QNqKaa56/7trSqVuGDUzS9xw6Hx0qOklAwA7A2Mn89FPnPywyrK/GNCO71XK0AfoRNrmY0vETVpR2pWpBwfzow==
   dependencies:
-    "@xml-tools/parser" "^1.0.2"
-    prettier ">=1.10"
+    "@xml-tools/parser" "^1.0.11"
+    prettier ">=2.3"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -1864,9 +1865,9 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
-"@xml-tools/parser@^1.0.2":
+"@xml-tools/parser@^1.0.11":
   version "1.0.11"
-  resolved "https://mirrors.cloud.tencent.com/npm/@xml-tools%2fparser/-/parser-1.0.11.tgz#a118a14099ea5c3c537e4781fad2fc195b57f8ff"
+  resolved "https://registry.yarnpkg.com/@xml-tools/parser/-/parser-1.0.11.tgz#a118a14099ea5c3c537e4781fad2fc195b57f8ff"
   integrity sha512-aKqQ077XnR+oQtHJlrAflaZaL7qZsulWc/i/ZEooar5JiWj1eLt0+Wg28cpa+XLney107wXqneC+oG1IZvxkTA==
   dependencies:
     chevrotain "7.1.1"
@@ -8333,6 +8334,13 @@ prettier-plugin-ini@^0.3.1:
   dependencies:
     prettier ">=2.0"
 
+prettier-plugin-ssh-config@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-ssh-config/-/prettier-plugin-ssh-config-0.0.0.tgz#7c330ea7b23feb57b616f4f64ecf808b75864d7a"
+  integrity sha512-zLpoRjAX6kEuE0CsP53gPcVn/4bp5p5Dr5ePIEZZcr1NJNU5MmNdr0vABEXQsVHq6gU5ZNStQAbTw10Gx101vw==
+  dependencies:
+    ssh-config "^4.0.6"
+
 prettier-plugin-toml@^0.3.1:
   version "0.3.1"
   resolved "https://mirrors.cloud.tencent.com/npm/prettier-plugin-toml/-/prettier-plugin-toml-0.3.1.tgz#71b5291ef9c2a20865d2dfe1dbc24435bcb596b5"
@@ -8341,7 +8349,7 @@ prettier-plugin-toml@^0.3.1:
     "@toml-tools/parser" "^0.3.1"
     prettier "^1.16.0"
 
-prettier@>=1.10, prettier@>=2.0, prettier@^2.3.2:
+prettier@>=2.0, prettier@>=2.3, prettier@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"
   integrity sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==
@@ -9542,6 +9550,11 @@ squeak@^1.0.0:
     chalk "^1.0.0"
     console-stream "^0.1.1"
     lpad-align "^1.0.1"
+
+ssh-config@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/ssh-config/-/ssh-config-4.0.6.tgz#5cf104157d08702b47a112ae18075e433a6c5e86"
+  integrity sha512-GEtKJJ/R4XTImmBIGAfyw520rY7pS1MLjCPBcrPxp+431xSwMIU5iyCv98ua0nSXoR1B4qvOYJdTc7UvERzu8w==
 
 stable@^0.1.8:
   version "0.1.8"
