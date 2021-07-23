@@ -1338,10 +1338,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@^0.5.51":
-  version "0.5.51"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.51.tgz#14e9f7ea34aa798b1da0eaccc367b4d2273ea71d"
-  integrity sha512-q54qmqEgnqviy+SSz6xIGzv2PpCuDFDmz3b2KExfPTyF4BvAJMu8pR9sHUoWu+iVHlh0UCmCFD1PjsvvR14kUw==
+"@nice-move/eslint-config-base@^0.5.52":
+  version "0.5.52"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.52.tgz#fd146a127f2af4a501445b66bde91f9212103347"
+  integrity sha512-+8cPd0rScUsBHQW5msuXhUNlC/ehW8BtnUQ09vnotzKt5pp62NSg9Y9Th3gwRF/b8xVn3S5DaTH47aoWhLZjrg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.28.4"
     "@typescript-eslint/parser" "^4.28.4"
@@ -1355,24 +1355,24 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^34.0.1"
 
-"@nice-move/eslint-config-react@^0.5.51":
-  version "0.5.51"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.51.tgz#cbe1352a792a77860104a5db593c1a163b04b63f"
-  integrity sha512-QSedbBrwkU3jMhp4vw3OdzyIl4c38tSnHzsDsI4W2orifErcWb04Yc7mHS5THHaPCuPe4NSs3hPBkz1HcECpzg==
+"@nice-move/eslint-config-react@^0.5.52":
+  version "0.5.52"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.52.tgz#89a98e43d302dcdd6ab253f2d3f54b3331f66bcd"
+  integrity sha512-Ee65iGbApdxWz47WHgUi8j5fHv1mF7vngnU552MqAbVDi3giD1KnVDMGfR+AUey/2F3R5MCxOlBU01d03bH/9A==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.51"
+    "@nice-move/eslint-config-base" "^0.5.52"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@nice-move/eslint-config-vue@^0.5.51":
-  version "0.5.51"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.51.tgz#408ac3ff48eb8bc4d7114fd72c3070d2752dbbd1"
-  integrity sha512-9qH5OniZ3Ve3y1kLJ/vNVUZGzw6eCAsAkKd0C3J6AcKgVN4p9n9Sx+oUXsHb3dQuqKHwQvVKV89S3E6r/rkkgA==
+"@nice-move/eslint-config-vue@^0.5.52":
+  version "0.5.52"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.52.tgz#f6ca0dfd20730b9f687b4c9242c56478319bf009"
+  integrity sha512-i6HL9vyAFUGXfGMm49rifUSLwPms6vzcBZpmMxYwHm2xUUAvhzHDdiv2Xki1OCuQcyfUf98vgGgz1OaPJuLQKw==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.51"
+    "@nice-move/eslint-config-base" "^0.5.52"
     eslint-plugin-vue "^7.14.0"
 
 "@nice-move/init@^0.3.1":
@@ -1409,25 +1409,26 @@
     stylelint-formatter-pretty "^2.1.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.10.tgz#d639eef74c504e59900311caa341c6f9bdb8b8c3"
-  integrity sha512-1We9H68uDEZJJgeUoZq2fRb1Qhtz9dH/H849tqqB7ZPrlCNl9e9MVkAAXweASpIk0Fzwz4qaokXhOAhvdYFBug==
+"@nice-move/prettier-config@^0.4.12":
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.12.tgz#d495d053e7b50a54c042170f8550c8ef33dd6486"
+  integrity sha512-o38kfGSkrF/JZVIxU+AqRpIA5tUBMz0tj1Hkrz0B0CF6opFFxcndURvVgz4kpBYD4uAaik4s0HxEiMKYVnsFXg==
   dependencies:
-    "@nice-move/prettier-plugin-package-json" "^0.4.6"
+    "@nice-move/prettier-plugin-package-json" "^0.4.8"
     "@prettier/plugin-xml" "^1.0.2"
     prettier-plugin-ini "^0.3.1"
     prettier-plugin-ssh-config "^0.0.0"
     prettier-plugin-toml "^0.3.1"
 
-"@nice-move/prettier-plugin-package-json@^0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.6.tgz#27bf203c2d70faba55c741e8a9cd3eb0b0c6aa14"
-  integrity sha512-Ev/b0VsnhQitZHkeTdiKxvF4n2MTgQrbmBGR3kobWlxNYyrI9gRKsoRrDSG9TXTKcjthtj6616Ku5wuOlYgq0A==
+"@nice-move/prettier-plugin-package-json@^0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.8.tgz#ed0677f942418c09e4139b0d385d9b095a016c42"
+  integrity sha512-dqxRWaSg3qpk/T/uAjK2gNS3NvjmzijmcyGdjGeC8D3JSRbY4+PmQur/BRf/MqaHQFgVbmULH9FKVT0g7YapPw==
   dependencies:
     normalize-package-data "^3.0.2"
     npm-normalize-package-bin "^1.0.1"
     prettier-package-json "^2.6.0"
+    sort-keys "^4.2.0"
 
 "@nice-move/stylelint-config@^0.5.9":
   version "0.5.9"
@@ -1663,14 +1664,6 @@
     "@typescript-eslint/typescript-estree" "4.28.4"
     debug "^4.3.1"
 
-"@typescript-eslint/scope-manager@4.28.3":
-  version "4.28.3"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.28.3.tgz#c32ad4491b3726db1ba34030b59ea922c214e371"
-  integrity sha512-/8lMisZ5NGIzGtJB+QizQ5eX4Xd8uxedFfMBXOKuJGP0oaBBVEMbJVddQKDXyyB0bPlmt8i6bHV89KbwOelJiQ==
-  dependencies:
-    "@typescript-eslint/types" "4.28.3"
-    "@typescript-eslint/visitor-keys" "4.28.3"
-
 "@typescript-eslint/scope-manager@4.28.4":
   version "4.28.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.28.4.tgz#bdbce9b6a644e34f767bd68bc17bb14353b9fe7f"
@@ -1679,28 +1672,10 @@
     "@typescript-eslint/types" "4.28.4"
     "@typescript-eslint/visitor-keys" "4.28.4"
 
-"@typescript-eslint/types@4.28.3":
-  version "4.28.3"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.28.3.tgz#8fffd436a3bada422c2c1da56060a0566a9506c7"
-  integrity sha512-kQFaEsQBQVtA9VGVyciyTbIg7S3WoKHNuOp/UF5RG40900KtGqfoiETWD/v0lzRXc+euVE9NXmfer9dLkUJrkA==
-
 "@typescript-eslint/types@4.28.4":
   version "4.28.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.28.4.tgz#41acbd79b5816b7c0dd7530a43d97d020d3aeb42"
   integrity sha512-3eap4QWxGqkYuEmVebUGULMskR6Cuoc/Wii0oSOddleP4EGx1tjLnZQ0ZP33YRoMDCs5O3j56RBV4g14T4jvww==
-
-"@typescript-eslint/typescript-estree@4.28.3":
-  version "4.28.3"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.28.3.tgz#253d7088100b2a38aefe3c8dd7bd1f8232ec46fb"
-  integrity sha512-YAb1JED41kJsqCQt1NcnX5ZdTA93vKFCMP4lQYG6CFxd0VzDJcKttRlMrlG+1qiWAw8+zowmHU1H0OzjWJzR2w==
-  dependencies:
-    "@typescript-eslint/types" "4.28.3"
-    "@typescript-eslint/visitor-keys" "4.28.3"
-    debug "^4.3.1"
-    globby "^11.0.3"
-    is-glob "^4.0.1"
-    semver "^7.3.5"
-    tsutils "^3.21.0"
 
 "@typescript-eslint/typescript-estree@4.28.4":
   version "4.28.4"
@@ -1714,14 +1689,6 @@
     is-glob "^4.0.1"
     semver "^7.3.5"
     tsutils "^3.21.0"
-
-"@typescript-eslint/visitor-keys@4.28.3":
-  version "4.28.3"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.28.3.tgz#26ac91e84b23529968361045829da80a4e5251c4"
-  integrity sha512-ri1OzcLnk1HH4gORmr1dllxDzzrN6goUIz/P4MHFV0YZJDCADPR3RvYNp0PW2SetKTThar6wlbFTL00hV2Q+fg==
-  dependencies:
-    "@typescript-eslint/types" "4.28.3"
-    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.28.4":
   version "4.28.4"
@@ -8574,6 +8541,13 @@ sort-keys@^2.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+sort-keys@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-4.2.0.tgz#6b7638cee42c506fff8c1cecde7376d21315be18"
+  integrity sha512-aUYIEU/UviqPgc8mHR6IW1EGxkAXpeRETYcrzg8cLAvUPZcpAlleSXHV2mY7G12GphSH6Gzv+4MMVSSkbdteHg==
+  dependencies:
+    is-plain-obj "^2.0.0"
+
 sort-object-keys@^1.1.3:
   version "1.1.3"
   resolved "https://mirrors.cloud.tencent.com/npm/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
@@ -9594,7 +9568,7 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vue-eslint-parser@^7.8.0, vue-eslint-parser@^7.9.0:
+vue-eslint-parser@^7.9.0:
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.9.0.tgz#5eeedc71f22ebc7b18b957d1ab171acf29a41e64"
   integrity sha512-QBlhZ5LteDRVy2dISfQhNEmmcqph+GTaD4SH41bYzXcVHFPJ9p34zCG6QAqOZVa8PKaVgbomFnoZpGJRZi14vg==
