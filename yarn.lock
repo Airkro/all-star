@@ -1409,21 +1409,21 @@
     stylelint-formatter-pretty "^2.1.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.12":
-  version "0.4.12"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.12.tgz#d495d053e7b50a54c042170f8550c8ef33dd6486"
-  integrity sha512-o38kfGSkrF/JZVIxU+AqRpIA5tUBMz0tj1Hkrz0B0CF6opFFxcndURvVgz4kpBYD4uAaik4s0HxEiMKYVnsFXg==
+"@nice-move/prettier-config@^0.4.13":
+  version "0.4.13"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.13.tgz#d2612667cc416c356d38997050138eef371d9096"
+  integrity sha512-FcB4IU5jd6e8LAZso+i9R9xNX2wfBPjOw7jse6EeeFwhTlpsKvzTFQSRgAoR6BQznth2RjPhFFxNQSTNrgnasA==
   dependencies:
-    "@nice-move/prettier-plugin-package-json" "^0.4.8"
+    "@nice-move/prettier-plugin-package-json" "^0.4.9"
     "@prettier/plugin-xml" "^1.0.2"
     prettier-plugin-ini "^0.3.1"
     prettier-plugin-ssh-config "^0.0.0"
     prettier-plugin-toml "^0.3.1"
 
-"@nice-move/prettier-plugin-package-json@^0.4.8":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.8.tgz#ed0677f942418c09e4139b0d385d9b095a016c42"
-  integrity sha512-dqxRWaSg3qpk/T/uAjK2gNS3NvjmzijmcyGdjGeC8D3JSRbY4+PmQur/BRf/MqaHQFgVbmULH9FKVT0g7YapPw==
+"@nice-move/prettier-plugin-package-json@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.9.tgz#cae830100e26841e594e4784cf27406292a3d0e3"
+  integrity sha512-XEQUd5OfNCM1Iv1CDmxCfTxd60TRmwqedB/Nk9cY+JmkSimnizaufD1/gmrT/rxSB4Y+3ecMfX5vS3Knzh7pww==
   dependencies:
     normalize-package-data "^3.0.2"
     npm-normalize-package-bin "^1.0.1"
