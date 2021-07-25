@@ -1338,10 +1338,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@nice-move/eslint-config-base@^0.5.52":
-  version "0.5.52"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.52.tgz#fd146a127f2af4a501445b66bde91f9212103347"
-  integrity sha512-+8cPd0rScUsBHQW5msuXhUNlC/ehW8BtnUQ09vnotzKt5pp62NSg9Y9Th3gwRF/b8xVn3S5DaTH47aoWhLZjrg==
+"@nice-move/eslint-config-base@^0.5.55":
+  version "0.5.55"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.55.tgz#f29a56eac3d053f64cb0e221cb84387990756aa6"
+  integrity sha512-PQR/TgYtBW/3JzrDaaDEV45uHOCxpMrJlPAO1BxiX8f4TvqBWBOoupvVWF+HEofUBY1Wziif5N+sk9AVB5GEKg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.28.4"
     "@typescript-eslint/parser" "^4.28.4"
@@ -1355,24 +1355,24 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^34.0.1"
 
-"@nice-move/eslint-config-react@^0.5.52":
-  version "0.5.52"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.52.tgz#89a98e43d302dcdd6ab253f2d3f54b3331f66bcd"
-  integrity sha512-Ee65iGbApdxWz47WHgUi8j5fHv1mF7vngnU552MqAbVDi3giD1KnVDMGfR+AUey/2F3R5MCxOlBU01d03bH/9A==
+"@nice-move/eslint-config-react@^0.5.55":
+  version "0.5.55"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.55.tgz#7033a414db811b20ab16346802937b451dffb1c6"
+  integrity sha512-sfHu9ovRBX7XfticknD5r1MProM87fNMHvf/jC3gyh2sAyxNTY2Cy1j6V1jX6rRG8iAStwxlrazT+s5oX6Mxrw==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.52"
+    "@nice-move/eslint-config-base" "^0.5.55"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@nice-move/eslint-config-vue@^0.5.52":
-  version "0.5.52"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.52.tgz#f6ca0dfd20730b9f687b4c9242c56478319bf009"
-  integrity sha512-i6HL9vyAFUGXfGMm49rifUSLwPms6vzcBZpmMxYwHm2xUUAvhzHDdiv2Xki1OCuQcyfUf98vgGgz1OaPJuLQKw==
+"@nice-move/eslint-config-vue@^0.5.55":
+  version "0.5.55"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.55.tgz#5e9cb3db0b8646f3548d06b377b9e8422fbe53c4"
+  integrity sha512-AYSqFzsz2bfAieYmOBRoL8KuLsy2ILgYymBPIIdcwRFWXwonOlExsEEoDMZ5oD2cBqU9COgyUVoI/CSA0CUGiA==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.52"
+    "@nice-move/eslint-config-base" "^0.5.55"
     eslint-plugin-vue "^7.14.0"
 
 "@nice-move/init@^0.3.1":
@@ -1409,21 +1409,21 @@
     stylelint-formatter-pretty "^2.1.1"
     yarn-deduplicate "^3.1.0"
 
-"@nice-move/prettier-config@^0.4.12":
-  version "0.4.12"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.12.tgz#d495d053e7b50a54c042170f8550c8ef33dd6486"
-  integrity sha512-o38kfGSkrF/JZVIxU+AqRpIA5tUBMz0tj1Hkrz0B0CF6opFFxcndURvVgz4kpBYD4uAaik4s0HxEiMKYVnsFXg==
+"@nice-move/prettier-config@^0.4.13":
+  version "0.4.13"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-config/-/prettier-config-0.4.13.tgz#d2612667cc416c356d38997050138eef371d9096"
+  integrity sha512-FcB4IU5jd6e8LAZso+i9R9xNX2wfBPjOw7jse6EeeFwhTlpsKvzTFQSRgAoR6BQznth2RjPhFFxNQSTNrgnasA==
   dependencies:
-    "@nice-move/prettier-plugin-package-json" "^0.4.8"
+    "@nice-move/prettier-plugin-package-json" "^0.4.9"
     "@prettier/plugin-xml" "^1.0.2"
     prettier-plugin-ini "^0.3.1"
     prettier-plugin-ssh-config "^0.0.0"
     prettier-plugin-toml "^0.3.1"
 
-"@nice-move/prettier-plugin-package-json@^0.4.8":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.8.tgz#ed0677f942418c09e4139b0d385d9b095a016c42"
-  integrity sha512-dqxRWaSg3qpk/T/uAjK2gNS3NvjmzijmcyGdjGeC8D3JSRbY4+PmQur/BRf/MqaHQFgVbmULH9FKVT0g7YapPw==
+"@nice-move/prettier-plugin-package-json@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@nice-move/prettier-plugin-package-json/-/prettier-plugin-package-json-0.4.9.tgz#cae830100e26841e594e4784cf27406292a3d0e3"
+  integrity sha512-XEQUd5OfNCM1Iv1CDmxCfTxd60TRmwqedB/Nk9cY+JmkSimnizaufD1/gmrT/rxSB4Y+3ecMfX5vS3Knzh7pww==
   dependencies:
     normalize-package-data "^3.0.2"
     npm-normalize-package-bin "^1.0.1"
