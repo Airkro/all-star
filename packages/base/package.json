@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -15,9 +15,9 @@
   ],
   "homepage": "https://github.com/airkro/all-star/tree/master/packages/base",
   "repository": {
-    "directory": "packages/base",
     "type": "git",
-    "url": "https://github.com/airkro/all-star.git"
+    "url": "https://github.com/airkro/all-star.git",
+    "directory": "packages/base"
   },
   "bugs": {
     "url": "https://github.com/airkro/all-star/issues"
@@ -32,7 +32,7 @@
     "@best-shot/preset-style": "^0.8.6",
     "@best-shot/preset-web": "^0.8.1",
     "@nice-move/cli": "^0.5.27",
-    "@nice-move/commitlint-config": "^0.1.4",
+    "@nice-move/commitlint-config": "^0.2.0",
     "@nice-move/eslint-config-base": "^0.5.55",
     "@nice-move/prettier-config": "^0.4.13",
     "@nice-move/stylelint-config": "^0.5.9",
@@ -40,7 +40,7 @@
     "webpack": "^5.46.0"
   },
   "peerDependencies": {
-    "commitlint": "^12.1.4",
+    "commitlint": "^13.1.0",
     "eslint": "^7.31.0",
     "garou": "^0.1.37",
     "prettier": "^2.3.2",
