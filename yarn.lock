@@ -1356,12 +1356,29 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^34.0.1"
 
-"@nice-move/eslint-config-react@^0.5.55":
-  version "0.5.55"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.55.tgz#7033a414db811b20ab16346802937b451dffb1c6"
-  integrity sha512-sfHu9ovRBX7XfticknD5r1MProM87fNMHvf/jC3gyh2sAyxNTY2Cy1j6V1jX6rRG8iAStwxlrazT+s5oX6Mxrw==
+"@nice-move/eslint-config-base@^0.5.56":
+  version "0.5.56"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.56.tgz#36d8edcf254248bf1cb3cfdc1dc4dae050f0c064"
+  integrity sha512-9VMvW9Kob/MOcFUTe+MA5cBwNAYcvjM5IBOe/2ckw9r/LZj8CfisoyihtrF8zyQKa4Di0mN/2opPf7PkUgFhyg==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.55"
+    "@typescript-eslint/eslint-plugin" "^4.28.4"
+    "@typescript-eslint/parser" "^4.28.4"
+    eslint-config-airbnb-base "^14.2.1"
+    eslint-config-prettier "^8.3.0"
+    eslint-plugin-eslint-comments "^3.2.0"
+    eslint-plugin-html "^6.1.2"
+    eslint-plugin-import "^2.23.4"
+    eslint-plugin-markdown "^2.2.0"
+    eslint-plugin-node "^11.1.0"
+    eslint-plugin-promise "^5.1.0"
+    eslint-plugin-unicorn "^34.0.1"
+
+"@nice-move/eslint-config-react@^0.5.56":
+  version "0.5.56"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.56.tgz#289a3be0559ec3bdaca0ed7825f5544dd99cd644"
+  integrity sha512-tBpUyzG7gcxvylro2oHxk7ncm+MTobOaetdQW90iurgnNGIrXCYOzVuKSX8iyRhNgpetQgf3iulrQ43JQd8tjQ==
+  dependencies:
+    "@nice-move/eslint-config-base" "^0.5.56"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
