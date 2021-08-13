@@ -37,7 +37,7 @@
     "@nice-move/prettier-config": "^0.4.13",
     "@nice-move/stylelint-config": "^0.5.10",
     "core-js": "^3.16.1",
-    "webpack": "^5.49.0"
+    "webpack": "^5.50.0"
   },
   "peerDependencies": {
     "commitlint": "^13.1.0",
