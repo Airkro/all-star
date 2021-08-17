@@ -1122,14 +1122,14 @@
     slash-to-regexp "^0.0.4"
     style-loader "^3.2.1"
 
-"@best-shot/preset-vue@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-vue/-/preset-vue-0.6.0.tgz#8df6970dd1b98f0dc065dd8158292c39135ac86c"
-  integrity sha512-0rAYBXraCGssmufxTJ2XsVk4s7Fkn7HiWbyzwtbYAl2y78XP8e1Ea/V6Pv3iXIj310mSgM8ZPkhufX/8f4q8vQ==
+"@best-shot/preset-vue@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-vue/-/preset-vue-0.6.1.tgz#5477308e139c49cde322bef87910873444a3c536"
+  integrity sha512-aY8AZOJPzmqndnnMGGvlw+oJcT/MfWzhXjc6ggShUMS9nV1Lk1COdDGAoDe1JmywHDXTS5ssLLAAQhK+G/rKWw==
   dependencies:
     css-loader "6.2.0"
     ext-to-regexp "^0.1.0"
-    vue-loader "^15.9.7"
+    vue-loader "^15.9.8"
     vue-template-compiler "^2.6.14"
 
 "@best-shot/preset-web@^0.8.4":
@@ -9745,10 +9745,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://mirrors.cloud.tencent.com/npm/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-loader@^15.9.7:
-  version "15.9.7"
-  resolved "http://mirrors.cloud.tencent.com/npm/vue-loader/-/vue-loader-15.9.7.tgz#15b05775c3e0c38407679393c2ce6df673b01044"
-  integrity sha512-qzlsbLV1HKEMf19IqCJqdNvFJRCI58WNbS6XbPqK13MrLz65es75w392MSQ5TsARAfIjUw+ATm3vlCXUJSOH9Q==
+vue-loader@^15.9.8:
+  version "15.9.8"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.9.8.tgz#4b0f602afaf66a996be1e534fb9609dc4ab10e61"
+  integrity sha512-GwSkxPrihfLR69/dSV3+5CdMQ0D+jXg8Ma1S4nQXKJAznYFX14vHdc/NetQc34Dw+rBbIJyP7JOuVb9Fhprvog==
   dependencies:
     "@vue/component-compiler-utils" "^3.1.0"
     hash-sum "^1.0.2"

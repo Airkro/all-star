@@ -30,7 +30,7 @@
     "@best-shot/preset-asset": "^0.6.2",
     "@best-shot/preset-babel": "^0.9.3",
     "@best-shot/preset-style": "^0.8.6",
-    "@best-shot/preset-vue": "^0.6.0",
+    "@best-shot/preset-vue": "^0.6.1",
     "@best-shot/preset-web": "^0.8.4",
     "@nice-move/cli": "^0.5.28",
     "@nice-move/commitlint-config": "^0.2.0",
