@@ -25,11 +25,11 @@
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@best-shot/cli": "^0.11.0",
-    "@best-shot/core": "^0.5.0",
+    "@best-shot/core": "^0.5.1",
     "@best-shot/dev-server": "^0.12.0",
     "@best-shot/preset-asset": "^0.6.2",
     "@best-shot/preset-babel": "^0.9.3",
-    "@best-shot/preset-style": "^0.8.6",
+    "@best-shot/preset-style": "^0.8.7",
     "@best-shot/preset-vue": "^0.6.1",
     "@best-shot/preset-web": "^0.8.4",
     "@nice-move/cli": "^0.5.29",
