@@ -34,7 +34,7 @@
     "@best-shot/preset-web": "^0.8.4",
     "@nice-move/cli": "^0.5.29",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-vue": "^0.5.58",
+    "@nice-move/eslint-config-vue": "^0.5.60",
     "@nice-move/prettier-config": "^0.4.14",
     "@nice-move/stylelint-config": "^0.5.11",
     "core-js": "^3.16.2",
