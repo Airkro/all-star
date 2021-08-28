@@ -1041,20 +1041,20 @@
     terser-webpack-plugin "^5.1.4"
     webpack-chain "^6.5.1"
 
-"@best-shot/dev-server@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.12.0.tgz#dff4648ff1dd60c4fbd494732a798b49602eac0d"
-  integrity sha512-cJMsOJd5EXBgpCBbKUGsGIUD/BxHrc48094LQdoNB8np33lj1VDdZuLIl66dk0ZXWjnoNtTX9n4/t71QCvCywg==
+"@best-shot/dev-server@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.12.1.tgz#e90e15c7a2d4311b78421dcf3cb5facbdd389ae9"
+  integrity sha512-7ndZ9L26Jp6WhTik8TB0d89br1vsJ0WEsOEJqvQ9bxkEd4Z1OzA9OY44wXzmtPwzjDD/becescs+DqNjl5vNbw==
   dependencies:
     "@best-shot/config" "0.0.0"
-    "@best-shot/preset-serve" "^0.7.0"
-    chalk "^4.1.1"
+    "@best-shot/preset-serve" "^0.7.1"
+    chalk "^4.1.2"
     connect-history-api-fallback "^1.6.0"
     ejs "^3.1.6"
     express "^4.17.1"
     launch-editor-middleware "^2.2.1"
     lodash "^4.17.21"
-    webpack-dev-server "^4.0.0-rc.0"
+    webpack-dev-server "^4.0.0"
     webpack-dev-server-waitpage "^2.1.1"
 
 "@best-shot/preset-asset@^0.6.2":
@@ -1096,10 +1096,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     react-refresh "^0.10.0"
 
-"@best-shot/preset-serve@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-serve/-/preset-serve-0.7.0.tgz#249af36201bf1f8234c3eeea75eb80972ff571d3"
-  integrity sha512-CL53p5JQJ8c9R1uk4cpy+to+MRGuWLmgHQhMkg0f9TCvK9+qW5zW+oVH70lsyqVAM5bPfSgV+6wXixVFVtaSqw==
+"@best-shot/preset-serve@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-serve/-/preset-serve-0.7.1.tgz#4376dd596349bfed124943a43064de5afa6acff1"
+  integrity sha512-ZDQ1fUi80vP+rNzx7KOSec17PxyRx2KeeS4v4VxrBhcSZeEQVsHGDHaSle95oxi1Um++2rBi06/oTZ88TW8a3w==
 
 "@best-shot/preset-style@^0.8.7":
   version "0.8.7"
@@ -1132,10 +1132,10 @@
     vue-loader "^15.9.8"
     vue-template-compiler "^2.6.14"
 
-"@best-shot/preset-web@^0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-web/-/preset-web-0.8.4.tgz#9c08993aeb8f4c888722c9ddb5c95eda53dfcf63"
-  integrity sha512-mW9JT6Y2ubw5pS5+crE5SzWRfNdLuo00WzGrVxEeKwpmodwbN0ggc0M9X9MlRQi2QkwLnZm+X0OMKF4JB+QpTg==
+"@best-shot/preset-web@^0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-web/-/preset-web-0.8.5.tgz#4060153c07a9703a5a2a20b789f8235b213a341c"
+  integrity sha512-I01iBC8c3WMjrBp/N2PBKoFqhUAK+32UPRaBaQpHUydZaVGvLtzC6delqsJVJ4uV6OHMst9GpornfeIlNBrJZA==
   dependencies:
     deepmerge "^4.2.2"
     ext-to-regexp "^0.1.0"
@@ -1144,7 +1144,7 @@
     micro-tpl-loader "^0.0.1"
     slash-to-regexp "^0.0.4"
     suffix "^1.0.0"
-    webpack-subresource-integrity "5.0.0-rc.1"
+    webpack-subresource-integrity "5.0.0"
 
 "@best-shot/validator@0.1.0", "@best-shot/validator@^0.1.0":
   version "0.1.0"
@@ -6051,11 +6051,6 @@ keyv@3.0.0:
   dependencies:
     json-buffer "3.0.0"
 
-killable@^1.0.1:
-  version "1.0.1"
-  resolved "http://mirrors.cloud.tencent.com/npm/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
-  integrity sha512-LzqtLKlUwirEUyl/nicirVmNiPvYs7l5n8wOPP7fyJVpUPkvCnW/vuiXGpylGUlnPDnB7311rARzAt3Mhswpjg==
-
 kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"
   resolved "https://mirrors.cloud.tencent.com/npm/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
@@ -9956,14 +9951,15 @@ webpack-dev-server-waitpage@^2.1.1:
   dependencies:
     ejs "^3.1.5"
 
-webpack-dev-server@^4.0.0-rc.0:
-  version "4.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-4.0.0-rc.0.tgz#56099f1e1e877d15a1fc28a928f38bbc600e33da"
-  integrity sha512-9S+MywBN/ecr8AbXNVUnmbFji8UTtzLR6M5Dgy6sB5Ti/73UgHn8TMhLaSBZBkY/cmSmWHDSwUXFs8lOeARpOw==
+webpack-dev-server@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-4.0.0.tgz#fb4906e91182154bba54a66e6e06f84c1e3c0a80"
+  integrity sha512-ya5cjoBSf3LqrshZn2HMaRZQx8YRNBE+tx+CQNFGaLLHrvs4Y1aik0sl5SFhLz2cW1O9/NtyaZhthc+8UiuvkQ==
   dependencies:
     ansi-html "^0.0.7"
     bonjour "^3.5.0"
     chokidar "^3.5.1"
+    colorette "^1.2.2"
     compression "^1.7.4"
     connect-history-api-fallback "^1.6.0"
     del "^6.0.0"
@@ -9973,8 +9969,6 @@ webpack-dev-server@^4.0.0-rc.0:
     http-proxy-middleware "^2.0.0"
     internal-ip "^6.2.0"
     ipaddr.js "^2.0.1"
-    is-absolute-url "^3.0.3"
-    killable "^1.0.1"
     open "^8.0.9"
     p-retry "^4.5.0"
     portfinder "^1.0.28"
@@ -9986,17 +9980,17 @@ webpack-dev-server@^4.0.0-rc.0:
     strip-ansi "^7.0.0"
     url "^0.11.0"
     webpack-dev-middleware "^5.0.0"
-    ws "^7.5.3"
+    ws "^8.1.0"
 
 webpack-sources@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.0.tgz#b16973bcf844ebcdb3afde32eda1c04d0b90f89d"
   integrity sha512-fahN08Et7P9trej8xz/Z7eRu8ltyiygEo/hnRi9KqBUs80KeDcnf96ZJo++ewWd84fEf3xSX9bp4ZS9hbw0OBw==
 
-webpack-subresource-integrity@5.0.0-rc.1:
-  version "5.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-5.0.0-rc.1.tgz#90dd252c3fea2d73e782610e05e27397a3e374e7"
-  integrity sha512-sr6Bgl9nODTBayuz6CSMD8sOLayQt1OmGgQAj2pwqjRnhZRJ3Bpy3uBXUYJN5UHq3ca3KpJ7Qk9epOYUpSegtw==
+webpack-subresource-integrity@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-5.0.0.tgz#8268b9cc1a229a8f8129ca9eeb59cde52185b6b1"
+  integrity sha512-x9514FpLRydO+UAQ8DY4aLtCjxmdLkuQVcDFN1kGzuusREYJ1B0rzk/iIlWiL6dnvrhEGFj2+UsdxDkP8Z4UKg==
   dependencies:
     typed-assert "^1.0.8"
 
@@ -10121,10 +10115,10 @@ write-file-atomic@^3.0.3:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@^7.5.3:
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
-  integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
+ws@^8.1.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.0.tgz#0b738cd484bfc9303421914b11bb4011e07615bb"
+  integrity sha512-uYhVJ/m9oXwEI04iIVmgLmugh2qrZihkywG9y5FfZV2ATeLIzHf93qs+tUNqlttbQK957/VX3mtwAS+UfIwA4g==
 
 xdg-basedir@^5.0.1:
   version "5.0.1"
