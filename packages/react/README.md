@@ -22,3 +22,4 @@ npm install @all-star/react --save-dev
 
 - [best-shot](https://github.com/best-shot/best-shot)
 - [nice-move](https://github.com/nice-move/nice-move)
+- [garou](https://github.com/nice-move/garou)
