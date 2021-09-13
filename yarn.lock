@@ -1507,13 +1507,13 @@
   dependencies:
     "@commitlint/config-conventional" "^13.1.0"
 
-"@nice-move/eslint-config-base@^0.5.61":
-  version "0.5.61"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.61.tgz#4104f1b1729033f2e70cd39c0df4bad9cf579005"
-  integrity sha512-NqKZ1eG+3v+5RA4u03t3vOt3eFzeFanIX50uLZf2Ubp1jCH13r3L2xJ3uxoCVKNfocnQktQIx71pS0qlYRRVwg==
+"@nice-move/eslint-config-base@^0.5.62":
+  version "0.5.62"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-base/-/eslint-config-base-0.5.62.tgz#6e818ef7cf6e6b0a5677540d123d38bca8dc8d48"
+  integrity sha512-0ayXpJxfh3vY+i/m78uxOe8PygbFT69uq5Wrn3zDZmWDEDV6lDa1I5gfZOUfs3WKslz4TnT+1Ji1YezS4OqhoQ==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.30.0"
-    "@typescript-eslint/parser" "^4.30.0"
+    "@typescript-eslint/eslint-plugin" "^4.31.0"
+    "@typescript-eslint/parser" "^4.31.0"
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^8.3.0"
     eslint-plugin-eslint-comments "^3.2.0"
@@ -1525,24 +1525,24 @@
     eslint-plugin-sonarjs "^0.10.0"
     eslint-plugin-unicorn "^35.0.0"
 
-"@nice-move/eslint-config-react@^0.5.61":
-  version "0.5.61"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.61.tgz#03271f963f12a0ae8421118af64918fb3dc577ce"
-  integrity sha512-Ct1pytUS3Czmqeg9pAfUhm5EVYL0OMnMNoHfkYbPyE2OA0SvM1Oqs3PYWPJHLqCz1EjQNvz2+3Zx3ZHWvd3OSw==
+"@nice-move/eslint-config-react@^0.5.62":
+  version "0.5.62"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-react/-/eslint-config-react-0.5.62.tgz#0597cadde22aba659e21288ac946587769ab1bc1"
+  integrity sha512-7uGxzahInVeFPGBzxoUYaN1Ly19S8slwfb3ZCAHLfYxzQ1/5R3P8ZO/FgByA4B4YxRi3tQffQSkAZ7TuMaMw6w==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.61"
+    "@nice-move/eslint-config-base" "^0.5.62"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.24.2"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.25.1"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@nice-move/eslint-config-vue@^0.5.61":
-  version "0.5.61"
-  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.61.tgz#86eba1f1aaf0562d623b08e9df3d35b4d4fc6b21"
-  integrity sha512-8zpWAxB9tvSxYD9dUteb/aU/XhHuRY6r3eDl7houbiJq1GoZcVZnzYBaLuivczB8VjTXTFsxJSMGZgBhAy7qOA==
+"@nice-move/eslint-config-vue@^0.5.62":
+  version "0.5.62"
+  resolved "https://registry.yarnpkg.com/@nice-move/eslint-config-vue/-/eslint-config-vue-0.5.62.tgz#7c77a1b2863bf703aa3773498777271f0aff7106"
+  integrity sha512-C53iD/9Chq9TVgRqoULeDwiVIVFnBTkVDhLNxMjVyAvqXceN+y1wxKCSZ2KENu5o2CVBdVQGW47a890CpedFfw==
   dependencies:
-    "@nice-move/eslint-config-base" "^0.5.61"
+    "@nice-move/eslint-config-base" "^0.5.62"
     eslint-plugin-vue "^7.17.0"
 
 "@nice-move/init@^0.3.3":
@@ -1800,7 +1800,7 @@
   resolved "https://mirrors.cloud.tencent.com/npm/@types%2funist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
 
-"@typescript-eslint/eslint-plugin@^4.30.0":
+"@typescript-eslint/eslint-plugin@^4.31.0":
   version "4.31.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.31.0.tgz#9c3fa6f44bad789a962426ad951b54695bd3af6b"
   integrity sha512-iPKZTZNavAlOhfF4gymiSuUkgLne/nh5Oz2/mdiUmuZVD42m9PapnCnzjxuDsnpnbH3wT5s2D8bw6S39TC6GNw==
@@ -1835,7 +1835,7 @@
     "@typescript-eslint/typescript-estree" "4.29.1"
     debug "^4.3.1"
 
-"@typescript-eslint/parser@^4.30.0":
+"@typescript-eslint/parser@^4.31.0":
   version "4.31.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.31.0.tgz#87b7cd16b24b9170c77595d8b1363f8047121e05"
   integrity sha512-oWbzvPh5amMuTmKaf1wp0ySxPt2ZXHnFQBN2Szu1O//7LmOvgaKTCIDNLK2NvzpmVd5A2M/1j/rujBqO37hj3w==
@@ -8034,7 +8034,7 @@ prettier-plugin-toml@^0.3.1:
     "@toml-tools/parser" "^0.3.1"
     prettier "^1.16.0"
 
-prettier@>=2.0, prettier@>=2.3, prettier@^2.3.2:
+prettier@>=2.0, prettier@>=2.3:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"
   integrity sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==
@@ -8043,6 +8043,11 @@ prettier@^1.16.0, prettier@^1.18.2:
   version "1.19.1"
   resolved "http://mirrors.cloud.tencent.com/npm/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+
+prettier@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.0.tgz#85bdfe0f70c3e777cf13a4ffff39713ca6f64cba"
+  integrity sha512-DsEPLY1dE5HF3BxCRBmD4uYZ+5DCbvatnolqTqcxEgKVZnL2kUfyu7b8pPQ5+hTBkdhU9SLUmK0/pHb07RE4WQ==
 
 pretty-error@^3.0.4:
   version "3.0.4"
