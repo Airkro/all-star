@@ -36,7 +36,7 @@
     "@nice-move/commitlint-config": "^0.2.0",
     "@nice-move/eslint-config-react": "^0.5.63",
     "@nice-move/prettier-config": "^0.4.14",
-    "@nice-move/stylelint-config": "^0.5.11",
+    "@nice-move/stylelint-config": "^0.5.13",
     "core-js": "^3.18.3",
     "webpack": "^5.58.1"
   },
