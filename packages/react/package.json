@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -37,18 +37,18 @@
     "@nice-move/eslint-config-react": "^0.5.65",
     "@nice-move/prettier-config": "^0.5.0",
     "@nice-move/stylelint-config": "^0.6.0",
-    "core-js": "^3.18.3",
-    "webpack": "^5.58.1"
+    "core-js": "^3.19.0",
+    "webpack": "^5.59.1"
   },
   "peerDependencies": {
-    "commitlint": "^13.1.0",
+    "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
-    "garou": "^0.1.39",
-    "prettier": "^2.3.2",
+    "garou": "^0.2.1",
+    "prettier": "^2.4.1",
     "react": "^16.14.0 || ^17.0.2",
     "react-dom": "^16.14.0 || ^17.0.2",
-    "stylelint": "^13.13.1",
-    "typescript": "^4.3.5"
+    "stylelint": "^14.0.1",
+    "typescript": "^4.4.4"
   },
   "peerDependenciesMeta": {
     "commitlint": {
@@ -62,7 +62,7 @@
     }
   },
   "engines": {
-    "node": "^14.17.0"
+    "node": "^14.17.0 || ^16.13.0"
   },
   "publishConfig": {
     "access": "public",

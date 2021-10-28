@@ -7,6 +7,7 @@
     "name": "Eric Chen",
     "email": "airkro@qq.com"
   },
+  "keywords": [],
   "scripts": {
     "lint": "nice-move lint",
     "prepare": "git config core.hooksPath .hooks"
@@ -25,14 +26,14 @@
     "eslint": "^7.32.0",
     "garou": "^0.2.1",
     "prettier": "^2.4.1",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.0.1",
     "typescript": "^4.4.4"
   },
   "resolutions": {
     "bin-wrapper": "npm:bin-wrapper-china"
   },
   "engines": {
-    "node": "^14.17.0"
+    "node": "^14.17.0 || ^16.13.0"
   },
   "commitlint": {
     "extends": "@nice-move/commitlint-config"
