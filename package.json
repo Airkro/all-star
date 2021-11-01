@@ -24,7 +24,7 @@
   "devDependencies": {
     "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
-    "garou": "^0.2.1",
+    "garou": "^0.2.4",
     "prettier": "^2.4.1",
     "stylelint": "^14.0.1",
     "typescript": "^4.4.4"
