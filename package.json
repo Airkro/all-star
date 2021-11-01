@@ -10,7 +10,7 @@
   "keywords": [],
   "scripts": {
     "lint": "nice-move lint",
-    "prepare": "git config core.hooksPath .hooks"
+    "prepare": "git config core.hooksPath .githooks"
   },
   "workspaces": [
     "packages/*",
@@ -22,7 +22,7 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "commitlint": "^13.2.1",
+    "commitlint": "^14.1.0",
     "eslint": "^7.32.0",
     "garou": "^0.2.5",
     "prettier": "^2.4.1",
