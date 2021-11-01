@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -26,7 +26,7 @@
     "@babel/core": "^7.16.0",
     "@best-shot/cli": "^0.11.2",
     "@best-shot/core": "^0.5.3",
-    "@best-shot/dev-server": "^0.12.3",
+    "@best-shot/dev-server": "^0.12.4",
     "@best-shot/preset-asset": "^0.6.3",
     "@best-shot/preset-babel": "^0.9.6",
     "@best-shot/preset-style": "^0.8.9",
