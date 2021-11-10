@@ -1034,28 +1034,28 @@
     configstore "^6.0.0"
     prompts "^2.4.2"
 
-"@best-shot/core@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@best-shot/core/-/core-0.5.3.tgz#6b7847ef00c618953727e11f818a493304cd1543"
-  integrity sha512-W47WiUcKla0Vfaj0f3cWNHckQIq/e0MTAkBU2jlCj6SFgrAyEPJJoN7Sk5SgwEqZaT8Z+fJu/7avRmTqHjXWBA==
+"@best-shot/core@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@best-shot/core/-/core-0.5.4.tgz#104d38d85d3db8f238459661e0f9ac362e1b2f96"
+  integrity sha512-tLONuWTwAhcDw/dGzmEe/abt2zK1B8R4aavHyt5nYhJJpn85dYcdhC8rOl5/b3IefRjIYORV+NjYSG0FK2kg0g==
   dependencies:
     "@best-shot/validator" "^0.1.1"
-    browserslist "^4.17.5"
+    browserslist "^4.17.6"
     case-sensitive-paths-webpack-plugin "^2.4.0"
     chalk "^4.1.2"
     copy-webpack "^2.0.3"
     deepmerge "^4.2.2"
     lodash "^4.17.21"
-    terser-webpack-plugin "^5.2.4"
+    terser-webpack-plugin "^5.2.5"
     webpack-chain "^6.5.1"
 
-"@best-shot/dev-server@^0.12.4":
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.12.4.tgz#fa7087a9284bbe7b092cd3248605cdef9b5f9d4a"
-  integrity sha512-RWnJw9NkatxDJKGrknQBacqNTrtdn7Ou0vHPn4U9LOo6/ymMNqQoPrZM/xopb7dcGkz57ZQuAhbpzM1qXU4M3w==
+"@best-shot/dev-server@^0.12.6":
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.12.6.tgz#ee5ddc6ad4fb348b4da8a4ac39a76f7c8952ac5b"
+  integrity sha512-IyWno1GB8pI24SwftKOvwO0rxKHfMA8vL0qyMg4p48mEzLLoLf5KkKLgpkakh9f6C7YDH3rDo7Jc20KyJKw5tA==
   dependencies:
     "@best-shot/config" "^0.1.1"
-    "@best-shot/preset-serve" "^0.7.3"
+    "@best-shot/preset-serve" "^0.7.5"
     chalk "^4.1.2"
     connect-history-api-fallback "^1.6.0"
     ejs "^3.1.6"
@@ -1105,10 +1105,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     react-refresh "^0.10.0"
 
-"@best-shot/preset-serve@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-serve/-/preset-serve-0.7.3.tgz#73f79f2c4a1c0e86117f7ee2b3490264272c5515"
-  integrity sha512-HmlYLOr6MXzeFz/CRPksqSB7KoVPUaaxHyhRSnbBQODc9Qw08vxzUCBRu51dyKJHp4B9Vruu7xbDw/5dikWMLg==
+"@best-shot/preset-serve@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-serve/-/preset-serve-0.7.5.tgz#079cd59864ea98232d91ed43c9294ed08d583d04"
+  integrity sha512-yOP0Kf7cuIh7mvnyLbVQEgfUN4KI6Li43/3wPfTUVpq9R3U/pPUiacV8Zzez/S1iQYvYXaN5El0nk78Mr2Z/CQ==
 
 "@best-shot/preset-style@^0.8.9":
   version "0.8.9"
@@ -1131,14 +1131,15 @@
     slash-to-regexp "^0.0.4"
     style-loader "^3.3.1"
 
-"@best-shot/preset-vue@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@best-shot/preset-vue/-/preset-vue-0.6.3.tgz#e8864e263ca68f32ae7e9f3dd4efead23566daca"
-  integrity sha512-u6i8o86Q6kaP9651PcdYpHlHRXTjeK6yOuaA6/OAR89urP5UFT9B/tFMtoPEDZZMobI5KZpY8XgSHJjU2Uvm4Q==
+"@best-shot/preset-vue@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@best-shot/preset-vue/-/preset-vue-0.6.4.tgz#f77f025f47d2848264378735b05697c0236ad84f"
+  integrity sha512-Ru++ktQ9AfU7rFHJQjX3T/u7gDjik/6uJ/B6/hPUXImna3/7qfEShCYyz+by5ZT/zuSh+5AnCATGFWy6vxZpBQ==
   dependencies:
     "@best-shot/vue-loader" "^15.9.8"
-    css-loader "6.5.0"
+    css-loader "^6.5.0"
     ext-to-regexp "^0.1.0"
+    settingz "^0.1.0"
     vue-loader "^16.8.2"
     vue-template-compiler "^2.6.14"
 
@@ -2409,6 +2410,17 @@ browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.0, browserslist@^4
     node-releases "^2.0.1"
     picocolors "^1.0.0"
 
+browserslist@^4.17.6:
+  version "4.17.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.17.6.tgz#c76be33e7786b497f66cad25a73756c8b938985d"
+  integrity sha512-uPgz3vyRTlEiCv4ee9KlsKgo2V6qPk7Jsn0KAn2OBqbqKo3iNcPEC1Ti6J4dwnz+aIRfEEEuOzC9IBk8tXUomw==
+  dependencies:
+    caniuse-lite "^1.0.30001274"
+    electron-to-chromium "^1.3.886"
+    escalade "^3.1.1"
+    node-releases "^2.0.1"
+    picocolors "^1.0.0"
+
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
   resolved "http://mirrors.cloud.tencent.com/npm/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
@@ -2579,6 +2591,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001271, caniuse-lite@^1.0.30001272:
   version "1.0.30001274"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001274.tgz#26ca36204d15b17601ba6fc35dbdad950a647cc7"
   integrity sha512-+Nkvv0fHyhISkiMIjnyjmf5YJcQ1IQHZN6U9TLUMroWR38FNwpsC51Gb68yueafX1V6ifOisInSgP9WJFS13ew==
+
+caniuse-lite@^1.0.30001274:
+  version "1.0.30001279"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001279.tgz#eb06818da481ef5096a3b3760f43e5382ed6b0ce"
+  integrity sha512-VfEHpzHEXj6/CxggTwSFoZBBYGQfQv9Cf42KPlO79sWXCD1QNKWKsKzFeWL7QpZHJQYAvocqV6Rty1yJMkqWLQ==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -3124,7 +3141,7 @@ css-declaration-sorter@^6.0.3:
   dependencies:
     timsort "^0.3.0"
 
-css-loader@6.5.0, css-loader@^6.5.0:
+css-loader@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.5.0.tgz#9d1cf7766a9a8f0b3c6e1638309b964dbdab46d3"
   integrity sha512-VmuSdQa3K+wJsl39i7X3qGBM5+ZHmtTnv65fqMGI+fzmHoYmszTVvTqC1XN8JwWDViCB1a8wgNim5SV4fb37xg==
@@ -3606,6 +3623,11 @@ electron-to-chromium@^1.3.878:
   version "1.3.878"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.878.tgz#baa9fb5c24b9b580f08fb245cbb52a22f8fc8fa8"
   integrity sha512-O6yxWCN9ph2AdspAIszBnd9v8s11hQx8ub9w4UGApzmNRnoKhbulOWqbO8THEQec/aEHtvy+donHZMlh6l1rbA==
+
+electron-to-chromium@^1.3.886:
+  version "1.3.893"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.893.tgz#9d804c68953b05ede35409dba0d73dd54c077b4d"
+  integrity sha512-ChtwF7qB03INq1SyMpue08wc6cve+ktj2UC/Y7se9vB+JryfzziJeYwsgb8jLaCA5GMkHCdn5M62PfSMWhifZg==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -9098,13 +9120,24 @@ tempfile@^2.0.0:
     temp-dir "^1.0.0"
     uuid "^3.0.1"
 
-terser-webpack-plugin@^5.1.3, terser-webpack-plugin@^5.2.4:
+terser-webpack-plugin@^5.1.3:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-5.2.4.tgz#ad1be7639b1cbe3ea49fab995cbe7224b31747a1"
   integrity sha512-E2CkNMN+1cho04YpdANyRrn8CyN4yMy+WdFKZIySFZrGXZxJwJP6PMNGGc/Mcr6qygQHUUqRxnAPmi0M9f00XA==
   dependencies:
     jest-worker "^27.0.6"
     p-limit "^3.1.0"
+    schema-utils "^3.1.1"
+    serialize-javascript "^6.0.0"
+    source-map "^0.6.1"
+    terser "^5.7.2"
+
+terser-webpack-plugin@^5.2.5:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-5.2.5.tgz#ce65b9880a0c36872555c4874f45bbdb02ee32c9"
+  integrity sha512-3luOVHku5l0QBeYS8r4CdHYWEGMmIj3H1U64jgkdZzECcSOJAyJ9TjuqcQZvw1Y+4AOBN9SeYJPJmFn2cM4/2g==
+  dependencies:
+    jest-worker "^27.0.6"
     schema-utils "^3.1.1"
     serialize-javascript "^6.0.0"
     source-map "^0.6.1"
