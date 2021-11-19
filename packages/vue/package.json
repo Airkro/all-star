@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -10,7 +10,11 @@
   "keywords": [
     "all-star",
     "best-shot",
+    "eslint",
     "nice-move",
+    "prettier",
+    "stylelint",
+    "vue",
     "webpack"
   ],
   "homepage": "https://github.com/airkro/all-star/tree/master/packages/vue",
@@ -33,21 +37,21 @@
     "@best-shot/preset-vue": "^0.6.4",
     "@best-shot/preset-web": "^0.8.7",
     "@nice-move/cli": "^0.6.0",
-    "@nice-move/commitlint-config": "^0.3.0",
+    "@nice-move/commitlint-config": "^0.4.0",
     "@nice-move/eslint-config-vue": "^0.5.69",
     "@nice-move/prettier-config": "^0.5.1",
     "@nice-move/stylelint-config": "^0.6.10",
     "core-js": "^3.19.1",
-    "webpack": "^5.63.0"
+    "webpack": "^5.64.1"
   },
   "peerDependencies": {
-    "commitlint": "^14.1.0",
+    "commitlint": "^15.0.0",
     "eslint": "^7.32.0",
-    "garou": "^0.2.5",
+    "garou": "^0.2.7",
     "prettier": "^2.4.1",
-    "stylelint": "^14.0.1",
-    "typescript": "^4.4.4",
-    "vue": "^2.6.14 || ^3.2.20"
+    "stylelint": "^14.1.0",
+    "typescript": "^4.5.2",
+    "vue": "^2.6.14 || ^3.2.22"
   },
   "peerDependenciesMeta": {
     "commitlint": {
