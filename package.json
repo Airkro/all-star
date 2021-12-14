@@ -23,8 +23,8 @@
   "devDependencies": {
     "commitlint": "^15.0.0",
     "eslint": "^7.32.0",
-    "garou": "^0.2.7",
-    "prettier": "^2.4.1",
+    "garou": "^0.3.4",
+    "prettier": "^2.5.1",
     "stylelint": "^14.1.0",
     "typescript": "^4.5.2"
   },
