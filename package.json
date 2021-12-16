@@ -26,10 +26,7 @@
     "garou": "^0.3.4",
     "prettier": "^2.5.1",
     "stylelint": "^14.1.0",
-    "typescript": "^4.5.2"
-  },
-  "resolutions": {
-    "bin-wrapper": "npm:bin-wrapper-china"
+    "typescript": "^4.5.4"
   },
   "engines": {
     "node": "^14.17.0 || ^16.13.0"
