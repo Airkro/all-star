@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -26,8 +26,8 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@best-shot/cli": "^0.12.2",
+    "@babel/core": "^7.16.7",
+    "@best-shot/cli": "^0.12.3",
     "@best-shot/core": "^0.6.0",
     "@best-shot/dev-server": "^0.13.1",
     "@best-shot/preset-asset": "^0.7.4",
@@ -35,19 +35,19 @@
     "@best-shot/preset-style": "^0.9.0",
     "@best-shot/preset-web": "^0.10.1",
     "@nice-move/cli": "^0.6.0",
-    "@nice-move/commitlint-config": "^0.4.0",
-    "@nice-move/eslint-config-base": "^0.5.76",
+    "@nice-move/commitlint-config": "^0.5.0",
+    "@nice-move/eslint-config-base": "^0.6.0",
     "@nice-move/prettier-config": "^0.5.1",
     "@nice-move/stylelint-config": "^0.6.12",
-    "core-js": "^3.20.1",
+    "core-js": "^3.20.2",
     "webpack": "^5.65.0"
   },
   "peerDependencies": {
-    "commitlint": "^15.0.0",
-    "eslint": "^7.32.0",
-    "garou": "^0.3.4",
+    "commitlint": "^16.0.1",
+    "eslint": "^8.6.0",
+    "garou": "^0.3.7",
     "prettier": "^2.5.1",
-    "stylelint": "^14.1.0",
+    "stylelint": "^14.2.0",
     "typescript": "^4.5.4"
   },
   "peerDependenciesMeta": {
