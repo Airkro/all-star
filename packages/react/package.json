@@ -30,7 +30,7 @@
     "@babel/core": "^7.16.12",
     "@best-shot/cli": "^0.12.3",
     "@best-shot/core": "^0.6.1",
-    "@best-shot/dev-server": "^0.13.2",
+    "@best-shot/dev-server": "^0.13.4",
     "@best-shot/preset-asset": "^0.7.4",
     "@best-shot/preset-babel": "^0.11.0",
     "@best-shot/preset-react": "^0.10.2",

@@ -1050,18 +1050,16 @@
     terser-webpack-plugin "^5.3.0"
     webpack-chain "^6.5.1"
 
-"@best-shot/dev-server@^0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.13.2.tgz#fff035cabd7bc517b7f2c2e8fd4989ae01e1cd3b"
-  integrity sha512-lkHNInPyfvOK8yGT8Zuxk6aYTKiCd48eCq3vLE50E+Z/yd8QfUUfrvY330KqLg/lI4Y01i7GxPjxfwG0aEgGgQ==
+"@best-shot/dev-server@^0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@best-shot/dev-server/-/dev-server-0.13.4.tgz#e430ace8a4252a7e718cbf7801a96d7155351411"
+  integrity sha512-txsVhfy6NONTvWqNBU7V/uEQ5jiZYqxyS7qTult2JgeZIO8V49QIeqkGrwnpn32Wg33bC2xJw/AIp3Ck3cauGw==
   dependencies:
     "@best-shot/config" "^0.2.8"
     chalk "^4.1.2"
-    connect-history-api-fallback "^1.6.0"
     ejs "^3.1.6"
     express "^4.17.2"
     launch-editor-middleware "^2.3.0"
-    lodash "^4.17.21"
     webpack-dev-server "^4.7.3"
     webpack-dev-server-waitpage "^2.1.1"
 
