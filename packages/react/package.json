@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -27,30 +27,30 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.17.5",
-    "@best-shot/cli": "^0.12.3",
-    "@best-shot/core": "^0.6.4",
+    "@babel/core": "^7.17.8",
+    "@best-shot/cli": "^0.12.4",
+    "@best-shot/core": "^0.6.6",
     "@best-shot/dev-server": "^0.13.4",
     "@best-shot/preset-asset": "^0.7.4",
     "@best-shot/preset-babel": "^0.12.0",
     "@best-shot/preset-react": "^0.10.3",
     "@best-shot/preset-style": "^0.9.1",
     "@best-shot/preset-web": "^0.10.2",
-    "@nice-move/cli": "^0.7.0",
-    "@nice-move/eslint-config-react": "^0.6.1",
-    "@nice-move/prettier-config": "^0.5.2",
-    "@nice-move/stylelint-config": "^0.6.14",
+    "@nice-move/cli": "^0.7.1",
+    "@nice-move/eslint-config-react": "^0.6.4",
+    "@nice-move/prettier-config": "^0.5.3",
+    "@nice-move/stylelint-config": "^0.6.16",
     "core-js": "^3.21.1",
     "webpack": "^5.70.0"
   },
   "peerDependencies": {
-    "eslint": "^8.10.0",
-    "garou": "^0.4.0",
-    "prettier": "^2.5.1",
+    "eslint": "^8.11.0",
+    "garou": "^0.4.4",
+    "prettier": "^2.6.0",
     "react": "^16.14.0 || ^17.0.2",
     "react-dom": "^16.14.0 || ^17.0.2",
-    "stylelint": "^14.5.3",
-    "typescript": "^4.5.5"
+    "stylelint": "^14.6.0",
+    "typescript": "^4.6.2"
   },
   "peerDependenciesMeta": {
     "garou": {
