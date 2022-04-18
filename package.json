@@ -24,7 +24,7 @@
     "eslint": "^8.13.0",
     "garou": "^0.4.6",
     "prettier": "^2.6.2",
-    "stylelint": "^14.6.1",
+    "stylelint": "^14.7.1",
     "typescript": "^4.6.3"
   },
   "engines": {
