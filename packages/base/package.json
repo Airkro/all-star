@@ -39,7 +39,7 @@
     "@nice-move/prettier-config": "^0.7.0",
     "@nice-move/stylelint-config": "^0.7.1",
     "core-js": "^3.23.5",
-    "webpack": "^5.73.0"
+    "webpack": "^5.74.0"
   },
   "peerDependencies": {
     "eslint": "^8.20.0",
