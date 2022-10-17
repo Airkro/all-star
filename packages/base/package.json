@@ -26,7 +26,7 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.19.1",
+    "@babel/core": "^7.19.3",
     "@best-shot/cli": "^0.12.7",
     "@best-shot/core": "^0.6.21",
     "@best-shot/dev-server": "^0.13.7",
@@ -38,7 +38,7 @@
     "@nice-move/eslint-config-base": "^0.8.12",
     "@nice-move/prettier-config": "^0.7.3",
     "@nice-move/stylelint-config": "^0.7.2",
-    "core-js": "^3.25.2",
+    "core-js": "^3.25.5",
     "webpack": "^5.74.0"
   },
   "peerDependencies": {
