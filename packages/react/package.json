@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -37,7 +37,7 @@
     "@best-shot/preset-style": "^0.10.1",
     "@best-shot/preset-web": "^0.12.1",
     "@nice-move/cli": "^0.10.2",
-    "@nice-move/eslint-config-react": "^0.9.3",
+    "@nice-move/eslint-config-react": "^0.9.4",
     "@nice-move/prettier-config": "^0.8.0",
     "@nice-move/stylelint-config": "^0.8.1",
     "core-js": "^3.26.1",
@@ -45,12 +45,12 @@
   },
   "peerDependencies": {
     "eslint": "^8.29.0",
-    "garou": "^0.5.4",
-    "prettier": "^2.8.0",
+    "garou": "^0.6.0",
+    "prettier": "^2.8.1",
     "react": "^16.14.0 || ^17.0.2 || ^18.2.0",
     "react-dom": "^16.14.0 || ^17.0.2 || ^18.2.0",
     "stylelint": "^14.16.0",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.4"
   },
   "peerDependenciesMeta": {
     "garou": {
