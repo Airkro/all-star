@@ -26,7 +26,7 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.7",
     "@best-shot/cli": "^0.13.1",
     "@best-shot/core": "^0.7.2",
     "@best-shot/dev-server": "^0.14.0",
