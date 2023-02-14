@@ -21,7 +21,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.1.0",
+    "@bring-it/npm": "^0.1.1",
     "eslint": "^8.33.0",
     "garou": "^0.6.2",
     "prettier": "^2.8.3",
