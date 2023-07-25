@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.11.3",
+  "version": "0.12.0",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -27,28 +27,28 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.22.8",
-    "@best-shot/cli": "^0.14.1",
+    "@babel/core": "^7.22.9",
+    "@best-shot/cli": "^0.14.2",
     "@best-shot/core": "^0.8.2",
     "@best-shot/dev-server": "^0.15.0",
     "@best-shot/preset-asset": "^0.9.8",
-    "@best-shot/preset-babel": "^0.13.10",
-    "@best-shot/preset-style": "^0.10.10",
+    "@best-shot/preset-babel": "^0.13.11",
+    "@best-shot/preset-style": "^0.10.11",
     "@best-shot/preset-vue": "^0.10.6",
     "@best-shot/preset-web": "^0.12.6",
-    "@nice-move/cli": "^0.10.10",
-    "@nice-move/eslint-config-vue": "^0.9.16",
-    "@nice-move/prettier-config": "^0.8.2",
+    "@nice-move/cli": "^0.10.11",
+    "@nice-move/eslint-config-vue": "^0.9.17",
+    "@nice-move/prettier-config": "^0.9.0",
     "@nice-move/stylelint-config": "^0.9.5",
     "@nice-move/tsconfig": "^0.0.3",
     "core-js": "^3.31.1",
-    "webpack": "^5.88.1"
+    "webpack": "^5.88.2"
   },
   "peerDependencies": {
-    "eslint": "^8.44.0",
-    "garou": "^0.6.11",
-    "prettier": "^2.8.8",
-    "stylelint": "^15.10.1",
+    "eslint": "^8.45.0",
+    "garou": "^0.6.12",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.2",
     "typescript": "^5.1.6",
     "vue": "^2.7.14 || ^3.3.4"
   },
