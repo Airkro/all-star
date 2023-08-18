@@ -22,9 +22,9 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.2.10",
-    "eslint": "^8.45.0",
+    "eslint": "^8.47.0",
     "garou": "^0.6.12",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.2",
     "stylelint": "^15.10.2",
     "typescript": "^5.1.6"
   },
