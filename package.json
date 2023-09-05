@@ -22,11 +22,11 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.2.10",
-    "eslint": "^8.47.0",
-    "garou": "^0.6.12",
-    "prettier": "^3.0.2",
-    "stylelint": "^15.10.2",
-    "typescript": "^5.1.6"
+    "eslint": "^8.48.0",
+    "garou": "^0.6.13",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": "^16.13.0 || ^18.12.0"
