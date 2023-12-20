@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -28,16 +28,16 @@
   },
   "dependencies": {
     "@babel/core": "^7.23.6",
-    "@best-shot/cli": "^0.14.3",
-    "@best-shot/core": "^0.8.8",
-    "@best-shot/dev-server": "^0.15.1",
-    "@best-shot/preset-asset": "^0.9.10",
-    "@best-shot/preset-babel": "^0.13.16",
-    "@best-shot/preset-style": "^0.10.14",
-    "@best-shot/preset-vue": "^0.10.10",
-    "@best-shot/preset-web": "^0.12.17",
-    "@nice-move/cli": "^0.11.1",
-    "@nice-move/eslint-config-vue": "^0.10.0",
+    "@best-shot/cli": "^0.15.0",
+    "@best-shot/core": "^0.9.0",
+    "@best-shot/dev-server": "^0.16.0",
+    "@best-shot/preset-asset": "^0.10.0",
+    "@best-shot/preset-babel": "^0.14.0",
+    "@best-shot/preset-style": "^0.11.0",
+    "@best-shot/preset-vue": "^0.11.0",
+    "@best-shot/preset-web": "^0.13.0",
+    "@nice-move/cli": "^0.11.3",
+    "@nice-move/eslint-config-vue": "^0.11.1",
     "@nice-move/prettier-config": "^0.10.0",
     "@nice-move/stylelint-config": "^0.10.0",
     "@nice-move/tsconfig": "^0.2.0",
@@ -50,7 +50,7 @@
     "prettier": "^3.1.1",
     "stylelint": "^16.0.2",
     "typescript": "^5.3.3",
-    "vue": "^2.7.14 || ^3.3.12"
+    "vue": "^2.7.14 || ^3.3.13"
   },
   "peerDependenciesMeta": {
     "garou": {
