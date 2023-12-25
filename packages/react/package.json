@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -39,14 +39,14 @@
     "@nice-move/cli": "^0.11.3",
     "@nice-move/eslint-config-react": "^0.11.1",
     "@nice-move/prettier-config": "^0.10.0",
-    "@nice-move/stylelint-config": "^0.10.0",
+    "@nice-move/stylelint-config": "^0.10.2",
     "@nice-move/tsconfig": "^0.2.0",
     "core-js": "^3.34.0",
     "webpack": "^5.89.0"
   },
   "peerDependencies": {
     "eslint": "^8.56.0",
-    "garou": "^0.6.20",
+    "garou": "^0.6.22",
     "prettier": "^3.1.1",
     "react": "^16.14.0 || ^17.0.2 || ^18.2.0",
     "react-dom": "^16.14.0 || ^17.0.2 || ^18.2.0",
