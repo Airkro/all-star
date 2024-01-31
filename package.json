@@ -18,14 +18,14 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue": "^3.4.3"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.0",
+    "@bring-it/npm": "^0.5.1",
     "eslint": "^8.56.0",
-    "garou": "^0.6.22",
-    "prettier": "^3.1.1",
-    "stylelint": "^16.1.0",
+    "garou": "^0.7.0",
+    "prettier": "^3.2.4",
+    "stylelint": "^16.2.0",
     "typescript": "^5.3.3"
   },
   "engines": {
