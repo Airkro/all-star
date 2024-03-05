@@ -49,8 +49,8 @@ importers:
         specifier: ^0.9.5
         version: 0.9.5(webpack@5.90.3)
       '@best-shot/dev-server':
-        specifier: ^0.17.0
-        version: 0.17.0(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.17.1
+        version: 0.17.1(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@best-shot/preset-asset':
         specifier: ^0.11.2
         version: 0.11.2(@best-shot/core@0.9.5)(webpack@5.90.3)
@@ -112,8 +112,8 @@ importers:
         specifier: ^0.9.5
         version: 0.9.5(webpack@5.90.3)
       '@best-shot/dev-server':
-        specifier: ^0.17.0
-        version: 0.17.0(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.17.1
+        version: 0.17.1(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@best-shot/preset-asset':
         specifier: ^0.11.2
         version: 0.11.2(@best-shot/core@0.9.5)(webpack@5.90.3)
@@ -121,8 +121,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1(@babel/core@7.24.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@best-shot/preset-react':
-        specifier: ^0.12.0
-        version: 0.12.0(@babel/core@7.24.0)(@best-shot/core@0.9.5)(@best-shot/preset-babel@0.14.1)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3)
+        specifier: ^0.13.0
+        version: 0.13.0(@babel/core@7.24.0)(@best-shot/core@0.9.5)(@best-shot/preset-babel@0.14.1)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3)
       '@best-shot/preset-style':
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.9.5)(typescript@5.3.3)(webpack@5.90.3)
@@ -184,8 +184,8 @@ importers:
         specifier: ^0.9.5
         version: 0.9.5(webpack@5.90.3)
       '@best-shot/dev-server':
-        specifier: ^0.17.0
-        version: 0.17.0(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.17.1
+        version: 0.17.1(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@best-shot/preset-asset':
         specifier: ^0.11.2
         version: 0.11.2(@best-shot/core@0.9.5)(webpack@5.90.3)
@@ -196,8 +196,8 @@ importers:
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.9.5)(typescript@5.3.3)(webpack@5.90.3)
       '@best-shot/preset-vue':
-        specifier: ^0.11.2
-        version: 0.11.2(@best-shot/core@0.9.5)(@best-shot/preset-style@0.12.2)(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(vue@3.4.21)(webpack@5.90.3)
+        specifier: ^0.12.1
+        version: 0.12.1(@best-shot/core@0.9.5)(@best-shot/preset-style@0.12.2)(vue@3.4.21)(webpack@5.90.3)
       '@best-shot/preset-web':
         specifier: ^0.14.2
         version: 0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3)
@@ -235,7 +235,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       vue:
-        specifier: ^2.7.16 || ^3.4.21
+        specifier: ^3.4.21
         version: 3.4.21(typescript@5.3.3)
       webpack:
         specifier: ^5.90.3
@@ -1654,8 +1654,8 @@ packages:
       - uglify-js
     dev: false
 
-  /@best-shot/dev-server@0.17.0(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3):
-    resolution: {integrity: sha512-CxWusgomnOqv+Nd8qtBSEObEfwf5H0+69Rb2tTB/+lTsXNh8pmncAWRw6syavJ4yNdxg0x3Bxwn287pEq4pI0A==}
+  /@best-shot/dev-server@0.17.1(@best-shot/cli@0.15.0)(@best-shot/core@0.9.5)(webpack@5.90.3):
+    resolution: {integrity: sha512-QoMBvXGrhL1Jkaen62Ue+n8n2EU85oPihLyFY1qU2Lc2YYazngxHDfup7uTCFK+dlYhbzPJ0Tr7zRQTHJi4MPQ==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
       '@best-shot/cli': ^0.15.0
@@ -1739,14 +1739,14 @@ packages:
       - webpack
     dev: false
 
-  /@best-shot/preset-react@0.12.0(@babel/core@7.24.0)(@best-shot/core@0.9.5)(@best-shot/preset-babel@0.14.1)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3):
-    resolution: {integrity: sha512-obh5DOe6XRhTXVjFJNDHiw8LVYb0706Ru0m/+Aat4s5ZKZvuDGrrZbkVXQF3kQOTphmLmFWv6XSuJBbcxDgLCA==}
+  /@best-shot/preset-react@0.13.0(@babel/core@7.24.0)(@best-shot/core@0.9.5)(@best-shot/preset-babel@0.14.1)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3):
+    resolution: {integrity: sha512-Sr25STvoMJ4ryN+3shfBc6m4/wf30MVKAAgINd/wsTTz5APP9z9NO525Itbndt6Ah1bK24PHTSs5EANu049S/g==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      '@best-shot/core': ^0.9.0
-      '@best-shot/preset-babel': ^0.14.0
-      react: ^16.14.0 || ^17.0.2 || ^18.2.0
-      react-dom: ^16.14.0 || ^17.0.2 || ^18.2.0
+      '@best-shot/core': ^0.9.5
+      '@best-shot/preset-babel': ^0.14.1
+      react: ^17.0.2 || ^18.2.0
+      react-dom: ^17.0.2 || ^18.2.0
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.23.3(@babel/core@7.24.0)
       '@babel/plugin-transform-react-inline-elements': 7.23.3(@babel/core@7.24.0)
@@ -1806,13 +1806,13 @@ packages:
       - webpack
     dev: false
 
-  /@best-shot/preset-vue@0.11.2(@best-shot/core@0.9.5)(@best-shot/preset-style@0.12.2)(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(vue@3.4.21)(webpack@5.90.3):
-    resolution: {integrity: sha512-l7eTXPkoSTiqwsHg+q5FLV+ypouvHdYXk/1bLd/edLgbUJX/9zwBA2D4RR+AmzJetAT/bECled9TRrkk5cRkfw==}
+  /@best-shot/preset-vue@0.12.1(@best-shot/core@0.9.5)(@best-shot/preset-style@0.12.2)(vue@3.4.21)(webpack@5.90.3):
+    resolution: {integrity: sha512-HnlR0YgaG4i3qQqdCxvEWI4ULZCjfiBdHlYgKpvOzWcL9zlLw5YbD3j99Y5PK3f7XEH27Ic0D9vnbZJu9dOcCg==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      '@best-shot/core': ^0.9.2
-      '@best-shot/preset-style': ^0.12.0
-      vue: ^2.7.14 || ^3.3.12
+      '@best-shot/core': ^0.9.5
+      '@best-shot/preset-style': ^0.12.2
+      vue: ^3.4.21
     dependencies:
       '@best-shot/core': 0.9.5(webpack@5.90.3)
       '@best-shot/preset-style': 0.12.2(@best-shot/core@0.9.5)(typescript@5.3.3)(webpack@5.90.3)
@@ -1821,67 +1821,10 @@ packages:
       ext-to-regexp: 0.1.0
       settingz: 0.2.0
       vue: 3.4.21(typescript@5.3.3)
-      vue-loader: 15.11.1(css-loader@6.10.0)(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@vue/compiler-sfc'
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - cache-loader
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - prettier
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - vue-template-compiler
-      - walrus
       - webpack
-      - whiskers
     dev: false
 
   /@best-shot/preset-web@0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3):
@@ -2918,75 +2861,6 @@ packages:
       '@vue/shared': 3.4.21
     dev: false
 
-  /@vue/component-compiler-utils@3.3.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-97sfH2mYNU+2PzGrmK2haqffDpVASuib9/w2/noxiFi31Z54hW+q3izKQXXQZSNhtiUpAI36uSuYepeBe4wpHQ==}
-    dependencies:
-      consolidate: 0.15.1(react-dom@18.2.0)(react@18.2.0)
-      hash-sum: 1.0.2
-      lru-cache: 4.1.5
-      merge-source-map: 1.1.0
-      postcss: 7.0.39
-      postcss-selector-parser: 6.0.15
-      source-map: 0.6.1
-      vue-template-es2015-compiler: 1.9.1
-    optionalDependencies:
-      prettier: 2.8.8
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-    dev: false
-
   /@vue/reactivity@3.4.21:
     resolution: {integrity: sha512-UhenImdc0L0/4ahGCyEzc/pZNwVgcglGy9HVzJ1Bq2Mm9qXOpP8RyNTjookw/gOCUlXSEtuZ2fUg5nrHcoqJcw==}
     dependencies:
@@ -3507,10 +3381,6 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /bluebird@3.7.2:
-    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
-    dev: false
-
   /body-parser@1.20.1:
     resolution: {integrity: sha512-jWi7abTbYwajOytWCQc37VulmWiRae5RyTpaCyDcS5/lMdtwSz5lOpDE67srw/HYe35f1z3fDQw+3txg7gNtWw==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
@@ -3829,177 +3699,6 @@ packages:
   /consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
-    dev: false
-
-  /consolidate@0.15.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-DW46nrsMJgy9kqAbPt5rKaCr7uFtpo4mSUvLHIUbJEjm0vo+aY5QLwBUq3FK4tRnJr/X0Psc0C4jf/h+HtXSMw==}
-    engines: {node: '>= 0.10.0'}
-    deprecated: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
-    peerDependencies:
-      arc-templates: ^0.5.3
-      atpl: '>=0.7.6'
-      babel-core: ^6.26.3
-      bracket-template: ^1.1.5
-      coffee-script: ^1.12.7
-      dot: ^1.1.3
-      dust: ^0.3.0
-      dustjs-helpers: ^1.7.4
-      dustjs-linkedin: ^2.7.5
-      eco: ^1.1.0-rc-3
-      ect: ^0.5.9
-      ejs: ^3.1.5
-      haml-coffee: ^1.14.1
-      hamlet: ^0.3.3
-      hamljs: ^0.6.2
-      handlebars: ^4.7.6
-      hogan.js: ^3.0.2
-      htmling: ^0.0.8
-      jade: ^1.11.0
-      jazz: ^0.0.18
-      jqtpl: ~1.1.0
-      just: ^0.1.8
-      liquid-node: ^3.0.1
-      liquor: ^0.0.5
-      lodash: ^4.17.20
-      marko: ^3.14.4
-      mote: ^0.2.0
-      mustache: ^3.0.0
-      nunjucks: ^3.2.2
-      plates: ~0.4.11
-      pug: ^3.0.0
-      qejs: ^3.0.5
-      ractive: ^1.3.12
-      razor-tmpl: ^1.3.1
-      react: ^16.13.1
-      react-dom: ^16.13.1
-      slm: ^2.0.0
-      squirrelly: ^5.1.0
-      swig: ^1.4.2
-      swig-templates: ^2.0.3
-      teacup: ^2.0.0
-      templayed: '>=0.2.3'
-      then-jade: '*'
-      then-pug: '*'
-      tinyliquid: ^0.2.34
-      toffee: ^0.3.6
-      twig: ^1.15.2
-      twing: ^5.0.2
-      underscore: ^1.11.0
-      vash: ^0.13.0
-      velocityjs: ^2.0.1
-      walrus: ^0.10.1
-      whiskers: ^0.4.0
-    peerDependenciesMeta:
-      arc-templates:
-        optional: true
-      atpl:
-        optional: true
-      babel-core:
-        optional: true
-      bracket-template:
-        optional: true
-      coffee-script:
-        optional: true
-      dot:
-        optional: true
-      dust:
-        optional: true
-      dustjs-helpers:
-        optional: true
-      dustjs-linkedin:
-        optional: true
-      eco:
-        optional: true
-      ect:
-        optional: true
-      ejs:
-        optional: true
-      haml-coffee:
-        optional: true
-      hamlet:
-        optional: true
-      hamljs:
-        optional: true
-      handlebars:
-        optional: true
-      hogan.js:
-        optional: true
-      htmling:
-        optional: true
-      jade:
-        optional: true
-      jazz:
-        optional: true
-      jqtpl:
-        optional: true
-      just:
-        optional: true
-      liquid-node:
-        optional: true
-      liquor:
-        optional: true
-      lodash:
-        optional: true
-      marko:
-        optional: true
-      mote:
-        optional: true
-      mustache:
-        optional: true
-      nunjucks:
-        optional: true
-      plates:
-        optional: true
-      pug:
-        optional: true
-      qejs:
-        optional: true
-      ractive:
-        optional: true
-      razor-tmpl:
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      slm:
-        optional: true
-      squirrelly:
-        optional: true
-      swig:
-        optional: true
-      swig-templates:
-        optional: true
-      teacup:
-        optional: true
-      templayed:
-        optional: true
-      then-jade:
-        optional: true
-      then-pug:
-        optional: true
-      tinyliquid:
-        optional: true
-      toffee:
-        optional: true
-      twig:
-        optional: true
-      twing:
-        optional: true
-      underscore:
-        optional: true
-      vash:
-        optional: true
-      velocityjs:
-        optional: true
-      walrus:
-        optional: true
-      whiskers:
-        optional: true
-    dependencies:
-      bluebird: 3.7.2
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /content-disposition@0.5.4:
@@ -5438,8 +5137,8 @@ packages:
   /flatted@3.2.9:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
 
-  /follow-redirects@1.15.3:
-    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
+  /follow-redirects@1.15.5:
+    resolution: {integrity: sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -5724,10 +5423,6 @@ packages:
       has-symbols: 1.0.3
     dev: false
 
-  /hash-sum@1.0.2:
-    resolution: {integrity: sha512-fUs4B4L+mlt8/XAtSOGMUO1TXmAelItBPtJG7CyHJfYTdDjwisntGO2JQz7oUsatOY9o68+57eziUVNw/mRHmA==}
-    dev: false
-
   /hash-sum@2.0.0:
     resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
     dev: false
@@ -5921,7 +5616,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.3
+      follow-redirects: 1.15.5
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -6566,15 +6261,6 @@ packages:
     engines: {node: '>=6.11.5'}
     dev: false
 
-  /loader-utils@1.4.2:
-    resolution: {integrity: sha512-I5d00Pd/jwMD2QCduo657+YM/6L3KZu++pmX9VFncxaxvHcru9jx1lBaFft+r4Mt2jK0Yhp41XlRAihzPxHNCg==}
-    engines: {node: '>=4.0.0'}
-    dependencies:
-      big.js: 5.2.2
-      emojis-list: 3.0.0
-      json5: 1.0.2
-    dev: false
-
   /loader-utils@2.0.4:
     resolution: {integrity: sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==}
     engines: {node: '>=8.9.0'}
@@ -6653,13 +6339,6 @@ packages:
   /lru-cache@10.1.0:
     resolution: {integrity: sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==}
     engines: {node: 14 || >=16.14}
-
-  /lru-cache@4.1.5:
-    resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
-    dependencies:
-      pseudomap: 1.0.2
-      yallist: 2.1.2
-    dev: false
 
   /lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
@@ -6774,12 +6453,6 @@ packages:
 
   /merge-descriptors@1.0.1:
     resolution: {integrity: sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w==}
-    dev: false
-
-  /merge-source-map@1.1.0:
-    resolution: {integrity: sha512-Qkcp7P2ygktpMPh2mCQZaf3jhN6D3Z/qVZHSdWvQ+2Ef5HgRAPBO57A77+ENm0CPx2+1Ce/MYKi3ymqdfuqibw==}
-    dependencies:
-      source-map: 0.6.1
     dev: false
 
   /merge-stream@2.0.0:
@@ -7285,10 +6958,6 @@ packages:
   /path-type@5.0.0:
     resolution: {integrity: sha512-5HviZNaZcfqP95rwpv+1HDgUamezbqdSYTyzjTvwtJSnIH+3vnbmWsItli8OFEndS984VT55M3jduxZbX351gg==}
     engines: {node: '>=12'}
-
-  /picocolors@0.2.1:
-    resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
-    dev: false
 
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
@@ -7925,14 +7594,6 @@ packages:
       postcss: 8.4.35
     dev: false
 
-  /postcss@7.0.39:
-    resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      picocolors: 0.2.1
-      source-map: 0.6.1
-    dev: false
-
   /postcss@8.4.35:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
     engines: {node: ^10 || ^12 || >=14}
@@ -7950,14 +7611,6 @@ packages:
     dependencies:
       prettier: 3.2.5
     dev: false
-
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    requiresBuild: true
-    dev: false
-    optional: true
 
   /prettier@3.2.5:
     resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
@@ -8009,10 +7662,6 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
-
-  /pseudomap@1.0.2:
-    resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
-    dev: false
 
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -9323,104 +8972,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /vue-hot-reload-api@2.3.4:
-    resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
-    dev: false
-
-  /vue-loader@15.11.1(css-loader@6.10.0)(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(webpack@5.90.3):
-    resolution: {integrity: sha512-0iw4VchYLePqJfJu9s62ACWUXeSqM30SQqlIftbYWM3C+jpPcEHKSPUZBLjSF9au4HTHQ/naF6OGnO3Q/qGR3Q==}
-    peerDependencies:
-      '@vue/compiler-sfc': ^3.0.8
-      cache-loader: '*'
-      css-loader: '*'
-      prettier: '*'
-      vue-template-compiler: '*'
-      webpack: ^3.0.0 || ^4.1.0 || ^5.0.0-0
-    peerDependenciesMeta:
-      '@vue/compiler-sfc':
-        optional: true
-      cache-loader:
-        optional: true
-      prettier:
-        optional: true
-      vue-template-compiler:
-        optional: true
-    dependencies:
-      '@vue/component-compiler-utils': 3.3.0(react-dom@18.2.0)(react@18.2.0)
-      css-loader: 6.10.0(webpack@5.90.3)
-      hash-sum: 1.0.2
-      loader-utils: 1.4.2
-      prettier: 3.2.5
-      vue-hot-reload-api: 2.3.4
-      vue-style-loader: 4.1.3
-      webpack: 5.90.3
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-    dev: false
-
-  /vue-style-loader@4.1.3:
-    resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}
-    dependencies:
-      hash-sum: 1.0.2
-      loader-utils: 1.4.2
-    dev: false
-
-  /vue-template-es2015-compiler@1.9.1:
-    resolution: {integrity: sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==}
-    dev: false
-
   /vue@3.4.21(typescript@5.3.3):
     resolution: {integrity: sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==}
     peerDependencies:
@@ -9742,10 +9293,6 @@ packages:
   /y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
     engines: {node: '>=10'}
-
-  /yallist@2.1.2:
-    resolution: {integrity: sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==}
-    dev: false
 
   /yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
