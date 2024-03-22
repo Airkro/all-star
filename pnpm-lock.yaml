@@ -61,8 +61,8 @@ importers:
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.9.5)(typescript@5.3.3)(webpack@5.90.3)
       '@best-shot/preset-web':
-        specifier: ^0.14.2
-        version: 0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.14.3
+        version: 0.14.3(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@nice-move/cli':
         specifier: ^0.11.3
         version: 0.11.3
@@ -127,8 +127,8 @@ importers:
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.9.5)(typescript@5.3.3)(webpack@5.90.3)
       '@best-shot/preset-web':
-        specifier: ^0.14.2
-        version: 0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.14.3
+        version: 0.14.3(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@nice-move/cli':
         specifier: ^0.11.3
         version: 0.11.3
@@ -199,8 +199,8 @@ importers:
         specifier: ^0.12.1
         version: 0.12.1(@best-shot/core@0.9.5)(@best-shot/preset-style@0.12.2)(vue@3.4.21)(webpack@5.90.3)
       '@best-shot/preset-web':
-        specifier: ^0.14.2
-        version: 0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3)
+        specifier: ^0.14.3
+        version: 0.14.3(@best-shot/core@0.9.5)(webpack@5.90.3)
       '@nice-move/cli':
         specifier: ^0.11.3
         version: 0.11.3
@@ -1827,8 +1827,8 @@ packages:
       - webpack
     dev: false
 
-  /@best-shot/preset-web@0.14.2(@best-shot/core@0.9.5)(webpack@5.90.3):
-    resolution: {integrity: sha512-IwOZOiWoUjvvQKoRC0NQXxJWbsNOw0ke6GSEmS3hn49wAhV9INElduI+QRVn3ikbAok/yKnykQBsOvxrSWr/6w==}
+  /@best-shot/preset-web@0.14.3(@best-shot/core@0.9.5)(webpack@5.90.3):
+    resolution: {integrity: sha512-WGwb4cYSjkpH553IxhPq4+ds1QjaoXhSIPHweJksqDJbKgGCmUwF4UOdSXhugJqKpk7TEAsQPQbQtpXlSnBr/w==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
       '@best-shot/core': ^0.9.5

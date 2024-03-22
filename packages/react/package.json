@@ -35,7 +35,7 @@
     "@best-shot/preset-babel": "^0.14.1",
     "@best-shot/preset-react": "^0.13.0",
     "@best-shot/preset-style": "^0.12.2",
-    "@best-shot/preset-web": "^0.14.2",
+    "@best-shot/preset-web": "^0.14.3",
     "@nice-move/cli": "^0.11.3",
     "@nice-move/eslint-config-react": "^0.11.1",
     "@nice-move/prettier-config": "^0.10.0",
