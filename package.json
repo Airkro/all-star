@@ -23,15 +23,15 @@
   "devDependencies": {
     "@bring-it/npm": "^0.5.2",
     "eslint": "^8.57.0",
-    "garou": "^0.7.2",
+    "garou": "^0.7.3",
     "prettier": "^3.2.5",
     "stylelint": "^16.3.1",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "engines": {
     "node": "^18.12.0 || ^20.0.0"
   },
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.7",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
