@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.15.5",
+  "version": "0.16.0",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -29,16 +29,16 @@
   "dependencies": {
     "@babel/core": "^7.24.4",
     "@best-shot/cli": "^0.15.0",
-    "@best-shot/core": "^0.9.6",
+    "@best-shot/core": "^0.9.8",
     "@best-shot/dev-server": "^0.17.2",
     "@best-shot/preset-asset": "^0.11.3",
     "@best-shot/preset-babel": "^0.14.3",
-    "@best-shot/preset-style": "^0.12.5",
-    "@best-shot/preset-vue": "^0.12.5",
-    "@best-shot/preset-web": "^0.14.6",
-    "@nice-move/cli": "^0.11.10",
-    "@nice-move/eslint-config-vue": "^0.11.4",
-    "@nice-move/prettier-config": "^0.11.2",
+    "@best-shot/preset-style": "^0.12.6",
+    "@best-shot/preset-vue": "^0.12.8",
+    "@best-shot/preset-web": "^0.14.7",
+    "@nice-move/cli": "^0.11.11",
+    "@nice-move/eslint-config-vue": "^0.11.5",
+    "@nice-move/prettier-config": "^0.11.3",
     "@nice-move/stylelint-config": "^0.10.6",
     "@nice-move/tsconfig": "^0.2.2",
     "core-js": "^3.37.0",
@@ -48,9 +48,9 @@
     "eslint": "^8.57.0",
     "garou": ">=0.7.3",
     "prettier": "^3.2.5",
-    "stylelint": "^16.3.1",
-    "typescript": "^5.4.5",
-    "vue": "^3.4.23"
+    "stylelint": "^16.4.0",
+    "typescript": "~5.4.5",
+    "vue": "^3.4.25"
   },
   "peerDependenciesMeta": {
     "garou": {

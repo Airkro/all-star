@@ -9,6 +9,8 @@
   },
   "scripts": {
     "lint:staged": "nice-move lint staged",
+    "lint:type": "tsc --noEmit",
+    "lint:version": "syncpack lint",
     "prepare": "nice-move git hooks"
   },
   "workspaces": [
@@ -18,22 +20,37 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue": "^3.4.23"
+    "vue": "^3.4.25"
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.2",
+    "@nice-move/syncpack-config": "^0.1.0",
     "eslint": "^8.57.0",
-    "garou": "^0.7.3",
+    "garou": ">=0.7.3",
     "prettier": "^3.2.5",
-    "stylelint": "^16.3.1",
-    "typescript": "^5.4.5"
+    "stylelint": "^16.4.0",
+    "syncpack": "^12.3.2",
+    "typescript": "~5.4.5"
   },
-  "packageManager": "pnpm@8.15.7",
+  "peerDependencies": {
+    "@types/react": "^18.2.79"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "webpack-dev-server": "*"
+      }
+    }
+  },
+  "packageManager": "pnpm@9.0.6",
   "engines": {
     "node": "^18.12.0 || ^20.0.0"
   },
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
+  },
+  "nice-move": {
+    "import-groups": "nice-move-preset"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
