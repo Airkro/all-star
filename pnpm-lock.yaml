@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@types/react':
         specifier: ^18.2.79
-        version: 18.2.79
+        version: 18.3.0
       react:
         specifier: ^18.2.0
-        version: 18.2.0
+        version: 18.3.0
       react-dom:
         specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        version: 18.3.0(react@18.3.0)
       vue:
         specifier: ^3.4.25
         version: 3.4.25(typescript@5.4.5)
@@ -25,14 +25,14 @@ importers:
         specifier: ^0.5.2
         version: 0.5.2(@bring-it/cli@0.9.0)
       '@nice-move/syncpack-config':
-        specifier: ^0.1.0
-        version: 0.1.0(syncpack@12.3.2(typescript@5.4.5))
+        specifier: ^0.1.1
+        version: 0.1.1(syncpack@12.3.2(typescript@5.4.5))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
       garou:
-        specifier: '>=0.7.3'
-        version: 0.7.3(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
+        specifier: '>=0.7.4'
+        version: 0.7.4(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -67,8 +67,8 @@ importers:
         specifier: ^0.14.3
         version: 0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
       '@best-shot/preset-style':
-        specifier: ^0.12.6
-        version: 0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
+        specifier: ^0.12.7
+        version: 0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
       '@best-shot/preset-web':
         specifier: ^0.14.7
         version: 0.14.7(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
@@ -76,8 +76,8 @@ importers:
         specifier: ^0.11.11
         version: 0.11.11
       '@nice-move/eslint-config-base':
-        specifier: ^0.11.5
-        version: 0.11.5(eslint@8.57.0)(typescript@5.4.5)
+        specifier: ^0.11.6
+        version: 0.11.6(eslint@8.57.0)(typescript@5.4.5)
       '@nice-move/prettier-config':
         specifier: ^0.11.3
         version: 0.11.3(prettier@3.2.5)
@@ -85,8 +85,8 @@ importers:
         specifier: ^0.10.6
         version: 0.10.6(stylelint@16.4.0(typescript@5.4.5))
       '@nice-move/tsconfig':
-        specifier: ^0.2.2
-        version: 0.2.2(typescript@5.4.5)
+        specifier: ^0.2.3
+        version: 0.2.3(typescript@5.4.5)
       core-js:
         specifier: ^3.37.0
         version: 3.37.0
@@ -94,8 +94,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       garou:
-        specifier: '>=0.7.3'
-        version: 0.7.3(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
+        specifier: '>=0.7.4'
+        version: 0.7.4(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -131,10 +131,10 @@ importers:
         version: 0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
       '@best-shot/preset-react':
         specifier: ^0.13.2
-        version: 0.13.2(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-babel@0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)
+        version: 0.13.2(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-babel@0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)
       '@best-shot/preset-style':
-        specifier: ^0.12.6
-        version: 0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
+        specifier: ^0.12.7
+        version: 0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
       '@best-shot/preset-web':
         specifier: ^0.14.7
         version: 0.14.7(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
@@ -142,8 +142,8 @@ importers:
         specifier: ^0.11.11
         version: 0.11.11
       '@nice-move/eslint-config-react':
-        specifier: ^0.11.5
-        version: 0.11.5(@nice-move/eslint-config-base@0.11.5(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
+        specifier: ^0.11.6
+        version: 0.11.6(@nice-move/eslint-config-base@0.11.6(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
       '@nice-move/prettier-config':
         specifier: ^0.11.3
         version: 0.11.3(prettier@3.2.5)
@@ -151,8 +151,8 @@ importers:
         specifier: ^0.10.6
         version: 0.10.6(stylelint@16.4.0(typescript@5.4.5))
       '@nice-move/tsconfig':
-        specifier: ^0.2.2
-        version: 0.2.2(typescript@5.4.5)
+        specifier: ^0.2.3
+        version: 0.2.3(typescript@5.4.5)
       core-js:
         specifier: ^3.37.0
         version: 3.37.0
@@ -160,17 +160,17 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       garou:
-        specifier: '>=0.7.3'
-        version: 0.7.3(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
+        specifier: '>=0.7.4'
+        version: 0.7.4(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
       react:
         specifier: ^18.2.0
-        version: 18.2.0
+        version: 18.3.0
       react-dom:
         specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        version: 18.3.0(react@18.3.0)
       stylelint:
         specifier: ^16.4.0
         version: 16.4.0(typescript@5.4.5)
@@ -202,11 +202,11 @@ importers:
         specifier: ^0.14.3
         version: 0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
       '@best-shot/preset-style':
-        specifier: ^0.12.6
-        version: 0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
+        specifier: ^0.12.7
+        version: 0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
       '@best-shot/preset-vue':
         specifier: ^0.12.8
-        version: 0.12.8(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-style@0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0))(vue@3.4.25(typescript@5.4.5))(webpack@5.91.0)
+        version: 0.12.8(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-style@0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0))(vue@3.4.25(typescript@5.4.5))(webpack@5.91.0)
       '@best-shot/preset-web':
         specifier: ^0.14.7
         version: 0.14.7(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
@@ -214,8 +214,8 @@ importers:
         specifier: ^0.11.11
         version: 0.11.11
       '@nice-move/eslint-config-vue':
-        specifier: ^0.11.5
-        version: 0.11.5(@nice-move/eslint-config-base@0.11.5(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
+        specifier: ^0.11.6
+        version: 0.11.6(@nice-move/eslint-config-base@0.11.6(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
       '@nice-move/prettier-config':
         specifier: ^0.11.3
         version: 0.11.3(prettier@3.2.5)
@@ -223,8 +223,8 @@ importers:
         specifier: ^0.10.6
         version: 0.10.6(stylelint@16.4.0(typescript@5.4.5))
       '@nice-move/tsconfig':
-        specifier: ^0.2.2
-        version: 0.2.2(typescript@5.4.5)
+        specifier: ^0.2.3
+        version: 0.2.3(typescript@5.4.5)
       core-js:
         specifier: ^3.37.0
         version: 3.37.0
@@ -232,8 +232,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       garou:
-        specifier: '>=0.7.3'
-        version: 0.7.3(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
+        specifier: '>=0.7.4'
+        version: 0.7.4(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -984,8 +984,8 @@ packages:
       react: ^17.0.2 || ^18.2.0
       react-dom: ^17.0.2 || ^18.2.0
 
-  '@best-shot/preset-style@0.12.6':
-    resolution: {integrity: sha512-QBbGWL+5Ihqgzn/vt35itp5rH0wCKpPHZ80sOrcbEhoBPs7GYHCFjPh9QE6P3YQpApxbAhuNyGV1G64FPlO6xg==}
+  '@best-shot/preset-style@0.12.7':
+    resolution: {integrity: sha512-Vc3dHICsTMA1evXxYr60KtiAZE2jF6VzYEk7hmHL/gl0bRrTPWfpQ9dwaFlnykqOK/O1RTI1FUocVL8kki9XfQ==}
     engines: {node: '>=20.0.0 || ^18.12.0'}
     peerDependencies:
       '@best-shot/core': ^0.9.8
@@ -1190,24 +1190,24 @@ packages:
     engines: {node: ^18.12.0 || ^20.0.0}
     hasBin: true
 
-  '@nice-move/eslint-config-base@0.11.5':
-    resolution: {integrity: sha512-Pf417zUyPenS7/K/OD2GgwgBkzLqiObNgvOjwkQ9hxEDtp0iedCVwu3ifLcdGwwh1UJUJfL7cMGQD58p7u4TAA==}
+  '@nice-move/eslint-config-base@0.11.6':
+    resolution: {integrity: sha512-iUzkObZQUPbUclCPY7xBvt20J/+ipLD1MPkRT3fcRBwKlgUnr7tKCgLmzZ7nzk9Oj1FkCweYynJbxgMuCE2noA==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
       eslint: ^8.57.0
 
-  '@nice-move/eslint-config-react@0.11.5':
-    resolution: {integrity: sha512-NwjrbC7drr4zMnn+yIfHDtlhr8YW5xpQ6oA33dfyzVCdt3K72iZHfDpxfveBwzLeD6mcWU7b5819BvB9fzHtFg==}
+  '@nice-move/eslint-config-react@0.11.6':
+    resolution: {integrity: sha512-uwFoApaly8XUAuKsV+0itjcV/CUKa0cTtV3NqA1BSQ8CVkpwn47yyveIl3OEi4jz2/43EtFe1fWEhG1zsPPBpA==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      '@nice-move/eslint-config-base': ~0.11.5
+      '@nice-move/eslint-config-base': ~0.11.6
       eslint: ^8.57.0
 
-  '@nice-move/eslint-config-vue@0.11.5':
-    resolution: {integrity: sha512-hXVuOxoKZi1UAepPxO5wjnZeZHTReWSU6JzPR5IYls3209sflpSE6p+dmcSeTG3XeVKHWufT2jslPmUwOpJ/jg==}
+  '@nice-move/eslint-config-vue@0.11.6':
+    resolution: {integrity: sha512-04ljOhKu+0P4lr8At+omClsioLNfsWcLteOHhsBL0tqyPxu2kKou8i+Xebzw7uJPcOw0I9Ev7wmf5VrZahzR2g==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      '@nice-move/eslint-config-base': ~0.11.5
+      '@nice-move/eslint-config-base': ~0.11.6
       eslint: ^8.57.0
 
   '@nice-move/eslint-plugin-html@0.0.0-beta.4':
@@ -1234,17 +1234,17 @@ packages:
     peerDependencies:
       stylelint: ^16.3.1
 
-  '@nice-move/syncpack-config@0.1.0':
-    resolution: {integrity: sha512-q4VRHe5La2to4DScFlOSe42YOZuDQyVBR0iYvz47/sGXrpEjUReqWY7t7UuepybF6nj3YuTjaajy7sUggjQM6w==}
+  '@nice-move/syncpack-config@0.1.1':
+    resolution: {integrity: sha512-4Y2egrl4H5gcqET2dseOr/WgqBkSK8z045s9KowcSSjyfG92LqnrE+xuwb23Wu2cOSxv88+Zmim7tJX51fkmdg==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
       syncpack: ^12.3.2
 
-  '@nice-move/tsconfig@0.2.2':
-    resolution: {integrity: sha512-Ur614tK1mkBizhRL/kdaPRJN31mI7wu8OyHxIFnpPIRzZFFZrgRGCKrTmatdodaUoshe3N3WiDFlqJbzS4Yfxg==}
+  '@nice-move/tsconfig@0.2.3':
+    resolution: {integrity: sha512-fujFevBHZFUm6ewz93lbZHtpapBHng63pG3wR99Kp9bA0usCbAF9MK6CKB5g3iFK8i5Sw/yeJxZgXxUiPlZH7A==}
     engines: {node: ^18.12.0 || ^20.0.0}
     peerDependencies:
-      typescript: ^5.2.2
+      typescript: ~5.4.5
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -1395,8 +1395,8 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react@18.2.79':
-    resolution: {integrity: sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==}
+  '@types/react@18.3.0':
+    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
 
   '@types/retry@0.12.2':
     resolution: {integrity: sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==}
@@ -2324,8 +2324,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.748:
-    resolution: {integrity: sha512-VWqjOlPZn70UZ8FTKUOkUvBLeTQ0xpty66qV0yJcAGY2/CthI4xyW9aEozRVtuwv3Kpf5xTesmJUcPwuJmgP4A==}
+  electron-to-chromium@1.4.749:
+    resolution: {integrity: sha512-LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==}
 
   emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
@@ -2529,8 +2529,8 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
 
-  eslint-plugin-react-hooks@4.6.0:
-    resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
+  eslint-plugin-react-hooks@4.6.1:
+    resolution: {integrity: sha512-Ck77j8hF7l9N4S/rzSLOWEKpn994YH6iwUK8fr9mXIaQvGpQYmOnQLbiue1u5kI5T1y+gdgqosnEAO9NCz0DBg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
@@ -2768,8 +2768,8 @@ packages:
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
 
-  garou@0.7.3:
-    resolution: {integrity: sha512-SJ+3/pdDQyngJPQ8lQPBv3Y3woY730iou/S1CwnwFfWu90w5512CLXrYPZrpfQ4AIKPrXGqmbNUTsF222viJKA==}
+  garou@0.7.4:
+    resolution: {integrity: sha512-rQAcpbPU6BkWqV1fGad5lCEomrXcZSNpzgnhwT6XDQZhP4PmqDbHmU8KIDS8lcyGwvpmKYBCpPPKdzrGvmmBvw==}
     engines: {node: ^18.12.0 || ^20.0.0}
     hasBin: true
     peerDependencies:
@@ -3503,8 +3503,8 @@ packages:
   lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
 
-  lru-cache@10.2.0:
-    resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
+  lru-cache@10.2.1:
+    resolution: {integrity: sha512-tS24spDe/zXhWbNPErCHs/AGOzbKGHT+ybSBqmdLm8WZ1xXLWvH8Qn71QPAlqVhd0qUTWjy+Kl9JmISgDdEjsA==}
     engines: {node: 14 || >=16.14}
 
   lru-cache@5.1.1:
@@ -4329,20 +4329,20 @@ packages:
     resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
     engines: {node: '>= 0.8'}
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@18.3.0:
+    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-refresh@0.14.0:
-    resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
+  react-refresh@0.14.1:
+    resolution: {integrity: sha512-iZiRCtNGY3QYP3pYOSSBOvQmBpQTcJccr/VcK2blpJrpPTUDjeN51mxm5nsrkCzBwsbGUj+TN9q2oPz5E13FLg==}
     engines: {node: '>=0.10.0'}
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
 
   read-pkg-up@7.0.1:
@@ -4538,8 +4538,8 @@ packages:
   sax@1.3.0:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.1:
+    resolution: {integrity: sha512-5GKS5JGfiah1O38Vfa9srZE4s3wdHbwjlCrvIookrg2FO9aIwKLOJXuJQFlEfNcVSOXuaL2hzDeY20uVXcUtrw==}
 
   schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
@@ -6176,18 +6176,18 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-react@0.13.2(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-babel@0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)':
+  '@best-shot/preset-react@0.13.2(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-babel@0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.24.1(@babel/core@7.24.4)
       '@babel/plugin-transform-react-inline-elements': 7.24.1(@babel/core@7.24.4)
       '@babel/preset-react': 7.24.1(@babel/core@7.24.4)
       '@best-shot/core': 0.9.8(webpack@5.91.0)
       '@best-shot/preset-babel': 0.14.3(@babel/core@7.24.4)(@best-shot/core@0.9.8(webpack@5.91.0))(webpack@5.91.0)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.1)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)
       babel-plugin-transform-react-remove-prop-types: 0.4.24
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-refresh: 0.14.0
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
+      react-refresh: 0.14.1
       settingz: 0.2.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -6199,7 +6199,7 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)':
+  '@best-shot/preset-style@0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
       '@best-shot/core': 0.9.8(webpack@5.91.0)
       css-loader: 7.1.1(webpack@5.91.0)
@@ -6230,10 +6230,10 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.12.8(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-style@0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0))(vue@3.4.25(typescript@5.4.5))(webpack@5.91.0)':
+  '@best-shot/preset-vue@0.12.8(@best-shot/core@0.9.8(webpack@5.91.0))(@best-shot/preset-style@0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0))(vue@3.4.25(typescript@5.4.5))(webpack@5.91.0)':
     dependencies:
       '@best-shot/core': 0.9.8(webpack@5.91.0)
-      '@best-shot/preset-style': 0.12.6(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
+      '@best-shot/preset-style': 0.12.7(@best-shot/core@0.9.8(webpack@5.91.0))(typescript@5.4.5)(webpack@5.91.0)
       '@best-shot/vue-loader': 17.4.3(vue@3.4.25(typescript@5.4.5))(webpack@5.91.0)
       css-loader: 7.1.1(webpack@5.91.0)
       ext-to-regexp: 0.1.0
@@ -6440,7 +6440,7 @@ snapshots:
     dependencies:
       eslint-formatter-pretty: 5.0.0
 
-  '@nice-move/eslint-config-base@0.11.5(eslint@8.57.0)(typescript@5.4.5)':
+  '@nice-move/eslint-config-base@0.11.6(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/eslint-parser': 7.24.1(@babel/core@7.24.4)(eslint@8.57.0)
@@ -6449,7 +6449,7 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 7.7.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.7.1(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
@@ -6467,15 +6467,15 @@ snapshots:
       - supports-color
       - typescript
 
-  '@nice-move/eslint-config-react@0.11.5(@nice-move/eslint-config-base@0.11.5(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)':
+  '@nice-move/eslint-config-react@0.11.6(@nice-move/eslint-config-base@0.11.6(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)':
     dependencies:
-      '@nice-move/eslint-config-base': 0.11.5(eslint@8.57.0)(typescript@5.4.5)
+      '@nice-move/eslint-config-base': 0.11.6(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
-      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.8.0(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.34.1(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.8.0(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.1(eslint@8.57.0))(eslint-plugin-react@7.34.1(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
       eslint-plugin-react: 7.34.1(eslint@8.57.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
+      eslint-plugin-react-hooks: 4.6.1(eslint@8.57.0)
       settingz: 0.2.0
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -6483,9 +6483,9 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  '@nice-move/eslint-config-vue@0.11.5(@nice-move/eslint-config-base@0.11.5(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)':
+  '@nice-move/eslint-config-vue@0.11.6(@nice-move/eslint-config-base@0.11.6(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)':
     dependencies:
-      '@nice-move/eslint-config-base': 0.11.5(eslint@8.57.0)(typescript@5.4.5)
+      '@nice-move/eslint-config-base': 0.11.6(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
       eslint-plugin-vue: 9.25.0(eslint@8.57.0)
       settingz: 0.2.0
@@ -6527,11 +6527,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nice-move/syncpack-config@0.1.0(syncpack@12.3.2(typescript@5.4.5))':
+  '@nice-move/syncpack-config@0.1.1(syncpack@12.3.2(typescript@5.4.5))':
     dependencies:
       syncpack: 12.3.2(typescript@5.4.5)
 
-  '@nice-move/tsconfig@0.2.2(typescript@5.4.5)':
+  '@nice-move/tsconfig@0.2.3(typescript@5.4.5)':
     dependencies:
       typescript: 5.4.5
 
@@ -6554,7 +6554,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.14.0)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)':
+  '@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.14.1)(type-fest@0.21.3)(webpack-dev-server@5.0.4(webpack@5.91.0))(webpack@5.91.0)':
     dependencies:
       ansi-html-community: 0.0.8
       common-path-prefix: 3.0.0
@@ -6563,7 +6563,7 @@ snapshots:
       find-up: 5.0.0
       html-entities: 2.5.2
       loader-utils: 2.0.4
-      react-refresh: 0.14.0
+      react-refresh: 0.14.1
       schema-utils: 3.3.0
       source-map: 0.7.4
       webpack: 5.91.0
@@ -6680,7 +6680,7 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react@18.2.79':
+  '@types/react@18.3.0':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -7231,7 +7231,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001612
-      electron-to-chromium: 1.4.748
+      electron-to-chromium: 1.4.749
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -7732,7 +7732,7 @@ snapshots:
     dependencies:
       jake: 10.8.7
 
-  electron-to-chromium@1.4.748: {}
+  electron-to-chromium@1.4.749: {}
 
   emoji-regex@10.3.0: {}
 
@@ -7882,7 +7882,7 @@ snapshots:
       eslint: 8.57.0
       semver: 7.6.0
 
-  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0):
+  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.57.0
@@ -7891,14 +7891,14 @@ snapshots:
       object.entries: 1.1.8
       semver: 6.3.1
 
-  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.8.0(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.34.1(eslint@8.57.0))(eslint@8.57.0):
+  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.8.0(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.1(eslint@8.57.0))(eslint-plugin-react@7.34.1(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
       eslint-plugin-react: 7.34.1(eslint@8.57.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
+      eslint-plugin-react-hooks: 4.6.1(eslint@8.57.0)
       object.assign: 4.1.5
       object.entries: 1.1.8
 
@@ -8018,7 +8018,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-plugin-react-hooks@4.6.0(eslint@8.57.0):
+  eslint-plugin-react-hooks@4.6.1(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
 
@@ -8355,7 +8355,7 @@ snapshots:
 
   functions-have-names@1.2.3: {}
 
-  garou@0.7.3(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5):
+  garou@0.7.4(eslint@8.57.0)(stylelint@16.4.0(typescript@5.4.5))(typescript@5.4.5):
     dependencies:
       '@typescript-eslint/parser': 7.7.1(eslint@8.57.0)(typescript@5.4.5)
       '@yarnpkg/lockfile': 1.1.0
@@ -8512,7 +8512,7 @@ snapshots:
 
   hosted-git-info@7.0.1:
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.1
 
   hpack.js@2.1.6:
     dependencies:
@@ -9045,7 +9045,7 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  lru-cache@10.2.0: {}
+  lru-cache@10.2.1: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -9435,7 +9435,7 @@ snapshots:
 
   path-scurry@1.10.2:
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.1
       minipass: 7.0.4
 
   path-to-regexp@0.1.7: {}
@@ -9857,17 +9857,17 @@ snapshots:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.0(react@18.3.0):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.0
+      scheduler: 0.23.1
 
   react-is@16.13.1: {}
 
-  react-refresh@0.14.0: {}
+  react-refresh@0.14.1: {}
 
-  react@18.2.0:
+  react@18.3.0:
     dependencies:
       loose-envify: 1.4.0
 
@@ -10070,7 +10070,7 @@ snapshots:
   sax@1.3.0:
     optional: true
 
-  scheduler@0.23.0:
+  scheduler@0.23.1:
     dependencies:
       loose-envify: 1.4.0
 

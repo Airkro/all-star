@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.2",
-    "@nice-move/syncpack-config": "^0.1.0",
+    "@nice-move/syncpack-config": "^0.1.1",
     "eslint": "^8.57.0",
-    "garou": ">=0.7.3",
+    "garou": ">=0.7.4",
     "prettier": "^3.2.5",
     "stylelint": "^16.4.0",
     "syncpack": "^12.3.2",
