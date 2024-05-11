@@ -8,10 +8,10 @@
     "email": "airkro@qq.com"
   },
   "scripts": {
-    "lint:staged": "nice-move lint staged",
+    "lint:staged": "all-star lint staged",
     "lint:type": "tsc --noEmit",
     "lint:version": "syncpack lint",
-    "prepare": "nice-move git hooks"
+    "prepare": "all-star git hooks"
   },
   "workspaces": [
     "packages/*",
@@ -23,7 +23,7 @@
     "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.3",
+    "@bring-it/npm": "^0.5.4",
     "@nice-move/syncpack-config": "^0.1.2",
     "eslint": "^8.57.0",
     "garou": "^0.7.4",
@@ -33,9 +33,12 @@
     "typescript": "~5.4.5"
   },
   "peerDependencies": {
+    "@all-star/base": "workspace:*",
+    "@all-star/react": "workspace:*",
+    "@all-star/vue": "workspace:*",
     "@types/react": "^18.2.79"
   },
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.0",
   "engines": {
     "node": "^18.12.0 || ^20.0.0"
   },
