@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.16.5",
+  "version": "0.16.6",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -33,7 +33,7 @@
     "@best-shot/core": "^0.9.11",
     "@best-shot/dev-server": "^0.17.2",
     "@best-shot/preset-asset": "^0.11.3",
-    "@best-shot/preset-babel": "^0.14.3",
+    "@best-shot/preset-babel": "^0.14.4",
     "@best-shot/preset-style": "^0.12.9",
     "@best-shot/preset-web": "^0.14.8",
     "@nice-move/cli": "^0.11.12",
