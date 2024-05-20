@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.16.6",
+  "version": "0.16.7",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -33,7 +33,7 @@
     "@best-shot/cli": "^0.15.0",
     "@best-shot/core": "^0.9.11",
     "@best-shot/dev-server": "^0.17.2",
-    "@best-shot/preset-asset": "^0.11.3",
+    "@best-shot/preset-asset": "^0.11.4",
     "@best-shot/preset-babel": "^0.14.4",
     "@best-shot/preset-react": "^0.13.6",
     "@best-shot/preset-style": "^0.12.9",
@@ -47,7 +47,7 @@
   },
   "peerDependencies": {
     "@babel/core": "^7.24.5",
-    "core-js": "^3.37.0",
+    "core-js": "^3.37.1",
     "eslint": "^8.57.0",
     "garou": ">=0.7.5",
     "prettier": "^3.2.5",
