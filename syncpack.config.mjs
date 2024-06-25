@@ -14,7 +14,11 @@ export default defineConfig(import.meta.url, {
       dependencies: ['@all-star/*'],
       dependencyTypes: ['local'],
       label: 'Same version',
-      pinVersion: '0.16.9',
+      pinVersion: '0.16.10',
+    },
+    {
+      dependencies: ['vue'],
+      pinVersion: '^3.4.27',
     },
   ],
 });

@@ -25,13 +25,13 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.4",
-    "@nice-move/syncpack-config": "^0.2.1",
+    "@nice-move/syncpack-config": "^0.2.3",
     "eslint": "^8.57.0",
-    "garou": ">=0.7.5",
+    "garou": ">=0.7.6",
     "prettier": "^3.3.2",
     "stylelint": "^16.6.1",
-    "syncpack": "^12.3.2",
-    "typescript": "~5.4.5"
+    "syncpack": "^12.3.3",
+    "typescript": "~5.5.2"
   },
   "peerDependencies": {
     "@all-star/base": "workspace:~",
