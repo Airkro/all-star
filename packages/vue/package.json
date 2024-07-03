@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.16.10",
+  "version": "0.16.11",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@best-shot/cli": "^0.15.0",
-    "@best-shot/core": "^0.9.12",
+    "@best-shot/core": "^0.9.13",
     "@best-shot/dev-server": "^0.17.2",
     "@best-shot/preset-asset": "^0.11.5",
     "@best-shot/preset-babel": "^0.14.6",
@@ -52,7 +52,7 @@
     "garou": ">=0.7.6",
     "prettier": "^3.3.2",
     "stylelint": "^16.6.1",
-    "typescript": "~5.5.2",
+    "typescript": "~5.5.3",
     "vue": "^3.4.27",
     "webpack": "^5.91.0"
   },

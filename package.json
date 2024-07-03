@@ -24,14 +24,14 @@
     "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.4",
-    "@nice-move/syncpack-config": "^0.2.3",
+    "@bring-it/npm": "^0.5.5",
+    "@nice-move/syncpack-config": "^0.2.4",
     "eslint": "^8.57.0",
     "garou": ">=0.7.6",
     "prettier": "^3.3.2",
     "stylelint": "^16.6.1",
     "syncpack": "^12.3.3",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.3"
   },
   "peerDependencies": {
     "@all-star/base": "workspace:~",
