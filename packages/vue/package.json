@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.16.11",
+  "version": "0.16.12",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -31,13 +31,13 @@
   },
   "dependencies": {
     "@best-shot/cli": "^0.15.0",
-    "@best-shot/core": "^0.9.13",
+    "@best-shot/core": "^0.9.18",
     "@best-shot/dev-server": "^0.17.2",
-    "@best-shot/preset-asset": "^0.11.5",
-    "@best-shot/preset-babel": "^0.14.6",
-    "@best-shot/preset-style": "^0.12.11",
-    "@best-shot/preset-vue": "^0.12.10",
-    "@best-shot/preset-web": "^0.14.9",
+    "@best-shot/preset-asset": "^0.11.6",
+    "@best-shot/preset-babel": "^0.14.9",
+    "@best-shot/preset-style": "^0.12.15",
+    "@best-shot/preset-vue": "^0.12.12",
+    "@best-shot/preset-web": "^0.14.11",
     "@nice-move/cli": "^0.11.13",
     "@nice-move/eslint-config-vue": "^0.11.10",
     "@nice-move/prettier-config": "^0.12.4",
@@ -65,7 +65,7 @@
     }
   },
   "engines": {
-    "node": "^18.12.0 || ^20.0.0"
+    "node": "^18.19.0 || ^20.6.0"
   },
   "publishConfig": {
     "access": "public",
