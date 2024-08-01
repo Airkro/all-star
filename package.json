@@ -24,14 +24,14 @@
     "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.5",
-    "@nice-move/syncpack-config": "^0.2.4",
+    "@bring-it/npm": "^0.5.7",
+    "@nice-move/syncpack-config": "^0.2.5",
     "eslint": "^8.57.0",
     "garou": ">=0.7.6",
     "prettier": "^3.3.3",
-    "stylelint": "^16.7.0",
-    "syncpack": "^12.3.3",
-    "typescript": "~5.5.3"
+    "stylelint": "^16.8.1",
+    "syncpack": "^12.4.0",
+    "typescript": "~5.5.4"
   },
   "peerDependencies": {
     "@all-star/base": "workspace:~",
@@ -39,7 +39,7 @@
     "@all-star/vue": "workspace:~",
     "@types/react": "~18.2.79"
   },
-  "packageManager": "pnpm@9.2.0",
+  "packageManager": "pnpm@9.5.0",
   "engines": {
     "node": "^18.19.0 || ^20.6.0"
   },

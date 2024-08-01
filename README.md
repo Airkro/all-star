@@ -6,6 +6,7 @@
 ## Packages
 
 - [@all-star/base](./packages/base/)
+- [@all-star/mini](./packages/mini/)
 - [@all-star/react](./packages/react/)
 - [@all-star/vue](./packages/vue/)
 

@@ -1,5 +1,5 @@
 {
-  "name": "@all-star/react",
+  "name": "@all-star/mini",
   "version": "0.16.14",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
@@ -13,15 +13,15 @@
     "eslint",
     "nice-move",
     "prettier",
-    "react",
     "stylelint",
+    "vue",
     "webpack"
   ],
-  "homepage": "https://github.com/airkro/all-star/tree/master/packages/react",
+  "homepage": "https://github.com/airkro/all-star/tree/master/packages/vue",
   "repository": {
     "type": "git",
     "url": "https://github.com/airkro/all-star.git",
-    "directory": "packages/react"
+    "directory": "packages/vue"
   },
   "bugs": {
     "url": "https://github.com/airkro/all-star/issues"
@@ -32,14 +32,12 @@
   "dependencies": {
     "@best-shot/cli": "^0.15.0",
     "@best-shot/core": "^0.9.23",
-    "@best-shot/dev-server": "^0.17.2",
     "@best-shot/preset-asset": "^0.11.6",
     "@best-shot/preset-babel": "^0.14.11",
-    "@best-shot/preset-react": "^0.13.8",
+    "@best-shot/preset-mini": "^0.3.2",
     "@best-shot/preset-style": "^0.12.19",
-    "@best-shot/preset-web": "^0.14.13",
     "@nice-move/cli": "^0.11.13",
-    "@nice-move/eslint-config-react": "^0.11.12",
+    "@nice-move/eslint-config-vue": "^0.11.12",
     "@nice-move/prettier-config": "^0.12.4",
     "@nice-move/stylelint-config": "^0.10.6",
     "@nice-move/tsconfig": "^0.2.4",
@@ -51,10 +49,9 @@
     "eslint": "^8.57.0",
     "garou": ">=0.7.6",
     "prettier": "^3.3.3",
-    "react": "~18.2.0",
-    "react-dom": "~18.2.0",
     "stylelint": "^16.8.1",
     "typescript": "~5.5.4",
+    "vue": "^3.4.27",
     "webpack": "^5.93.0"
   },
   "peerDependenciesMeta": {
