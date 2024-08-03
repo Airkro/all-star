@@ -8,10 +8,10 @@
     "email": "airkro@qq.com"
   },
   "scripts": {
-    "lint:staged": "all-star lint staged",
+    "lint:staged": "nice-move lint staged",
     "lint:type": "tsc --noEmit",
     "lint:version": "syncpack lint",
-    "prepare": "all-star git hooks",
+    "prepare": "nice-move git hooks",
     "version:pin": "syncpack fix-mismatches"
   },
   "workspaces": [
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.7",
-    "@nice-move/syncpack-config": "^0.2.5",
+    "@nice-move/syncpack-config": "^0.2.6",
     "eslint": "^8.57.0",
     "garou": ">=0.7.6",
     "prettier": "^3.3.3",
@@ -41,7 +41,7 @@
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
-    "node": "^18.19.0 || ^20.6.0"
+    "node": "^18.19.0 || ^20.6.0 || ^22.0.0"
   },
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
