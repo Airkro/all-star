@@ -4037,7 +4037,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   path-is-absolute@1.0.1:
-    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
 
   path-key@3.1.1:
