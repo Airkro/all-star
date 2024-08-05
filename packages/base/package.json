@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -33,8 +33,8 @@
     "@best-shot/core": "^0.10.0",
     "@best-shot/dev-server": "^0.18.0",
     "@best-shot/preset-asset": "^0.12.0",
-    "@best-shot/preset-babel": "^0.15.1",
-    "@best-shot/preset-style": "^0.13.0",
+    "@best-shot/preset-babel": "^0.15.2",
+    "@best-shot/preset-style": "^0.13.1",
     "@best-shot/preset-web": "^0.15.1",
     "@nice-move/cli": "^0.11.14",
     "@nice-move/eslint-config-base": "^0.11.13",
