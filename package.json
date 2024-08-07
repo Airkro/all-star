@@ -21,7 +21,7 @@
   "dependencies": {
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "vue": "^3.4.27"
+    "vue": "^3.4.34"
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.7",
