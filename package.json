@@ -27,9 +27,9 @@
     "@bring-it/npm": "^0.5.7",
     "@nice-move/syncpack-config": "^0.2.6",
     "eslint": "^8.57.0",
-    "garou": ">=0.7.6",
+    "garou": ">=0.7.7",
     "prettier": "^3.3.3",
-    "stylelint": "^16.8.1",
+    "stylelint": "^16.8.2",
     "syncpack": "^12.4.0",
     "typescript": "~5.5.4"
   },
