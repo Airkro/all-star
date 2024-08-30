@@ -21,16 +21,16 @@
   "dependencies": {
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "vue": "^3.4.28"
+    "vue": "^3.4.38"
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.9",
-    "@nice-move/syncpack-config": "^0.2.6",
+    "@nice-move/syncpack-config": "^0.2.7",
     "eslint": "^8.57.0",
     "garou": ">=0.7.8",
     "prettier": "^3.3.3",
-    "stylelint": "^16.8.2",
-    "syncpack": "^12.4.0",
+    "stylelint": "^16.9.0",
+    "syncpack": "^13.0.0",
     "typescript": "~5.5.4"
   },
   "peerDependencies": {
