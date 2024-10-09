@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.17.14",
+  "version": "0.17.15",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -31,15 +31,15 @@
   },
   "dependencies": {
     "@best-shot/cli": "^0.16.2",
-    "@best-shot/core": "^0.10.8",
+    "@best-shot/core": "^0.10.9",
     "@best-shot/dev-server": "^0.18.3",
     "@best-shot/preset-asset": "^0.12.2",
     "@best-shot/preset-babel": "^0.15.9",
-    "@best-shot/preset-react": "^0.14.3",
+    "@best-shot/preset-react": "^0.14.4",
     "@best-shot/preset-style": "^0.13.5",
     "@best-shot/preset-web": "^0.15.4",
     "@nice-move/cli": "^0.11.16",
-    "@nice-move/eslint-config-react": "^0.11.23",
+    "@nice-move/eslint-config-react": "^0.11.24",
     "@nice-move/prettier-config": "^0.14.6",
     "@nice-move/stylelint-config": "^0.10.8",
     "@nice-move/tsconfig": "^0.2.5",
