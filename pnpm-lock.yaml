@@ -61,14 +61,14 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@best-shot/cli':
-        specifier: ^0.16.3
-        version: 0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        specifier: ^0.16.4
+        version: 0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/core':
         specifier: ^0.10.11
         version: 0.10.11(webpack@5.95.0)
       '@best-shot/dev-server':
         specifier: ^0.18.3
-        version: 0.18.3(@best-shot/cli@0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        version: 0.18.3(@best-shot/cli@0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/preset-asset':
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
@@ -94,8 +94,8 @@ importers:
         specifier: ^0.10.8
         version: 0.10.8(stylelint@16.10.0(typescript@5.6.3))
       '@nice-move/tsconfig':
-        specifier: ^0.2.5
-        version: 0.2.5(typescript@5.6.3)
+        specifier: ^0.2.6
+        version: 0.2.6(typescript@5.6.3)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -127,8 +127,8 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@best-shot/cli':
-        specifier: ^0.16.3
-        version: 0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        specifier: ^0.16.4
+        version: 0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/core':
         specifier: ^0.10.11
         version: 0.10.11(webpack@5.95.0)
@@ -157,8 +157,8 @@ importers:
         specifier: ^0.10.8
         version: 0.10.8(stylelint@16.10.0(typescript@5.6.3))
       '@nice-move/tsconfig':
-        specifier: ^0.2.5
-        version: 0.2.5(typescript@5.6.3)
+        specifier: ^0.2.6
+        version: 0.2.6(typescript@5.6.3)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -193,14 +193,14 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@best-shot/cli':
-        specifier: ^0.16.3
-        version: 0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        specifier: ^0.16.4
+        version: 0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/core':
         specifier: ^0.10.11
         version: 0.10.11(webpack@5.95.0)
       '@best-shot/dev-server':
         specifier: ^0.18.3
-        version: 0.18.3(@best-shot/cli@0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        version: 0.18.3(@best-shot/cli@0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/preset-asset':
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
@@ -229,8 +229,8 @@ importers:
         specifier: ^0.10.8
         version: 0.10.8(stylelint@16.10.0(typescript@5.6.3))
       '@nice-move/tsconfig':
-        specifier: ^0.2.5
-        version: 0.2.5(typescript@5.6.3)
+        specifier: ^0.2.6
+        version: 0.2.6(typescript@5.6.3)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -268,14 +268,14 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@best-shot/cli':
-        specifier: ^0.16.3
-        version: 0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        specifier: ^0.16.4
+        version: 0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/core':
         specifier: ^0.10.11
         version: 0.10.11(webpack@5.95.0)
       '@best-shot/dev-server':
         specifier: ^0.18.3
-        version: 0.18.3(@best-shot/cli@0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+        version: 0.18.3(@best-shot/cli@0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/preset-asset':
         specifier: ^0.12.2
         version: 0.12.2(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
@@ -304,8 +304,8 @@ importers:
         specifier: ^0.10.8
         version: 0.10.8(stylelint@16.10.0(typescript@5.6.3))
       '@nice-move/tsconfig':
-        specifier: ^0.2.5
-        version: 0.2.5(typescript@5.6.3)
+        specifier: ^0.2.6
+        version: 0.2.6(typescript@5.6.3)
       cheetor:
         specifier: ^0.13.0
         version: 0.13.0
@@ -913,8 +913,8 @@ packages:
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
 
-  '@best-shot/cli@0.16.3':
-    resolution: {integrity: sha512-QJoxxTkUNwoaYQRk4EHaQQ+OtBUG1vNrQVEIhRdPTCsbfXl1WyH5VZcLPzTjwC0mOGJQhTOWLRIu9w2LnIWaJQ==}
+  '@best-shot/cli@0.16.4':
+    resolution: {integrity: sha512-RUbI2GUaMwuekwdR2CKFMEWu5iRUB2enamlK2IVUvxMXpIa9z0cUXtWVgKupUOmfXcBRGiZPdzNE6QGCx5WijQ==}
     engines: {node: '>=22.0.0 || ^18.20.4 || ^20.15.0'}
     hasBin: true
     peerDependencies:
@@ -1295,11 +1295,11 @@ packages:
     peerDependencies:
       syncpack: ^13.0.0
 
-  '@nice-move/tsconfig@0.2.5':
-    resolution: {integrity: sha512-K0Eq59t4iRNku4sRNfMAyM1WO9E9kXldx1l8juM1ETvUN2v9xz1KEaMxnv8n2tvy3XnpwL/XVSmhM40NO3zPrQ==}
-    engines: {node: ^18.12.0 || ^20.0.0 || ^22.0.0}
+  '@nice-move/tsconfig@0.2.6':
+    resolution: {integrity: sha512-7rVi2VUfVaRu4jXAfFzXQxl5qE3pR/PIbaZsERMuPwb08xCL2jwzIxK/kIgkOI6Wtk8izTsMGqUvGMNxEyjinQ==}
+    engines: {node: ^18.17.0 || ^20.5.0 || ^22.0.0}
     peerDependencies:
-      typescript: ^5.5.4
+      typescript: ~5.6.3
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -6314,7 +6314,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@best-shot/cli@0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)':
+  '@best-shot/cli@0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)':
     dependencies:
       '@best-shot/config': 0.6.2(@best-shot/core@0.10.11(webpack@5.95.0))
       '@best-shot/core': 0.10.11(webpack@5.95.0)
@@ -6354,9 +6354,9 @@ snapshots:
       - esbuild
       - uglify-js
 
-  '@best-shot/dev-server@0.18.3(@best-shot/cli@0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)':
+  '@best-shot/dev-server@0.18.3(@best-shot/cli@0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0))(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)':
     dependencies:
-      '@best-shot/cli': 0.16.3(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
+      '@best-shot/cli': 0.16.4(@best-shot/core@0.10.11(webpack@5.95.0))(webpack@5.95.0)
       '@best-shot/config': 0.6.2(@best-shot/core@0.10.11(webpack@5.95.0))
       chalk: 5.3.0
       ejs: 3.1.10
@@ -6881,7 +6881,7 @@ snapshots:
       syncpack: 13.0.0(typescript@5.6.3)
       yaml: 2.6.0
 
-  '@nice-move/tsconfig@0.2.5(typescript@5.6.3)':
+  '@nice-move/tsconfig@0.2.6(typescript@5.6.3)':
     dependencies:
       typescript: 5.6.3
 

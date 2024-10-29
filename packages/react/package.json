@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.17.17",
+  "version": "0.17.18",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -30,7 +30,7 @@
     "all-star": "bin.mjs"
   },
   "dependencies": {
-    "@best-shot/cli": "^0.16.3",
+    "@best-shot/cli": "^0.16.4",
     "@best-shot/core": "^0.10.11",
     "@best-shot/dev-server": "^0.18.3",
     "@best-shot/preset-asset": "^0.12.2",
@@ -42,7 +42,7 @@
     "@nice-move/eslint-config-react": "^0.11.27",
     "@nice-move/prettier-config": "^0.14.8",
     "@nice-move/stylelint-config": "^0.10.8",
-    "@nice-move/tsconfig": "^0.2.5",
+    "@nice-move/tsconfig": "^0.2.6",
     "cheetor": "^0.13.0"
   },
   "peerDependencies": {
