@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.17.16",
+  "version": "0.17.17",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -30,23 +30,23 @@
     "all-star": "bin.mjs"
   },
   "dependencies": {
-    "@best-shot/cli": "^0.16.2",
-    "@best-shot/core": "^0.10.10",
+    "@best-shot/cli": "^0.16.3",
+    "@best-shot/core": "^0.10.11",
     "@best-shot/dev-server": "^0.18.3",
     "@best-shot/preset-asset": "^0.12.2",
-    "@best-shot/preset-babel": "^0.15.9",
-    "@best-shot/preset-react": "^0.15.0",
+    "@best-shot/preset-babel": "^0.15.10",
+    "@best-shot/preset-react": "^0.15.1",
     "@best-shot/preset-style": "^0.13.5",
-    "@best-shot/preset-web": "^0.15.4",
+    "@best-shot/preset-web": "^0.15.5",
     "@nice-move/cli": "^0.11.16",
-    "@nice-move/eslint-config-react": "^0.11.25",
-    "@nice-move/prettier-config": "^0.14.7",
+    "@nice-move/eslint-config-react": "^0.11.27",
+    "@nice-move/prettier-config": "^0.14.8",
     "@nice-move/stylelint-config": "^0.10.8",
     "@nice-move/tsconfig": "^0.2.5",
     "cheetor": "^0.13.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.25.8",
+    "@babel/core": "^7.26.0",
     "core-js": "^3.38.1",
     "eslint": "^8.57.1",
     "garou": ">=0.8.1",
