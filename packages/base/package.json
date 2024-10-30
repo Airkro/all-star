@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.17.18",
+  "version": "0.17.19",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -31,7 +31,7 @@
   "dependencies": {
     "@best-shot/cli": "^0.16.4",
     "@best-shot/core": "^0.10.11",
-    "@best-shot/dev-server": "^0.18.3",
+    "@best-shot/dev-server": "^0.18.4",
     "@best-shot/preset-asset": "^0.12.2",
     "@best-shot/preset-babel": "^0.15.10",
     "@best-shot/preset-style": "^0.13.5",
