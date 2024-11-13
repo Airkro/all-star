@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.17.20",
+  "version": "0.17.21",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -34,8 +34,8 @@
     "@best-shot/core": "^0.10.11",
     "@best-shot/dev-server": "^0.18.4",
     "@best-shot/preset-asset": "^0.12.2",
-    "@best-shot/preset-babel": "^0.15.11",
-    "@best-shot/preset-style": "^0.13.6",
+    "@best-shot/preset-babel": "^0.15.12",
+    "@best-shot/preset-style": "^0.13.7",
     "@best-shot/preset-vue": "^0.13.7",
     "@best-shot/preset-web": "^0.15.5",
     "@nice-move/cli": "^0.11.16",
@@ -65,7 +65,7 @@
     }
   },
   "engines": {
-    "node": "^18.19.0 || ^20.6.0 || ^22.0.0"
+    "node": "^18.20.0 || ^20.15.0 || ^22.11.0"
   },
   "publishConfig": {
     "access": "public",
