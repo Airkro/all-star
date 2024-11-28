@@ -39,15 +39,12 @@
     "@all-star/vue": "workspace:~",
     "@types/react": "~18.2.79"
   },
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.14.2",
   "engines": {
-    "node": "^18.20.0 || ^20.15.0 || ^22.11.0"
+    "node": "^20.18.1 || ^22.11.0"
   },
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
-  },
-  "nice-move": {
-    "import-groups": "nice-move-preset"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
