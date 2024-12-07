@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@bring-it/npm':
         specifier: ^0.5.9
-        version: 0.5.9(@bring-it/cli@0.9.7)
+        version: 0.5.9(@bring-it/cli@0.9.9)
       '@nice-move/syncpack-config':
         specifier: ^0.2.9
         version: 0.2.9(syncpack@13.0.0(typescript@5.7.2))
@@ -77,7 +77,7 @@ importers:
         version: 0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
       '@best-shot/preset-style':
         specifier: ^0.13.9
-        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@best-shot/preset-web':
         specifier: ^0.15.6
         version: 0.15.6(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
@@ -140,10 +140,10 @@ importers:
         version: 0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
       '@best-shot/preset-mini':
         specifier: ^0.7.0
-        version: 0.7.0(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-babel@0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(webpack@5.97.1)
+        version: 0.7.0(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-babel@0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(webpack@5.97.1)
       '@best-shot/preset-style':
         specifier: ^0.13.9
-        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@nice-move/cli':
         specifier: ^0.11.17
         version: 0.11.17
@@ -212,7 +212,7 @@ importers:
         version: 0.15.2(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-babel@0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(webpack-dev-server@5.1.0(webpack@5.97.1))(webpack@5.97.1)
       '@best-shot/preset-style':
         specifier: ^0.13.9
-        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@best-shot/preset-web':
         specifier: ^0.15.6
         version: 0.15.6(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
@@ -284,10 +284,10 @@ importers:
         version: 0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
       '@best-shot/preset-style':
         specifier: ^0.13.9
-        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+        version: 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@best-shot/preset-vue':
         specifier: ^0.13.7
-        version: 0.13.7(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.7.2))(webpack@5.97.1)
+        version: 0.13.7(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.7.2))(webpack@5.97.1)
       '@best-shot/preset-web':
         specifier: ^0.15.6
         version: 0.15.6(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
@@ -1016,8 +1016,8 @@ packages:
     resolution: {integrity: sha512-fx+hsLu41wDGDEN2ilAuu3RzTxCS30KFLn0+cP/wDRVww+IGp5LvZQTLNPprrY6TbUu20J0CkGnYheZm09gKqg==}
     engines: {node: '>=10'}
 
-  '@bring-it/cli@0.9.7':
-    resolution: {integrity: sha512-xIPvththZ5gL4dBQ4wR/P+Apv20ebhk6mLZDvb3aseAK6mm7rX5CjnptBMPQ9Hi6gGOiCLgMgB9CVOLBgiEoSw==}
+  '@bring-it/cli@0.9.9':
+    resolution: {integrity: sha512-/g5lDw3/x/JXrq7dxkGmBDGzCJpfnEjAs6JWHhIl5GR1y5QhNOipWxDfPpCAl7plAGis1d7/fXDGhjW57KinOw==}
     engines: {node: '>=22.0.0 || ^18.20.0 || ^20.4.0'}
     hasBin: true
 
@@ -1143,6 +1143,7 @@ packages:
   '@humanwhocodes/config-array@0.13.0':
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1150,6 +1151,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -2628,6 +2630,7 @@ packages:
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -2856,6 +2859,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-modules@2.0.0:
     resolution: {integrity: sha512-NGbfmJBp9x8IxyJSd1P+otYK8vonoJactOogrVfFRIAEY1ukil8RSKDz2Yo7wh1oihl51l/r6W4epkeKJHqL8A==}
@@ -3082,9 +3086,6 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  immutable@4.3.7:
-    resolution: {integrity: sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==}
-
   immutable@5.0.3:
     resolution: {integrity: sha512-P8IdPQHq3lA1xVeBRi5VPqUm5HDgKnx0Ru51wZz5mjxHr5n3RWhjIpOFU7ybkUxfB+5IToy+OLaHYDBIWsv+uw==}
 
@@ -3106,6 +3107,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -3609,7 +3611,7 @@ packages:
     engines: {node: '>= 8'}
 
   methods@1.1.2:
-    resolution: {integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=}
+    resolution: {integrity: sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==}
     engines: {node: '>= 0.6'}
 
   micro-tpl-loader@0.1.0:
@@ -4532,6 +4534,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   run-applescript@7.0.0:
@@ -4706,11 +4709,6 @@ packages:
         optional: true
       webpack:
         optional: true
-
-  sass@1.78.0:
-    resolution: {integrity: sha512-AaIqGSrjo5lA2Yg7RvFZrlXDBCp3nV4XP73GrLGvdRWWwk+8H3l0SDvq/5bA4eF+0RFPLuWUk3E+P1U/YqnpsQ==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
 
   sax@1.4.1:
     resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
@@ -6322,11 +6320,11 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.7.0(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-babel@0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(webpack@5.97.1)':
+  '@best-shot/preset-mini@0.7.0(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-babel@0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(webpack@5.97.1)':
     dependencies:
       '@best-shot/core': 0.10.13(webpack@5.97.1)
       '@best-shot/preset-babel': 0.15.12(@babel/core@7.26.0)(@best-shot/core@0.10.13(webpack@5.97.1))(webpack@5.97.1)
-      '@best-shot/preset-style': 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+      '@best-shot/preset-style': 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@best-shot/sfc-split-plugin': 0.9.1(@babel/core@7.26.0)(@vue/compiler-core@3.5.13)(webpack@5.97.1)
       yaml: 2.6.1
     transitivePeerDependencies:
@@ -6359,7 +6357,7 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)':
+  '@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)':
     dependencies:
       '@best-shot/core': 0.10.13(webpack@5.97.1)
       css-loader: 7.1.2(webpack@5.97.1)
@@ -6374,7 +6372,7 @@ snapshots:
       postcss-preset-evergreen: 0.6.2(postcss@8.4.49)
       resolve-url-loader: 5.0.0
       sass-embedded: 1.82.0
-      sass-loader: 16.0.4(sass-embedded@1.82.0)(sass@1.78.0)(webpack@5.97.1)
+      sass-loader: 16.0.4(sass-embedded@1.82.0)(webpack@5.97.1)
       settingz: 0.2.0
       slash-to-regexp: 0.1.0
       style-loader: 4.0.0(webpack@5.97.1)
@@ -6391,10 +6389,10 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.13.7(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.7.2))(webpack@5.97.1)':
+  '@best-shot/preset-vue@0.13.7(@best-shot/core@0.10.13(webpack@5.97.1))(@best-shot/preset-style@0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.7.2))(webpack@5.97.1)':
     dependencies:
       '@best-shot/core': 0.10.13(webpack@5.97.1)
-      '@best-shot/preset-style': 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(sass@1.78.0)(typescript@5.7.2)(webpack@5.97.1)
+      '@best-shot/preset-style': 0.13.9(@best-shot/core@0.10.13(webpack@5.97.1))(typescript@5.7.2)(webpack@5.97.1)
       '@best-shot/vue-loader': 17.4.8(vue@3.5.13(typescript@5.7.2))(webpack@5.97.1)
       '@vue/compiler-sfc': 3.5.13
       css-loader: 7.1.2(webpack@5.97.1)
@@ -6461,14 +6459,14 @@ snapshots:
       deepmerge: 1.5.2
       javascript-stringify: 2.1.0
 
-  '@bring-it/cli@0.9.7':
+  '@bring-it/cli@0.9.9':
     dependencies:
       globby: 14.0.2
       yargs: 17.7.2
 
-  '@bring-it/npm@0.5.9(@bring-it/cli@0.9.7)':
+  '@bring-it/npm@0.5.9(@bring-it/cli@0.9.9)':
     dependencies:
-      '@bring-it/cli': 0.9.7
+      '@bring-it/cli': 0.9.9
 
   '@bufbuild/protobuf@2.2.2': {}
 
@@ -8862,9 +8860,6 @@ snapshots:
   image-size@0.5.5:
     optional: true
 
-  immutable@4.3.7:
-    optional: true
-
   immutable@5.0.3: {}
 
   import-fresh@3.3.0:
@@ -10395,20 +10390,12 @@ snapshots:
       sass-embedded-win32-ia32: 1.82.0
       sass-embedded-win32-x64: 1.82.0
 
-  sass-loader@16.0.4(sass-embedded@1.82.0)(sass@1.78.0)(webpack@5.97.1):
+  sass-loader@16.0.4(sass-embedded@1.82.0)(webpack@5.97.1):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.78.0
       sass-embedded: 1.82.0
       webpack: 5.97.1
-
-  sass@1.78.0:
-    dependencies:
-      chokidar: 3.6.0
-      immutable: 4.3.7
-      source-map-js: 1.2.1
-    optional: true
 
   sax@1.4.1:
     optional: true
