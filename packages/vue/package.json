@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -37,7 +37,7 @@
     "@best-shot/preset-babel": "^0.15.12",
     "@best-shot/preset-style": "^0.13.9",
     "@best-shot/preset-vue": "^0.13.7",
-    "@best-shot/preset-web": "^0.15.5",
+    "@best-shot/preset-web": "^0.15.6",
     "@nice-move/cli": "^0.11.17",
     "@nice-move/eslint-config-vue": "^0.11.31",
     "@nice-move/prettier-config": "^0.14.11",
@@ -49,12 +49,12 @@
     "@babel/core": "^7.26.0",
     "core-js": "^3.39.0",
     "eslint": "^8.57.1",
-    "garou": ">=0.8.2",
+    "garou": ">=0.8.3",
     "prettier": "^3.4.2",
     "stylelint": "^16.11.0",
     "typescript": "~5.7.2",
     "vue": "~3.5.13",
-    "webpack": "^5.96.1"
+    "webpack": "^5.97.1"
   },
   "peerDependenciesMeta": {
     "garou": {
