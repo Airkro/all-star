@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.18.2",
+  "version": "0.19.1",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -30,16 +30,16 @@
     "all-star": "bin.mjs"
   },
   "dependencies": {
-    "@best-shot/cli": "^0.16.5",
-    "@best-shot/core": "^0.10.13",
-    "@best-shot/dev-server": "^0.18.5",
-    "@best-shot/preset-asset": "^0.12.3",
-    "@best-shot/preset-babel": "^0.15.12",
-    "@best-shot/preset-react": "^0.15.2",
-    "@best-shot/preset-style": "^0.13.9",
-    "@best-shot/preset-web": "^0.15.6",
-    "@nice-move/cli": "^0.11.17",
-    "@nice-move/eslint-config-react": "^0.11.31",
+    "@best-shot/cli": "^0.17.0",
+    "@best-shot/core": "^0.11.0",
+    "@best-shot/dev-server": "^0.19.0",
+    "@best-shot/preset-asset": "^0.13.0",
+    "@best-shot/preset-babel": "^0.16.0",
+    "@best-shot/preset-react": "^0.16.0",
+    "@best-shot/preset-style": "^0.14.0",
+    "@best-shot/preset-web": "^0.16.0",
+    "@nice-move/cli": "^0.11.18",
+    "@nice-move/eslint-config-react": "^0.11.33",
     "@nice-move/prettier-config": "^0.14.11",
     "@nice-move/stylelint-config": "^0.10.8",
     "@nice-move/tsconfig": "^0.2.7",
@@ -53,7 +53,7 @@
     "prettier": "^3.4.2",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "stylelint": "^16.11.0",
+    "stylelint": "^16.12.0",
     "typescript": "~5.7.2",
     "webpack": "^5.97.1"
   },
@@ -66,7 +66,7 @@
     }
   },
   "engines": {
-    "node": "^20.18.1 || ^22.11.0"
+    "node": "^22.11.0"
   },
   "publishConfig": {
     "access": "public",
