@@ -1,6 +1,6 @@
 {
   "name": "@all-star/mini",
-  "version": "0.19.1",
+  "version": "0.19.2",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -37,7 +37,7 @@
     "@best-shot/preset-mini": "^0.8.0",
     "@best-shot/preset-style": "^0.14.0",
     "@nice-move/cli": "^0.11.18",
-    "@nice-move/eslint-config-vue": "^0.11.33",
+    "@nice-move/eslint-config-vue": "^0.11.34",
     "@nice-move/prettier-config": "^0.14.11",
     "@nice-move/stylelint-config": "^0.10.8",
     "@nice-move/tsconfig": "^0.2.7",

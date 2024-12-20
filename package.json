@@ -37,9 +37,9 @@
     "@all-star/base": "workspace:~",
     "@all-star/react": "workspace:~",
     "@all-star/vue": "workspace:~",
-    "@types/react": "~18.3.17"
+    "@types/react": "~18.3.18"
   },
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.0",
   "engines": {
     "node": "^22.11.0"
   },
