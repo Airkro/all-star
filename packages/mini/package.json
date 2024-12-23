@@ -1,6 +1,6 @@
 {
   "name": "@all-star/mini",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -30,12 +30,12 @@
     "all-star": "bin.mjs"
   },
   "dependencies": {
-    "@best-shot/cli": "^0.17.0",
-    "@best-shot/core": "^0.11.0",
-    "@best-shot/preset-asset": "^0.13.0",
-    "@best-shot/preset-babel": "^0.16.0",
-    "@best-shot/preset-mini": "^0.8.0",
-    "@best-shot/preset-style": "^0.14.0",
+    "@best-shot/cli": "^0.18.0",
+    "@best-shot/core": "^0.12.0",
+    "@best-shot/preset-asset": "^0.14.0",
+    "@best-shot/preset-babel": "^0.17.0",
+    "@best-shot/preset-mini": "^0.9.0",
+    "@best-shot/preset-style": "^0.15.0",
     "@nice-move/cli": "^0.11.18",
     "@nice-move/eslint-config-vue": "^0.11.34",
     "@nice-move/prettier-config": "^0.14.11",

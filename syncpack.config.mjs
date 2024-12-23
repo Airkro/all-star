@@ -8,13 +8,17 @@ export default defineConfig(import.meta.url, {
       dependencies: ['garou'],
       range: '>=',
     },
+    {
+      dependencies: ['react-dom', 'react'],
+      range: '>=',
+    },
   ],
   versionGroups: [
     {
       dependencies: ['@all-star/*'],
       dependencyTypes: ['local'],
       label: 'Same version',
-      pinVersion: '0.19.2',
+      pinVersion: '0.19.3',
     },
   ],
 });
