@@ -24,11 +24,12 @@
     "vue": "~3.5.13"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.9",
+    "@bring-it/cli": "^0.10.0",
+    "@bring-it/npm": "^0.6.0",
     "@nice-move/syncpack-config": "^0.2.9",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "garou": ">=0.9.4",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "stylelint": "^16.14.1",
     "syncpack": "^13.0.2",
     "typescript": "~5.7.3"
@@ -41,7 +42,7 @@
   },
   "pnpm": {
     "overrides": {
-      "eslint": "^9.20.0",
+      "eslint": "^9.20.1",
       "eslint-plugin-react-hooks": "^5.1.0"
     }
   },

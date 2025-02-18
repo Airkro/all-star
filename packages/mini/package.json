@@ -1,6 +1,6 @@
 {
   "name": "@all-star/mini",
-  "version": "0.20.5",
+  "version": "0.20.6",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "@best-shot/cli": "^0.18.2",
-    "@best-shot/core": "^0.12.2",
+    "@best-shot/core": "^0.12.4",
     "@best-shot/preset-asset": "^0.14.0",
     "@best-shot/preset-babel": "^0.17.2",
     "@best-shot/preset-mini": "^0.10.2",
-    "@best-shot/preset-style": "^0.15.2",
+    "@best-shot/preset-style": "^0.15.3",
     "@nice-move/cli": "^0.11.21",
     "@nice-move/eslint-config-vue": "^0.12.9",
     "@nice-move/prettier-config": "^0.14.11",
@@ -46,9 +46,9 @@
   "peerDependencies": {
     "@babel/core": "^7.26.8",
     "core-js": "^3.40.0",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "garou": ">=0.9.4",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "stylelint": "^16.14.1",
     "typescript": "~5.7.3",
     "vue": "~3.5.13",
