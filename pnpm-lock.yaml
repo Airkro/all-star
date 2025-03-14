@@ -15,7 +15,7 @@ catalogs:
 
 overrides:
   eslint: ^9.21.0
-  eslint-plugin-react-hooks: ^5.1.0
+  eslint-plugin-react-hooks: ^5.2.0
 
 importers:
 
@@ -1128,6 +1128,7 @@ packages:
 
   '@effect/schema@0.75.5':
     resolution: {integrity: sha512-TQInulTVCuF+9EIbJpyLP6dvxbQJMphrnRqgexm/Ze39rSjfhJuufF7XvU3SxTgg3HnL7B/kpORTJbHhlE6thw==}
+    deprecated: this package has been merged into the main effect package
     peerDependencies:
       effect: ^3.9.2
 
@@ -2528,7 +2529,7 @@ packages:
       eslint-plugin-import: ^2.25.3
       eslint-plugin-jsx-a11y: ^6.5.1
       eslint-plugin-react: ^7.28.0
-      eslint-plugin-react-hooks: ^5.1.0
+      eslint-plugin-react-hooks: ^5.2.0
 
   eslint-config-prettier@10.0.2:
     resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
@@ -4956,7 +4957,7 @@ packages:
     resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==}
 
   statuses@1.5.0:
-    resolution: {integrity: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=}
+    resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
     engines: {node: '>= 0.6'}
 
   statuses@2.0.1:
