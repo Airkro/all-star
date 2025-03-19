@@ -27,11 +27,11 @@
     "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.6.0",
     "@nice-move/syncpack-config": "^0.2.9",
-    "eslint": "^9.21.0",
-    "garou": ">=0.9.4",
+    "eslint": "^9.22.0",
+    "garou": ">=0.9.5",
     "prettier": "^3.5.3",
-    "stylelint": "^16.15.0",
-    "syncpack": "^13.0.2",
+    "stylelint": "^16.16.0",
+    "syncpack": "^13.0.3",
     "typescript": "~5.8.2"
   },
   "peerDependencies": {
@@ -42,14 +42,14 @@
   },
   "pnpm": {
     "overrides": {
-      "eslint": "^9.21.0",
-      "eslint-plugin-react-hooks": "^5.1.0"
+      "eslint": "^9.22.0",
+      "eslint-plugin-react-hooks": "^5.2.0"
     }
   },
-  "packageManager": "pnpm@9.15.4",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": "^22.11.0",
-    "pnpm": "^9.15.4"
+    "pnpm": "^9.15.9"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
