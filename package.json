@@ -27,7 +27,7 @@
     "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.6.0",
     "@nice-move/syncpack-config": "^0.2.9",
-    "eslint": "^9.22.0",
+    "eslint": "^9.23.0",
     "garou": ">=0.9.5",
     "prettier": "^3.5.3",
     "stylelint": "^16.16.0",
@@ -42,7 +42,7 @@
   },
   "pnpm": {
     "overrides": {
-      "eslint": "^9.22.0",
+      "eslint": "^9.23.0",
       "eslint-plugin-react-hooks": "^5.2.0"
     }
   },
