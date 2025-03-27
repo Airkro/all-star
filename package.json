@@ -30,7 +30,7 @@
     "eslint": "^9.23.0",
     "garou": ">=0.9.5",
     "prettier": "^3.5.3",
-    "stylelint": "^16.16.0",
+    "stylelint": "^16.17.0",
     "syncpack": "^13.0.3",
     "typescript": "~5.8.2"
   },
