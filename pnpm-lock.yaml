@@ -74,7 +74,7 @@ importers:
   packages/base:
     dependencies:
       '@babel/core':
-        specifier: ^7.26.9
+        specifier: ^7.26.10
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
@@ -140,7 +140,7 @@ importers:
   packages/mini:
     dependencies:
       '@babel/core':
-        specifier: ^7.26.9
+        specifier: ^7.26.10
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
@@ -206,7 +206,7 @@ importers:
   packages/react:
     dependencies:
       '@babel/core':
-        specifier: ^7.26.9
+        specifier: ^7.26.10
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
@@ -224,8 +224,8 @@ importers:
         specifier: ^0.17.5
         version: 0.17.5(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(webpack@5.98.0)
       '@best-shot/preset-react':
-        specifier: ^0.17.2
-        version: 0.17.2(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(@best-shot/preset-babel@0.17.5(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(webpack@5.98.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.38.0)(webpack-dev-server@5.2.1(webpack@5.98.0))(webpack@5.98.0)
+        specifier: ^0.17.3
+        version: 0.17.3(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(@best-shot/preset-babel@0.17.5(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(webpack@5.98.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.38.0)(webpack-dev-server@5.2.1(webpack@5.98.0))(webpack@5.98.0)
       '@best-shot/preset-style':
         specifier: ^0.15.4
         version: 0.15.4(@best-shot/core@0.12.9(webpack@5.98.0))(sass@1.78.0)(typescript@5.8.2)(webpack@5.98.0)
@@ -281,7 +281,7 @@ importers:
   packages/vue:
     dependencies:
       '@babel/core':
-        specifier: ^7.26.9
+        specifier: ^7.26.10
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
@@ -971,11 +971,11 @@ packages:
       '@best-shot/preset-babel': ~0.17.5
       '@best-shot/preset-style': ~0.15.4
 
-  '@best-shot/preset-react@0.17.2':
-    resolution: {integrity: sha512-nL6UxS3mbR2O3m0V9ysyQYRs9dcLGiuRhx3dc+BH/mBbz1D91et1E3bMEvPbIZjSf3KFSHwP4G4PaCoe10ol8w==}
+  '@best-shot/preset-react@0.17.3':
+    resolution: {integrity: sha512-KTKbtn1GanzmJpkg9FGqQbogmFGP9ub6iaFoajOleFeK8usXVWWpBs5mbW/I6OVXJSQlINopbmWCb/YiuTl4gg==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     peerDependencies:
-      '@best-shot/core': ~0.12.8
+      '@best-shot/core': ~0.12.9
       '@best-shot/preset-babel': ~0.17.5
       react: '>=18.3.1'
       react-dom: '>=18.3.1'
@@ -6394,7 +6394,7 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-react@0.17.2(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(@best-shot/preset-babel@0.17.5(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(webpack@5.98.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.38.0)(webpack-dev-server@5.2.1(webpack@5.98.0))(webpack@5.98.0)':
+  '@best-shot/preset-react@0.17.3(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(@best-shot/preset-babel@0.17.5(@babel/core@7.26.10)(@best-shot/core@0.12.9(webpack@5.98.0))(webpack@5.98.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.38.0)(webpack-dev-server@5.2.1(webpack@5.98.0))(webpack@5.98.0)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-inline-elements': 7.25.9(@babel/core@7.26.10)
