@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.20.16",
+  "version": "0.20.17",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -32,7 +32,7 @@
   "type": "module",
   "dependencies": {
     "@best-shot/cli": "^0.18.2",
-    "@best-shot/core": "^0.12.9",
+    "@best-shot/core": "^0.12.10",
     "@best-shot/dev-server": "^0.20.1",
     "@best-shot/preset-asset": "^0.14.1",
     "@best-shot/preset-babel": "^0.17.6",
