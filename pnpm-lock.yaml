@@ -78,25 +78,25 @@ importers:
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
-        version: 0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/core':
-        specifier: ^0.12.10
-        version: 0.12.10(webpack@5.99.5)
+        specifier: ^0.12.11
+        version: 0.12.11(webpack@5.99.5)
       '@best-shot/dev-server':
         specifier: ^0.20.1
-        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-asset':
         specifier: ^0.14.1
-        version: 0.14.1(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.14.1(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-babel':
         specifier: ^0.17.6
-        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
-        version: 0.17.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@nice-move/cli':
         specifier: ^0.11.21
         version: 0.11.21
@@ -134,7 +134,7 @@ importers:
         specifier: ~5.8.3
         version: 5.8.3
       webpack:
-        specifier: ^5.98.0
+        specifier: ^5.99.5
         version: 5.99.5
 
   packages/mini:
@@ -144,22 +144,22 @@ importers:
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
-        version: 0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/core':
-        specifier: ^0.12.10
-        version: 0.12.10(webpack@5.99.5)
+        specifier: ^0.12.11
+        version: 0.12.11(webpack@5.99.5)
       '@best-shot/preset-asset':
         specifier: ^0.14.1
-        version: 0.14.1(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.14.1(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-babel':
         specifier: ^0.17.6
-        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-mini':
-        specifier: ^0.10.9
-        version: 0.10.9(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-core@3.5.13)(webpack@5.99.5)
+        specifier: ^0.10.10
+        version: 0.10.10(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-core@3.5.13)(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@nice-move/cli':
         specifier: ^0.11.21
         version: 0.11.21
@@ -200,7 +200,7 @@ importers:
         specifier: ~3.5.13
         version: 3.5.13(typescript@5.8.3)
       webpack:
-        specifier: ^5.98.0
+        specifier: ^5.99.5
         version: 5.99.5
 
   packages/react:
@@ -210,28 +210,28 @@ importers:
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
-        version: 0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/core':
-        specifier: ^0.12.10
-        version: 0.12.10(webpack@5.99.5)
+        specifier: ^0.12.11
+        version: 0.12.11(webpack@5.99.5)
       '@best-shot/dev-server':
         specifier: ^0.20.1
-        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-asset':
         specifier: ^0.14.1
-        version: 0.14.1(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.14.1(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-babel':
         specifier: ^0.17.6
-        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-react':
         specifier: ^0.17.4
-        version: 0.17.4(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.39.1)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.4(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.39.1)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
-        version: 0.17.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@nice-move/cli':
         specifier: ^0.11.21
         version: 0.11.21
@@ -275,7 +275,7 @@ importers:
         specifier: ~5.8.3
         version: 5.8.3
       webpack:
-        specifier: ^5.98.0
+        specifier: ^5.99.5
         version: 5.99.5
 
   packages/vue:
@@ -285,28 +285,28 @@ importers:
         version: 7.26.10
       '@best-shot/cli':
         specifier: ^0.18.2
-        version: 0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/core':
-        specifier: ^0.12.10
-        version: 0.12.10(webpack@5.99.5)
+        specifier: ^0.12.11
+        version: 0.12.11(webpack@5.99.5)
       '@best-shot/dev-server':
         specifier: ^0.20.1
-        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-asset':
         specifier: ^0.14.1
-        version: 0.14.1(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.14.1(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-babel':
         specifier: ^0.17.6
-        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-vue':
         specifier: ^0.15.1
-        version: 0.15.1(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
+        version: 0.15.1(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
-        version: 0.17.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.17.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@nice-move/cli':
         specifier: ^0.11.21
         version: 0.11.21
@@ -347,7 +347,7 @@ importers:
         specifier: ~3.5.13
         version: 3.5.13(typescript@5.8.3)
       webpack:
-        specifier: ^5.98.0
+        specifier: ^5.99.5
         version: 5.99.5
 
 packages:
@@ -928,8 +928,8 @@ packages:
     peerDependencies:
       '@best-shot/core': ~0.12.2
 
-  '@best-shot/core@0.12.10':
-    resolution: {integrity: sha512-6q7pEqNVmVHEb6+H+9IJmACThSQ3e4WD5QzkNHY5RwODWxVVy3Ag463K/zcA2TeAsuQy7vLKey/LLtlIcSVHsQ==}
+  '@best-shot/core@0.12.11':
+    resolution: {integrity: sha512-qSVTLcrJzsF14QOT5XTDO6pF90Ye0zjiFdfjVTQACPaPE1pFiNVcDOQgAoXXbeOztosjzd3kH0EdEFdbeNWVmg==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     peerDependencies:
       webpack: ^5.99.5
@@ -963,11 +963,11 @@ packages:
       '@babel/core': ^7.26.10
       '@best-shot/core': ~0.12.9
 
-  '@best-shot/preset-mini@0.10.9':
-    resolution: {integrity: sha512-T2YYbiUtE4xihYbfSTsfEvAyrMIVpsPMdL5FocP9AvWWr9v5bzzFoBPA2nNguK6sZht+dof3pAR3fAB6Z/gi3Q==}
+  '@best-shot/preset-mini@0.10.10':
+    resolution: {integrity: sha512-omBcy4zwHx+eYHrWYLCwPeNKrBY0V7nMwawHHcnYZvD/ZpCcRLSyRBh3pXv+Oi0sM6EnsO82Loco97pUxuM7VQ==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     peerDependencies:
-      '@best-shot/core': ~0.12.10
+      '@best-shot/core': ~0.12.11
       '@best-shot/preset-babel': ~0.17.6
       '@best-shot/preset-style': ~0.15.5
 
@@ -6287,10 +6287,10 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@best-shot/cli@0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/cli@0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
-      '@best-shot/config': 0.8.2(@best-shot/core@0.12.10(webpack@5.99.5))
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/config': 0.8.2(@best-shot/core@0.12.11(webpack@5.99.5))
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       chalk: 5.4.1
       cheetor: 0.13.0
       webpack: 5.99.5
@@ -6298,15 +6298,15 @@ snapshots:
     transitivePeerDependencies:
       - '@rspack/core'
 
-  '@best-shot/config@0.8.2(@best-shot/core@0.12.10(webpack@5.99.5))':
+  '@best-shot/config@0.8.2(@best-shot/core@0.12.11(webpack@5.99.5))':
     dependencies:
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       '@best-shot/env': 0.4.0
       '@best-shot/validator': 0.5.0
       chalk: 5.4.1
       prompts: 2.4.2
 
-  '@best-shot/core@0.12.10(webpack@5.99.5)':
+  '@best-shot/core@0.12.11(webpack@5.99.5)':
     dependencies:
       '@best-shot/no-cache-loader': 0.0.0(webpack@5.99.5)
       '@best-shot/validator': 0.5.0
@@ -6329,10 +6329,10 @@ snapshots:
       - esbuild
       - uglify-js
 
-  '@best-shot/dev-server@0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/dev-server@0.20.1(@best-shot/cli@0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
-      '@best-shot/cli': 0.18.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
-      '@best-shot/config': 0.8.2(@best-shot/core@0.12.10(webpack@5.99.5))
+      '@best-shot/cli': 0.18.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
+      '@best-shot/config': 0.8.2(@best-shot/core@0.12.11(webpack@5.99.5))
       chalk: 5.4.1
       ejs: 3.1.10
       express: 4.21.2
@@ -6360,10 +6360,10 @@ snapshots:
     dependencies:
       webpack: 5.99.5
 
-  '@best-shot/preset-asset@0.14.1(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/preset-asset@0.14.1(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
       '@astropub/codecs': 0.4.4
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       '@sindresorhus/transliterate': 1.6.0
       '@volue/wasm-codecs-gifsicle': 1.0.0
       ext-to-regexp: 0.1.0
@@ -6376,11 +6376,11 @@ snapshots:
       - sharp
       - webpack
 
-  '@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/preset-typescript': 7.27.0(@babel/core@7.26.10)
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       babel-loader: 10.0.0(@babel/core@7.26.10)(webpack@5.99.5)
       babel-preset-evergreen: 0.11.2(@babel/core@7.26.10)
       browserslist: 4.24.4
@@ -6392,11 +6392,11 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.10.9(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-core@3.5.13)(webpack@5.99.5)':
+  '@best-shot/preset-mini@0.10.10(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-core@3.5.13)(webpack@5.99.5)':
     dependencies:
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
-      '@best-shot/preset-babel': 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
-      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
+      '@best-shot/preset-babel': 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
+      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/sfc-split-plugin': 0.13.15(@vue/compiler-core@3.5.13)(webpack@5.99.5)
       yaml: 2.7.1
     transitivePeerDependencies:
@@ -6404,13 +6404,13 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-react@0.17.4(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.39.1)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/preset-react@0.17.4(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-babel@0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.39.1)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-inline-elements': 7.25.9(@babel/core@7.26.10)
       '@babel/preset-react': 7.26.3(@babel/core@7.26.10)
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
-      '@best-shot/preset-babel': 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
+      '@best-shot/preset-babel': 0.17.6(@babel/core@7.26.10)(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.16(react-refresh@0.17.0)(type-fest@4.39.1)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       react: 18.3.1
@@ -6427,9 +6427,9 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)':
+  '@best-shot/preset-style@0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)':
     dependencies:
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       css-loader: 7.1.2(webpack@5.99.5)
       css-minimizer-webpack-plugin: 7.0.2(webpack@5.99.5)
       cssnano: 7.0.6(postcss@8.5.3)
@@ -6459,10 +6459,10 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.15.1(@best-shot/core@0.12.10(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)':
+  '@best-shot/preset-vue@0.15.1(@best-shot/core@0.12.11(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)':
     dependencies:
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
-      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.10(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
+      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.11(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/vue-loader': 17.4.9(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
       '@vue/compiler-sfc': 3.5.13
       css-loader: 7.1.2(webpack@5.99.5)
@@ -6472,9 +6472,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@best-shot/preset-web@0.17.2(@best-shot/core@0.12.10(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/preset-web@0.17.2(@best-shot/core@0.12.11(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
-      '@best-shot/core': 0.12.10(webpack@5.99.5)
+      '@best-shot/core': 0.12.11(webpack@5.99.5)
       ext-to-regexp: 0.1.0
       html-add-asset-webpack-plugin: 0.2.0(html-webpack-plugin@5.6.3(webpack@5.99.5))(webpack@5.99.5)
       html-minimizer-webpack-plugin: 5.0.2(webpack@5.99.5)
@@ -6751,7 +6751,7 @@ snapshots:
       '@eslint/js': 9.24.0
       '@nice-move/eslint-plugin-html': 0.1.1(eslint@9.24.0(jiti@1.21.7))
       eslint: 9.24.0(jiti@1.21.7)
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7))
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7))
       eslint-config-prettier: 10.1.2(eslint@9.24.0(jiti@1.21.7))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.24.0(jiti@1.21.7))
       eslint-plugin-markdown: 5.1.0(eslint@9.24.0(jiti@1.21.7))
@@ -8243,7 +8243,7 @@ snapshots:
       eslint: 9.24.0(jiti@1.21.7)
       semver: 7.7.1
 
-  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7)):
+  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7)):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 9.24.0(jiti@1.21.7)
@@ -8255,7 +8255,7 @@ snapshots:
   eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0(eslint@9.24.0(jiti@1.21.7)))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.24.0(jiti@1.21.7)))(eslint-plugin-react-hooks@5.2.0(eslint@9.24.0(jiti@1.21.7)))(eslint-plugin-react@7.37.5(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7)):
     dependencies:
       eslint: 9.24.0(jiti@1.21.7)
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7))
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.24.0(jiti@1.21.7)))(eslint@9.24.0(jiti@1.21.7))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.24.0(jiti@1.21.7))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.24.0(jiti@1.21.7))
       eslint-plugin-react: 7.37.5(eslint@9.24.0(jiti@1.21.7))
