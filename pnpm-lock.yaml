@@ -93,7 +93,7 @@ importers:
         version: 0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
         version: 0.17.2(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
@@ -156,10 +156,10 @@ importers:
         version: 0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-mini':
         specifier: ^0.10.15
-        version: 0.10.15(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-babel@0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(webpack@5.99.5)
+        version: 0.10.15(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-babel@0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@nice-move/cli':
         specifier: ^0.11.21
         version: 0.11.21
@@ -228,7 +228,7 @@ importers:
         version: 0.17.4(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-babel@0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(webpack-dev-server@5.2.1(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
         version: 0.17.2(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
@@ -300,10 +300,10 @@ importers:
         version: 0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
       '@best-shot/preset-style':
         specifier: ^0.15.5
-        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+        version: 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/preset-vue':
         specifier: ^0.15.1
-        version: 0.15.1(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
+        version: 0.15.1(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
       '@best-shot/preset-web':
         specifier: ^0.17.2
         version: 0.17.2(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
@@ -3146,9 +3146,6 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  immutable@4.3.7:
-    resolution: {integrity: sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==}
-
   immutable@5.1.1:
     resolution: {integrity: sha512-3jatXi9ObIsPGr3N5hGw/vWWcTkq6hUYhpQz4k0wLC+owqWi/LiugIw9x0EdNZ2yGedKN/HzePiBvaJRXa0Ujg==}
 
@@ -4779,11 +4776,6 @@ packages:
       webpack:
         optional: true
 
-  sass@1.78.0:
-    resolution: {integrity: sha512-AaIqGSrjo5lA2Yg7RvFZrlXDBCp3nV4XP73GrLGvdRWWwk+8H3l0SDvq/5bA4eF+0RFPLuWUk3E+P1U/YqnpsQ==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-
   sax@1.4.1:
     resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
 
@@ -6400,11 +6392,11 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.10.15(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-babel@0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(webpack@5.99.5)':
+  '@best-shot/preset-mini@0.10.15(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-babel@0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5))(webpack@5.99.5)':
     dependencies:
       '@best-shot/core': 0.12.14(webpack@5.99.5)
       '@best-shot/preset-babel': 0.17.7(@babel/core@7.26.10)(@best-shot/core@0.12.14(webpack@5.99.5))(webpack@5.99.5)
-      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/sfc-split-plugin': 0.13.32(webpack@5.99.5)
       yaml: 2.7.1
     transitivePeerDependencies:
@@ -6434,7 +6426,7 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)':
+  '@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)':
     dependencies:
       '@best-shot/core': 0.12.14(webpack@5.99.5)
       css-loader: 7.1.2(webpack@5.99.5)
@@ -6449,7 +6441,7 @@ snapshots:
       postcss-preset-evergreen: 0.8.1(postcss@8.5.3)
       resolve-url-loader: 5.0.0
       sass-embedded: 1.86.3
-      sass-loader: 16.0.5(sass-embedded@1.86.3)(sass@1.78.0)(webpack@5.99.5)
+      sass-loader: 16.0.5(sass-embedded@1.86.3)(webpack@5.99.5)
       settingz: 0.2.0
       slash-to-regexp: 0.1.0
       style-loader: 4.0.0(webpack@5.99.5)
@@ -6466,10 +6458,10 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.15.1(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)':
+  '@best-shot/preset-vue@0.15.1(@best-shot/core@0.12.14(webpack@5.99.5))(@best-shot/preset-style@0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5))(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)':
     dependencies:
       '@best-shot/core': 0.12.14(webpack@5.99.5)
-      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(sass@1.78.0)(typescript@5.8.3)(webpack@5.99.5)
+      '@best-shot/preset-style': 0.15.5(@best-shot/core@0.12.14(webpack@5.99.5))(typescript@5.8.3)(webpack@5.99.5)
       '@best-shot/vue-loader': 17.4.9(vue@3.5.13(typescript@5.8.3))(webpack@5.99.5)
       '@vue/compiler-sfc': 3.5.13
       css-loader: 7.1.2(webpack@5.99.5)
@@ -9006,9 +8998,6 @@ snapshots:
   image-size@0.5.5:
     optional: true
 
-  immutable@4.3.7:
-    optional: true
-
   immutable@5.1.1: {}
 
   import-fresh@3.3.1:
@@ -10575,20 +10564,12 @@ snapshots:
       sass-embedded-win32-ia32: 1.86.3
       sass-embedded-win32-x64: 1.86.3
 
-  sass-loader@16.0.5(sass-embedded@1.86.3)(sass@1.78.0)(webpack@5.99.5):
+  sass-loader@16.0.5(sass-embedded@1.86.3)(webpack@5.99.5):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.78.0
       sass-embedded: 1.86.3
       webpack: 5.99.5
-
-  sass@1.78.0:
-    dependencies:
-      chokidar: 3.6.0
-      immutable: 4.3.7
-      source-map-js: 1.2.1
-    optional: true
 
   sax@1.4.1:
     optional: true
