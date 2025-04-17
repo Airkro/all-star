@@ -1,6 +1,6 @@
 // @ts-check
 
-import defineConfig from '@nice-move/syncpack-config/define.cjs';
+import { defineConfig } from '@nice-move/syncpack-config/define.mjs';
 
 export default defineConfig(import.meta.url, {
   semverGroups: [
@@ -18,7 +18,7 @@ export default defineConfig(import.meta.url, {
       dependencies: ['@all-star/*'],
       dependencyTypes: ['local'],
       label: 'Same version',
-      pinVersion: '0.20.19',
+      pinVersion: '0.20.20',
     },
   ],
 });
