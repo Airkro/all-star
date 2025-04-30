@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.20.21",
+  "version": "0.20.23",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -29,6 +29,9 @@
   "bin": {
     "all-star": "bin.mjs"
   },
+  "exports": {
+    "./eslint": "./eslint.mjs"
+  },
   "type": "module",
   "dependencies": {
     "@best-shot/cli": "^0.18.4",
@@ -40,22 +43,22 @@
     "@best-shot/preset-vue": "^0.15.1",
     "@best-shot/preset-web": "^0.17.2",
     "@nice-move/cli": "^0.11.21",
-    "@nice-move/eslint-config-vue": "^0.12.18",
+    "@nice-move/eslint-config-vue": "^0.12.19",
     "@nice-move/prettier-config": "^0.14.12",
-    "@nice-move/stylelint-config": "^0.10.13",
+    "@nice-move/stylelint-config": "^0.10.14",
     "@nice-move/tsconfig": "^0.2.9",
     "cheetor": "^0.13.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.26.10",
-    "core-js": "^3.41.0",
+    "core-js": "^3.42.0",
     "eslint": "^9.25.1",
     "garou": ">=0.9.5",
     "prettier": "^3.5.3",
-    "stylelint": "^16.19.0",
+    "stylelint": "^16.19.1",
     "typescript": "~5.8.3",
     "vue": "~3.5.13",
-    "webpack": "^5.99.5"
+    "webpack": "^5.99.7"
   },
   "peerDependenciesMeta": {
     "garou": {
