@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.20.23",
+  "version": "0.20.24",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -37,25 +37,25 @@
     "@best-shot/core": "^0.12.17",
     "@best-shot/dev-server": "^0.20.1",
     "@best-shot/preset-asset": "^0.14.1",
-    "@best-shot/preset-babel": "^0.17.7",
+    "@best-shot/preset-babel": "^0.17.8",
     "@best-shot/preset-style": "^0.15.5",
     "@best-shot/preset-web": "^0.17.2",
     "@nice-move/cli": "^0.11.21",
     "@nice-move/eslint-config-base": "^0.12.19",
-    "@nice-move/prettier-config": "^0.14.12",
+    "@nice-move/prettier-config": "^0.14.14",
     "@nice-move/stylelint-config": "^0.10.14",
     "@nice-move/tsconfig": "^0.2.9",
     "cheetor": "^0.13.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.26.10",
+    "@babel/core": "^7.27.1",
     "core-js": "^3.42.0",
-    "eslint": "^9.25.1",
-    "garou": ">=0.9.5",
+    "eslint": "^9.27.0",
+    "garou": ">=0.9.7",
     "prettier": "^3.5.3",
     "stylelint": "^16.19.1",
     "typescript": "~5.8.3",
-    "webpack": "^5.99.7"
+    "webpack": "^5.99.8"
   },
   "peerDependenciesMeta": {
     "garou": {
