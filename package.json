@@ -49,7 +49,7 @@
   "packageManager": "pnpm@10.11.0",
   "engines": {
     "node": "^22.11.0",
-    "pnpm": "^10.10.0"
+    "pnpm": "^10.11.0"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
