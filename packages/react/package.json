@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.20.25",
+  "version": "0.20.26",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -34,32 +34,32 @@
   },
   "type": "module",
   "dependencies": {
-    "@best-shot/cli": "^0.18.4",
-    "@best-shot/core": "^0.12.17",
-    "@best-shot/dev-server": "^0.20.1",
-    "@best-shot/preset-asset": "^0.14.1",
-    "@best-shot/preset-babel": "^0.17.8",
-    "@best-shot/preset-react": "^0.17.5",
-    "@best-shot/preset-style": "^0.15.5",
-    "@best-shot/preset-web": "^0.17.2",
-    "@nice-move/cli": "^0.11.25",
-    "@nice-move/eslint-config-react": "^0.12.21",
-    "@nice-move/prettier-config": "^0.14.15",
-    "@nice-move/stylelint-config": "^0.10.16",
-    "@nice-move/tsconfig": "^0.2.9",
-    "cheetor": "^0.13.0"
+    "@best-shot/cli": "catalog:",
+    "@best-shot/core": "catalog:",
+    "@best-shot/dev-server": "catalog:",
+    "@best-shot/preset-asset": "catalog:",
+    "@best-shot/preset-babel": "catalog:",
+    "@best-shot/preset-react": "catalog:",
+    "@best-shot/preset-style": "catalog:",
+    "@best-shot/preset-web": "catalog:",
+    "@nice-move/cli": "catalog:",
+    "@nice-move/eslint-config-react": "catalog:",
+    "@nice-move/prettier-config": "catalog:",
+    "@nice-move/stylelint-config": "catalog:",
+    "@nice-move/tsconfig": "catalog:",
+    "cheetor": "catalog:"
   },
   "peerDependencies": {
-    "@babel/core": "^7.27.1",
-    "core-js": "^3.42.0",
-    "eslint": "^9.27.0",
-    "garou": ">=0.9.7",
-    "prettier": "^3.5.3",
+    "@babel/core": "catalog:",
+    "core-js": "catalog:",
+    "eslint": "catalog:",
+    "garou": "catalog:",
+    "prettier": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "stylelint": "^16.19.1",
-    "typescript": "~5.8.3",
-    "webpack": "^5.99.8"
+    "stylelint": "catalog:",
+    "typescript": "catalog:",
+    "webpack": "catalog:"
   },
   "peerDependenciesMeta": {
     "garou": {

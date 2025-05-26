@@ -21,30 +21,24 @@
   "dependencies": {
     "react": "catalog:",
     "react-dom": "catalog:",
-    "vue": "~3.5.14"
+    "vue": "catalog:"
   },
   "devDependencies": {
     "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.6.0",
-    "@nice-move/syncpack-config": "^0.3.0",
-    "eslint": "^9.27.0",
-    "garou": ">=0.9.7",
-    "prettier": "^3.5.3",
-    "stylelint": "^16.19.1",
+    "@nice-move/syncpack-config": "^0.4.0",
+    "eslint": "catalog:",
+    "garou": "catalog:",
+    "prettier": "catalog:",
+    "stylelint": "catalog:",
     "syncpack": "^13.0.4",
-    "typescript": "~5.8.3"
+    "typescript": "catalog:"
   },
   "peerDependencies": {
-    "@all-star/base": "workspace:~",
-    "@all-star/react": "workspace:~",
-    "@all-star/vue": "workspace:~",
-    "@types/react": "~18.3.21"
-  },
-  "pnpm": {
-    "overrides": {
-      "eslint": "^9.27.0",
-      "eslint-plugin-react-hooks": "^5.2.0"
-    }
+    "@all-star/base": "workspace:^",
+    "@all-star/react": "workspace:^",
+    "@all-star/vue": "workspace:^",
+    "@types/react": "~18.3.22"
   },
   "packageManager": "pnpm@10.11.0",
   "engines": {
