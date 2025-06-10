@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.20.26",
+  "version": "0.20.27",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -40,7 +40,7 @@
     "@best-shot/preset-asset": "catalog:",
     "@best-shot/preset-babel": "catalog:",
     "@best-shot/preset-style": "catalog:",
-    "@best-shot/preset-vue": "^0.15.1",
+    "@best-shot/preset-vue": "^0.15.2",
     "@best-shot/preset-web": "catalog:",
     "@nice-move/cli": "catalog:",
     "@nice-move/eslint-config-vue": "catalog:",
