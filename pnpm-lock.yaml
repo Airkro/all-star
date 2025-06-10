@@ -1143,8 +1143,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  '@csstools/postcss-is-pseudo-class@5.0.1':
-    resolution: {integrity: sha512-JLp3POui4S1auhDR0n8wHd/zTOWmMsmK3nQd3hhL6FhWPaox5W7j1se6zXOG/aP07wV2ww0lxbKYGwbBszOtfQ==}
+  '@csstools/postcss-is-pseudo-class@5.0.2':
+    resolution: {integrity: sha512-ksUGH8Untwzo/qUwHlFZf2+vGi8sDe1WYDZrCFNVg8EvENhWQvtoPEbRTBmNzGzTJebmHIvaOH8s3B3QKUJV3g==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -4233,8 +4233,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  postcss-nesting@13.0.1:
-    resolution: {integrity: sha512-VbqqHkOBOt4Uu3G8Dm8n6lU5+9cJFxiuty9+4rcoyRPO9zZS1JIs6td49VIoix3qYqELHlJIn46Oih9SAKo+yQ==}
+  postcss-nesting@13.0.2:
+    resolution: {integrity: sha512-1YCI290TX+VP0U/K/aFxzHzQWHWURL+CtHMSbex1lCdpXD1SoR2sYuxDu5aNI9lPoXpKTCggFZiDJbwylU0LEQ==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -6574,7 +6574,7 @@ snapshots:
       '@csstools/utilities': 2.0.0(postcss@8.5.4)
       postcss: 8.5.4
 
-  '@csstools/postcss-is-pseudo-class@5.0.1(postcss@8.5.4)':
+  '@csstools/postcss-is-pseudo-class@5.0.2(postcss@8.5.4)':
     dependencies:
       '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.0)
       postcss: 8.5.4
@@ -10006,7 +10006,7 @@ snapshots:
       icss-utils: 5.1.0(postcss@8.5.4)
       postcss: 8.5.4
 
-  postcss-nesting@13.0.1(postcss@8.5.4):
+  postcss-nesting@13.0.2(postcss@8.5.4):
     dependencies:
       '@csstools/selector-resolve-nested': 3.1.0(postcss-selector-parser@7.1.0)
       '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.0)
@@ -10085,7 +10085,7 @@ snapshots:
   postcss-preset-evergreen@0.8.1(postcss@8.5.4):
     dependencies:
       '@csstools/postcss-hwb-function': 4.0.10(postcss@8.5.4)
-      '@csstools/postcss-is-pseudo-class': 5.0.1(postcss@8.5.4)
+      '@csstools/postcss-is-pseudo-class': 5.0.2(postcss@8.5.4)
       '@csstools/postcss-oklab-function': 4.0.10(postcss@8.5.4)
       autoprefixer: 10.4.21(postcss@8.5.4)
       browserslist: 4.25.0
@@ -10098,7 +10098,7 @@ snapshots:
       postcss-gap-properties: 6.0.0(postcss@8.5.4)
       postcss-logical: 8.1.0(postcss@8.5.4)
       postcss-media-minmax: 5.0.0(postcss@8.5.4)
-      postcss-nesting: 13.0.1(postcss@8.5.4)
+      postcss-nesting: 13.0.2(postcss@8.5.4)
       postcss-opacity-percentage: 3.0.0(postcss@8.5.4)
       postcss-overflow-shorthand: 6.0.0(postcss@8.5.4)
       postcss-page-break: 3.0.4(postcss@8.5.4)
