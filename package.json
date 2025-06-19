@@ -27,7 +27,7 @@
     "@bring-it/cli": "^0.10.0",
     "@bring-it/npm": "^0.6.1",
     "@nice-move/syncpack-config": "^0.4.0",
-    "eslint": "catalog:",
+    "eslint": "^9.29.0",
     "garou": "catalog:",
     "prettier": "catalog:",
     "stylelint": "catalog:",
