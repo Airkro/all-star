@@ -18,7 +18,7 @@ export default defineConfig(import.meta.url, {
       dependencies: ['@all-star/*'],
       dependencyTypes: ['local'],
       label: 'Same version',
-      pinVersion: '0.20.27',
+      pinVersion: '0.20.28',
     },
   ],
 });

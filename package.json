@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint:staged": "nice-move lint staged",
-    "lint:type": "tsc --noEmit",
+    "lint:type": "tsc --p tsconfig.json",
     "lint:version": "syncpack lint",
     "prepare": "nice-move git hooks",
     "version:pin": "syncpack fix-mismatches"
