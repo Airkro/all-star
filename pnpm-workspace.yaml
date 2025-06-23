@@ -4,23 +4,23 @@ packages:
 catalog:
   '@babel/core': ^7.27.4
   '@best-shot/cli': ^0.18.4
-  '@best-shot/core': ^0.12.19
+  '@best-shot/core': ^0.12.22
   '@best-shot/dev-server': ^0.20.4
   '@best-shot/preset-asset': ^0.14.1
   '@best-shot/preset-babel': ^0.17.9
   '@best-shot/preset-style': ^0.15.6
   '@best-shot/preset-web': ^0.17.3
-  '@nice-move/cli': ^0.11.25
+  '@nice-move/cli': ^0.11.26
   '@nice-move/eslint-config-base': ^0.12.23
   '@nice-move/eslint-config-vue': ^0.12.23
   '@nice-move/prettier-config': ^0.14.15
-  '@nice-move/stylelint-config': ^0.10.18
-  '@nice-move/tsconfig': ^0.2.12
+  '@nice-move/stylelint-config': ^0.10.19
+  '@nice-move/tsconfig': ^0.2.13
   cheetor: ^0.13.0
   core-js: ^3.43.0
   eslint: ^9.29.0
-  garou: ^0.9.10
-  prettier: ^3.5.3
+  garou: ^0.9.11
+  prettier: ^3.6.0
   react-dom: ^18.3.1
   react: ^18.3.1
   stylelint: ^16.21.0
