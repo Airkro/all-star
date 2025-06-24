@@ -10,11 +10,11 @@ catalogs:
       specifier: ^7.27.4
       version: 7.27.4
     '@best-shot/cli':
-      specifier: ^0.18.4
-      version: 0.18.4
+      specifier: ^0.18.5
+      version: 0.18.5
     '@best-shot/core':
-      specifier: ^0.12.22
-      version: 0.12.22
+      specifier: ^0.12.23
+      version: 0.12.23
     '@best-shot/dev-server':
       specifier: ^0.20.4
       version: 0.20.4
@@ -144,25 +144,25 @@ importers:
         version: 7.27.4
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.12.22(webpack@5.99.9)
+        version: 0.12.23(webpack@5.99.9)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.20.4(@best-shot/cli@0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.20.4(@best-shot/cli@0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.14.1(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.14.1(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.17.3(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.3(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -210,22 +210,22 @@ importers:
         version: 7.27.4
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.12.22(webpack@5.99.9)
+        version: 0.12.23(webpack@5.99.9)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.14.1(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.14.1(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-mini':
-        specifier: ^0.10.22
-        version: 0.10.22(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(webpack@5.99.9)
+        specifier: ^0.10.24
+        version: 0.10.24(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -276,28 +276,28 @@ importers:
         version: 7.27.4
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.12.22(webpack@5.99.9)
+        version: 0.12.23(webpack@5.99.9)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.20.4(@best-shot/cli@0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.20.4(@best-shot/cli@0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.14.1(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.14.1(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-react':
         specifier: ^0.17.6
-        version: 0.17.6(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.6(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.17.3(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.3(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -351,28 +351,28 @@ importers:
         version: 7.27.4
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.12.22(webpack@5.99.9)
+        version: 0.12.23(webpack@5.99.9)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.20.4(@best-shot/cli@0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.20.4(@best-shot/cli@0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.14.1(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.14.1(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
       '@best-shot/preset-vue':
         specifier: ^0.15.3
-        version: 0.15.3(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)
+        version: 0.15.3(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.17.3(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.17.3(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -976,13 +976,13 @@ packages:
     resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
     engines: {node: '>=6.9.0'}
 
-  '@best-shot/cli@0.18.4':
-    resolution: {integrity: sha512-8H//n2FUnEuQ/0frKHnCJqPpt7C/5WiqfqG7yzYI4K4fRDrg3hhQFUA1VT0NlhC6Q9Xj4S6VvZtfuTiV52TGwg==}
+  '@best-shot/cli@0.18.5':
+    resolution: {integrity: sha512-2v7nb7dcbEfME2Lr7KKeHrdD8lmA9aVxfW+K41m5Fl7j7ZS4qZH2aXp/FSM4mNEDTXC/+BVS3F7XHtQt7U14/w==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     hasBin: true
     peerDependencies:
-      '@best-shot/core': ~0.12.17
-      webpack: ^5.99.6
+      '@best-shot/core': ^0.12.23
+      webpack: ^5.99.9
 
   '@best-shot/config@0.8.4':
     resolution: {integrity: sha512-8enYlyEG1hMO2UBMIxqlamWEfz3GQxAlrjynXzmWwkfUAnGTVDIooIQPUNiyoePOL0SBBS0v3FGIaFZpozbS2w==}
@@ -990,8 +990,14 @@ packages:
     peerDependencies:
       '@best-shot/core': ~0.12.17
 
-  '@best-shot/core@0.12.22':
-    resolution: {integrity: sha512-4nwpimcIU9AK2nAKADn1IT+yAVQpvaYMrDFNONbZw+dlzbxBaK4ur9KRzUb8t+DKdW1X9dWNOnJxgOSLM8q7bA==}
+  '@best-shot/config@0.8.5':
+    resolution: {integrity: sha512-caT+dwQHsXvAjeMKWaxNKvvcN4EaYegJ+ElzD6wtM3gwmGm89M9T/dqsiqjQfMHG34czIJNri+rSTt3vMIwu9Q==}
+    engines: {node: '>=22.11.0 || ^20.18.0'}
+    peerDependencies:
+      '@best-shot/core': ^0.12.23
+
+  '@best-shot/core@0.12.23':
+    resolution: {integrity: sha512-h/k4XyCYqoqFw1E6+7yECM27e6ijLtSaIeR4o8OY3KDXPk1cM0t/HQ06myFhj0aU6Ud2orCpedIq701vJGNvnA==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     peerDependencies:
       webpack: ^5.99.9
@@ -1004,6 +1010,10 @@ packages:
 
   '@best-shot/env@0.5.1':
     resolution: {integrity: sha512-M82m+unVEjod3G1SSbrT6P+Rv/JUFZZuWIyISF1GYE/h2ZURR48CGfdCSQA6RqW//lCpQ5gkmp1GEsRGaOiynw==}
+    engines: {node: '>=22.11.0 || ^20.18.0'}
+
+  '@best-shot/env@0.5.2':
+    resolution: {integrity: sha512-944+8IYzXsjT0+KZ1jYRRw1GncFweIHR07VlU6cEJqjSlRmZOAPSNzOmqZQ23rzCWKjjfw5irBYWL5x2aeixRw==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
 
   '@best-shot/no-cache-loader@0.0.0':
@@ -1025,11 +1035,11 @@ packages:
       '@babel/core': ^7.27.4
       '@best-shot/core': ^0.12.18
 
-  '@best-shot/preset-mini@0.10.22':
-    resolution: {integrity: sha512-8D8Gjra8eZV4PQlkhx9OohXBdKxu651QX+R2Rdacb3OQloEsOWk28E7JYffY6KtYR/ETPzYByW540HrLhH9OAg==}
+  '@best-shot/preset-mini@0.10.24':
+    resolution: {integrity: sha512-CsGGl1Zp7BoGMF++ukHNj+EagRZdxTYoCGeUg7RTWeChilvRWxRTw/SE3dOVvNyQeKDWAg5xE6zhpLFmKwS4RQ==}
     engines: {node: '>=22.11.0 || ^20.18.0'}
     peerDependencies:
-      '@best-shot/core': ^0.12.22
+      '@best-shot/core': ^0.12.23
       '@best-shot/preset-babel': ^0.17.9
       '@best-shot/preset-style': ^0.15.6
 
@@ -1064,9 +1074,9 @@ packages:
       '@best-shot/core': ~0.12.17
       webpack: ^5.99.9
 
-  '@best-shot/sfc-split-plugin@0.13.56':
-    resolution: {integrity: sha512-ISSqB9QOvAwYb6FF6FgvFWl5H6HnrrXzyXE7GFjAdZlODrymAn9sfFDmC4YDKzkYEm/ntQ2uc5gw1nhbPSLURA==}
-    engines: {node: '>=22.11.0 || ^20.18.0'}
+  '@best-shot/sfc-split-plugin@0.14.6':
+    resolution: {integrity: sha512-ts/637+8qNUyXiI7RZnPCdV7GkXoSYdMI6oVP49Xhf8hZQcJafRjg+3EWxEqWDz0gAJEG542w5Py9VI/CtwK2g==}
+    engines: {node: '>=22.11.0'}
     peerDependencies:
       webpack: ^5.99.9
 
@@ -1273,6 +1283,16 @@ packages:
     engines: {node: '>=22.11.0'}
     peerDependencies:
       '@vue/compiler-core': ~3.5.17
+
+  '@into-mini/sfc-transformer@0.3.0':
+    resolution: {integrity: sha512-6SClOrusZSUSNk3PvXqSpjapkVyZC0NpVvCmIpyNgsNezaRI7uITpXwU/1O8iArmXT1+m/qmK+cNWDBYfj0kHA==}
+    engines: {node: '>=22.11.0'}
+
+  '@into-mini/vue-mini-patch@0.0.0':
+    resolution: {integrity: sha512-Y69vNpH1MdQYSPZ5fTntCHKBGHgE0ApARKec1PFK4ikzmlJmwzwK7/NLT3+XSi9QIIMVr5RMgSaDr3115glCNA==}
+    engines: {node: '>=22.11.0'}
+    peerDependencies:
+      '@vue-mini/core': '>=1.2.3'
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -1650,6 +1670,9 @@ packages:
   '@volue/wasm-codecs-gifsicle@1.0.0':
     resolution: {integrity: sha512-3EcaeeEyhDyqZIL9DqX6RqJ8SkbqSYZyixuRHxPEi/MDcZkWy0tnvYdXfHao297Hx/Ft+xNoyFWgDeZ2+pNk3g==}
 
+  '@vue-mini/core@1.2.3':
+    resolution: {integrity: sha512-nMlflliD1gd3PEpl4qzNHDwHLruSnD1lW9mc9swR4udqBoUgHxNSOLn7QyXapiwy35xiTfThbmRug3tkQOignw==}
+
   '@vue/compiler-core@3.5.17':
     resolution: {integrity: sha512-Xe+AittLbAyV0pabcN7cP7/BenRBNcteM4aSDCtRvGw0d9OL+HG1u/XHLY/kt1q4fyMeZYXyIYrsHuPSiDPosA==}
 
@@ -1661,6 +1684,9 @@ packages:
 
   '@vue/compiler-ssr@3.5.17':
     resolution: {integrity: sha512-hkDbA0Q20ZzGgpj5uZjb9rBzQtIHLS78mMilwrlpWk2Ep37DYntUz0PonQ6kr113vfOEdM+zTBuJDaceNIW0tQ==}
+
+  '@vue/reactivity@3.5.14':
+    resolution: {integrity: sha512-7cK1Hp343Fu/SUCCO52vCabjvsYu7ZkOqyYu7bXV9P2yyfjUMUXHZafEbq244sP7gf+EZEz+77QixBTuEqkQQw==}
 
   '@vue/reactivity@3.5.17':
     resolution: {integrity: sha512-l/rmw2STIscWi7SNJp708FK4Kofs97zc/5aEPQh4bOsReD/8ICuBcEmS7KGwDj5ODQLYWVN2lNibKJL1z5b+Lw==}
@@ -1675,6 +1701,9 @@ packages:
     resolution: {integrity: sha512-BOHhm8HalujY6lmC3DbqF6uXN/K00uWiEeF22LfEsm9Q93XeJ/plHTepGwf6tqFcF7GA5oGSSAAUock3VvzaCA==}
     peerDependencies:
       vue: 3.5.17
+
+  '@vue/shared@3.5.14':
+    resolution: {integrity: sha512-oXTwNxVfc9EtP1zzXAlSlgARLXNC84frFYkS0HHz0h3E4WZSP9sywqjqzGCP9Y34M8ipNmd380pVgmMuwELDyQ==}
 
   '@vue/shared@3.5.17':
     resolution: {integrity: sha512-CabR+UN630VnsJO/jHWYBC1YVXyMq94KKp6iF5MQgZJs5I8cmjw6oVMO1oDbtBkENSHSSn/UadWlW/OAgdmKrg==}
@@ -3801,6 +3830,9 @@ packages:
 
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+
+  miniprogram-api-typings@4.0.7:
+    resolution: {integrity: sha512-sUxqpA1+JxnDWYjO6ihiLWNJl94WzjlhnDpozfBeC+w8Mpejjsc8JuxyC3Xisimj/gp5OYaJ7nd4fM6wepzhEQ==}
 
   miniprogram-compat@1.0.5:
     resolution: {integrity: sha512-e9w92W/XDGlWXJQzVhmt3nyx0lfwyoVOy6gxsY0mPZJap/4kJeehA1Mjg0MNSWMhAbN+GiGQR80z4LZr2Zo4Bw==}
@@ -6295,10 +6327,10 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@best-shot/cli@0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/cli@0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
-      '@best-shot/config': 0.8.4(@best-shot/core@0.12.22(webpack@5.99.9))
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/config': 0.8.5(@best-shot/core@0.12.23(webpack@5.99.9))
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       chalk: 5.4.1
       cheetor: 0.13.0
       webpack: 5.99.9
@@ -6306,17 +6338,25 @@ snapshots:
     transitivePeerDependencies:
       - '@rspack/core'
 
-  '@best-shot/config@0.8.4(@best-shot/core@0.12.22(webpack@5.99.9))':
+  '@best-shot/config@0.8.4(@best-shot/core@0.12.23(webpack@5.99.9))':
     dependencies:
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       '@best-shot/env': 0.5.1
       '@best-shot/validator': 0.5.0
       chalk: 5.4.1
       prompts: 2.4.2
 
-  '@best-shot/core@0.12.22(webpack@5.99.9)':
+  '@best-shot/config@0.8.5(@best-shot/core@0.12.23(webpack@5.99.9))':
     dependencies:
-      '@best-shot/env': 0.5.1
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
+      '@best-shot/env': 0.5.2
+      '@best-shot/validator': 0.5.0
+      chalk: 5.4.1
+      prompts: 2.4.2
+
+  '@best-shot/core@0.12.23(webpack@5.99.9)':
+    dependencies:
+      '@best-shot/env': 0.5.2
       '@best-shot/no-cache-loader': 0.0.0(webpack@5.99.9)
       '@best-shot/validator': 0.5.0
       '@best-shot/webpack-chain': 8.1.12
@@ -6338,10 +6378,10 @@ snapshots:
       - esbuild
       - uglify-js
 
-  '@best-shot/dev-server@0.20.4(@best-shot/cli@0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/dev-server@0.20.4(@best-shot/cli@0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
-      '@best-shot/cli': 0.18.4(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
-      '@best-shot/config': 0.8.4(@best-shot/core@0.12.22(webpack@5.99.9))
+      '@best-shot/cli': 0.18.5(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
+      '@best-shot/config': 0.8.4(@best-shot/core@0.12.23(webpack@5.99.9))
       chalk: 5.4.1
       ejs: 3.1.10
       express: 4.21.2
@@ -6364,14 +6404,21 @@ snapshots:
       ini: 5.0.0
       yaml: 2.8.0
 
+  '@best-shot/env@0.5.2':
+    dependencies:
+      '@ltd/j-toml': 1.38.0
+      chalk: 5.4.1
+      ini: 5.0.0
+      yaml: 2.8.0
+
   '@best-shot/no-cache-loader@0.0.0(webpack@5.99.9)':
     dependencies:
       webpack: 5.99.9
 
-  '@best-shot/preset-asset@0.14.1(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-asset@0.14.1(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
       '@astropub/codecs': 0.4.4
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       '@sindresorhus/transliterate': 1.6.0
       '@volue/wasm-codecs-gifsicle': 1.0.0
       ext-to-regexp: 0.1.0
@@ -6384,11 +6431,11 @@ snapshots:
       - sharp
       - webpack
 
-  '@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
       '@babel/core': 7.27.4
       '@babel/preset-typescript': 7.27.1(@babel/core@7.27.4)
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       babel-loader: 10.0.0(@babel/core@7.27.4)(webpack@5.99.9)
       babel-preset-evergreen: 0.11.5(@babel/core@7.27.4)
       browserslist: 4.25.0
@@ -6400,24 +6447,26 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.10.22(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-mini@0.10.24(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
     dependencies:
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
-      '@best-shot/preset-babel': 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
-      '@best-shot/preset-style': 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
-      '@best-shot/sfc-split-plugin': 0.13.56(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
+      '@best-shot/preset-babel': 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
+      '@best-shot/preset-style': 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+      '@best-shot/sfc-split-plugin': 0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
       yaml: 2.8.0
     transitivePeerDependencies:
+      - '@vue-mini/core'
+      - '@vue/compiler-core'
       - supports-color
       - webpack
 
-  '@best-shot/preset-react@0.17.6(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-react@0.17.6(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-babel@0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.27.4)
       '@babel/plugin-transform-react-inline-elements': 7.27.1(@babel/core@7.27.4)
       '@babel/preset-react': 7.27.1(@babel/core@7.27.4)
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
-      '@best-shot/preset-babel': 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
+      '@best-shot/preset-babel': 0.17.9(@babel/core@7.27.4)(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)
       '@pmmmwh/react-refresh-webpack-plugin': 0.6.0(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       react: 18.3.1
@@ -6434,9 +6483,9 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)':
+  '@best-shot/preset-style@0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)':
     dependencies:
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       css-loader: 7.1.2(webpack@5.99.9)
       css-minimizer-webpack-plugin: 7.0.2(webpack@5.99.9)
       cssnano: 7.0.7(postcss@8.5.6)
@@ -6466,10 +6515,10 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.15.3(@best-shot/core@0.12.22(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)':
+  '@best-shot/preset-vue@0.15.3(@best-shot/core@0.12.23(webpack@5.99.9))(@best-shot/preset-style@0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)':
     dependencies:
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
-      '@best-shot/preset-style': 0.15.6(@best-shot/core@0.12.22(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
+      '@best-shot/preset-style': 0.15.6(@best-shot/core@0.12.23(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
       '@best-shot/vue-loader': 17.4.9(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)
       '@vue/compiler-sfc': 3.5.17
       css-loader: 7.1.2(webpack@5.99.9)
@@ -6479,9 +6528,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@best-shot/preset-web@0.17.3(@best-shot/core@0.12.22(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-web@0.17.3(@best-shot/core@0.12.23(webpack@5.99.9))(webpack@5.99.9)':
     dependencies:
-      '@best-shot/core': 0.12.22(webpack@5.99.9)
+      '@best-shot/core': 0.12.23(webpack@5.99.9)
       ext-to-regexp: 0.1.0
       html-add-asset-webpack-plugin: 0.2.0(html-webpack-plugin@5.6.3(webpack@5.99.9))(webpack@5.99.9)
       html-minimizer-webpack-plugin: 5.0.2(webpack@5.99.9)
@@ -6496,22 +6545,18 @@ snapshots:
       - '@rspack/core'
       - '@swc/html'
 
-  '@best-shot/sfc-split-plugin@0.13.56(webpack@5.99.9)':
+  '@best-shot/sfc-split-plugin@0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
     dependencies:
-      '@babel/generator': 7.27.5
-      '@babel/traverse': 7.27.4
       '@into-mini/clsx': 0.0.0
       '@into-mini/sfc-template-traverse': 0.0.0(@vue/compiler-core@3.5.17)
-      '@padcom/vue-ast-serializer': 0.0.1(@vue/compiler-core@3.5.17)(@vue/compiler-sfc@3.5.17)
-      '@vue/compiler-core': 3.5.17
-      '@vue/compiler-sfc': 3.5.17
-      change-case: 5.4.4
-      deepmerge-ts: 7.1.5
+      '@into-mini/sfc-transformer': 0.3.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)
       slash: 5.1.0
       webpack: 5.99.9
       webpack-virtual-modules: 0.6.2
       yaml: 2.8.0
     transitivePeerDependencies:
+      - '@vue-mini/core'
+      - '@vue/compiler-core'
       - supports-color
 
   '@best-shot/validator@0.5.0':
@@ -6701,6 +6746,26 @@ snapshots:
       tab-to-space: 1.0.1
       wxml-parse: 0.2.3
 
+  '@into-mini/sfc-transformer@0.3.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)':
+    dependencies:
+      '@babel/generator': 7.27.5
+      '@babel/traverse': 7.27.4
+      '@into-mini/sfc-template-traverse': 0.0.0(@vue/compiler-core@3.5.17)
+      '@into-mini/vue-mini-patch': 0.0.0(@vue-mini/core@1.2.3)
+      '@padcom/vue-ast-serializer': 0.0.1(@vue/compiler-core@3.5.17)(@vue/compiler-sfc@3.5.17)
+      '@vue/compiler-sfc': 3.5.17
+      change-case: 5.4.4
+      deepmerge-ts: 7.1.5
+      yaml: 2.8.0
+    transitivePeerDependencies:
+      - '@vue-mini/core'
+      - '@vue/compiler-core'
+      - supports-color
+
+  '@into-mini/vue-mini-patch@0.0.0(@vue-mini/core@1.2.3)':
+    dependencies:
+      '@vue-mini/core': 1.2.3
+
   '@jest/schemas@29.6.3':
     dependencies:
       '@sinclair/typebox': 0.27.8
@@ -6771,7 +6836,7 @@ snapshots:
       '@eslint/js': 9.29.0
       '@nice-move/eslint-plugin-html': 0.1.1(eslint@9.29.0(jiti@1.21.7))
       eslint: 9.29.0(jiti@1.21.7)
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.1(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7))
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7))
       eslint-config-prettier: 10.1.5(eslint@9.29.0(jiti@1.21.7))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.1(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.29.0(jiti@1.21.7))
       eslint-plugin-markdown: 5.1.0(eslint@9.29.0(jiti@1.21.7))
@@ -7184,6 +7249,11 @@ snapshots:
 
   '@volue/wasm-codecs-gifsicle@1.0.0': {}
 
+  '@vue-mini/core@1.2.3':
+    dependencies:
+      '@vue/reactivity': 3.5.14
+      miniprogram-api-typings: 4.0.7
+
   '@vue/compiler-core@3.5.17':
     dependencies:
       '@babel/parser': 7.27.5
@@ -7214,6 +7284,10 @@ snapshots:
       '@vue/compiler-dom': 3.5.17
       '@vue/shared': 3.5.17
 
+  '@vue/reactivity@3.5.14':
+    dependencies:
+      '@vue/shared': 3.5.14
+
   '@vue/reactivity@3.5.17':
     dependencies:
       '@vue/shared': 3.5.17
@@ -7235,6 +7309,8 @@ snapshots:
       '@vue/compiler-ssr': 3.5.17
       '@vue/shared': 3.5.17
       vue: 3.5.17(typescript@5.8.3)
+
+  '@vue/shared@3.5.14': {}
 
   '@vue/shared@3.5.17': {}
 
@@ -8268,7 +8344,7 @@ snapshots:
       eslint: 9.29.0(jiti@1.21.7)
       semver: 7.7.2
 
-  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.1(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7)):
+  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7)):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 9.29.0(jiti@1.21.7)
@@ -8280,7 +8356,7 @@ snapshots:
   eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0(eslint@9.29.0(jiti@1.21.7)))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.29.0(jiti@1.21.7)))(eslint-plugin-react-hooks@5.2.0(eslint@9.29.0(jiti@1.21.7)))(eslint-plugin-react@7.37.5(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7)):
     dependencies:
       eslint: 9.29.0(jiti@1.21.7)
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.1(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7))
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@9.29.0(jiti@1.21.7)))(eslint@9.29.0(jiti@1.21.7))
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.1(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.29.0(jiti@1.21.7))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.29.0(jiti@1.21.7))
       eslint-plugin-react: 7.37.5(eslint@9.29.0(jiti@1.21.7))
@@ -9566,6 +9642,8 @@ snapshots:
       kind-of: 6.0.3
 
   minimist@1.2.8: {}
+
+  miniprogram-api-typings@4.0.7: {}
 
   miniprogram-compat@1.0.5:
     dependencies:
