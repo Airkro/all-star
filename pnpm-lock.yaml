@@ -1058,8 +1058,8 @@ packages:
       '@best-shot/core': ^0.13.0
       webpack: ^5.99.9
 
-  '@best-shot/sfc-split-plugin@0.14.6':
-    resolution: {integrity: sha512-ts/637+8qNUyXiI7RZnPCdV7GkXoSYdMI6oVP49Xhf8hZQcJafRjg+3EWxEqWDz0gAJEG542w5Py9VI/CtwK2g==}
+  '@best-shot/sfc-split-plugin@0.14.16':
+    resolution: {integrity: sha512-+xINR/kw4AfqOBM1JP8ntWEFyRXisK6TX3Mfa//DmY5empEAeS8pV9HniU4mPUag27JlyU/k/iQkO4O5YmY0aA==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
       webpack: ^5.99.9
@@ -6421,7 +6421,7 @@ snapshots:
       '@best-shot/core': 0.13.0(webpack@5.99.9)
       '@best-shot/preset-babel': 0.18.0(@babel/core@7.27.4)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
       '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
-      '@best-shot/sfc-split-plugin': 0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
+      '@best-shot/sfc-split-plugin': 0.14.16(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
       yaml: 2.8.0
     transitivePeerDependencies:
       - '@vue-mini/core'
@@ -6514,7 +6514,7 @@ snapshots:
       - '@rspack/core'
       - '@swc/html'
 
-  '@best-shot/sfc-split-plugin@0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
+  '@best-shot/sfc-split-plugin@0.14.16(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
     dependencies:
       '@into-mini/clsx': 0.0.0
       '@into-mini/sfc-template-traverse': 0.0.0(@vue/compiler-core@3.5.17)
