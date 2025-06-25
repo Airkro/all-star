@@ -1,6 +1,6 @@
 {
   "name": "@all-star/base",
-  "version": "0.20.31",
+  "version": "0.21.0",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -26,7 +26,8 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "bin": {
-    "all-star": "bin.mjs"
+    "best-shot": "bin/best-shot.mjs",
+    "nice-move": "bin/nice-move.mjs"
   },
   "exports": {
     "./eslint": "./eslint.mjs"
@@ -44,8 +45,7 @@
     "@nice-move/eslint-config-base": "catalog:",
     "@nice-move/prettier-config": "catalog:",
     "@nice-move/stylelint-config": "catalog:",
-    "@nice-move/tsconfig": "catalog:",
-    "cheetor": "catalog:"
+    "@nice-move/tsconfig": "catalog:"
   },
   "peerDependencies": {
     "@babel/core": "catalog:",

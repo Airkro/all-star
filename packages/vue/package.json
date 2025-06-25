@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.20.31",
+  "version": "0.21.0",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -27,7 +27,8 @@
     "url": "https://github.com/airkro/all-star/issues"
   },
   "bin": {
-    "all-star": "bin.mjs"
+    "best-shot": "bin/best-shot.mjs",
+    "nice-move": "bin/nice-move.mjs"
   },
   "exports": {
     "./eslint": "./eslint.mjs"
@@ -40,14 +41,13 @@
     "@best-shot/preset-asset": "catalog:",
     "@best-shot/preset-babel": "catalog:",
     "@best-shot/preset-style": "catalog:",
-    "@best-shot/preset-vue": "^0.15.3",
+    "@best-shot/preset-vue": "catalog:",
     "@best-shot/preset-web": "catalog:",
     "@nice-move/cli": "catalog:",
     "@nice-move/eslint-config-vue": "catalog:",
     "@nice-move/prettier-config": "catalog:",
     "@nice-move/stylelint-config": "catalog:",
-    "@nice-move/tsconfig": "catalog:",
-    "cheetor": "catalog:"
+    "@nice-move/tsconfig": "catalog:"
   },
   "peerDependencies": {
     "@babel/core": "catalog:",

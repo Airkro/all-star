@@ -3,13 +3,16 @@ packages:
 
 catalog:
   '@babel/core': ^7.27.4
-  '@best-shot/cli': ^0.18.5
-  '@best-shot/core': ^0.12.23
-  '@best-shot/dev-server': ^0.20.4
-  '@best-shot/preset-asset': ^0.14.1
-  '@best-shot/preset-babel': ^0.17.9
-  '@best-shot/preset-style': ^0.15.6
-  '@best-shot/preset-web': ^0.17.3
+  '@best-shot/cli': ^0.19.0
+  '@best-shot/core': ^0.13.0
+  '@best-shot/dev-server': ^0.21.0
+  '@best-shot/preset-asset': ^0.15.0
+  '@best-shot/preset-babel': ^0.18.0
+  '@best-shot/preset-mini': ^0.11.0
+  '@best-shot/preset-react': ^0.18.0
+  '@best-shot/preset-style': ^0.16.0
+  '@best-shot/preset-vue': ^0.16.0
+  '@best-shot/preset-web': ^0.18.0
   '@nice-move/cli': ^0.11.26
   '@nice-move/eslint-config-base': ^0.12.23
   '@nice-move/eslint-config-vue': ^0.12.23
