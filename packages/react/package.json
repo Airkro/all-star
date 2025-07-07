@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.21.0",
+  "version": "0.21.1",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -44,7 +44,7 @@
     "@best-shot/preset-style": "catalog:",
     "@best-shot/preset-web": "catalog:",
     "@nice-move/cli": "catalog:",
-    "@nice-move/eslint-config-react": "^0.12.23",
+    "@nice-move/eslint-config-react": "catalog:",
     "@nice-move/prettier-config": "catalog:",
     "@nice-move/stylelint-config": "catalog:",
     "@nice-move/tsconfig": "catalog:"
