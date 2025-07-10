@@ -10,8 +10,8 @@ catalogs:
       specifier: ^7.28.0
       version: 7.28.0
     '@best-shot/cli':
-      specifier: ^0.19.0
-      version: 0.19.0
+      specifier: ^0.19.1
+      version: 0.19.1
     '@best-shot/core':
       specifier: ^0.13.0
       version: 0.13.0
@@ -22,11 +22,11 @@ catalogs:
       specifier: ^0.15.1
       version: 0.15.1
     '@best-shot/preset-babel':
-      specifier: ^0.18.1
-      version: 0.18.1
+      specifier: ^0.18.2
+      version: 0.18.2
     '@best-shot/preset-mini':
-      specifier: ^0.11.1
-      version: 0.11.2
+      specifier: ^0.11.3
+      version: 0.11.3
     '@best-shot/preset-react':
       specifier: ^0.18.1
       version: 0.18.1
@@ -61,14 +61,14 @@ catalogs:
       specifier: ^0.2.14
       version: 0.2.14
     core-js:
-      specifier: ^3.43.0
-      version: 3.43.0
+      specifier: ^3.44.0
+      version: 3.44.0
     garou:
       specifier: ^0.9.11
       version: 0.9.11
     prettier:
-      specifier: ^3.5.0
-      version: 3.6.0
+      specifier: ^3.6.2
+      version: 3.6.2
     react:
       specifier: ^18.3.1
       version: 18.3.1
@@ -85,8 +85,8 @@ catalogs:
       specifier: ~3.5.17
       version: 3.5.17
     webpack:
-      specifier: ^5.99.9
-      version: 5.99.9
+      specifier: ^5.100.0
+      version: 5.100.0
 
 overrides:
   eslint: ^9.30.1
@@ -135,7 +135,7 @@ importers:
         version: 0.9.11(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.2
       stylelint:
         specifier: 'catalog:'
         version: 16.21.1(typescript@5.8.3)
@@ -153,25 +153,25 @@ importers:
         version: 7.28.0
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.13.0(webpack@5.99.9)
+        version: 0.13.0(webpack@5.100.0)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.21.0(@best-shot/cli@0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.21.0(@best-shot/cli@0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -180,7 +180,7 @@ importers:
         version: 0.12.25(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3))(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.0)
+        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.2)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.20(stylelint@16.21.1(typescript@5.8.3))
@@ -189,7 +189,7 @@ importers:
         version: 0.2.14(typescript@5.8.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.43.0
+        version: 3.44.0
       eslint:
         specifier: ^9.30.1
         version: 9.30.1(jiti@1.21.7)
@@ -198,7 +198,7 @@ importers:
         version: 0.9.11(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.2
       stylelint:
         specifier: 'catalog:'
         version: 16.21.1(typescript@5.8.3)
@@ -207,7 +207,7 @@ importers:
         version: 5.8.3
       webpack:
         specifier: 'catalog:'
-        version: 5.99.9
+        version: 5.100.0
 
   packages/mini:
     dependencies:
@@ -216,22 +216,22 @@ importers:
         version: 7.28.0
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.13.0(webpack@5.99.9)
+        version: 0.13.0(webpack@5.100.0)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-mini':
         specifier: 'catalog:'
-        version: 0.11.2(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-babel@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
+        version: 0.11.3(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.100.0)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -240,7 +240,7 @@ importers:
         version: 0.12.25(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3))(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.0)
+        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.2)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.20(stylelint@16.21.1(typescript@5.8.3))
@@ -249,7 +249,7 @@ importers:
         version: 0.2.14(typescript@5.8.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.43.0
+        version: 3.44.0
       eslint:
         specifier: ^9.30.1
         version: 9.30.1(jiti@1.21.7)
@@ -258,7 +258,7 @@ importers:
         version: 0.9.11(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.2
       stylelint:
         specifier: 'catalog:'
         version: 16.21.1(typescript@5.8.3)
@@ -270,7 +270,7 @@ importers:
         version: 3.5.17(typescript@5.8.3)
       webpack:
         specifier: 'catalog:'
-        version: 5.99.9
+        version: 5.100.0
 
   packages/react:
     dependencies:
@@ -279,28 +279,28 @@ importers:
         version: 7.28.0
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.13.0(webpack@5.99.9)
+        version: 0.13.0(webpack@5.100.0)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.21.0(@best-shot/cli@0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.21.0(@best-shot/cli@0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-react':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-babel@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -309,7 +309,7 @@ importers:
         version: 0.12.25(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.0)
+        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.2)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.20(stylelint@16.21.1(typescript@5.8.3))
@@ -318,7 +318,7 @@ importers:
         version: 0.2.14(typescript@5.8.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.43.0
+        version: 3.44.0
       eslint:
         specifier: ^9.30.1
         version: 9.30.1(jiti@1.21.7)
@@ -327,7 +327,7 @@ importers:
         version: 0.9.11(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.2
       react:
         specifier: 'catalog:'
         version: 18.3.1
@@ -342,7 +342,7 @@ importers:
         version: 5.8.3
       webpack:
         specifier: 'catalog:'
-        version: 5.99.9
+        version: 5.100.0
 
   packages/vue:
     dependencies:
@@ -351,28 +351,28 @@ importers:
         version: 7.28.0
       '@best-shot/cli':
         specifier: 'catalog:'
-        version: 0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/core':
         specifier: 'catalog:'
-        version: 0.13.0(webpack@5.99.9)
+        version: 0.13.0(webpack@5.100.0)
       '@best-shot/dev-server':
         specifier: 'catalog:'
-        version: 0.21.0(@best-shot/cli@0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.21.0(@best-shot/cli@0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-asset':
         specifier: 'catalog:'
-        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.15.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@best-shot/preset-style':
         specifier: 'catalog:'
-        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
+        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
       '@best-shot/preset-vue':
         specifier: 'catalog:'
-        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)
+        version: 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.100.0)
       '@best-shot/preset-web':
         specifier: 'catalog:'
-        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
+        version: 0.18.0(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
       '@nice-move/cli':
         specifier: 'catalog:'
         version: 0.11.26
@@ -381,7 +381,7 @@ importers:
         version: 0.12.25(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3))(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.0)
+        version: 0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.2)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.20(stylelint@16.21.1(typescript@5.8.3))
@@ -390,7 +390,7 @@ importers:
         version: 0.2.14(typescript@5.8.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.43.0
+        version: 3.44.0
       eslint:
         specifier: ^9.30.1
         version: 9.30.1(jiti@1.21.7)
@@ -399,7 +399,7 @@ importers:
         version: 0.9.11(eslint@9.30.1(jiti@1.21.7))(typescript@5.8.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.2
       stylelint:
         specifier: 'catalog:'
         version: 16.21.1(typescript@5.8.3)
@@ -411,7 +411,7 @@ importers:
         version: 3.5.17(typescript@5.8.3)
       webpack:
         specifier: 'catalog:'
-        version: 5.99.9
+        version: 5.100.0
 
 packages:
 
@@ -1004,8 +1004,8 @@ packages:
     resolution: {integrity: sha512-jYnje+JyZG5YThjHiF28oT4SIZLnYOcSBb6+SDaFIyzDVSkXQmQQYclJ2R+YxcdmK0AX6x1E5OQNtuh3jHDrUg==}
     engines: {node: '>=6.9.0'}
 
-  '@best-shot/cli@0.19.0':
-    resolution: {integrity: sha512-DOzrb2PtbtAZOrjsXoLPLrs+QUcH7XIIlEFH61njEsmKe/wVeFaUvOXW3eiQL95hfuKiUVG591MK+AxRUaI7Mg==}
+  '@best-shot/cli@0.19.1':
+    resolution: {integrity: sha512-LN3+FJlzmIf04SjOY+wOuBGP9ZI+EvtNrHMIOkY00Mie88h00NMIQAlnaaxO7ax79R7u+RaRPmeL71dFTEdhxw==}
     engines: {node: '>=22.11.0'}
     hasBin: true
     peerDependencies:
@@ -1046,19 +1046,19 @@ packages:
     peerDependencies:
       '@best-shot/core': ^0.13.0
 
-  '@best-shot/preset-babel@0.18.1':
-    resolution: {integrity: sha512-NHVTxSHx7z8vx/mvxYAWAWlZ+ztm61CyYT3bjN4qp3hlZz/HxVEnLDz5r61ZXJEjpFICE13wIdsa8raM6sqv1A==}
+  '@best-shot/preset-babel@0.18.2':
+    resolution: {integrity: sha512-6DrH98nI1HZrhenVivtF4BuTrYrqDhTlcG9l86I/ky13762dQ5MI+lP2L1gpebEDpVEhqEILnDWcPLoR+5f9EA==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
       '@babel/core': ^7.28.0
       '@best-shot/core': ^0.13.0
 
-  '@best-shot/preset-mini@0.11.2':
-    resolution: {integrity: sha512-yT1A79HBDwL9K+ngInoOMcAFD17xJeIYF01OwBz8/o9g/DM9XMvguCfNuZ5SlWQCRzTGvN/odUl2axDyCgpksw==}
+  '@best-shot/preset-mini@0.11.3':
+    resolution: {integrity: sha512-/1y6fmD3tbDZ6y2MnoHhYpR/j9JhaxSMnUeiDqjRbUhoIcXgT+5k0GEFBo0Dw3yKmsYZpX+fVa90jtlwpB49WQ==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
       '@best-shot/core': ^0.13.0
-      '@best-shot/preset-babel': ^0.18.1
+      '@best-shot/preset-babel': ^0.18.2
       '@best-shot/preset-style': ^0.16.0
 
   '@best-shot/preset-react@0.18.1':
@@ -1092,8 +1092,8 @@ packages:
       '@best-shot/core': ^0.13.0
       webpack: ^5.99.9
 
-  '@best-shot/sfc-split-plugin@0.14.6':
-    resolution: {integrity: sha512-ts/637+8qNUyXiI7RZnPCdV7GkXoSYdMI6oVP49Xhf8hZQcJafRjg+3EWxEqWDz0gAJEG542w5Py9VI/CtwK2g==}
+  '@best-shot/sfc-split-plugin@0.14.42':
+    resolution: {integrity: sha512-vyu7ngpPfJ5Sn0WxYlAUnd35kyFblKQWeBVaA98vP7916edHz4RKu2OTCSh3mtUv1gS05+rTBTTQqHbBGTmIjg==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
       webpack: ^5.99.9
@@ -1296,14 +1296,14 @@ packages:
     resolution: {integrity: sha512-fBL8T7ustU69dsS2Bo0T/8OHDjQ8s7DPjQ3h/28GDawLBN0pPnrMFls9/SjGLfAe8Rs+o6JxmL7e1fmvyQdnhw==}
     engines: {node: '>=22.11.0'}
 
-  '@into-mini/sfc-template-traverse@0.0.0':
-    resolution: {integrity: sha512-D/SBmoBvGrTMHXlrS6yYSAWEZsxkCPBecZjnyhP6+6LazOQrEDF6a7ntPO5oF+v0OAxFp437k93K1UXys40avw==}
+  '@into-mini/sfc-template-traverse@0.0.2':
+    resolution: {integrity: sha512-Yaz4YKVgGlj0QYyESWqEMmDyW39pDgShqjyGh049IBDnoS8DSrRRAxjzmDq8dUyZ1XclH7MFGCRCRmOLTQ/ItQ==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
       '@vue/compiler-core': ~3.5.17
 
-  '@into-mini/sfc-transformer@0.3.0':
-    resolution: {integrity: sha512-6SClOrusZSUSNk3PvXqSpjapkVyZC0NpVvCmIpyNgsNezaRI7uITpXwU/1O8iArmXT1+m/qmK+cNWDBYfj0kHA==}
+  '@into-mini/sfc-transformer@0.5.0':
+    resolution: {integrity: sha512-jH+IoZfcPHuZUfyVpG5ueBnWrp10XFJYaYWTB7Pcdv0dwNavmX8Y8Xz0nFMT3kVDjh7gqpf4C8gn1nCi3cUULg==}
     engines: {node: '>=22.11.0'}
 
   '@into-mini/vue-mini-patch@0.0.0':
@@ -1311,6 +1311,10 @@ packages:
     engines: {node: '>=22.11.0'}
     peerDependencies:
       '@vue-mini/core': '>=1.2.3'
+
+  '@into-mini/wxml-loader@0.0.0':
+    resolution: {integrity: sha512-azivfjcA14RFqFN28v0RO8XFnNJbZtXYWP4qZ7+gwyi0WSKge5Qi0In6N498t01gG90D0w6VFqJxv6laSBa7fA==}
+    engines: {node: '>=22.11.0'}
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -1834,6 +1838,12 @@ packages:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
     engines: {node: '>= 0.6'}
 
+  acorn-import-phases@1.0.3:
+    resolution: {integrity: sha512-jtKLnfoOzm28PazuQ4dVBcE9Jeo6ha1GAJvq3N0LlNOszmTfx+wSycBehn+FN0RnyeR77IBxN/qVYMw0Rlj0Xw==}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      acorn: ^8.14.0
+
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -2015,8 +2025,8 @@ packages:
   babel-plugin-transform-react-remove-prop-types@0.4.24:
     resolution: {integrity: sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==}
 
-  babel-preset-evergreen@0.11.6:
-    resolution: {integrity: sha512-0qhg8DSmFMbfKLpDzjeQKt8FSVS+Ty3A7i1yoUPJ6YhxhJiQ7/qf1oO4W/o8hdrAr2rLhH9Ua/ICvtoVOHUGJQ==}
+  babel-preset-evergreen@0.11.7:
+    resolution: {integrity: sha512-fkJz2qKAe0N1OG7cePWxHmu6YyRVcBfMlCIEXa64lN5TsUw+IvETxIyRR6LiqJKeHmldCjJgLz5eyIvYdEdX2g==}
     engines: {node: '>=20.18.0', pnpm: ^10.10.0}
     peerDependencies:
       '@babel/core': ^7.28.0
@@ -2308,11 +2318,17 @@ packages:
   core-js-compat@3.43.0:
     resolution: {integrity: sha512-2GML2ZsCc5LR7hZYz4AXmjQw8zuy2T//2QntwdnpuYI7jteT6GVYJL7F6C2C57R7gSYrcqVW3lAALefdbhBLDA==}
 
+  core-js-compat@3.44.0:
+    resolution: {integrity: sha512-JepmAj2zfl6ogy34qfWtcE7nHKAJnKsQFRn++scjVS2bZFllwptzw61BZcZFYBPpUznLfAvh0LGhxKppk04ClA==}
+
   core-js-pure@3.43.0:
     resolution: {integrity: sha512-i/AgxU2+A+BbJdMxh3v7/vxi2SbFqxiFmg6VsDwYB4jkucrd1BZNA9a9gphC0fYMG5IBSgQcbQnk865VCLe7xA==}
 
-  core-js@3.43.0:
-    resolution: {integrity: sha512-N6wEbTTZSYOY2rYAn85CuvWWkCK6QweMn7/4Nr3w+gDBeBhk/x4EJeY6FPo4QzDoJZxVTv8U7CMvgWk6pOHHqA==}
+  core-js-pure@3.44.0:
+    resolution: {integrity: sha512-gvMQAGB4dfVUxpYD0k3Fq8J+n5bB6Ytl15lqlZrOIXFzxOhtPaObfkQGHtMRdyjIf7z2IeNULwi1jEwyS+ltKQ==}
+
+  core-js@3.44.0:
+    resolution: {integrity: sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -4539,8 +4555,8 @@ packages:
   prettier-plugin-ini@1.3.0:
     resolution: {integrity: sha512-kX1KnPwITCTtYV0MTBZQKuFLxcNcbHOS9r7Ta1jHLLvRvZRTzHHqX0MEZMrCkedjLuxpQSgzr4aC5IRd+R3FPw==}
 
-  prettier@3.6.0:
-    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5552,8 +5568,8 @@ packages:
   webpack-virtual-modules@0.6.2:
     resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
 
-  webpack@5.99.9:
-    resolution: {integrity: sha512-brOPwM3JnmOa+7kd3NsmOUOwbDAj8FT9xDsG3IW0MgbN9yZV7Oi/s/+MNQ/EcSMqw7qfoRyXPoeEWT8zLVdVGg==}
+  webpack@5.100.0:
+    resolution: {integrity: sha512-H8yBSBTk+BqxrINJnnRzaxU94SVP2bjd7WmA+PfCphoIdDpeQMJ77pq9/4I7xjLq38cB1bNKfzYPZu8pB3zKtg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -5658,6 +5674,10 @@ packages:
   yaml-loader@0.8.1:
     resolution: {integrity: sha512-BCEndnUoi3BaZmePkwGGe93txRxLgMhBa/gE725v1/GHnura8QvNs7c4+4C1yyhhKoj3Dg63M7IqhA++15j6ww==}
     engines: {node: '>= 14'}
+
+  yaml-patch-loader@0.1.0:
+    resolution: {integrity: sha512-pRtzoRm6hrzzRPw7nUjGzBcf8OEY5r59Vb8cazoKg6bmR+3KZE45/cqQq0apB56vCe9YsaQXBQ2ANKIettyJUg==}
+    engines: {node: ^22.14.0 || ^24.0.0}
 
   yaml@1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
@@ -6390,7 +6410,7 @@ snapshots:
       babel-plugin-polyfill-corejs2: 0.4.14(@babel/core@7.28.0)
       babel-plugin-polyfill-corejs3: 0.13.0(@babel/core@7.28.0)
       babel-plugin-polyfill-regenerator: 0.6.5(@babel/core@7.28.0)
-      core-js-compat: 3.43.0
+      core-js-compat: 3.44.0
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -6465,59 +6485,59 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@best-shot/cli@0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/cli@0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
-      '@best-shot/config': 0.9.0(@best-shot/core@0.13.0(webpack@5.99.9))
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
+      '@best-shot/config': 0.9.0(@best-shot/core@0.13.0(webpack@5.100.0))
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
       chalk: 5.4.1
       cheetor: 0.13.0
-      webpack: 5.99.9
-      webpackbar: 7.0.0(webpack@5.99.9)
+      webpack: 5.100.0
+      webpackbar: 7.0.0(webpack@5.100.0)
     transitivePeerDependencies:
       - '@rspack/core'
 
-  '@best-shot/config@0.9.0(@best-shot/core@0.13.0(webpack@5.99.9))':
+  '@best-shot/config@0.9.0(@best-shot/core@0.13.0(webpack@5.100.0))':
     dependencies:
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
       '@best-shot/env': 0.5.3
       '@best-shot/validator': 0.6.0
       chalk: 5.4.1
       prompts: 2.4.2
 
-  '@best-shot/core@0.13.0(webpack@5.99.9)':
+  '@best-shot/core@0.13.0(webpack@5.100.0)':
     dependencies:
       '@best-shot/env': 0.5.3
-      '@best-shot/no-cache-loader': 0.0.0(webpack@5.99.9)
+      '@best-shot/no-cache-loader': 0.0.0(webpack@5.100.0)
       '@best-shot/validator': 0.6.0
       '@best-shot/webpack-chain': 8.1.12
       browserslist: 4.25.0
       case-sensitive-paths-webpack-plugin: 2.4.0
       chalk: 5.4.1
-      copy-webpack: 4.2.0(webpack@5.99.9)
+      copy-webpack: 4.2.0(webpack@5.100.0)
       deepmerge-ts: 7.1.5
       ext-to-regexp: 0.1.0
-      json-minimizer-webpack-plugin: 5.0.1(webpack@5.99.9)
+      json-minimizer-webpack-plugin: 5.0.1(webpack@5.100.0)
       slash: 5.1.0
       slash-to-regexp: 0.1.0
       terser: 5.43.1
-      terser-webpack-plugin: 5.3.14(webpack@5.99.9)
-      webpack: 5.99.9
+      terser-webpack-plugin: 5.3.14(webpack@5.100.0)
+      webpack: 5.100.0
       yaml-loader: 0.8.1
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
 
-  '@best-shot/dev-server@0.21.0(@best-shot/cli@0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/dev-server@0.21.0(@best-shot/cli@0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
-      '@best-shot/cli': 0.19.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
-      '@best-shot/config': 0.9.0(@best-shot/core@0.13.0(webpack@5.99.9))
+      '@best-shot/cli': 0.19.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
+      '@best-shot/config': 0.9.0(@best-shot/core@0.13.0(webpack@5.100.0))
       chalk: 5.4.1
       ejs: 3.1.10
       express: 4.21.2
       launch-editor-middleware: 2.10.0
-      webpack-dev-server: 5.2.2(webpack@5.99.9)
-      webpack-dev-server-waitpage: 3.0.0(webpack@5.99.9)
+      webpack-dev-server: 5.2.2(webpack@5.100.0)
+      webpack-dev-server-waitpage: 3.0.0(webpack@5.100.0)
     transitivePeerDependencies:
       - '@best-shot/core'
       - bufferutil
@@ -6534,18 +6554,18 @@ snapshots:
       ini: 5.0.0
       yaml: 2.8.0
 
-  '@best-shot/no-cache-loader@0.0.0(webpack@5.99.9)':
+  '@best-shot/no-cache-loader@0.0.0(webpack@5.100.0)':
     dependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
-  '@best-shot/preset-asset@0.15.1(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-asset@0.15.1(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
       '@astropub/codecs': 0.4.4
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
       '@sindresorhus/transliterate': 1.6.0
       '@volue/wasm-codecs-gifsicle': 1.0.0
       ext-to-regexp: 0.1.0
-      image-minimizer-webpack-plugin: 4.1.3(svgo@4.0.0)(webpack@5.99.9)
+      image-minimizer-webpack-plugin: 4.1.3(svgo@4.0.0)(webpack@5.100.0)
       svgo: 4.0.0
       svgo-config: 0.10.0(svgo@4.0.0)
     transitivePeerDependencies:
@@ -6554,28 +6574,28 @@ snapshots:
       - sharp
       - webpack
 
-  '@best-shot/preset-babel@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/preset-typescript': 7.27.1(@babel/core@7.28.0)
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
-      babel-loader: 10.0.0(@babel/core@7.28.0)(webpack@5.99.9)
-      babel-preset-evergreen: 0.11.6(@babel/core@7.28.0)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
+      babel-loader: 10.0.0(@babel/core@7.28.0)(webpack@5.100.0)
+      babel-preset-evergreen: 0.11.7(@babel/core@7.28.0)
       browserslist: 4.25.1
-      core-js: 3.43.0
-      core-js-pure: 3.43.0
+      core-js: 3.44.0
+      core-js-pure: 3.44.0
       ext-to-regexp: 0.1.0
       slash-to-regexp: 0.1.0
     transitivePeerDependencies:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.11.2(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-babel@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
+  '@best-shot/preset-mini@0.11.3(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0))(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.100.0)':
     dependencies:
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
-      '@best-shot/preset-babel': 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
-      '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
-      '@best-shot/sfc-split-plugin': 0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
+      '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
+      '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
+      '@best-shot/sfc-split-plugin': 0.14.42(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.100.0)
       yaml: 2.8.0
     transitivePeerDependencies:
       - '@vue-mini/core'
@@ -6583,14 +6603,14 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-react@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-babel@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-react@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.28.0)
       '@babel/plugin-transform-react-inline-elements': 7.27.1(@babel/core@7.28.0)
       '@babel/preset-react': 7.27.1(@babel/core@7.28.0)
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
-      '@best-shot/preset-babel': 0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.6.1(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
+      '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.6.1(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.100.0))(webpack@5.100.0)
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6606,25 +6626,25 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)':
+  '@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)':
     dependencies:
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
-      css-loader: 7.1.2(webpack@5.99.9)
-      css-minimizer-webpack-plugin: 7.0.2(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
+      css-loader: 7.1.2(webpack@5.100.0)
+      css-minimizer-webpack-plugin: 7.0.2(webpack@5.100.0)
       cssnano: 7.0.7(postcss@8.5.6)
       ext-to-regexp: 0.1.0
       less: 4.3.0
-      less-loader: 12.3.0(less@4.3.0)(webpack@5.99.9)
-      mini-css-extract-plugin: 2.9.2(webpack@5.99.9)
+      less-loader: 12.3.0(less@4.3.0)(webpack@5.100.0)
+      mini-css-extract-plugin: 2.9.2(webpack@5.100.0)
       postcss: 8.5.6
-      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.99.9)
+      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.100.0)
       postcss-preset-evergreen: 0.8.1(postcss@8.5.6)
       resolve-url-loader: 5.0.0
       sass-embedded: 1.89.2
-      sass-loader: 16.0.5(sass-embedded@1.89.2)(webpack@5.99.9)
+      sass-loader: 16.0.5(sass-embedded@1.89.2)(webpack@5.100.0)
       settingz: 0.2.0
       slash-to-regexp: 0.1.0
-      style-loader: 4.0.0(webpack@5.99.9)
+      style-loader: 4.0.0(webpack@5.100.0)
     transitivePeerDependencies:
       - '@parcel/css'
       - '@rspack/core'
@@ -6638,45 +6658,47 @@ snapshots:
       - typescript
       - webpack
 
-  '@best-shot/preset-vue@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)':
+  '@best-shot/preset-vue@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0))(@vue/compiler-sfc@3.5.17)(vue@3.5.17(typescript@5.8.3))(webpack@5.100.0)':
     dependencies:
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
-      '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.0(webpack@5.99.9))(typescript@5.8.3)(webpack@5.99.9)
-      '@best-shot/vue-loader': 17.4.9(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
+      '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.0(webpack@5.100.0))(typescript@5.8.3)(webpack@5.100.0)
+      '@best-shot/vue-loader': 17.4.9(vue@3.5.17(typescript@5.8.3))(webpack@5.100.0)
       '@vue/compiler-sfc': 3.5.17
-      css-loader: 7.1.2(webpack@5.99.9)
+      css-loader: 7.1.2(webpack@5.100.0)
       ext-to-regexp: 0.1.0
       vue: 3.5.17(typescript@5.8.3)
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@best-shot/preset-web@0.18.0(@best-shot/core@0.13.0(webpack@5.99.9))(webpack@5.99.9)':
+  '@best-shot/preset-web@0.18.0(@best-shot/core@0.13.0(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
-      '@best-shot/core': 0.13.0(webpack@5.99.9)
+      '@best-shot/core': 0.13.0(webpack@5.100.0)
       ext-to-regexp: 0.1.0
-      html-add-asset-webpack-plugin: 0.2.0(html-webpack-plugin@5.6.3(webpack@5.99.9))(webpack@5.99.9)
-      html-minimizer-webpack-plugin: 5.0.2(webpack@5.99.9)
-      html-webpack-plugin: 5.6.3(webpack@5.99.9)
-      micro-tpl-loader: 0.1.0(webpack@5.99.9)
+      html-add-asset-webpack-plugin: 0.2.0(html-webpack-plugin@5.6.3(webpack@5.100.0))(webpack@5.100.0)
+      html-minimizer-webpack-plugin: 5.0.2(webpack@5.100.0)
+      html-webpack-plugin: 5.6.3(webpack@5.100.0)
+      micro-tpl-loader: 0.1.0(webpack@5.100.0)
       slash: 5.1.0
       slash-to-regexp: 0.1.0
       suffix: 1.0.0
-      webpack: 5.99.9
-      webpack-subresource-integrity: 5.2.0-rc.1(html-webpack-plugin@5.6.3(webpack@5.99.9))(webpack@5.99.9)
+      webpack: 5.100.0
+      webpack-subresource-integrity: 5.2.0-rc.1(html-webpack-plugin@5.6.3(webpack@5.100.0))(webpack@5.100.0)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/html'
 
-  '@best-shot/sfc-split-plugin@0.14.6(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.99.9)':
+  '@best-shot/sfc-split-plugin@0.14.42(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)(webpack@5.100.0)':
     dependencies:
       '@into-mini/clsx': 0.0.0
-      '@into-mini/sfc-template-traverse': 0.0.0(@vue/compiler-core@3.5.17)
-      '@into-mini/sfc-transformer': 0.3.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)
+      '@into-mini/sfc-template-traverse': 0.0.2(@vue/compiler-core@3.5.17)
+      '@into-mini/sfc-transformer': 0.5.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)
+      '@into-mini/wxml-loader': 0.0.0
       slash: 5.1.0
-      webpack: 5.99.9
+      webpack: 5.100.0
       webpack-virtual-modules: 0.6.2
       yaml: 2.8.0
+      yaml-patch-loader: 0.1.0
     transitivePeerDependencies:
       - '@vue-mini/core'
       - '@vue/compiler-core'
@@ -6688,11 +6710,11 @@ snapshots:
       ajv-formats: 3.0.1(ajv@8.17.1)
       ajv-keywords: 5.1.0(ajv@8.17.1)
 
-  '@best-shot/vue-loader@17.4.9(vue@3.5.17(typescript@5.8.3))(webpack@5.99.9)':
+  '@best-shot/vue-loader@17.4.9(vue@3.5.17(typescript@5.8.3))(webpack@5.100.0)':
     dependencies:
       chalk: 4.1.2
       watchpack: 2.4.4
-      webpack: 5.99.9
+      webpack: 5.100.0
     optionalDependencies:
       vue: 3.5.17(typescript@5.8.3)
 
@@ -6862,18 +6884,16 @@ snapshots:
 
   '@into-mini/clsx@0.0.0': {}
 
-  '@into-mini/sfc-template-traverse@0.0.0(@vue/compiler-core@3.5.17)':
+  '@into-mini/sfc-template-traverse@0.0.2(@vue/compiler-core@3.5.17)':
     dependencies:
       '@vue/compiler-core': 3.5.17
       neotraverse: 0.6.18
-      tab-to-space: 1.0.1
-      wxml-parse: 0.2.3
 
-  '@into-mini/sfc-transformer@0.3.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)':
+  '@into-mini/sfc-transformer@0.5.0(@vue-mini/core@1.2.3)(@vue/compiler-core@3.5.17)':
     dependencies:
-      '@babel/generator': 7.27.5
-      '@babel/traverse': 7.27.4
-      '@into-mini/sfc-template-traverse': 0.0.0(@vue/compiler-core@3.5.17)
+      '@babel/generator': 7.28.0
+      '@babel/traverse': 7.28.0
+      '@into-mini/sfc-template-traverse': 0.0.2(@vue/compiler-core@3.5.17)
       '@into-mini/vue-mini-patch': 0.0.0(@vue-mini/core@1.2.3)
       '@padcom/vue-ast-serializer': 0.0.1(@vue/compiler-core@3.5.17)(@vue/compiler-sfc@3.5.17)
       '@vue/compiler-sfc': 3.5.17
@@ -6888,6 +6908,11 @@ snapshots:
   '@into-mini/vue-mini-patch@0.0.0(@vue-mini/core@1.2.3)':
     dependencies:
       '@vue-mini/core': 1.2.3
+
+  '@into-mini/wxml-loader@0.0.0':
+    dependencies:
+      tab-to-space: 1.0.1
+      wxml-parse: 0.2.3
 
   '@jest/schemas@29.6.3':
     dependencies:
@@ -7059,16 +7084,16 @@ snapshots:
       globals: 15.15.0
       node-html-parser: 7.0.1
 
-  '@nice-move/prettier-config@0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.0)':
+  '@nice-move/prettier-config@0.14.15(@babel/core@7.28.0)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(prettier@3.6.2)':
     dependencies:
       '@babel/plugin-syntax-import-attributes': 7.27.1(@babel/core@7.28.0)
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.28.0)
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.28.0)
-      '@ianvs/prettier-plugin-sort-imports': '@nice-move/prettier-plugin-sort-imports@4.4.1-rc0(@vue/compiler-sfc@3.5.17)(prettier@3.6.0)'
-      '@nice-move/prettier-plugin-package-json': 0.9.2(prettier@3.6.0)
-      '@prettier/plugin-xml': 3.4.1(prettier@3.6.0)
-      prettier: 3.6.0
-      prettier-plugin-css-order: 2.1.2(postcss@8.5.6)(prettier@3.6.0)
+      '@ianvs/prettier-plugin-sort-imports': '@nice-move/prettier-plugin-sort-imports@4.4.1-rc0(@vue/compiler-sfc@3.5.17)(prettier@3.6.2)'
+      '@nice-move/prettier-plugin-package-json': 0.9.2(prettier@3.6.2)
+      '@prettier/plugin-xml': 3.4.1(prettier@3.6.2)
+      prettier: 3.6.2
+      prettier-plugin-css-order: 2.1.2(postcss@8.5.6)(prettier@3.6.2)
       prettier-plugin-ini: 1.3.0
       settingz: 0.2.0
     transitivePeerDependencies:
@@ -7077,17 +7102,17 @@ snapshots:
       - postcss
       - supports-color
 
-  '@nice-move/prettier-plugin-package-json@0.9.2(prettier@3.6.0)':
+  '@nice-move/prettier-plugin-package-json@0.9.2(prettier@3.6.2)':
     dependencies:
-      prettier: 3.6.0
+      prettier: 3.6.2
 
-  '@nice-move/prettier-plugin-sort-imports@4.4.1-rc0(@vue/compiler-sfc@3.5.17)(prettier@3.6.0)':
+  '@nice-move/prettier-plugin-sort-imports@4.4.1-rc0(@vue/compiler-sfc@3.5.17)(prettier@3.6.2)':
     dependencies:
       '@babel/generator': 7.28.0
       '@babel/parser': 7.28.0
       '@babel/traverse': 7.28.0
       '@babel/types': 7.28.0
-      prettier: 3.6.0
+      prettier: 3.6.2
       semver: 7.7.2
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.17
@@ -7138,7 +7163,7 @@ snapshots:
       '@vue/compiler-core': 3.5.17
       '@vue/compiler-sfc': 3.5.17
 
-  '@pmmmwh/react-refresh-webpack-plugin@0.6.1(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.99.9))(webpack@5.99.9)':
+  '@pmmmwh/react-refresh-webpack-plugin@0.6.1(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.100.0))(webpack@5.100.0)':
     dependencies:
       anser: 2.3.2
       core-js-pure: 3.43.0
@@ -7147,15 +7172,15 @@ snapshots:
       react-refresh: 0.17.0
       schema-utils: 4.3.2
       source-map: 0.7.4
-      webpack: 5.99.9
+      webpack: 5.100.0
     optionalDependencies:
       type-fest: 0.18.1
-      webpack-dev-server: 5.2.2(webpack@5.99.9)
+      webpack-dev-server: 5.2.2(webpack@5.100.0)
 
-  '@prettier/plugin-xml@3.4.1(prettier@3.6.0)':
+  '@prettier/plugin-xml@3.4.1(prettier@3.6.2)':
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.6.0
+      prettier: 3.6.2
 
   '@rtsao/scc@1.1.0': {}
 
@@ -7627,6 +7652,10 @@ snapshots:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
+  acorn-import-phases@1.0.3(acorn@8.15.0):
+    dependencies:
+      acorn: 8.15.0
+
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
       acorn: 8.15.0
@@ -7789,11 +7818,11 @@ snapshots:
 
   axobject-query@4.1.0: {}
 
-  babel-loader@10.0.0(@babel/core@7.28.0)(webpack@5.99.9):
+  babel-loader@10.0.0(@babel/core@7.28.0)(webpack@5.100.0):
     dependencies:
       '@babel/core': 7.28.0
       find-up: 5.0.0
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   babel-plugin-polyfill-corejs2@0.4.14(@babel/core@7.28.0):
     dependencies:
@@ -7808,7 +7837,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.0
       '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.28.0)
-      core-js-compat: 3.43.0
+      core-js-compat: 3.44.0
     transitivePeerDependencies:
       - supports-color
 
@@ -7821,14 +7850,14 @@ snapshots:
 
   babel-plugin-transform-react-remove-prop-types@0.4.24: {}
 
-  babel-preset-evergreen@0.11.6(@babel/core@7.28.0):
+  babel-preset-evergreen@0.11.7(@babel/core@7.28.0):
     dependencies:
       '@babel/core': 7.28.0
       '@babel/helper-plugin-utils': 7.27.1
       '@babel/preset-env': 7.28.0(@babel/core@7.28.0)
       babel-plugin-polyfill-corejs3: 0.13.0(@babel/core@7.28.0)
-      core-js: 3.43.0
-      core-js-compat: 3.43.0
+      core-js: 3.44.0
+      core-js-compat: 3.44.0
       miniprogram-compat: 1.0.5
     transitivePeerDependencies:
       - supports-color
@@ -7952,7 +7981,7 @@ snapshots:
 
   caniuse-api@3.0.0:
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       caniuse-lite: 1.0.30001724
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
@@ -8098,7 +8127,7 @@ snapshots:
     dependencies:
       is-what: 3.14.1
 
-  copy-webpack-plugin@12.0.2(webpack@5.99.9):
+  copy-webpack-plugin@12.0.2(webpack@5.100.0):
     dependencies:
       fast-glob: 3.3.3
       glob-parent: 6.0.2
@@ -8106,22 +8135,28 @@ snapshots:
       normalize-path: 3.0.0
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
-  copy-webpack@4.2.0(webpack@5.99.9):
+  copy-webpack@4.2.0(webpack@5.100.0):
     dependencies:
-      copy-webpack-plugin: 12.0.2(webpack@5.99.9)
+      copy-webpack-plugin: 12.0.2(webpack@5.100.0)
       deepmerge: 4.3.1
       schema-utils: 4.3.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   core-js-compat@3.43.0:
     dependencies:
       browserslist: 4.25.0
 
+  core-js-compat@3.44.0:
+    dependencies:
+      browserslist: 4.25.1
+
   core-js-pure@3.43.0: {}
 
-  core-js@3.43.0: {}
+  core-js-pure@3.44.0: {}
+
+  core-js@3.44.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -8154,7 +8189,7 @@ snapshots:
 
   css-functions-list@3.2.3: {}
 
-  css-loader@7.1.2(webpack@5.99.9):
+  css-loader@7.1.2(webpack@5.100.0):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -8165,9 +8200,9 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.2
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
-  css-minimizer-webpack-plugin@7.0.2(webpack@5.99.9):
+  css-minimizer-webpack-plugin@7.0.2(webpack@5.100.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       cssnano: 7.0.7(postcss@8.5.6)
@@ -8175,7 +8210,7 @@ snapshots:
       postcss: 8.5.6
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   css-select@4.3.0:
     dependencies:
@@ -9242,11 +9277,11 @@ snapshots:
       readable-stream: 2.3.8
       wbuf: 1.7.3
 
-  html-add-asset-webpack-plugin@0.2.0(html-webpack-plugin@5.6.3(webpack@5.99.9))(webpack@5.99.9):
+  html-add-asset-webpack-plugin@0.2.0(html-webpack-plugin@5.6.3(webpack@5.100.0))(webpack@5.100.0):
     dependencies:
-      html-webpack-plugin: 5.6.3(webpack@5.99.9)
+      html-webpack-plugin: 5.6.3(webpack@5.100.0)
       schema-utils: 4.3.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   html-entities@2.6.0: {}
 
@@ -9270,18 +9305,18 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.43.1
 
-  html-minimizer-webpack-plugin@5.0.2(webpack@5.99.9):
+  html-minimizer-webpack-plugin@5.0.2(webpack@5.100.0):
     dependencies:
       '@types/html-minifier-terser': 7.0.2
       html-minifier-terser: 7.2.0
       jest-worker: 29.7.0
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   html-tags@3.3.1: {}
 
-  html-webpack-plugin@5.6.3(webpack@5.99.9):
+  html-webpack-plugin@5.6.3(webpack@5.100.0):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -9289,7 +9324,7 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.2.2
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   htmlparser2@6.1.0:
     dependencies:
@@ -9365,11 +9400,11 @@ snapshots:
 
   ignore@7.0.5: {}
 
-  image-minimizer-webpack-plugin@4.1.3(svgo@4.0.0)(webpack@5.99.9):
+  image-minimizer-webpack-plugin@4.1.3(svgo@4.0.0)(webpack@5.100.0):
     dependencies:
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      webpack: 5.99.9
+      webpack: 5.100.0
     optionalDependencies:
       svgo: 4.0.0
 
@@ -9640,10 +9675,10 @@ snapshots:
 
   json-buffer@3.0.1: {}
 
-  json-minimizer-webpack-plugin@5.0.1(webpack@5.99.9):
+  json-minimizer-webpack-plugin@5.0.1(webpack@5.100.0):
     dependencies:
       schema-utils: 4.3.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   json-parse-even-better-errors@2.3.1: {}
 
@@ -9701,11 +9736,11 @@ snapshots:
       picocolors: 1.1.1
       shell-quote: 1.8.3
 
-  less-loader@12.3.0(less@4.3.0)(webpack@5.99.9):
+  less-loader@12.3.0(less@4.3.0)(webpack@5.100.0):
     dependencies:
       less: 4.3.0
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   less@4.3.0:
     dependencies:
@@ -9859,10 +9894,10 @@ snapshots:
 
   methods@1.1.2: {}
 
-  micro-tpl-loader@0.1.0(webpack@5.99.9):
+  micro-tpl-loader@0.1.0(webpack@5.100.0):
     dependencies:
       micromustache: 8.0.3
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   micromark-extension-frontmatter@0.2.2:
     dependencies:
@@ -9896,11 +9931,11 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  mini-css-extract-plugin@2.9.2(webpack@5.99.9):
+  mini-css-extract-plugin@2.9.2(webpack@5.100.0):
     dependencies:
       schema-utils: 4.3.2
       tapable: 2.2.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   minimalistic-assert@1.0.1: {}
 
@@ -10226,7 +10261,7 @@ snapshots:
 
   postcss-colormin@7.0.3(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.5.6
@@ -10234,7 +10269,7 @@ snapshots:
 
   postcss-convert-values@7.0.5(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
@@ -10278,14 +10313,14 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
-  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.99.9):
+  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.100.0):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.8.3)
       jiti: 1.21.7
       postcss: 8.5.6
       semver: 7.7.2
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
     transitivePeerDependencies:
       - typescript
 
@@ -10318,7 +10353,7 @@ snapshots:
 
   postcss-merge-rules@7.0.5(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       caniuse-api: 3.0.0
       cssnano-utils: 5.0.1(postcss@8.5.6)
       postcss: 8.5.6
@@ -10338,7 +10373,7 @@ snapshots:
 
   postcss-minify-params@7.0.3(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       cssnano-utils: 5.0.1(postcss@8.5.6)
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10408,7 +10443,7 @@ snapshots:
 
   postcss-normalize-unicode@7.0.3(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
@@ -10474,7 +10509,7 @@ snapshots:
 
   postcss-reduce-initial@7.0.3(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       caniuse-api: 3.0.0
       postcss: 8.5.6
 
@@ -10547,20 +10582,20 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.6.0):
+  prettier-plugin-css-order@2.1.2(postcss@8.5.6)(prettier@3.6.2):
     dependencies:
       css-declaration-sorter: 7.2.0(postcss@8.5.6)
       postcss-less: 6.0.0(postcss@8.5.6)
       postcss-scss: 4.0.9(postcss@8.5.6)
-      prettier: 3.6.0
+      prettier: 3.6.2
     transitivePeerDependencies:
       - postcss
 
   prettier-plugin-ini@1.3.0:
     dependencies:
-      prettier: 3.6.0
+      prettier: 3.6.2
 
-  prettier@3.6.0: {}
+  prettier@3.6.2: {}
 
   pretty-error@4.0.0:
     dependencies:
@@ -10898,12 +10933,12 @@ snapshots:
       sass-embedded-win32-arm64: 1.89.2
       sass-embedded-win32-x64: 1.89.2
 
-  sass-loader@16.0.5(sass-embedded@1.89.2)(webpack@5.99.9):
+  sass-loader@16.0.5(sass-embedded@1.89.2)(webpack@5.100.0):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass-embedded: 1.89.2
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   sax@1.4.1: {}
 
@@ -11226,15 +11261,15 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-loader@4.0.0(webpack@5.99.9):
+  style-loader@4.0.0(webpack@5.100.0):
     dependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   style-search@0.1.0: {}
 
   stylehacks@7.0.5(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.0
+      browserslist: 4.25.1
       postcss: 8.5.6
       postcss-selector-parser: 7.1.0
 
@@ -11456,14 +11491,14 @@ snapshots:
 
   tapable@2.2.2: {}
 
-  terser-webpack-plugin@5.3.14(webpack@5.99.9):
+  terser-webpack-plugin@5.3.14(webpack@5.100.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       terser: 5.43.1
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   terser@5.43.1:
     dependencies:
@@ -11683,7 +11718,7 @@ snapshots:
     dependencies:
       minimalistic-assert: 1.0.1
 
-  webpack-dev-middleware@7.4.2(webpack@5.99.9):
+  webpack-dev-middleware@7.4.2(webpack@5.100.0):
     dependencies:
       colorette: 2.0.20
       memfs: 4.17.2
@@ -11692,14 +11727,14 @@ snapshots:
       range-parser: 1.2.1
       schema-utils: 4.3.2
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
-  webpack-dev-server-waitpage@3.0.0(webpack@5.99.9):
+  webpack-dev-server-waitpage@3.0.0(webpack@5.100.0):
     dependencies:
       ejs: 3.1.10
-      webpack: 5.99.9
+      webpack: 5.100.0
 
-  webpack-dev-server@5.2.2(webpack@5.99.9):
+  webpack-dev-server@5.2.2(webpack@5.100.0):
     dependencies:
       '@types/bonjour': 3.5.13
       '@types/connect-history-api-fallback': 1.5.4
@@ -11727,10 +11762,10 @@ snapshots:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.2(webpack@5.99.9)
+      webpack-dev-middleware: 7.4.2(webpack@5.100.0)
       ws: 8.18.2
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -11739,15 +11774,15 @@ snapshots:
 
   webpack-sources@3.3.3: {}
 
-  webpack-subresource-integrity@5.2.0-rc.1(html-webpack-plugin@5.6.3(webpack@5.99.9))(webpack@5.99.9):
+  webpack-subresource-integrity@5.2.0-rc.1(html-webpack-plugin@5.6.3(webpack@5.100.0))(webpack@5.100.0):
     dependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
     optionalDependencies:
-      html-webpack-plugin: 5.6.3(webpack@5.99.9)
+      html-webpack-plugin: 5.6.3(webpack@5.100.0)
 
   webpack-virtual-modules@0.6.2: {}
 
-  webpack@5.99.9:
+  webpack@5.100.0:
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -11756,7 +11791,8 @@ snapshots:
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.15.0
-      browserslist: 4.25.0
+      acorn-import-phases: 1.0.3(acorn@8.15.0)
+      browserslist: 4.25.1
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.2
       es-module-lexer: 1.7.0
@@ -11770,7 +11806,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.2
       tapable: 2.2.2
-      terser-webpack-plugin: 5.3.14(webpack@5.99.9)
+      terser-webpack-plugin: 5.3.14(webpack@5.100.0)
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
@@ -11778,14 +11814,14 @@ snapshots:
       - esbuild
       - uglify-js
 
-  webpackbar@7.0.0(webpack@5.99.9):
+  webpackbar@7.0.0(webpack@5.100.0):
     dependencies:
       ansis: 3.17.0
       consola: 3.4.2
       pretty-time: 1.1.0
       std-env: 3.9.0
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
 
   websocket-driver@0.7.4:
     dependencies:
@@ -11880,6 +11916,10 @@ snapshots:
     dependencies:
       javascript-stringify: 2.1.0
       loader-utils: 2.0.4
+      yaml: 2.8.0
+
+  yaml-patch-loader@0.1.0:
+    dependencies:
       yaml: 2.8.0
 
   yaml@1.10.2: {}
