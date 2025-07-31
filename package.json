@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@bring-it/cli": "^0.10.0",
-    "@bring-it/npm": "^0.6.1",
+    "@bring-it/npm": "^0.8.3",
     "@nice-move/syncpack-config": "^0.4.1",
     "eslint": "catalog:",
     "garou": "catalog:",
@@ -40,10 +40,10 @@
     "@all-star/vue": "workspace:^",
     "@types/react": "~18.3.23"
   },
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": "^22.11.0",
-    "pnpm": "^10.12.4"
+    "pnpm": "^10.13.1"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
