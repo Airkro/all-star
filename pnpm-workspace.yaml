@@ -8,10 +8,10 @@ catalog:
   '@best-shot/dev-server': ^0.21.1
   '@best-shot/preset-asset': ^0.15.1
   '@best-shot/preset-babel': ^0.18.2
-  '@best-shot/preset-mini': ^0.11.4
+  '@best-shot/preset-mini': ^0.11.5
   '@best-shot/preset-react': ^0.18.1
   '@best-shot/preset-style': ^0.16.0
-  '@best-shot/preset-vue': ^0.16.0
+  '@best-shot/preset-vue': ^0.16.1
   '@best-shot/preset-web': ^0.18.0
   '@nice-move/cli': ^0.11.26
   '@nice-move/eslint-config-base': ^0.13.1
@@ -30,7 +30,7 @@ catalog:
   stylelint: ^16.23.1
   typescript: ~5.9.2
   vue: ~3.5.18
-  webpack: ^5.101.0
+  webpack: ^5.101.1
 
 overrides:
   eslint: ^9.33.0
