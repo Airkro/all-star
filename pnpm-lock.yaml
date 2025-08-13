@@ -228,7 +228,7 @@ importers:
         version: 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1)
       '@best-shot/preset-mini':
         specifier: 'catalog:'
-        version: 0.11.5(@best-shot/core@0.13.1(webpack@5.101.1))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1))(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(webpack@5.101.1)
+        version: 0.11.5(@best-shot/core@0.13.1(webpack@5.101.1))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.1)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1)
@@ -1282,11 +1282,12 @@ packages:
     resolution: {integrity: sha512-teKxXye4G7fP8X7BTGYPudDXIdcgrjsZCgQoMMeOPCmKmgnmUgDjOJh7RRV4JqXqbWF5E6+3ubDpUzGp4PmdaQ==}
     engines: {node: '>=22.18.0'}
 
-  '@into-mini/vue-mini-patch@0.2.3':
-    resolution: {integrity: sha512-LXxWgvqanPqCat5avMLiXmPp9qGVMLEBc5ReAEswTyFQxtOefjuutnkLZC7yO1umWPCvksMJP72UMV5TpJzqFw==}
+  '@into-mini/vue-mini-patch@0.2.4':
+    resolution: {integrity: sha512-MgMrbnPGW2+acgYARuedPSuArlbmNy6qKRe0exOV4zoIy+XS/Ad0jR4I7kBhbVc+JVipeaYwp2PzbIzdF5XHnw==}
     peerDependencies:
       '@vue-mini/core': ^1.2.4
       '@vue-mini/pinia': ^0.1.2
+      vue: ^3.5.18
 
   '@into-mini/wxml-loader@0.0.0':
     resolution: {integrity: sha512-azivfjcA14RFqFN28v0RO8XFnNJbZtXYWP4qZ7+gwyi0WSKge5Qi0In6N498t01gG90D0w6VFqJxv6laSBa7fA==}
@@ -1312,21 +1313,21 @@ packages:
     resolution: {integrity: sha512-aREYa3aku9SSnea4aX6bhKn4bgv3AXkgijoQgbYV3yvbiGt6z+MQ85+6mIhx9DsKW2BuB/cLR/A+tcMThx+KLQ==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
-  '@jridgewell/gen-mapping@0.3.12':
-    resolution: {integrity: sha512-OuLGC46TjB5BbN1dH8JULVVZY4WTdkF7tV9Ys6wLL1rubZnCMstOhNHueU5bLCrnRuDhKPDM4g6sw4Bel5Gzqg==}
+  '@jridgewell/gen-mapping@0.3.13':
+    resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
 
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/source-map@0.3.10':
-    resolution: {integrity: sha512-0pPkgz9dY+bijgistcTTJ5mR+ocqRXLuhXHYdzoMmmoJ2C9S46RCm2GMUbatPEUK9Yjy26IrAy8D/M00lLkv+Q==}
+  '@jridgewell/source-map@0.3.11':
+    resolution: {integrity: sha512-ZMp1V8ZFcPG5dIWnQLr3NSI1MiCU7UETdS/A0G8V/XWHvJv3ZsFqutJn1Y5RPmAPX6F3BiE397OqveU/9NCuIA==}
 
-  '@jridgewell/sourcemap-codec@1.5.4':
-    resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
+  '@jridgewell/sourcemap-codec@1.5.5':
+    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@jridgewell/trace-mapping@0.3.29':
-    resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
+  '@jridgewell/trace-mapping@0.3.30':
+    resolution: {integrity: sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==}
 
   '@jsonjoy.com/base64@1.1.2':
     resolution: {integrity: sha512-q6XAnWQDIMA3+FTiOYajoYqySkO+JSat0ytXGSuRdq9uXE7o92gzuQwQM14xaCRlBLGq3v5miDGC4vkVTn54xA==}
@@ -1869,8 +1870,8 @@ packages:
   '@volue/wasm-codecs-gifsicle@1.0.0':
     resolution: {integrity: sha512-3EcaeeEyhDyqZIL9DqX6RqJ8SkbqSYZyixuRHxPEi/MDcZkWy0tnvYdXfHao297Hx/Ft+xNoyFWgDeZ2+pNk3g==}
 
-  '@vue-mini/core@1.2.3':
-    resolution: {integrity: sha512-nMlflliD1gd3PEpl4qzNHDwHLruSnD1lW9mc9swR4udqBoUgHxNSOLn7QyXapiwy35xiTfThbmRug3tkQOignw==}
+  '@vue-mini/core@1.2.4':
+    resolution: {integrity: sha512-YcAH6IBkocUV37BxLSbKHNtP3v2EiEDw5Wksjaw8k/IjCNbXItu1sq6ZfNZ8Pbpoe5EQ2foFPim2g5lGuNcIig==}
 
   '@vue-mini/pinia@0.1.2':
     resolution: {integrity: sha512-sIYKWpP1Gd+Pa40FHfJYFIk1iN7Mf5DKdwpYFH17X4tKjRDPU0i1EJLU0WsqmkmLUJp8J+Wpa1gTHe3IjeRu2A==}
@@ -1889,9 +1890,6 @@ packages:
   '@vue/compiler-ssr@3.5.18':
     resolution: {integrity: sha512-xM16Ak7rSWHkM3m22NlmcdIM+K4BMyFARAfV9hYFl+SFuRzrZ3uGMNW05kA5pmeMa0X9X963Kgou7ufdbpOP9g==}
 
-  '@vue/reactivity@3.5.14':
-    resolution: {integrity: sha512-7cK1Hp343Fu/SUCCO52vCabjvsYu7ZkOqyYu7bXV9P2yyfjUMUXHZafEbq244sP7gf+EZEz+77QixBTuEqkQQw==}
-
   '@vue/reactivity@3.5.18':
     resolution: {integrity: sha512-x0vPO5Imw+3sChLM5Y+B6G1zPjwdOri9e8V21NnTnlEvkxatHEH5B5KEAJcjuzQ7BsjGrKtfzuQ5eQwXh8HXBg==}
 
@@ -1905,9 +1903,6 @@ packages:
     resolution: {integrity: sha512-PvIHLUoWgSbDG7zLHqSqaCoZvHi6NNmfVFOqO+OnwvqMz/tqQr3FuGWS8ufluNddk7ZLBJYMrjcw1c6XzR12mA==}
     peerDependencies:
       vue: 3.5.18
-
-  '@vue/shared@3.5.14':
-    resolution: {integrity: sha512-oXTwNxVfc9EtP1zzXAlSlgARLXNC84frFYkS0HHz0h3E4WZSP9sywqjqzGCP9Y34M8ipNmd380pVgmMuwELDyQ==}
 
   '@vue/shared@3.5.18':
     resolution: {integrity: sha512-cZy8Dq+uuIXbxCZpuLd2GJdeSO/lIzIspC2WtkqIpje5QyFbvLaI5wZtdUjLHjGZrlVX6GilejatWwVYYRc8tA==}
@@ -3939,8 +3934,8 @@ packages:
   mdn-data@2.12.2:
     resolution: {integrity: sha512-IEn+pegP1aManZuckezWCO+XZQDplx1366JoVhTpMpBB1sPey/SbveZQUosKiKiGYjg1wH4pMlNgXbCiYgihQA==}
 
-  mdn-data@2.23.0:
-    resolution: {integrity: sha512-786vq1+4079JSeu2XdcDjrhi/Ry7BWtjDl9WtGPWLiIHb2T66GvIVflZTBoSNZ5JqTtJGYEVMuFA/lbQlMOyDQ==}
+  mdn-data@2.24.0:
+    resolution: {integrity: sha512-i97fklrJl03tL1tdRVw0ZfLLvuDsdb6wxL+TrJ+PKkCbLrp2PCu2+OYdCKychIUm19nSM/35S6qz7pJpnXttoA==}
 
   media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
@@ -4044,8 +4039,8 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  miniprogram-api-typings@4.1.0:
-    resolution: {integrity: sha512-4RBsz27nBKyRkVGoNkRaPx24/KeJBw3zaaIlXDR8s/WBh2PbcUAc+q7wLLbp7Qsmb3bLzzUu7tqAti+B06kmjg==}
+  miniprogram-api-typings@4.0.8:
+    resolution: {integrity: sha512-q3MHCd/r0EsCFsq+nebbBbpwhsQbJg2d8lvRdRBV4KXgp+S1OzzNFpjFoy1X46NA01OD0fbCnxo7tJRSE2pqSw==}
 
   miniprogram-compat@1.0.5:
     resolution: {integrity: sha512-e9w92W/XDGlWXJQzVhmt3nyx0lfwyoVOy6gxsY0mPZJap/4kJeehA1Mjg0MNSWMhAbN+GiGQR80z4LZr2Zo4Bw==}
@@ -5851,8 +5846,8 @@ snapshots:
 
   '@ampproject/remapping@2.3.0':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.12
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.30
 
   '@astropub/codecs@0.4.4': {}
 
@@ -5888,8 +5883,8 @@ snapshots:
     dependencies:
       '@babel/parser': 7.28.0
       '@babel/types': 7.28.2
-      '@jridgewell/gen-mapping': 0.3.12
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.30
       jsesc: 3.1.0
 
   '@babel/helper-annotate-as-pure@7.27.3':
@@ -6702,18 +6697,19 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.11.5(@best-shot/core@0.13.1(webpack@5.101.1))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1))(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(webpack@5.101.1)':
+  '@best-shot/preset-mini@0.11.5(@best-shot/core@0.13.1(webpack@5.101.1))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.1)':
     dependencies:
       '@best-shot/core': 0.13.1(webpack@5.101.1)
       '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1)
       '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.1(webpack@5.101.1))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.1)
-      '@best-shot/sfc-split-plugin': 0.14.55(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(webpack@5.101.1)
+      '@best-shot/sfc-split-plugin': 0.14.55(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.1)
       yaml: 2.8.1
     transitivePeerDependencies:
       - '@vue-mini/core'
       - '@vue-mini/pinia'
       - '@vue/compiler-core'
       - supports-color
+      - vue
       - webpack
 
   '@best-shot/preset-react@0.18.1(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.0)(@best-shot/core@0.13.1(webpack@5.101.1))(webpack@5.101.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.1))(webpack@5.101.1)':
@@ -6801,11 +6797,11 @@ snapshots:
       - '@rspack/core'
       - '@swc/html'
 
-  '@best-shot/sfc-split-plugin@0.14.55(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(webpack@5.101.1)':
+  '@best-shot/sfc-split-plugin@0.14.55(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.1)':
     dependencies:
       '@into-mini/clsx': 0.0.0
       '@into-mini/sfc-template-traverse': 0.0.2(@vue/compiler-core@3.5.18)
-      '@into-mini/sfc-transformer': 0.5.4(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)
+      '@into-mini/sfc-transformer': 0.5.4(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))
       '@into-mini/wxml-loader': 0.0.0
       slash: 5.1.0
       webpack: 5.101.1
@@ -6817,6 +6813,7 @@ snapshots:
       - '@vue-mini/pinia'
       - '@vue/compiler-core'
       - supports-color
+      - vue
 
   '@best-shot/validator@0.6.0':
     dependencies:
@@ -7006,12 +7003,12 @@ snapshots:
       '@vue/compiler-core': 3.5.18
       neotraverse: 0.6.18
 
-  '@into-mini/sfc-transformer@0.5.4(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)':
+  '@into-mini/sfc-transformer@0.5.4(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@babel/generator': 7.28.0
       '@babel/traverse': 7.28.0
       '@into-mini/sfc-template-traverse': 0.0.2(@vue/compiler-core@3.5.18)
-      '@into-mini/vue-mini-patch': 0.2.3(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))
+      '@into-mini/vue-mini-patch': 0.2.4(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(vue@3.5.18(typescript@5.9.2))
       '@padcom/vue-ast-serializer': 0.0.1(@vue/compiler-core@3.5.18)(@vue/compiler-sfc@3.5.18)
       '@vue/compiler-sfc': 3.5.18
       change-case: 5.4.4
@@ -7022,11 +7019,13 @@ snapshots:
       - '@vue-mini/pinia'
       - '@vue/compiler-core'
       - supports-color
+      - vue
 
-  '@into-mini/vue-mini-patch@0.2.3(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))':
+  '@into-mini/vue-mini-patch@0.2.4(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
-      '@vue-mini/core': 1.2.3
-      '@vue-mini/pinia': 0.1.2(@vue-mini/core@1.2.3)
+      '@vue-mini/core': 1.2.4
+      '@vue-mini/pinia': 0.1.2(@vue-mini/core@1.2.4)
+      vue: 3.5.18(typescript@5.9.2)
 
   '@into-mini/wxml-loader@0.0.0':
     dependencies:
@@ -7065,24 +7064,24 @@ snapshots:
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
-  '@jridgewell/gen-mapping@0.3.12':
+  '@jridgewell/gen-mapping@0.3.13':
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.4
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/trace-mapping': 0.3.30
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
-  '@jridgewell/source-map@0.3.10':
+  '@jridgewell/source-map@0.3.11':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.12
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.30
 
-  '@jridgewell/sourcemap-codec@1.5.4': {}
+  '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@jridgewell/trace-mapping@0.3.29':
+  '@jridgewell/trace-mapping@0.3.30':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@jsonjoy.com/base64@1.1.2(tslib@2.8.1)':
     dependencies:
@@ -7665,14 +7664,14 @@ snapshots:
 
   '@volue/wasm-codecs-gifsicle@1.0.0': {}
 
-  '@vue-mini/core@1.2.3':
+  '@vue-mini/core@1.2.4':
     dependencies:
-      '@vue/reactivity': 3.5.14
-      miniprogram-api-typings: 4.1.0
+      '@vue/reactivity': 3.5.18
+      miniprogram-api-typings: 4.0.8
 
-  '@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3)':
+  '@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4)':
     dependencies:
-      '@vue-mini/core': 1.2.3
+      '@vue-mini/core': 1.2.4
 
   '@vue/compiler-core@3.5.18':
     dependencies:
@@ -7704,10 +7703,6 @@ snapshots:
       '@vue/compiler-dom': 3.5.18
       '@vue/shared': 3.5.18
 
-  '@vue/reactivity@3.5.14':
-    dependencies:
-      '@vue/shared': 3.5.14
-
   '@vue/reactivity@3.5.18':
     dependencies:
       '@vue/shared': 3.5.18
@@ -7729,8 +7724,6 @@ snapshots:
       '@vue/compiler-ssr': 3.5.18
       '@vue/shared': 3.5.18
       vue: 3.5.18(typescript@5.9.2)
-
-  '@vue/shared@3.5.14': {}
 
   '@vue/shared@3.5.18': {}
 
@@ -8356,7 +8349,7 @@ snapshots:
 
   css-minimizer-webpack-plugin@7.0.2(webpack@5.101.1):
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/trace-mapping': 0.3.30
       cssnano: 7.1.0(postcss@8.5.6)
       jest-worker: 29.7.0
       postcss: 8.5.6
@@ -9934,7 +9927,7 @@ snapshots:
 
   magic-string@0.30.17:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   make-dir@2.1.0:
     dependencies:
@@ -9970,7 +9963,7 @@ snapshots:
 
   mdn-data@2.12.2: {}
 
-  mdn-data@2.23.0: {}
+  mdn-data@2.24.0: {}
 
   media-typer@0.3.0: {}
 
@@ -10071,7 +10064,7 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  miniprogram-api-typings@4.1.0: {}
+  miniprogram-api-typings@4.0.8: {}
 
   miniprogram-compat@1.0.5:
     dependencies:
@@ -11469,7 +11462,7 @@ snapshots:
       css-tree: 3.1.0
       is-plain-object: 5.0.0
       known-css-properties: 0.36.0
-      mdn-data: 2.23.0
+      mdn-data: 2.24.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.6
       postcss-selector-parser: 7.1.0
@@ -11651,7 +11644,7 @@ snapshots:
 
   terser-webpack-plugin@5.3.14(webpack@5.101.1):
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/trace-mapping': 0.3.30
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
@@ -11660,7 +11653,7 @@ snapshots:
 
   terser@5.43.1:
     dependencies:
-      '@jridgewell/source-map': 0.3.10
+      '@jridgewell/source-map': 0.3.11
       acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
