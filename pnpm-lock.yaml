@@ -59,7 +59,7 @@ catalogs:
       version: 0.10.22
     '@nice-move/tsconfig':
       specifier: ^0.3.4
-      version: 0.3.4
+      version: 0.3.6
     core-js:
       specifier: ^3.45.0
       version: 3.45.0
@@ -186,7 +186,7 @@ importers:
         version: 0.10.22(stylelint@16.23.1(typescript@5.9.2))
       '@nice-move/tsconfig':
         specifier: 'catalog:'
-        version: 0.3.4(@types/whatwg-url@13.0.0)(typescript@5.9.2)
+        version: 0.3.6(typescript@5.9.2)
       core-js:
         specifier: 'catalog:'
         version: 3.45.0
@@ -228,7 +228,7 @@ importers:
         version: 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-mini':
         specifier: 'catalog:'
-        version: 0.11.5(@best-shot/core@0.13.1(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)
+        version: 0.11.5(@best-shot/core@0.13.1(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
@@ -246,7 +246,7 @@ importers:
         version: 0.10.22(stylelint@16.23.1(typescript@5.9.2))
       '@nice-move/tsconfig':
         specifier: 'catalog:'
-        version: 0.3.4(@types/whatwg-url@13.0.0)(typescript@5.9.2)
+        version: 0.3.6(typescript@5.9.2)
       core-js:
         specifier: 'catalog:'
         version: 3.45.0
@@ -315,7 +315,7 @@ importers:
         version: 0.10.22(stylelint@16.23.1(typescript@5.9.2))
       '@nice-move/tsconfig':
         specifier: 'catalog:'
-        version: 0.3.4(@types/whatwg-url@13.0.0)(typescript@5.9.2)
+        version: 0.3.6(typescript@5.9.2)
       core-js:
         specifier: 'catalog:'
         version: 3.45.0
@@ -387,7 +387,7 @@ importers:
         version: 0.10.22(stylelint@16.23.1(typescript@5.9.2))
       '@nice-move/tsconfig':
         specifier: 'catalog:'
-        version: 0.3.4(@types/whatwg-url@13.0.0)(typescript@5.9.2)
+        version: 0.3.6(typescript@5.9.2)
       core-js:
         specifier: 'catalog:'
         version: 3.45.0
@@ -1106,8 +1106,8 @@ packages:
     peerDependencies:
       '@bring-it/cli': ^0.10.0
 
-  '@bufbuild/protobuf@2.6.3':
-    resolution: {integrity: sha512-w/gJKME9mYN7ZoUAmSMAWXk4hkVpxRKvEJCb3dV5g9wwWdxTJJ0ayOJAVcNxtdqaxDyFuC0uz4RSGVacJ030PQ==}
+  '@bufbuild/protobuf@2.7.0':
+    resolution: {integrity: sha512-qn6tAIZEw5i/wiESBF4nQxZkl86aY4KoO0IkUa2Lh+rya64oTOdJQFlZuMwI1Qz9VBJQrQC4QlSA2DNek5gCOA==}
 
   '@csstools/color-helpers@5.0.2':
     resolution: {integrity: sha512-JqWH1vsgdGcw2RR6VliXXdA0/59LttzlU8UlRT/iUUsEeWfYq8I+K0yhihEUTTHLRm1EXvpsCx3083EU15ecsA==}
@@ -1430,11 +1430,10 @@ packages:
     peerDependencies:
       syncpack: ^13.0.4
 
-  '@nice-move/tsconfig@0.3.4':
-    resolution: {integrity: sha512-2NBmkL/gGwD63psYO+tnpBo8glsgI64jzICdCtCc7tbv84QWbMpWRQ44LJikUIB77S6WbnpKdV2ARArtBpG8Qw==}
+  '@nice-move/tsconfig@0.3.6':
+    resolution: {integrity: sha512-qmDyF7cYHZ26QagRRTRieQpjWW/GM9pwh0hgSoPiiAcTIhZ9LeZ2GKmzJAXiJoc7xUX62vFT1MpW64Nz5oZfYA==}
     engines: {node: ^22.18.0 || ^24.0.0}
     peerDependencies:
-      '@types/whatwg-url': ^13.0.0
       typescript: ~5.9.2
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1877,8 +1876,8 @@ packages:
   '@volue/wasm-codecs-gifsicle@1.0.0':
     resolution: {integrity: sha512-3EcaeeEyhDyqZIL9DqX6RqJ8SkbqSYZyixuRHxPEi/MDcZkWy0tnvYdXfHao297Hx/Ft+xNoyFWgDeZ2+pNk3g==}
 
-  '@vue-mini/core@1.2.3':
-    resolution: {integrity: sha512-nMlflliD1gd3PEpl4qzNHDwHLruSnD1lW9mc9swR4udqBoUgHxNSOLn7QyXapiwy35xiTfThbmRug3tkQOignw==}
+  '@vue-mini/core@1.2.4':
+    resolution: {integrity: sha512-YcAH6IBkocUV37BxLSbKHNtP3v2EiEDw5Wksjaw8k/IjCNbXItu1sq6ZfNZ8Pbpoe5EQ2foFPim2g5lGuNcIig==}
 
   '@vue-mini/pinia@0.1.2':
     resolution: {integrity: sha512-sIYKWpP1Gd+Pa40FHfJYFIk1iN7Mf5DKdwpYFH17X4tKjRDPU0i1EJLU0WsqmkmLUJp8J+Wpa1gTHe3IjeRu2A==}
@@ -1897,9 +1896,6 @@ packages:
   '@vue/compiler-ssr@3.5.18':
     resolution: {integrity: sha512-xM16Ak7rSWHkM3m22NlmcdIM+K4BMyFARAfV9hYFl+SFuRzrZ3uGMNW05kA5pmeMa0X9X963Kgou7ufdbpOP9g==}
 
-  '@vue/reactivity@3.5.14':
-    resolution: {integrity: sha512-7cK1Hp343Fu/SUCCO52vCabjvsYu7ZkOqyYu7bXV9P2yyfjUMUXHZafEbq244sP7gf+EZEz+77QixBTuEqkQQw==}
-
   '@vue/reactivity@3.5.18':
     resolution: {integrity: sha512-x0vPO5Imw+3sChLM5Y+B6G1zPjwdOri9e8V21NnTnlEvkxatHEH5B5KEAJcjuzQ7BsjGrKtfzuQ5eQwXh8HXBg==}
 
@@ -1913,9 +1909,6 @@ packages:
     resolution: {integrity: sha512-PvIHLUoWgSbDG7zLHqSqaCoZvHi6NNmfVFOqO+OnwvqMz/tqQr3FuGWS8ufluNddk7ZLBJYMrjcw1c6XzR12mA==}
     peerDependencies:
       vue: 3.5.18
-
-  '@vue/shared@3.5.14':
-    resolution: {integrity: sha512-oXTwNxVfc9EtP1zzXAlSlgARLXNC84frFYkS0HHz0h3E4WZSP9sywqjqzGCP9Y34M8ipNmd380pVgmMuwELDyQ==}
 
   '@vue/shared@3.5.18':
     resolution: {integrity: sha512-cZy8Dq+uuIXbxCZpuLd2GJdeSO/lIzIspC2WtkqIpje5QyFbvLaI5wZtdUjLHjGZrlVX6GilejatWwVYYRc8tA==}
@@ -2724,8 +2717,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.205:
-    resolution: {integrity: sha512-gBtbT7IgOHu7CwdtIiXwbNRD1l6oG6GAyanmwMCLVqaoGy92Jfe1dSHLiSj8xUEZNxOTIVlXuaAalMMD+S4y0w==}
+  electron-to-chromium@1.5.207:
+    resolution: {integrity: sha512-mryFrrL/GXDTmAtIVMVf+eIXM09BBPlO5IQ7lUyKmK8d+A4VpRGG+M3ofoVef6qyF8s60rJei8ymlJxjUA8Faw==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -4052,8 +4045,8 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  miniprogram-api-typings@4.1.0:
-    resolution: {integrity: sha512-4RBsz27nBKyRkVGoNkRaPx24/KeJBw3zaaIlXDR8s/WBh2PbcUAc+q7wLLbp7Qsmb3bLzzUu7tqAti+B06kmjg==}
+  miniprogram-api-typings@4.0.8:
+    resolution: {integrity: sha512-q3MHCd/r0EsCFsq+nebbBbpwhsQbJg2d8lvRdRBV4KXgp+S1OzzNFpjFoy1X46NA01OD0fbCnxo7tJRSE2pqSw==}
 
   miniprogram-compat@1.0.5:
     resolution: {integrity: sha512-e9w92W/XDGlWXJQzVhmt3nyx0lfwyoVOy6gxsY0mPZJap/4kJeehA1Mjg0MNSWMhAbN+GiGQR80z4LZr2Zo4Bw==}
@@ -6710,12 +6703,12 @@ snapshots:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.11.5(@best-shot/core@0.13.1(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)':
+  '@best-shot/preset-mini@0.11.5(@best-shot/core@0.13.1(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)':
     dependencies:
       '@best-shot/core': 0.13.1(webpack@5.101.3)
       '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.1(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.1(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
-      '@best-shot/sfc-split-plugin': 0.14.65(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)
+      '@best-shot/sfc-split-plugin': 0.14.65(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)
       yaml: 2.8.1
     transitivePeerDependencies:
       - '@vue-mini/core'
@@ -6810,10 +6803,10 @@ snapshots:
       - '@rspack/core'
       - '@swc/html'
 
-  '@best-shot/sfc-split-plugin@0.14.65(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)':
+  '@best-shot/sfc-split-plugin@0.14.65(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.3)':
     dependencies:
       '@into-mini/clsx': 0.0.0
-      '@into-mini/sfc-transformer': 0.5.8(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))
+      '@into-mini/sfc-transformer': 0.5.8(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))
       '@into-mini/wxml-loader': 0.0.0
       slash: 5.1.0
       webpack: 5.101.3
@@ -6855,7 +6848,7 @@ snapshots:
     dependencies:
       '@bring-it/cli': 0.10.0
 
-  '@bufbuild/protobuf@2.6.3': {}
+  '@bufbuild/protobuf@2.7.0': {}
 
   '@csstools/color-helpers@5.0.2': {}
 
@@ -7015,12 +7008,12 @@ snapshots:
       '@vue/compiler-core': 3.5.18
       neotraverse: 0.6.18
 
-  '@into-mini/sfc-transformer@0.5.8(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))':
+  '@into-mini/sfc-transformer@0.5.8(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.18)(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@babel/generator': 7.28.3
       '@babel/traverse': 7.28.3
       '@into-mini/sfc-template-traverse': 0.1.0(@vue/compiler-core@3.5.18)
-      '@into-mini/vue-mini-patch': 0.2.5(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(vue@3.5.18(typescript@5.9.2))
+      '@into-mini/vue-mini-patch': 0.2.5(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(vue@3.5.18(typescript@5.9.2))
       '@padcom/vue-ast-serializer': 0.0.1(@vue/compiler-core@3.5.18)(@vue/compiler-sfc@3.5.18)
       '@vue/compiler-sfc': 3.5.18
       change-case: 5.4.4
@@ -7033,10 +7026,10 @@ snapshots:
       - supports-color
       - vue
 
-  '@into-mini/vue-mini-patch@0.2.5(@vue-mini/core@1.2.3)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3))(vue@3.5.18(typescript@5.9.2))':
+  '@into-mini/vue-mini-patch@0.2.5(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
-      '@vue-mini/core': 1.2.3
-      '@vue-mini/pinia': 0.1.2(@vue-mini/core@1.2.3)
+      '@vue-mini/core': 1.2.4
+      '@vue-mini/pinia': 0.1.2(@vue-mini/core@1.2.4)
       vue: 3.5.18(typescript@5.9.2)
 
   '@into-mini/wxml-loader@0.0.0':
@@ -7258,7 +7251,7 @@ snapshots:
       syncpack: 13.0.4(typescript@5.9.2)
       yaml: 2.8.1
 
-  '@nice-move/tsconfig@0.3.4(@types/whatwg-url@13.0.0)(typescript@5.9.2)':
+  '@nice-move/tsconfig@0.3.6(typescript@5.9.2)':
     dependencies:
       '@types/whatwg-url': 13.0.0
       typescript: 5.9.2
@@ -7683,14 +7676,14 @@ snapshots:
 
   '@volue/wasm-codecs-gifsicle@1.0.0': {}
 
-  '@vue-mini/core@1.2.3':
+  '@vue-mini/core@1.2.4':
     dependencies:
-      '@vue/reactivity': 3.5.14
-      miniprogram-api-typings: 4.1.0
+      '@vue/reactivity': 3.5.18
+      miniprogram-api-typings: 4.0.8
 
-  '@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.3)':
+  '@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4)':
     dependencies:
-      '@vue-mini/core': 1.2.3
+      '@vue-mini/core': 1.2.4
 
   '@vue/compiler-core@3.5.18':
     dependencies:
@@ -7722,10 +7715,6 @@ snapshots:
       '@vue/compiler-dom': 3.5.18
       '@vue/shared': 3.5.18
 
-  '@vue/reactivity@3.5.14':
-    dependencies:
-      '@vue/shared': 3.5.14
-
   '@vue/reactivity@3.5.18':
     dependencies:
       '@vue/shared': 3.5.18
@@ -7747,8 +7736,6 @@ snapshots:
       '@vue/compiler-ssr': 3.5.18
       '@vue/shared': 3.5.18
       vue: 3.5.18(typescript@5.9.2)
-
-  '@vue/shared@3.5.14': {}
 
   '@vue/shared@3.5.18': {}
 
@@ -8101,7 +8088,7 @@ snapshots:
   browserslist@4.25.3:
     dependencies:
       caniuse-lite: 1.0.30001735
-      electron-to-chromium: 1.5.205
+      electron-to-chromium: 1.5.207
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.3)
 
@@ -8613,7 +8600,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.205: {}
+  electron-to-chromium@1.5.207: {}
 
   emoji-regex@10.4.0: {}
 
@@ -10090,7 +10077,7 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  miniprogram-api-typings@4.1.0: {}
+  miniprogram-api-typings@4.0.8: {}
 
   miniprogram-compat@1.0.5:
     dependencies:
@@ -11082,7 +11069,7 @@ snapshots:
 
   sass-embedded@1.90.0:
     dependencies:
-      '@bufbuild/protobuf': 2.6.3
+      '@bufbuild/protobuf': 2.7.0
       buffer-builder: 0.2.0
       colorjs.io: 0.5.2
       immutable: 5.1.3
