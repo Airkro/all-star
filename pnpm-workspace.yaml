@@ -2,7 +2,7 @@ packages:
   - packages/*
 
 catalog:
-  '@babel/core': ^7.28.0
+  '@babel/core': ^7.28.3
   '@best-shot/cli': ^0.19.2
   '@best-shot/core': ^0.13.1
   '@best-shot/dev-server': ^0.21.1
@@ -19,7 +19,7 @@ catalog:
   '@nice-move/eslint-config-vue': ^0.13.1
   '@nice-move/prettier-config': ^0.15.6
   '@nice-move/stylelint-config': ^0.10.22
-  '@nice-move/tsconfig': ^0.3.3
+  '@nice-move/tsconfig': ^0.3.4
   cheetor: ^0.13.0
   core-js: ^3.45.0
   eslint: ^9.33.0
@@ -30,7 +30,7 @@ catalog:
   stylelint: ^16.23.1
   typescript: ~5.9.2
   vue: ~3.5.18
-  webpack: ^5.101.1
+  webpack: ^5.101.3
 
 overrides:
   eslint: ^9.33.0
