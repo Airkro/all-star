@@ -3,8 +3,8 @@ packages:
 
 catalog:
   '@babel/core': ^7.28.3
-  '@best-shot/cli': ^0.19.2
-  '@best-shot/core': ^0.13.3
+  '@best-shot/cli': ^0.19.3
+  '@best-shot/core': ^0.13.6
   '@best-shot/dev-server': ^0.21.1
   '@best-shot/preset-asset': ^0.15.1
   '@best-shot/preset-babel': ^0.18.3
