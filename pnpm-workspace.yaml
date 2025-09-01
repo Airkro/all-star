@@ -7,7 +7,7 @@ catalog:
   '@best-shot/core': ^0.13.3
   '@best-shot/dev-server': ^0.21.1
   '@best-shot/preset-asset': ^0.15.1
-  '@best-shot/preset-babel': ^0.18.2
+  '@best-shot/preset-babel': ^0.18.3
   '@best-shot/preset-mini': ^0.11.6
   '@best-shot/preset-react': ^0.18.1
   '@best-shot/preset-style': ^0.16.0

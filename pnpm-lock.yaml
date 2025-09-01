@@ -22,8 +22,8 @@ catalogs:
       specifier: ^0.15.1
       version: 0.15.1
     '@best-shot/preset-babel':
-      specifier: ^0.18.2
-      version: 0.18.2
+      specifier: ^0.18.3
+      version: 0.18.3
     '@best-shot/preset-mini':
       specifier: ^0.11.6
       version: 0.11.6
@@ -168,7 +168,7 @@ importers:
         version: 0.15.1(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+        version: 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
@@ -228,10 +228,10 @@ importers:
         version: 0.15.1(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+        version: 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-mini':
         specifier: 'catalog:'
-        version: 0.11.6(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)
+        version: 0.11.6(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
@@ -294,10 +294,10 @@ importers:
         version: 0.15.1(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+        version: 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-react':
         specifier: 'catalog:'
-        version: 0.18.1(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.3))(webpack@5.101.3)
+        version: 0.18.1(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
@@ -366,7 +366,7 @@ importers:
         version: 0.15.1(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+        version: 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
@@ -1028,12 +1028,12 @@ packages:
     peerDependencies:
       '@best-shot/core': ^0.13.0
 
-  '@best-shot/preset-babel@0.18.2':
-    resolution: {integrity: sha512-6DrH98nI1HZrhenVivtF4BuTrYrqDhTlcG9l86I/ky13762dQ5MI+lP2L1gpebEDpVEhqEILnDWcPLoR+5f9EA==}
+  '@best-shot/preset-babel@0.18.3':
+    resolution: {integrity: sha512-11hb27XvPCPIO1Mymz8Hz3DfbCbhbTWUxrTOUciY3yqB3gtdANRhjcMd+xeoZ1QHiCwJiCQMcBAMDLYjgDmJ/g==}
     engines: {node: '>=22.11.0'}
     peerDependencies:
-      '@babel/core': ^7.28.0
-      '@best-shot/core': ^0.13.0
+      '@babel/core': ^7.28.3
+      '@best-shot/core': ^0.13.3
 
   '@best-shot/preset-mini@0.11.6':
     resolution: {integrity: sha512-deFPQSuErd/WkWqOl8ITQVq/ESyC/FpdUrT3A+4x2MztBX+nesvP/tRRYky3CkPaoPInz/hqcuTcEwURZQfMsg==}
@@ -2171,11 +2171,11 @@ packages:
   babel-plugin-transform-react-remove-prop-types@0.4.24:
     resolution: {integrity: sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==}
 
-  babel-preset-evergreen@0.11.7:
-    resolution: {integrity: sha512-fkJz2qKAe0N1OG7cePWxHmu6YyRVcBfMlCIEXa64lN5TsUw+IvETxIyRR6LiqJKeHmldCjJgLz5eyIvYdEdX2g==}
+  babel-preset-evergreen@0.11.8:
+    resolution: {integrity: sha512-Fp2Ext4WkYYP1cNhHOrU/IsHEMwuSGI5kAhVhSI1bUhSqER6YsvAFe6PhGg092xJ878c6pjqDg1VaC7x3ui2Zg==}
     engines: {node: '>=20.18.0', pnpm: ^10.10.0}
     peerDependencies:
-      '@babel/core': ^7.28.0
+      '@babel/core': ^7.28.3
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2215,6 +2215,11 @@ packages:
 
   browserslist@4.25.3:
     resolution: {integrity: sha512-cDGv1kkDI4/0e5yON9yM5G/0A5u8sf5TnmdX5C9qHzI9PPu++sQ9zjm1k9NiOrf3riY4OkK0zSGqfvJyJsgCBQ==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
+  browserslist@4.25.4:
+    resolution: {integrity: sha512-4jYpcjabC606xJ3kw2QwGEZKX0Aw7sgQdZCvIK9dhVSPh76BKo+C+btT1RRofH7B+8iNpEbgGNVWiLki5q93yg==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -2271,6 +2276,9 @@ packages:
 
   caniuse-lite@1.0.30001735:
     resolution: {integrity: sha512-EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==}
+
+  caniuse-lite@1.0.30001739:
+    resolution: {integrity: sha512-y+j60d6ulelrNSwpPyrHdl+9mJnQzHBr08xm48Qno0nSk4h3Qojh+ziv2qE6rXf4k3tadF4o1J/1tAbVm1NtnA==}
 
   case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -2450,8 +2458,14 @@ packages:
   core-js-compat@3.45.0:
     resolution: {integrity: sha512-gRoVMBawZg0OnxaVv3zpqLLxaHmsubEGyTnqdpI/CEBvX4JadI1dMSHxagThprYRtSVbuQxvi6iUatdPxohHpA==}
 
+  core-js-compat@3.45.1:
+    resolution: {integrity: sha512-tqTt5T4PzsMIZ430XGviK4vzYSoeNJ6CXODi6c/voxOT6IZqBht5/EKaSNnYiEjjRYxjVz7DQIsOsY0XNi8PIA==}
+
   core-js-pure@3.45.0:
     resolution: {integrity: sha512-OtwjqcDpY2X/eIIg1ol/n0y/X8A9foliaNt1dSK0gV3J2/zw+89FcNG3mPK+N8YWts4ZFUPxnrAzsxs/lf8yDA==}
+
+  core-js-pure@3.45.1:
+    resolution: {integrity: sha512-OHnWFKgTUshEU8MK+lOs1H8kC8GkTi9Z1tvNkxrCcw9wl3MJIO7q2ld77wjWn4/xuGrVu2X+nME1iIIPBSdyEQ==}
 
   core-js@3.45.1:
     resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
@@ -2732,6 +2746,9 @@ packages:
 
   electron-to-chromium@1.5.205:
     resolution: {integrity: sha512-gBtbT7IgOHu7CwdtIiXwbNRD1l6oG6GAyanmwMCLVqaoGy92Jfe1dSHLiSj8xUEZNxOTIVlXuaAalMMD+S4y0w==}
+
+  electron-to-chromium@1.5.211:
+    resolution: {integrity: sha512-IGBvimJkotaLzFnwIVgW9/UD/AOJ2tByUmeOrtqBfACSbAw5b1G0XpvdaieKyc7ULmbwXVx+4e4Be8pOPBrYkw==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -6553,7 +6570,7 @@ snapshots:
       babel-plugin-polyfill-corejs2: 0.4.14(@babel/core@7.28.3)
       babel-plugin-polyfill-corejs3: 0.13.0(@babel/core@7.28.3)
       babel-plugin-polyfill-regenerator: 0.6.5(@babel/core@7.28.3)
-      core-js-compat: 3.45.0
+      core-js-compat: 3.45.1
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -6700,26 +6717,26 @@ snapshots:
       - sharp
       - webpack
 
-  '@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)':
+  '@best-shot/preset-babel@0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)':
     dependencies:
       '@babel/core': 7.28.3
       '@babel/preset-typescript': 7.27.1(@babel/core@7.28.3)
       '@best-shot/core': 0.13.3(webpack@5.101.3)
       babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.3)
-      babel-preset-evergreen: 0.11.7(@babel/core@7.28.3)
-      browserslist: 4.25.3
+      babel-preset-evergreen: 0.11.8(@babel/core@7.28.3)
+      browserslist: 4.25.4
       core-js: 3.45.1
-      core-js-pure: 3.45.0
+      core-js-pure: 3.45.1
       ext-to-regexp: 0.1.0
       slash-to-regexp: 0.1.0
     transitivePeerDependencies:
       - supports-color
       - webpack
 
-  '@best-shot/preset-mini@0.11.6(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)':
+  '@best-shot/preset-mini@0.11.6(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(@best-shot/preset-style@0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3))(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)':
     dependencies:
       '@best-shot/core': 0.13.3(webpack@5.101.3)
-      '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+      '@best-shot/preset-babel': 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@best-shot/preset-style': 0.16.0(@best-shot/core@0.13.3(webpack@5.101.3))(sass@1.90.0)(typescript@5.9.2)(webpack@5.101.3)
       '@best-shot/sfc-split-plugin': 0.15.0(@vue-mini/core@1.2.4)(@vue-mini/pinia@0.1.2(@vue-mini/core@1.2.4))(@vue/compiler-core@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)
       yaml: 2.8.1
@@ -6731,13 +6748,13 @@ snapshots:
       - vue
       - webpack
 
-  '@best-shot/preset-react@0.18.1(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.3))(webpack@5.101.3)':
+  '@best-shot/preset-react@0.18.1(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(@best-shot/preset-babel@0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.3))(webpack@5.101.3)':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.28.3)
       '@babel/plugin-transform-react-inline-elements': 7.27.1(@babel/core@7.28.3)
       '@babel/preset-react': 7.27.1(@babel/core@7.28.3)
       '@best-shot/core': 0.13.3(webpack@5.101.3)
-      '@best-shot/preset-babel': 0.18.2(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
+      '@best-shot/preset-babel': 0.18.3(@babel/core@7.28.3)(@best-shot/core@0.13.3(webpack@5.101.3))(webpack@5.101.3)
       '@pmmmwh/react-refresh-webpack-plugin': 0.6.1(react-refresh@0.17.0)(type-fest@0.18.1)(webpack-dev-server@5.2.2(webpack@5.101.3))(webpack@5.101.3)
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       react: 18.3.1
@@ -8034,7 +8051,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.3
       '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.28.3)
-      core-js-compat: 3.45.0
+      core-js-compat: 3.45.1
     transitivePeerDependencies:
       - supports-color
 
@@ -8047,14 +8064,14 @@ snapshots:
 
   babel-plugin-transform-react-remove-prop-types@0.4.24: {}
 
-  babel-preset-evergreen@0.11.7(@babel/core@7.28.3):
+  babel-preset-evergreen@0.11.8(@babel/core@7.28.3):
     dependencies:
       '@babel/core': 7.28.3
       '@babel/helper-plugin-utils': 7.27.1
       '@babel/preset-env': 7.28.3(@babel/core@7.28.3)
       babel-plugin-polyfill-corejs3: 0.13.0(@babel/core@7.28.3)
       core-js: 3.45.1
-      core-js-compat: 3.45.0
+      core-js-compat: 3.45.1
       miniprogram-compat: 1.0.5
     transitivePeerDependencies:
       - supports-color
@@ -8113,6 +8130,13 @@ snapshots:
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.3)
 
+  browserslist@4.25.4:
+    dependencies:
+      caniuse-lite: 1.0.30001739
+      electron-to-chromium: 1.5.211
+      node-releases: 2.0.19
+      update-browserslist-db: 1.1.3(browserslist@4.25.4)
+
   buffer-builder@0.2.0: {}
 
   buffer-from@1.1.2: {}
@@ -8170,6 +8194,8 @@ snapshots:
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001735: {}
+
+  caniuse-lite@1.0.30001739: {}
 
   case-sensitive-paths-webpack-plugin@2.4.0: {}
 
@@ -8332,7 +8358,13 @@ snapshots:
     dependencies:
       browserslist: 4.25.3
 
+  core-js-compat@3.45.1:
+    dependencies:
+      browserslist: 4.25.4
+
   core-js-pure@3.45.0: {}
+
+  core-js-pure@3.45.1: {}
 
   core-js@3.45.1: {}
 
@@ -8622,6 +8654,8 @@ snapshots:
       jake: 10.9.4
 
   electron-to-chromium@1.5.205: {}
+
+  electron-to-chromium@1.5.211: {}
 
   emoji-regex@10.4.0: {}
 
@@ -11826,6 +11860,12 @@ snapshots:
   update-browserslist-db@1.1.3(browserslist@4.25.3):
     dependencies:
       browserslist: 4.25.3
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
+  update-browserslist-db@1.1.3(browserslist@4.25.4):
+    dependencies:
+      browserslist: 4.25.4
       escalade: 3.2.0
       picocolors: 1.1.1
 
