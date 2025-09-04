@@ -4,7 +4,7 @@ packages:
 catalog:
   '@babel/core': ^7.28.3
   '@best-shot/cli': ^0.19.3
-  '@best-shot/core': ^0.13.6
+  '@best-shot/core': ^0.13.7
   '@best-shot/dev-server': ^0.21.1
   '@best-shot/preset-asset': ^0.15.1
   '@best-shot/preset-babel': ^0.18.3
@@ -14,12 +14,12 @@ catalog:
   '@best-shot/preset-vue': ^0.16.1
   '@best-shot/preset-web': ^0.18.0
   '@nice-move/cli': ^0.11.26
-  '@nice-move/eslint-config-base': ^0.13.1
-  '@nice-move/eslint-config-react': ^0.13.1
-  '@nice-move/eslint-config-vue': ^0.13.1
+  '@nice-move/eslint-config-base': ^0.13.2
+  '@nice-move/eslint-config-react': ^0.13.2
+  '@nice-move/eslint-config-vue': ^0.13.2
   '@nice-move/prettier-config': ^0.15.6
   '@nice-move/stylelint-config': ^0.10.22
-  '@nice-move/tsconfig': ^0.3.6
+  '@nice-move/tsconfig': ^0.3.8
   cheetor: ^0.13.0
   core-js: ^3.45.1
   eslint: ^9.34.0
@@ -29,7 +29,7 @@ catalog:
   react-dom: ^18.3.1
   stylelint: ^16.23.1
   typescript: ~5.9.2
-  vue: ~3.5.20
+  vue: ~3.5.21
   webpack: ^5.101.3
 
 overrides:

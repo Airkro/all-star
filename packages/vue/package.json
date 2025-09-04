@@ -1,6 +1,6 @@
 {
   "name": "@all-star/vue",
-  "version": "0.21.13",
+  "version": "0.21.14",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -35,6 +35,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@babel/core": "catalog:",
     "@best-shot/cli": "catalog:",
     "@best-shot/core": "catalog:",
     "@best-shot/dev-server": "catalog:",
@@ -47,18 +48,17 @@
     "@nice-move/eslint-config-vue": "catalog:",
     "@nice-move/prettier-config": "catalog:",
     "@nice-move/stylelint-config": "catalog:",
-    "@nice-move/tsconfig": "catalog:"
+    "@nice-move/tsconfig": "catalog:",
+    "core-js": "catalog:",
+    "webpack": "catalog:"
   },
   "peerDependencies": {
-    "@babel/core": "catalog:",
-    "core-js": "catalog:",
     "eslint": "catalog:",
     "garou": "catalog:",
     "prettier": "catalog:",
     "stylelint": "catalog:",
     "typescript": "catalog:",
-    "vue": "catalog:",
-    "webpack": "catalog:"
+    "vue": "catalog:"
   },
   "peerDependenciesMeta": {
     "garou": {

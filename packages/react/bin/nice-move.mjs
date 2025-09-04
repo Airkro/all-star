@@ -1,3 +1,3 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --trace-deprecation
 
 import '@nice-move/cli/dist/cli.mjs';
