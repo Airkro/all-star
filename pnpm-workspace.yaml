@@ -14,9 +14,9 @@ catalog:
   '@best-shot/preset-vue': ^0.16.1
   '@best-shot/preset-web': ^0.18.0
   '@nice-move/cli': ^0.11.26
-  '@nice-move/eslint-config-base': ^0.13.6
-  '@nice-move/eslint-config-react': ^0.13.6
-  '@nice-move/eslint-config-vue': ^0.13.6
+  '@nice-move/eslint-config-base': ^0.13.7
+  '@nice-move/eslint-config-react': ^0.13.7
+  '@nice-move/eslint-config-vue': ^0.13.7
   '@nice-move/prettier-config': ^0.15.6
   '@nice-move/stylelint-config': ^0.10.22
   '@nice-move/tsconfig': ^0.3.10

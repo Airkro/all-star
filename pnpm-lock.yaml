@@ -43,14 +43,14 @@ catalogs:
       specifier: ^0.11.26
       version: 0.11.26
     '@nice-move/eslint-config-base':
-      specifier: ^0.13.6
-      version: 0.13.6
+      specifier: ^0.13.7
+      version: 0.13.7
     '@nice-move/eslint-config-react':
-      specifier: ^0.13.6
-      version: 0.13.6
+      specifier: ^0.13.7
+      version: 0.13.7
     '@nice-move/eslint-config-vue':
-      specifier: ^0.13.6
-      version: 0.13.6
+      specifier: ^0.13.7
+      version: 0.13.7
     '@nice-move/prettier-config':
       specifier: ^0.15.6
       version: 0.15.6
@@ -180,7 +180,7 @@ importers:
         version: 0.11.26
       '@nice-move/eslint-config-base':
         specifier: 'catalog:'
-        version: 0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+        version: 0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
         version: 0.15.6(@babel/core@7.28.4)(postcss@8.5.6)(prettier@3.6.2)
@@ -240,7 +240,7 @@ importers:
         version: 0.11.26
       '@nice-move/eslint-config-vue':
         specifier: 'catalog:'
-        version: 0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+        version: 0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
         version: 0.15.6(@babel/core@7.28.4)(postcss@8.5.6)(prettier@3.6.2)
@@ -312,7 +312,7 @@ importers:
         version: 0.11.26
       '@nice-move/eslint-config-react':
         specifier: 'catalog:'
-        version: 0.13.6(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+        version: 0.13.7(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
         version: 0.15.6(@babel/core@7.28.4)(postcss@8.5.6)(prettier@3.6.2)
@@ -384,7 +384,7 @@ importers:
         version: 0.11.26
       '@nice-move/eslint-config-vue':
         specifier: 'catalog:'
-        version: 0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+        version: 0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
         version: 0.15.6(@babel/core@7.28.4)(postcss@8.5.6)(prettier@3.6.2)
@@ -1400,20 +1400,20 @@ packages:
     engines: {node: ^20.19.2 || ^22.14.0 || ^24.0.0}
     hasBin: true
 
-  '@nice-move/eslint-config-base@0.13.6':
-    resolution: {integrity: sha512-Kp5pl9sDHJ7Md+MXyLtjAVhKlgJkurcDhxSBedQu8WTP21zQYkD5oj4PMpcoq24SHmyQmdx12H8FsTC55Q0U0A==}
+  '@nice-move/eslint-config-base@0.13.7':
+    resolution: {integrity: sha512-T+kG41dqZrhcFeVaWngulb5/QmKUYMJen0yzROdK/GVcAkMZlVG+iUy83OKtJ2A2rR+hHsyiIyIIvNfki9ZD7w==}
     engines: {node: ^22.18.0 || ^24.0.0}
     peerDependencies:
       eslint: ^9.35.0
 
-  '@nice-move/eslint-config-react@0.13.6':
-    resolution: {integrity: sha512-U+i2skJfw2QDG0w+MCKYC/KxNWux4lPfQ8c96dPzgWBT8FMB6BStfJdnSzv5LyEg2m6G0w7b44qnA5HB/2vm3w==}
+  '@nice-move/eslint-config-react@0.13.7':
+    resolution: {integrity: sha512-YcDDLXJrgdoCai52FOX0iKLrylLlg8rVta9U5Tc11IXX3dqqyq4aYCFLRaFwKw3G06yeiwzRVQ6ZYIaozzmaRw==}
     engines: {node: ^22.18.0 || ^24.0.0}
     peerDependencies:
       eslint: ^9.35.0
 
-  '@nice-move/eslint-config-vue@0.13.6':
-    resolution: {integrity: sha512-s0TsnEVDCS0AcMuZfJZJrO2nUBRphSU1klc3jNua3OffcZf3GiVVcJ1uB86aePB0uuAHKgL2jg50lMNNx7t7AA==}
+  '@nice-move/eslint-config-vue@0.13.7':
+    resolution: {integrity: sha512-e5KeyAcVSxlR0iuD7ts/CYXkMEXupF9GDOrZ/yP2Iegaxg40pAYPd2pq6REFIw4n8l9izZvQP8heYGZUx2iooA==}
     engines: {node: ^22.18.0 || ^24.0.0}
     peerDependencies:
       eslint: ^9.35.0
@@ -7403,7 +7403,7 @@ snapshots:
     dependencies:
       cheetor: 0.13.0
 
-  '@nice-move/eslint-config-base@0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
+  '@nice-move/eslint-config-base@0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.35.0(jiti@2.5.1))
       '@eslint/eslintrc': 3.3.1
@@ -7430,10 +7430,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@nice-move/eslint-config-react@0.13.6(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
+  '@nice-move/eslint-config-react@0.13.7(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
     dependencies:
       '@eslint/eslintrc': 3.3.1
-      '@nice-move/eslint-config-base': 0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+      '@nice-move/eslint-config-base': 0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       eslint: 9.35.0(jiti@2.5.1)
       eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.32.0(eslint@9.35.0(jiti@2.5.1)))(eslint-plugin-jsx-a11y@6.10.2(eslint@9.35.0(jiti@2.5.1)))(eslint-plugin-react-hooks@5.2.0(eslint@9.35.0(jiti@2.5.1)))(eslint-plugin-react@7.37.5(eslint@9.35.0(jiti@2.5.1)))(eslint@9.35.0(jiti@2.5.1))
       eslint-config-prettier: 10.1.8(eslint@9.35.0(jiti@2.5.1))
@@ -7450,10 +7450,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@nice-move/eslint-config-vue@0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
+  '@nice-move/eslint-config-vue@0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
     dependencies:
       '@eslint/eslintrc': 3.3.1
-      '@nice-move/eslint-config-base': 0.13.6(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
+      '@nice-move/eslint-config-base': 0.13.7(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)
       eslint: 9.35.0(jiti@2.5.1)
       eslint-config-prettier: 10.1.8(eslint@9.35.0(jiti@2.5.1))
       eslint-plugin-vue: 10.4.0(@typescript-eslint/parser@8.44.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(vue-eslint-parser@10.2.0(eslint@9.35.0(jiti@2.5.1)))
