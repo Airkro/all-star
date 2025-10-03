@@ -22,7 +22,7 @@ catalog:
   '@nice-move/tsconfig': ^0.3.10
   cheetor: ^0.13.0
   core-js: ^3.45.1
-  eslint: ^9.35.0
+  eslint: ^9.36.0
   garou: ^0.9.15
   prettier: ^3.6.2
   react: ^18.3.1
