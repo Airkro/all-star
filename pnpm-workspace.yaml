@@ -2,35 +2,35 @@ packages:
   - packages/*
 
 catalog:
-  '@babel/core': ^7.28.4
+  '@babel/core': ^7.28.5
   '@best-shot/cli': ^0.19.3
   '@best-shot/core': ^0.13.8
-  '@best-shot/dev-server': ^0.21.1
+  '@best-shot/dev-server': ^0.21.2
   '@best-shot/preset-asset': ^0.15.2
-  '@best-shot/preset-babel': ^0.18.4
-  '@best-shot/preset-mini': ^0.11.7
-  '@best-shot/preset-react': ^0.18.1
+  '@best-shot/preset-babel': ^0.18.5
+  '@best-shot/preset-mini': ^0.11.8
+  '@best-shot/preset-react': ^0.18.2
   '@best-shot/preset-style': ^0.16.0
   '@best-shot/preset-vue': ^0.16.1
   '@best-shot/preset-web': ^0.18.0
-  '@nice-move/cli': ^0.11.26
-  '@nice-move/eslint-config-base': ^0.13.7
-  '@nice-move/eslint-config-react': ^0.13.7
-  '@nice-move/eslint-config-vue': ^0.13.7
+  '@nice-move/cli': ^0.11.27
+  '@nice-move/eslint-config-base': ^0.13.9
+  '@nice-move/eslint-config-react': ^0.13.9
+  '@nice-move/eslint-config-vue': ^0.13.9
   '@nice-move/prettier-config': ^0.15.6
   '@nice-move/stylelint-config': ^0.10.22
-  '@nice-move/tsconfig': ^0.3.10
+  '@nice-move/tsconfig': ^0.3.12
   cheetor: ^0.13.0
-  core-js: ^3.45.1
-  eslint: ^9.35.0
+  core-js: ^3.46.0
+  eslint: ^9.39.1
   garou: ^0.9.15
   prettier: ^3.6.2
   react: ^18.3.1
   react-dom: ^18.3.1
-  stylelint: ^16.24.0
-  typescript: ~5.9.2
+  stylelint: ^16.25.0
+  typescript: ~5.9.3
   vue: ~3.5.22
-  webpack: ^5.101.3
+  webpack: ^5.102.1
 
 overrides:
   eslint: 'catalog:'
