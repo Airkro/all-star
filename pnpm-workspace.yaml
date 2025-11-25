@@ -18,7 +18,7 @@ catalog:
   '@nice-move/eslint-config-react': ^0.13.11
   '@nice-move/eslint-config-vue': ^0.13.11
   '@nice-move/prettier-config': ^0.15.6
-  '@nice-move/stylelint-config': ^0.10.22
+  '@nice-move/stylelint-config': ^0.10.23
   '@nice-move/tsconfig': ^0.3.12
   cheetor: ^0.13.0
   core-js: ^3.47.0
@@ -27,9 +27,9 @@ catalog:
   prettier: ^3.6.2
   react: ^18.3.1
   react-dom: ^18.3.1
-  stylelint: ^16.25.0
+  stylelint: ^16.26.0
   typescript: ~5.9.3
-  vue: ~3.5.24
+  vue: ~3.5.25
   webpack: ^5.103.0
 
 overrides:
