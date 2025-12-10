@@ -1,11 +1,10 @@
 {
   "name": "@all-star/react",
-  "version": "0.21.21",
+  "version": "0.21.22",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
-    "name": "Eric Chen",
-    "email": "airkro@qq.com"
+    "name": "Eric Chen"
   },
   "keywords": [
     "all-star",
@@ -32,7 +31,8 @@
   },
   "exports": {
     "./eslint": "./eslint.config.mjs",
-    "./prettier": "./prettier.config.mjs"
+    "./prettier": "./prettier.config.mjs",
+    "./stylelint": "./stylelint.config.mjs"
   },
   "type": "module",
   "dependencies": {

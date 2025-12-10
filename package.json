@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": {
-    "name": "Eric Chen",
-    "email": "airkro@qq.com"
+    "name": "Eric Chen"
   },
   "scripts": {
     "lint:staged": "nice-move lint staged",
@@ -27,7 +26,7 @@
   "devDependencies": {
     "@bring-it/cli": "^0.11.1",
     "@bring-it/npm": "^0.9.3",
-    "@nice-move/syncpack-config": "^0.4.1",
+    "@nice-move/syncpack-config": "^0.4.2",
     "eslint": "catalog:",
     "garou": "catalog:",
     "prettier": "catalog:",
