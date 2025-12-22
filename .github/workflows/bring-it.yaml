@@ -15,7 +15,6 @@ jobs:
           - ubuntu-latest
         node:
           - lts/*
-          - current
         exclude:
           - os: ubuntu-latest
             node: lts/*
@@ -31,6 +30,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run
-        uses: airkro/bring-it@actions
-        with:
-          npm-token: ${{ secrets.NPM_TOKEN }}
+        uses: airkro/bring-it@actions-oidc
