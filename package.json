@@ -40,10 +40,10 @@
     "@all-star/vue": "workspace:^",
     "@types/react": "~18.3.27"
   },
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.28.1",
   "engines": {
     "node": ">=22.18.0",
-    "pnpm": "^10.23.0"
+    "pnpm": "^10.28.1"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {

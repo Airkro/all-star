@@ -1,6 +1,6 @@
 {
   "name": "@all-star/react",
-  "version": "0.21.24",
+  "version": "0.21.25",
   "description": "Bring `best-shot` and `nice-move` together",
   "license": "MIT",
   "author": {
@@ -16,14 +16,14 @@
     "stylelint",
     "webpack"
   ],
-  "homepage": "https://github.com/airkro/all-star/tree/master/packages/react",
+  "homepage": "https://github.com/Airkro/all-star/tree/master/packages/react",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/airkro/all-star.git",
+    "url": "git+https://github.com/Airkro/all-star.git",
     "directory": "packages/react"
   },
   "bugs": {
-    "url": "https://github.com/airkro/all-star/issues"
+    "url": "https://github.com/Airkro/all-star/issues"
   },
   "bin": {
     "best-shot": "bin/best-shot.mjs",

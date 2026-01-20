@@ -1,12 +1,14 @@
 packages:
   - packages/*
 
+allowBuilds: {}
+
 catalog:
-  '@babel/core': ^7.28.5
+  '@babel/core': ^7.28.6
   '@best-shot/cli': ^0.19.3
   '@best-shot/core': ^0.13.10
   '@best-shot/dev-server': ^0.21.2
-  '@best-shot/preset-asset': ^0.15.2
+  '@best-shot/preset-asset': ^0.15.3
   '@best-shot/preset-babel': ^0.18.6
   '@best-shot/preset-mini': ^0.11.25
   '@best-shot/preset-react': ^0.18.4
@@ -14,9 +16,9 @@ catalog:
   '@best-shot/preset-vue': ^0.16.1
   '@best-shot/preset-web': ^0.18.1
   '@nice-move/cli': ^0.11.29
-  '@nice-move/eslint-config-base': ^0.13.17
-  '@nice-move/eslint-config-react': ^0.13.17
-  '@nice-move/eslint-config-vue': ^0.13.17
+  '@nice-move/eslint-config-base': ^0.13.19
+  '@nice-move/eslint-config-react': ^0.13.19
+  '@nice-move/eslint-config-vue': ^0.13.19
   '@nice-move/prettier-config': ^0.15.7
   '@nice-move/stylelint-config': ^0.10.25
   '@nice-move/tsconfig': ^0.4.2
@@ -32,11 +34,16 @@ catalog:
   vue: ~3.5.26
   webpack: ^5.104.1
 
-allowBuilds: {}
+configDependencies:
+  pnpm-plugin-nice-move: 0.1.0+sha512-M70sSpJmx0htcWXAYdd+VtlFthhQEHWsfLIINitKLVEWs4NyCOdiyd+zGkcqJE8PwqVPd6hpiNX9edIuvB9wjw==
+
+minimumReleaseAgeExclude:
+  - '@nice-move/*'
 
 overrides:
   eslint: 'catalog:'
   eslint-plugin-react-hooks: ^5.2.0
+  qs@<6.14.1: '>=6.14.1'
 
 updateConfig:
   ignoreDependencies:
