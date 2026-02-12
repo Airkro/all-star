@@ -38,12 +38,12 @@
     "@all-star/base": "workspace:^",
     "@all-star/react": "workspace:^",
     "@all-star/vue": "workspace:^",
-    "@types/react": "~18.3.27"
+    "@types/react": "~18.3.28"
   },
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.29.3",
   "engines": {
     "node": ">=22.18.0",
-    "pnpm": "^10.28.1"
+    "pnpm": "^10.29.3"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
