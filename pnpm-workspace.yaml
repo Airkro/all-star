@@ -13,10 +13,10 @@ catalog:
   '@best-shot/preset-style': ^0.16.4
   '@best-shot/preset-vue': ^0.16.3
   '@best-shot/preset-web': ^0.18.2
-  '@nice-move/cli': ^0.11.29
-  '@nice-move/eslint-config-base': ^0.13.24
-  '@nice-move/eslint-config-react': ^0.13.24
-  '@nice-move/eslint-config-vue': ^0.13.24
+  '@nice-move/cli': ^0.11.30
+  '@nice-move/eslint-config-base': ^0.13.25
+  '@nice-move/eslint-config-react': ^0.13.25
+  '@nice-move/eslint-config-vue': ^0.13.25
   '@nice-move/prettier-config': ^0.15.8
   '@nice-move/stylelint-config': ^0.10.25
   '@nice-move/tsconfig': ^0.4.2
