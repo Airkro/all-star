@@ -14,29 +14,26 @@ catalog:
   '@best-shot/preset-vue': ^0.16.4
   '@best-shot/preset-web': ^0.18.3
   '@nice-move/cli': ^0.11.31
-  '@nice-move/eslint-config-base': ^0.13.26
-  '@nice-move/eslint-config-react': ^0.13.26
-  '@nice-move/eslint-config-vue': ^0.13.26
+  '@nice-move/eslint-config-base': ^0.14.2
+  '@nice-move/eslint-config-react': ^0.14.2
+  '@nice-move/eslint-config-vue': ^0.14.2
   '@nice-move/prettier-config': ^0.15.8
   '@nice-move/stylelint-config': ^0.10.25
   '@nice-move/tsconfig': ^0.4.2
   cheetor: ^0.13.0
   core-js: ^3.48.0
-  eslint: ^9.39.3
+  eslint: ^9.39.4
   garou: ^0.9.17
   prettier: ^3.8.1
   react: ^18.3.1
   react-dom: ^18.3.1
   stylelint: ^16.26.1
   typescript: ~5.9.3
-  vue: ~3.5.29
+  vue: ~3.5.30
   webpack: ^5.105.4
 
 configDependencies:
-  pnpm-plugin-nice-move: 0.3.0+sha512-RsmTZcxGja000NksrFr7g6n+bcAF0NQQSDaNcV+yaRlyB7EjLet7vPDCqpdg9js72B2rU0fF3kaL0nIuvRC1Rg==
-
-minimumReleaseAgeExclude:
-  - postcss-preset-evergreen
+  pnpm-plugin-nice-move: 0.3.1+sha512-pIq4uYqy3pZFCcyuJeGSmhNr3u1MGfNZbjnVKtJWUfM/NfhEBzAvlkHmVG5WYhbqNQA3xuqqaJaiOUGIQvo3JA==
 
 overrides:
   eslint: 'catalog:'
