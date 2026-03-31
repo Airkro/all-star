@@ -14,22 +14,22 @@ catalog:
   '@best-shot/preset-vue': ^0.16.4
   '@best-shot/preset-web': ^0.18.3
   '@nice-move/cli': ^0.11.31
-  '@nice-move/eslint-config-base': ^0.14.2
-  '@nice-move/eslint-config-react': ^0.14.2
-  '@nice-move/eslint-config-vue': ^0.14.2
+  '@nice-move/eslint-config-base': ^0.14.3
+  '@nice-move/eslint-config-react': ^0.14.3
+  '@nice-move/eslint-config-vue': ^0.14.3
   '@nice-move/prettier-config': ^0.15.8
-  '@nice-move/stylelint-config': ^0.10.25
+  '@nice-move/stylelint-config': ^0.10.26
   '@nice-move/tsconfig': ^0.4.2
   cheetor: ^0.13.0
-  core-js: ^3.48.0
+  core-js: ^3.49.0
   eslint: ^9.39.4
-  garou: ^0.9.17
+  garou: ^0.9.18
   prettier: ^3.8.1
   react: ^18.3.1
   react-dom: ^18.3.1
-  stylelint: ^16.26.1
+  stylelint: ^17.6.0
   typescript: ~5.9.3
-  vue: ~3.5.30
+  vue: ~3.5.31
   webpack: ^5.105.4
 
 configDependencies:
