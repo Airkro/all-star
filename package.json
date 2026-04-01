@@ -26,7 +26,7 @@
   "devDependencies": {
     "@bring-it/cli": "^0.11.1",
     "@bring-it/npm": "^0.9.3",
-    "@nice-move/syncpack-config": "^0.4.2",
+    "@nice-move/syncpack-config": "^0.5.3",
     "eslint": "catalog:",
     "garou": "catalog:",
     "prettier": "catalog:",
