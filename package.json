@@ -18,7 +18,7 @@
     "tools/*"
   ],
   "dependencies": {
-    "@vue-mini/core": "^1.2.9",
+    "@vue-mini/core": "^1.2.10",
     "react": "catalog:",
     "react-dom": "catalog:",
     "vue": "catalog:"
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@bring-it/cli": "^0.11.1",
     "@bring-it/npm": "^0.9.3",
-    "@nice-move/syncpack-config": "^0.4.2",
+    "@nice-move/syncpack-config": "^0.5.4",
     "eslint": "catalog:",
     "garou": "catalog:",
     "prettier": "catalog:",
@@ -42,7 +42,7 @@
   },
   "packageManager": "pnpm@10.33.0",
   "engines": {
-    "node": ">=24.0.0",
+    "node": "^24.0.0",
     "pnpm": "^10.33.0"
   },
   "prettier": "@nice-move/prettier-config",
