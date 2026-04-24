@@ -85,15 +85,13 @@ catalogs:
       specifier: ~3.5.32
       version: 3.5.32
     webpack:
-      specifier: ^5.105.4
+      specifier: ^5.106.1
       version: 5.106.1
 
 overrides:
   eslint: ^9.39.4
   eslint-plugin-react-hooks: ^5.2.0
   sass: '-'
-
-pnpmfileChecksum: sha256-W190UGYax275IRrkafDWOOTNOyI3WKIMy8GRAMVTveE=
 
 importers:
 
