@@ -18,7 +18,7 @@
     "tools/*"
   ],
   "dependencies": {
-    "@vue-mini/core": "^1.2.10",
+    "@vue-mini/core": "^1.2.11",
     "react": "catalog:",
     "react-dom": "catalog:",
     "vue": "catalog:"
