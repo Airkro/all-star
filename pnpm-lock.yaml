@@ -22,14 +22,14 @@ catalogs:
       specifier: ^0.16.0
       version: 0.16.0
     '@best-shot/preset-babel':
-      specifier: ^0.19.0
-      version: 0.19.0
+      specifier: ^0.19.1
+      version: 0.19.1
     '@best-shot/preset-mini':
       specifier: ^0.12.0
       version: 0.12.0
     '@best-shot/preset-react':
-      specifier: ^0.19.0
-      version: 0.19.0
+      specifier: ^0.19.2
+      version: 0.19.2
     '@best-shot/preset-style':
       specifier: ^0.17.0
       version: 0.17.0
@@ -40,8 +40,8 @@ catalogs:
       specifier: ^0.19.0
       version: 0.19.0
     '@nice-move/cli':
-      specifier: ^0.11.32
-      version: 0.11.32
+      specifier: ^0.11.33
+      version: 0.11.33
     '@nice-move/eslint-config-base':
       specifier: ^0.15.3
       version: 0.15.3
@@ -52,8 +52,8 @@ catalogs:
       specifier: ^0.15.3
       version: 0.15.3
     '@nice-move/prettier-config':
-      specifier: ^0.15.8
-      version: 0.15.8
+      specifier: ^0.15.9
+      version: 0.15.9
     '@nice-move/stylelint-config':
       specifier: ^0.10.29
       version: 0.10.29
@@ -171,7 +171,7 @@ importers:
         version: 0.16.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15))
@@ -180,13 +180,13 @@ importers:
         version: 0.19.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@nice-move/cli':
         specifier: 'catalog:'
-        version: 0.11.32
+        version: 0.11.33
       '@nice-move/eslint-config-base':
         specifier: 'catalog:'
         version: 0.15.3(@typescript-eslint/utils@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(ts-declaration-location@1.0.7(typescript@6.0.3))(typescript@6.0.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.15.8(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
+        version: 0.15.9(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.29(stylelint@17.13.0(typescript@6.0.3))
@@ -231,22 +231,22 @@ importers:
         version: 0.16.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-mini':
         specifier: 'catalog:'
-        version: 0.12.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-style@0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15)))(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.12.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-style@0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15)))(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15))
       '@nice-move/cli':
         specifier: 'catalog:'
-        version: 0.11.32
+        version: 0.11.33
       '@nice-move/eslint-config-vue':
         specifier: 'catalog:'
         version: 0.15.3(@stylistic/eslint-plugin@5.10.0(eslint@9.39.4(jiti@2.7.0)))(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.15.8(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
+        version: 0.15.9(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.29(stylelint@17.13.0(typescript@6.0.3))
@@ -300,10 +300,10 @@ importers:
         version: 0.16.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-react':
         specifier: 'catalog:'
-        version: 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.5(tslib@2.8.1)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.19.2(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.5(tslib@2.8.1)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15))
@@ -312,13 +312,13 @@ importers:
         version: 0.19.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@nice-move/cli':
         specifier: 'catalog:'
-        version: 0.11.32
+        version: 0.11.33
       '@nice-move/eslint-config-react':
         specifier: 'catalog:'
         version: 0.15.3(@typescript-eslint/utils@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-plugin-import@2.32.0(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.15.8(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
+        version: 0.15.9(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.29(stylelint@17.13.0(typescript@6.0.3))
@@ -372,7 +372,7 @@ importers:
         version: 0.16.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-babel':
         specifier: 'catalog:'
-        version: 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+        version: 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-style':
         specifier: 'catalog:'
         version: 0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15))
@@ -384,13 +384,13 @@ importers:
         version: 0.19.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@nice-move/cli':
         specifier: 'catalog:'
-        version: 0.11.32
+        version: 0.11.33
       '@nice-move/eslint-config-vue':
         specifier: 'catalog:'
         version: 0.15.3(@stylistic/eslint-plugin@5.10.0(eslint@9.39.4(jiti@2.7.0)))(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.4(jiti@2.7.0))(typescript@6.0.3)
       '@nice-move/prettier-config':
         specifier: 'catalog:'
-        version: 0.15.8(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
+        version: 0.15.9(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)
       '@nice-move/stylelint-config':
         specifier: 'catalog:'
         version: 0.10.29(stylelint@17.13.0(typescript@6.0.3))
@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-3W6satvtPuCUkUx63S2jMoW9EQNYkADgs1HTfufmL7gCmAulHMKupA/12WNz4A0GMMFn/YnWWwqOT9IZrJHQjg==}
     engines: {node: ^22.18.0 || >=24.11.0}
 
-  '@babel/helper-plugin-utils@7.28.6':
-    resolution: {integrity: sha512-S9gzZ/bz83GRysI7gAD4wPT/AI3uCnY+9xn+Mx/KPs2JwHJIz1W8PZkg2cqyt3RNOBM8ejcXhV6y8Og7ly/Dug==}
+  '@babel/helper-plugin-utils@7.29.7':
+    resolution: {integrity: sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-plugin-utils@8.0.1':
@@ -609,14 +609,14 @@ packages:
     peerDependencies:
       '@babel/core': ^8.0.0
 
-  '@babel/plugin-syntax-import-attributes@7.28.6':
-    resolution: {integrity: sha512-jiLC0ma9XkQT3TKJ9uYvlakm66Pamywo+qwL+oL8HJOvc6TWdZXVfhqJr8CCzbSGUAbDOzlGHJC1U+vRfLQDvw==}
+  '@babel/plugin-syntax-import-attributes@7.29.7':
+    resolution: {integrity: sha512-zGYcYfq/WmZ4V+kBIXQon9dSSc8ircGZqw9ZaNhhGj9nZkeBu1jHLBDQqYYi5WA9uawvA2sIMbry2nCFhf5Djg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/plugin-syntax-jsx@7.28.6':
-    resolution: {integrity: sha512-wgEmr06G6sIpqr8YDwA2dSRTE3bJ+V0IfpzfSY3Lfgd7YWOaAdlykvJi13ZKBt8cZHfgH1IXN+CL656W3uUa4w==}
+  '@babel/plugin-syntax-jsx@7.29.7':
+    resolution: {integrity: sha512-TSu8+mHCoEaaCDEZ0I3+6mvTBYR4PCxQwf2z9/r5Tbztv6NaLR3B9thGTTxX2WGuGHJqRiAbKPeGTJ5XWXVg6A==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -627,8 +627,8 @@ packages:
     peerDependencies:
       '@babel/core': ^8.0.0
 
-  '@babel/plugin-syntax-typescript@7.28.6':
-    resolution: {integrity: sha512-+nDNmQye7nlnuuHDboPbGm00Vqg3oO8niRRL27/4LYHUsHYh0zJ1xWOz0uRwNFmM1Avzk8wZbc6rdiYhomzv/A==}
+  '@babel/plugin-syntax-typescript@7.29.7':
+    resolution: {integrity: sha512-ngr+82Sh0xMz25TPCZi+nC2iTzjfCdWS2ONXTp/PtSCHCgaCNBpdMqgvJ2ccdLlClVZ7sisIgB914j/JFe+RZA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1076,8 +1076,8 @@ packages:
     peerDependencies:
       '@best-shot/core': ^0.14.0
 
-  '@best-shot/preset-babel@0.19.0':
-    resolution: {integrity: sha512-A0uYwVjPflhJas0lVb38k2mutdnyXEJQ2x8qkFhVoGLIamqbquXzonw6xfqq9jiztKdZakGpfzktVxe2DIWsjA==}
+  '@best-shot/preset-babel@0.19.1':
+    resolution: {integrity: sha512-RheYkp0T8tuUHUfUdKZ8qBzTsSk5ADXovj3IFyyEYYQQT88yCz4NyuY3X432pJYrWqSPs2Vfada3R5dVkF6MmA==}
     engines: {node: ^24.0.0}
     peerDependencies:
       '@babel/core': ^8.0.1
@@ -1092,12 +1092,12 @@ packages:
       '@best-shot/preset-babel': ^0.19.0
       '@best-shot/preset-style': ^0.17.0
 
-  '@best-shot/preset-react@0.19.0':
-    resolution: {integrity: sha512-2dNQ6H3pN8h4Imi6VFCxnyHcwukHMGyyzIQ6SiFB1wzhQEyzu9XkVTIhnHFnxCAXixqbTOfUkL/fy0pEYJUwOg==}
+  '@best-shot/preset-react@0.19.2':
+    resolution: {integrity: sha512-3/8hZzd9m0TxzNLF81pdlJjwo5eXm9KmmcSoXx/ymWvlVDKjj4L+dWuHJYaEZR0wqm++wVOklJueDP6KsriCiQ==}
     engines: {node: ^24.0.0}
     peerDependencies:
       '@best-shot/core': ^0.14.0
-      '@best-shot/preset-babel': ^0.19.0
+      '@best-shot/preset-babel': ^0.19.1
       react: ~18.3.1
       react-dom: ~18.3.1
 
@@ -1542,8 +1542,8 @@ packages:
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
-  '@nice-move/cli@0.11.32':
-    resolution: {integrity: sha512-VYsAszwry2PBQFyx5VVoS+FrF8qivuFo+8bmyh/WJyU0H+O4nx0qhNv3Wo+Y0Y8pYjGGlZO9JseOzXtp98lB0g==}
+  '@nice-move/cli@0.11.33':
+    resolution: {integrity: sha512-e0zxRjej3BIUi/He/CNIr9SxqoyNca0BlF/RDndYUUgJQtgMVFSYSZMVjuLx07iLV0QbiJXKWaLWYbRCTy26pA==}
     engines: {node: '>=24.0.0 || ^22.18.0'}
     hasBin: true
 
@@ -1571,11 +1571,11 @@ packages:
     peerDependencies:
       eslint: ^9.39.4
 
-  '@nice-move/prettier-config@0.15.8':
-    resolution: {integrity: sha512-2m87GvbOcMRDiqs8bOoJsxyx+na2E+G6AO3B6lF+JxgwUoo2sfxDux1xB4IvwRIiV0IfTfW6XWvMklLLI+FFPQ==}
+  '@nice-move/prettier-config@0.15.9':
+    resolution: {integrity: sha512-UY1mFLVMfzGlirOAEM2I6K3cKc5LP3qm5dRSOadFYCQebklS84PfSx4pwHwTJ96SL7q9zJLgNcUGFsT9mP2hbQ==}
     engines: {node: '>=24.0.0 || ^22.18.0'}
     peerDependencies:
-      prettier: ~3.8.0
+      prettier: ~3.8.4
 
   '@nice-move/prettier-plugin-package-json@0.9.2':
     resolution: {integrity: sha512-+54k5UPKbrkt3yDwxsziY9BZGuy7ZRvFBuq9lW2K0HwEEriPy+0HThW4DtqIlV2/B2S3lhI4cVD2Vr18HU1KXw==}
@@ -6282,7 +6282,7 @@ snapshots:
     dependencies:
       '@babel/types': 8.0.0
 
-  '@babel/helper-plugin-utils@7.28.6': {}
+  '@babel/helper-plugin-utils@7.29.7': {}
 
   '@babel/helper-plugin-utils@8.0.1(@babel/core@8.0.1)':
     dependencies:
@@ -6369,25 +6369,25 @@ snapshots:
       '@babel/core': 8.0.1
       '@babel/helper-plugin-utils': 8.0.1(@babel/core@8.0.1)
 
-  '@babel/plugin-syntax-import-attributes@7.28.6(@babel/core@8.0.1)':
+  '@babel/plugin-syntax-import-attributes@7.29.7(@babel/core@8.0.1)':
     dependencies:
       '@babel/core': 8.0.1
-      '@babel/helper-plugin-utils': 7.28.6
+      '@babel/helper-plugin-utils': 7.29.7
 
-  '@babel/plugin-syntax-jsx@7.28.6(@babel/core@8.0.1)':
+  '@babel/plugin-syntax-jsx@7.29.7(@babel/core@8.0.1)':
     dependencies:
       '@babel/core': 8.0.1
-      '@babel/helper-plugin-utils': 7.28.6
+      '@babel/helper-plugin-utils': 7.29.7
 
   '@babel/plugin-syntax-jsx@8.0.1(@babel/core@8.0.1)':
     dependencies:
       '@babel/core': 8.0.1
       '@babel/helper-plugin-utils': 8.0.1(@babel/core@8.0.1)
 
-  '@babel/plugin-syntax-typescript@7.28.6(@babel/core@8.0.1)':
+  '@babel/plugin-syntax-typescript@7.29.7(@babel/core@8.0.1)':
     dependencies:
       '@babel/core': 8.0.1
-      '@babel/helper-plugin-utils': 7.28.6
+      '@babel/helper-plugin-utils': 7.29.7
 
   '@babel/plugin-syntax-typescript@8.0.1(@babel/core@8.0.1)':
     dependencies:
@@ -6968,7 +6968,7 @@ snapshots:
       - sharp
       - webpack
 
-  '@best-shot/preset-babel@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))':
+  '@best-shot/preset-babel@0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))':
     dependencies:
       '@babel/core': 8.0.1
       '@babel/preset-typescript': 8.0.1(@babel/core@8.0.1)
@@ -6984,11 +6984,11 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@best-shot/preset-mini@0.12.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-style@0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15)))(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))(webpack@5.107.2(postcss@8.5.15))':
+  '@best-shot/preset-mini@0.12.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-style@0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15)))(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))(webpack@5.107.2(postcss@8.5.15))':
     dependencies:
       '@babel/core': 8.0.1
       '@best-shot/core': 0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15))
-      '@best-shot/preset-babel': 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+      '@best-shot/preset-babel': 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@best-shot/preset-style': 0.17.0(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(typescript@6.0.3)(webpack@5.107.2(postcss@8.5.15))
       '@into-mini/auto-entries-plugin': 0.2.1(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))(webpack@5.107.2(postcss@8.5.15))
       '@into-mini/sfc-split-loader': 0.3.3(@vue-mini/core@1.2.11)(@vue-mini/pinia@1.0.0(@vue-mini/core@1.2.11))(@vue/compiler-core@3.5.38)(vue-router@4.6.4(vue@3.5.38(typescript@6.0.3)))(vue@3.5.38(typescript@6.0.3))
@@ -7006,13 +7006,13 @@ snapshots:
       - vue-router
       - webpack
 
-  '@best-shot/preset-react@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.5(tslib@2.8.1)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))':
+  '@best-shot/preset-react@0.19.2(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(@best-shot/preset-babel@0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.18.1)(webpack-dev-server@5.2.5(tslib@2.8.1)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))':
     dependencies:
       '@babel/plugin-transform-react-constant-elements': 8.0.1(@babel/core@8.0.1)
       '@babel/plugin-transform-react-inline-elements': 8.0.1(@babel/core@8.0.1)
       '@babel/preset-react': 8.0.1(@babel/core@8.0.1)
       '@best-shot/core': 0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15))
-      '@best-shot/preset-babel': 0.19.0(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
+      '@best-shot/preset-babel': 0.19.1(@babel/core@8.0.1)(@best-shot/core@0.14.0(postcss@8.5.15)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@pmmmwh/react-refresh-webpack-plugin': 0.6.2(react-refresh@0.18.0)(type-fest@0.18.1)(webpack-dev-server@5.2.5(tslib@2.8.1)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       react: 18.3.1
@@ -7579,7 +7579,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.2
     optional: true
 
-  '@nice-move/cli@0.11.32':
+  '@nice-move/cli@0.11.33':
     dependencies:
       cheetor: 0.13.0
 
@@ -7685,11 +7685,11 @@ snapshots:
       globals: 15.15.0
       node-html-parser: 7.1.0
 
-  '@nice-move/prettier-config@0.15.8(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)':
+  '@nice-move/prettier-config@0.15.9(@babel/core@8.0.1)(postcss@8.5.15)(prettier@3.8.4)':
     dependencies:
-      '@babel/plugin-syntax-import-attributes': 7.28.6(@babel/core@8.0.1)
-      '@babel/plugin-syntax-jsx': 7.28.6(@babel/core@8.0.1)
-      '@babel/plugin-syntax-typescript': 7.28.6(@babel/core@8.0.1)
+      '@babel/plugin-syntax-import-attributes': 7.29.7(@babel/core@8.0.1)
+      '@babel/plugin-syntax-jsx': 7.29.7(@babel/core@8.0.1)
+      '@babel/plugin-syntax-typescript': 7.29.7(@babel/core@8.0.1)
       '@nice-move/prettier-plugin-package-json': 0.9.2(prettier@3.8.4)
       '@prettier/plugin-xml': 3.4.2(prettier@3.8.4)
       prettier: 3.8.4
