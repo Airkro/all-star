@@ -11,7 +11,7 @@
     "lint:type": "tsc --p tsconfig.json",
     "lint:version": "syncpack lint",
     "prepare": "nice-move git hooks",
-    "version:pin": "syncpack fix-mismatches"
+    "version:pin": "syncpack fix"
   },
   "workspaces": [
     "packages/*",
@@ -26,24 +26,24 @@
   "devDependencies": {
     "@bring-it/cli": "^0.11.1",
     "@bring-it/npm": "^0.9.3",
-    "@nice-move/syncpack-config": "^0.5.4",
+    "@nice-move/syncpack-config": "^0.6.0",
     "eslint": "catalog:",
     "garou": "catalog:",
     "prettier": "catalog:",
     "stylelint": "catalog:",
-    "syncpack": "^13.0.4",
+    "syncpack": "^15.3.2",
     "typescript": "catalog:"
   },
   "peerDependencies": {
     "@all-star/base": "workspace:^",
     "@all-star/react": "workspace:^",
     "@all-star/vue": "workspace:^",
-    "@types/react": "~18.3.28"
+    "@types/react": "~18.3.31"
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.34.4",
   "engines": {
     "node": "^24.0.0",
-    "pnpm": "^10.33.0"
+    "pnpm": "^10.34.4"
   },
   "prettier": "@nice-move/prettier-config",
   "stylelint": {
