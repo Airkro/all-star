@@ -1,5 +1,3 @@
-// @ts-check
-
 import { defineConfig } from '@nice-move/syncpack-config/define.mjs';
 
 export default defineConfig(import.meta.url, {
@@ -18,7 +16,7 @@ export default defineConfig(import.meta.url, {
       dependencies: ['@all-star/*'],
       dependencyTypes: ['local'],
       label: 'Same version',
-      pinVersion: '0.23.4',
+      pinVersion: '0.23.5',
     },
   ],
 });
