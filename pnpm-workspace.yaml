@@ -5,7 +5,7 @@ catalog:
   '@babel/core': ^8.0.1
   '@best-shot/cli': ^0.20.0
   '@best-shot/core': ^0.14.0
-  '@best-shot/dev-server': ^0.22.0
+  '@best-shot/dev-server': ^0.23.0
   '@best-shot/preset-asset': ^0.16.0
   '@best-shot/preset-babel': ^0.19.1
   '@best-shot/preset-mini': ^0.12.0
@@ -23,13 +23,13 @@ catalog:
   cheetor: ^0.13.0
   core-js: ^3.49.0
   eslint: ^9.39.4
-  garou: '>=0.9.21'
+  garou: '^0.9.21'
   prettier: ~3.9.5
-  react: '>=18.3.1'
-  react-dom: '>=18.3.1'
-  stylelint: ^17.14.0
+  react: '^19.2.7'
+  react-dom: '^19.2.7'
+  stylelint: ^17.14.1
   typescript: ~6.0.3
-  vue: ~3.5.39
+  vue: ~3.5.40
   webpack: ^5.108.4
 
 configDependencies:
@@ -39,6 +39,7 @@ minimumReleaseAgeExclude:
   - postcss-preset-evergreen
   - babel-preset-evergreen
   - browserslist
+  - baseline-browser-mapping
 
 overrides:
   eslint: 'catalog:'

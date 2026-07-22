@@ -18,7 +18,7 @@
     "tools/*"
   ],
   "dependencies": {
-    "@vue-mini/core": "^1.2.13",
+    "@vue-mini/core": "^1.2.14",
     "react": "catalog:",
     "react-dom": "catalog:",
     "vue": "catalog:"
@@ -27,7 +27,7 @@
     "@bring-it/cli": "^0.11.3",
     "@bring-it/npm": "^0.9.6",
     "@nice-move/syncpack-config": "^0.6.0",
-    "eslint": "catalog:",
+    "eslint": "^9.39.5",
     "garou": "catalog:",
     "prettier": "catalog:",
     "stylelint": "catalog:",
