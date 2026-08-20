@@ -61,8 +61,8 @@ catalogs:
       specifier: ^0.5.0
       version: 0.5.0
     core-js:
-      specifier: ^3.49.0
-      version: 3.49.0
+      specifier: ^3.50.0
+      version: 3.50.0
     garou:
       specifier: ^0.9.21
       version: 0.9.21
@@ -92,8 +92,6 @@ overrides:
   eslint: ^9.39.4
   eslint-plugin-react-hooks: ^5.2.0
   sass: '-'
-
-pnpmfileChecksum: sha256-MwH099djuwFrHvaq7FUJQWv8V0QGOgA16ySgx2/BFw0=
 
 importers:
 
@@ -195,7 +193,7 @@ importers:
         version: 0.5.0(typescript@6.0.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.49.0
+        version: 3.50.0
       eslint:
         specifier: ^9.39.4
         version: 9.39.5(jiti@2.7.0)
@@ -255,7 +253,7 @@ importers:
         version: 0.5.0(typescript@6.0.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.49.0
+        version: 3.50.0
       eslint:
         specifier: ^9.39.4
         version: 9.39.5(jiti@2.7.0)
@@ -327,7 +325,7 @@ importers:
         version: 0.5.0(typescript@6.0.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.49.0
+        version: 3.50.0
       eslint:
         specifier: ^9.39.4
         version: 9.39.5(jiti@2.7.0)
@@ -399,7 +397,7 @@ importers:
         version: 0.5.0(typescript@6.0.3)
       core-js:
         specifier: 'catalog:'
-        version: 3.49.0
+        version: 3.50.0
       eslint:
         specifier: ^9.39.4
         version: 9.39.5(jiti@2.7.0)
@@ -2621,8 +2619,8 @@ packages:
   core-js-pure@3.49.0:
     resolution: {integrity: sha512-XM4RFka59xATyJv/cS3O3Kml72hQXUeGRuuTmMYFxwzc9/7C8OYTaIR/Ji+Yt8DXzsFLNhat15cE/JP15HrCgw==}
 
-  core-js@3.49.0:
-    resolution: {integrity: sha512-es1U2+YTtzpwkxVLwAFdSpaIMyQaq0PBgm3YD1W3Qpsn1NAmO3KSgZfu+oGSWVu6NvLHoHCV/aYcsE5wiB7ALg==}
+  core-js@3.50.0:
+    resolution: {integrity: sha512-BRWgOLKkFeCgRudR6zrs8p9XJZcE14grzKMMssoYrk6krtuEZ7MTKPIY5RzOnqsEKIR9kst7wNzphttraT+Yqw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -3194,6 +3192,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -7173,7 +7172,7 @@ snapshots:
       babel-loader: 10.1.1(@babel/core@8.0.1)(webpack@5.108.4(postcss@8.5.20))
       babel-preset-evergreen: 0.12.0(@babel/core@8.0.1)
       browserslist: 4.28.7
-      core-js: 3.49.0
+      core-js: 3.50.0
       core-js-pure: 3.49.0
       ext-to-regexp: 0.1.0
       slash-to-regexp: 0.2.0
@@ -8775,7 +8774,7 @@ snapshots:
       '@babel/helper-plugin-utils': 8.0.1(@babel/core@8.0.1)
       '@babel/preset-env': 8.0.2(@babel/core@8.0.1)
       babel-plugin-polyfill-corejs3: 1.0.0(@babel/core@8.0.1)
-      core-js: 3.49.0
+      core-js: 3.50.0
       core-js-compat: 3.49.0
       miniprogram-compat: 1.0.5
 
@@ -9077,7 +9076,7 @@ snapshots:
 
   core-js-pure@3.49.0: {}
 
-  core-js@3.49.0: {}
+  core-js@3.50.0: {}
 
   core-util-is@1.0.3:
     optional: true
