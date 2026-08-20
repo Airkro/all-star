@@ -25,8 +25,8 @@ catalog:
   eslint: ^9.39.4
   garou: '^0.9.21'
   prettier: ~3.9.5
-  react: '^19.2.7'
-  react-dom: '^19.2.7'
+  react: '^19.2.8'
+  react-dom: '^19.2.8'
   stylelint: ^17.14.1
   typescript: ~6.0.3
   vue: ~3.5.40
