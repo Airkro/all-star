@@ -93,8 +93,6 @@ overrides:
   eslint-plugin-react-hooks: ^5.2.0
   sass: '-'
 
-pnpmfileChecksum: sha256-MwH099djuwFrHvaq7FUJQWv8V0QGOgA16ySgx2/BFw0=
-
 importers:
 
   .:
@@ -263,8 +261,8 @@ importers:
         specifier: 'catalog:'
         version: 0.9.21(eslint-import-resolver-node@0.3.10)(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       miniprogram-api-typings:
-        specifier: ^5.2.1
-        version: 5.2.1
+        specifier: ^5.2.3
+        version: 5.2.3
       prettier:
         specifier: 'catalog:'
         version: 3.9.5
@@ -3194,6 +3192,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -4396,8 +4395,8 @@ packages:
   miniprogram-api-typings@4.0.8:
     resolution: {integrity: sha512-q3MHCd/r0EsCFsq+nebbBbpwhsQbJg2d8lvRdRBV4KXgp+S1OzzNFpjFoy1X46NA01OD0fbCnxo7tJRSE2pqSw==}
 
-  miniprogram-api-typings@5.2.1:
-    resolution: {integrity: sha512-fbB2hapWx/vaXN4olDJEIS+OOkCjHlHLX0WG74XUJqhm0VJ8dpleBdgagHATjEpcbcH2z7AV8PjpwYp9dylfYA==}
+  miniprogram-api-typings@5.2.3:
+    resolution: {integrity: sha512-KVcNSfR2VmRtz35rxkjLxE92HlsBnbT6NsKyTcDX3ebbTKAsAiTOFO1mRM82Xbe848dnEYqNGzaD48LMEvGytw==}
 
   miniprogram-compat@1.0.5:
     resolution: {integrity: sha512-e9w92W/XDGlWXJQzVhmt3nyx0lfwyoVOy6gxsY0mPZJap/4kJeehA1Mjg0MNSWMhAbN+GiGQR80z4LZr2Zo4Bw==}
@@ -11242,7 +11241,7 @@ snapshots:
 
   miniprogram-api-typings@4.0.8: {}
 
-  miniprogram-api-typings@5.2.1: {}
+  miniprogram-api-typings@5.2.3: {}
 
   miniprogram-compat@1.0.5:
     dependencies:

@@ -49,7 +49,7 @@
     "@nice-move/stylelint-config": "catalog:",
     "@nice-move/tsconfig": "catalog:",
     "core-js": "catalog:",
-    "miniprogram-api-typings": "^5.2.1",
+    "miniprogram-api-typings": "^5.2.3",
     "webpack": "catalog:"
   },
   "peerDependencies": {
