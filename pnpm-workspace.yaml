@@ -30,7 +30,7 @@ catalog:
   stylelint: ^17.14.1
   typescript: ~6.0.3
   vue: ~3.5.40
-  webpack: ^5.108.4
+  webpack: ^5.110.1
 
 configDependencies:
   pnpm-plugin-nice-move: 0.3.6+sha512-r29ZIK+qcmhe98Jv8hchUBCGnM37P73iDLlHGEZGzM00e9SGYYMaJ6qLeeUer1zakblBzIAbsn2F2IiF8UoZWQ==
