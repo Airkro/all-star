@@ -4,7 +4,7 @@ packages:
 catalog:
   '@babel/core': ^8.0.1
   '@best-shot/cli': ^0.20.0
-  '@best-shot/core': ^0.14.0
+  '@best-shot/core': ^0.14.2
   '@best-shot/dev-server': ^0.23.0
   '@best-shot/preset-asset': ^0.16.0
   '@best-shot/preset-babel': ^0.19.1
